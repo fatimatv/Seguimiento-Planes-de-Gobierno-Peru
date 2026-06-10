@@ -7294,6 +7294,206 @@
         "linea_fin": 115
       },
       "meta_cuantitativa": null
+    },
+    {
+      "id": "r-exterior-001",
+      "candidato": "roberto",
+      "tema": "exterior",
+      "tipo": "principio",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico estructural del orden mundial: declive de Occidente y nacimiento de un mundo multipolar liderado por los BRICS, escenario que abre una oportunidad histórica para que países como Perú superen su rol subordinado de exportador de materias primas.",
+      "cita_textual": "Asistimos a un choque geopolítico y civilizatorio global que culmina con el declive del Occidente tal como lo conocimos en gran parte del siglo XIX y XX, e inicia el irreversible nacimiento de un mundo multipolar encabezado por los BRICS",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "§1 Contexto Internacional",
+        "linea_inicio": 66,
+        "linea_fin": 66
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-exterior-002",
+      "candidato": "roberto",
+      "tema": "exterior",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico del fracaso del multilateralismo: las instituciones internacionales (ONU, OEA, FMI, Banco Mundial) han perdido capacidad de resolver conflictos y de cumplir compromisos en pobreza, ambiente, derechos de mujeres y derechos humanos.",
+      "cita_textual": "Las instituciones internacionales que supuestamente debían garantizar la paz, la cooperación y el desarrollo —como la ONU, la OEA, el FMI y el Banco Mundial— han perdido su capacidad de resolver conflictos",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "§1.1 El Fracaso del Multilateralismo",
+        "linea_inicio": 66,
+        "linea_fin": 66
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-exterior-003",
+      "candidato": "roberto",
+      "tema": "exterior",
+      "tipo": "principio",
+      "relevancia": "ALTA",
+      "texto": "Principio geopolítico: aprovechar el nuevo mundo multipolar mediante la cooperación Sur-Sur y los BRICS, no para cambiar una dependencia por otra, sino para diversificar relaciones internacionales y fortalecer la integración latinoamericana sobre la base de respeto mutuo.",
+      "cita_textual": "La emergencia de los BRICS y de nuevas formas de cooperación Sur–Sur abre un camino distinto. No se trata de cambiar una dependencia por otra, sino de diversificar nuestras relaciones internacionales, fortalecer la integración latinoamericana",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "§1.2 Las Oportunidades en el Nuevo Mundo Multipolar",
+        "linea_inicio": 70,
+        "linea_fin": 70
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-exterior-004",
+      "candidato": "roberto",
+      "tema": "exterior",
+      "tipo": "principio",
+      "relevancia": "ALTA",
+      "texto": "Cinco ejes de política exterior soberana: integración regional andina y latinoamericana, política exterior soberana y no alineada, comercio justo y cooperación tecnológica, autodeterminación de los pueblos, y rechazo a toda injerencia extranjera.",
+      "cita_textual": "Fortalecer la integración regional andina y latinoamericana. • Impulsar una política exterior soberana y no alineada. • Promover el comercio justo y la cooperación tecnológica. • Defender la autodeterminación de los pueblos. • Rechazar toda forma de injerencia extranjera",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "§1.2 Oportunidades en el Nuevo Mundo Multipolar — desafíos",
+        "linea_inicio": 72,
+        "linea_fin": 72
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-exterior-005",
+      "candidato": "roberto",
+      "tema": "exterior",
+      "tipo": "principio",
+      "relevancia": "ALTA",
+      "texto": "Principios fundacionales de la diplomacia soberana: defensa de soberanía nacional, autodeterminación de los pueblos, paz, derechos humanos, justicia social y respeto a la diversidad cultural como guías de la política exterior.",
+      "cita_textual": "La soberanía nacional. • La autodeterminación de los pueblos. • La paz. • Los derechos humanos. • La justicia social. • El respeto a la diversidad cultural",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "§1.3 Por una Diplomacia Soberana",
+        "linea_inicio": 74,
+        "linea_fin": 74
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-economia-001",
+      "candidato": "roberto",
+      "tema": "economia",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Marco general del diagnóstico: el Perú enfrenta cuatro grandes males —desigualdad, corrupción institucionalizada, criminalidad y abuso de poder— que deben resolverse antes que cualquier otro problema. Esta es la tesis vertebradora del diagnóstico del candidato.",
+      "cita_textual": "En el Perú tenemos que enfrentar 4 grandes males: La desigualdad, la corrupción institucionalizada, la criminalidad y el abuso de poder. Tenemos que enfrentar estos 4 grandes problemas para poder resolver todos los demás problemas de la gente",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "§2 Diagnóstico de la Situación Actual del País",
+        "linea_inicio": 82,
+        "linea_fin": 82
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-economia-002",
+      "candidato": "roberto",
+      "tema": "economia",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Primer gran mal — La Desigualdad: Perú es el cuarto país más desigual del mundo; el 10% de las familias concentra el 77% del patrimonio, con 70% de empleo informal y más de 9.5 millones de personas en pobreza. Ancla discursiva central del diagnóstico económico del candidato.",
+      "cita_textual": "Somos el cuarto país del mundo más injusto y desigual. En los últimos 30 años en el Perú se ha favorecido a un puñado de familias y empresas. El 10% de las familias del Perú tienen el 77% del patrimonio",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "§2.1 Primer Mal: La Desigualdad",
+        "linea_inicio": 82,
+        "linea_fin": 82
+      },
+      "meta_cuantitativa": {
+        "indicador": "Concentración patrimonial y empleo informal",
+        "valor_actual": "10% de familias concentra 77% del patrimonio; 70% empleo informal; 9.5M en pobreza",
+        "fuente_dato": "Plan de Gobierno Roberto Sánchez — §2.1"
+      }
+    },
+    {
+      "id": "r-corrupcion-001",
+      "candidato": "roberto",
+      "tema": "corrupcion",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Segundo gran mal — La Corrupción Institucionalizada: el Perú pierde más de 20 mil millones de soles anuales por corrupción. El Estado ha sido capturado por mafias políticas y económicas que operan en el Congreso, sistema de justicia, PNP y Tribunal Constitucional.",
+      "cita_textual": "Anualmente, nuestro país pierde más de 20 mil millones de soles a causa del robo y los delitos de funcionarios públicos. Varios poderosos tienen capturado el Estado para hacer sus grandes negocios",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "§2.2 Segundo Mal: La Corrupción Institucionalizada",
+        "linea_inicio": 82,
+        "linea_fin": 82
+      },
+      "meta_cuantitativa": {
+        "indicador": "Pérdida anual por corrupción",
+        "valor_actual": "Más de S/ 20,000 millones anuales",
+        "fuente_dato": "Plan de Gobierno Roberto Sánchez — §2.2"
+      }
+    },
+    {
+      "id": "r-seguridad-001",
+      "candidato": "roberto",
+      "tema": "seguridad",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Tercer gran mal — La Criminalidad y la Inseguridad Ciudadana: el país está tomado por el crimen organizado; bandas de ladrones, extorsionadores y sicarios actúan impunemente. El gobierno y el Congreso son cómplices al aprobar leyes pro crimen, mientras crecen economías ilegales (minería y tala ilegal, narcotráfico, trata, lavado de activos).",
+      "cita_textual": "El país está tomado por el crimen organizado. Bandas de ladrones, extorsionadores y sicarios actúan impunemente y le han declarado la guerra al país",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "§2.3 Tercer Mal: La Criminalidad y la Inseguridad Ciudadana",
+        "linea_inicio": 82,
+        "linea_fin": 82
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-constitucion-001",
+      "candidato": "roberto",
+      "tema": "constitucion",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Cuarto gran mal — El Abuso de Poder: los grandes grupos económicos, las economías ilegales y las mafias políticas gobiernan contra el pueblo y la democracia. Se vulneran derechos de mujeres (feminicidio), minorías, pueblos indígenas (territoriales e identitarios), y se reprime violentamente la protesta social (más de 50 muertos en 2022), incluida la persecución a defensores ambientales mediante terruqueo y racialización.",
+      "cita_textual": "Los grandes grupos económicos, la economía ilegal, las mafias políticas y los grupos de poder, gobiernan contra el pueblo y contra la democracia. Abusan de la gente humilde",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "§2.4 Cuarto Mal: El Abuso de Poder",
+        "linea_inicio": 84,
+        "linea_fin": 84
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-economia-003",
+      "candidato": "roberto",
+      "tema": "economia",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico productivo subyacente al modelo: el Perú no es un país pobre sino pluriproductor (minero, agrícola, agroindustrial, pesquero, amazónico, andino, costero, forestal, turístico). La pobreza es resultado de políticas y gobiernos, no del país. Ancla discursiva para legitimar la diversificación productiva.",
+      "cita_textual": "El Perú no es un país pobre. Pobres han sido las políticas y los gobiernos. Nuestro país es grande, diverso y lleno de potencial",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "§2.5 Cambiar el Perú: El Perú que Somos y el Perú que podemos ser",
+        "linea_inicio": 84,
+        "linea_fin": 84
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-constitucion-002",
+      "candidato": "roberto",
+      "tema": "constitucion",
+      "tipo": "principio",
+      "relevancia": "ALTA",
+      "texto": "Tesis central de transformación: las políticas impuestas desde los años 90 permitieron que mafias políticas y económicas capturaran las instituciones; ese modo de gobernar fracasó y se requiere una transformación profunda mediante un Acuerdo de Gobernabilidad inclusivo, recuperando la República y reconstruyendo el Estado al servicio de la mayoría.",
+      "cita_textual": "Es el resultado de un acumulado de políticas impuestas desde los años 90, que permitió que mafias políticas y económicas se apoderen de las instituciones públicas, conviertan la política en negocio y gobiernen de espaldas al pueblo",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "§2.5 Cambiar el Perú: Una necesidad Imperiosa",
+        "linea_inicio": 84,
+        "linea_fin": 84
+      },
+      "meta_cuantitativa": null
     }
   ]
 }
