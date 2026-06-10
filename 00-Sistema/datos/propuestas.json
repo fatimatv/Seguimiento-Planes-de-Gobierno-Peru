@@ -1470,6 +1470,2822 @@
         "linea_fin": 236
       },
       "meta_cuantitativa": "Cobertura nacional EJE + reducir 30% tiempos procesales al 2031"
+    },
+    {
+      "id": "k-mype-001",
+      "candidato": "keiko",
+      "tema": "mype",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Las MYPE representan el 99,4% del total de empresas formales (95,6% microempresas y 3,8% pequeñas), pero operan en condiciones precarias y enfrentan severas limitaciones de infraestructura, financiamiento, digitalización y formalización.",
+      "cita_textual": "Este segmento empresarial representa el 99,4% del total de empresas formales en la economía peruana: el 95,6 % corresponde a microempresas y el 3,8 % a pequeñas empresas.",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.1 Emprendedores (MYPE), Diagnóstico",
+        "linea_inicio": 242,
+        "linea_fin": 246
+      }
+    },
+    {
+      "id": "k-mype-002",
+      "candidato": "keiko",
+      "tema": "mype",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "El acceso al crédito de las MYPE es muy reducido: solo el 28,4% de las MYPES formales accedió a alguna operación crediticia en 2022, lo que limita la inversión productiva.",
+      "cita_textual": "Solo el 28,4% de las MYPES formales había logrado acceder a algún tipo de operación crediticia en el sistema financiero al cierre de diciembre del año 2022",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.1 Emprendedores (MYPE), Diagnóstico",
+        "linea_inicio": 246,
+        "linea_fin": 246
+      }
+    },
+    {
+      "id": "k-mype-003",
+      "candidato": "keiko",
+      "tema": "mype",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "La informalidad estructural restringe el desarrollo de las MYPE: más del 80% opera de manera informal, sin acceso a servicios financieros, capacitación ni programas de innovación.",
+      "cita_textual": "Se estima que más del 80% de las micro y pequeñas empresas operan de manera informal, sin acceso a servicios financieros, capacitación ni programas de innovación",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.1 Emprendedores (MYPE), Diagnóstico",
+        "linea_inicio": 252,
+        "linea_fin": 252
+      }
+    },
+    {
+      "id": "k-mype-004",
+      "candidato": "keiko",
+      "tema": "mype",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Crear PROMPYME con rango viceministerial adscrito a la PCM, unificando programas de apoyo (ProInnóvate, Procompite, CITEs) e incorporando un área de inteligencia de mercados.",
+      "cita_textual": "Creación de PROMPYME con rango viceministerial adscrito a la PCM, unificando programas de apoyo (ProInnóvate, Procompite y otros), capacitación, consultoría y supervisión de los CITEs",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.1 Emprendedores (MYPE), Propuestas",
+        "linea_inicio": 258,
+        "linea_fin": 258
+      }
+    },
+    {
+      "id": "k-mype-005",
+      "candidato": "keiko",
+      "tema": "mype",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Implementar la política de 'Licencia 0 para MYPEs', eliminando costos y trámites innecesarios mediante ventanilla única electrónica nacional con IA interoperable con SUNAT, SUNARP, Indecopi y municipalidades.",
+      "cita_textual": "Implementación de la política de \"Licencia 0 para MYPEs\", eliminando costos y trámites innecesarios (inscripción registral, licencias municipales, defensa civil, registros de marca o nombre), mediante una ventanilla única electrónica nacional con Inteligencia Artificial",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.1 Emprendedores (MYPE), Propuestas",
+        "linea_inicio": 258,
+        "linea_fin": 258
+      }
+    },
+    {
+      "id": "k-mype-006",
+      "candidato": "keiko",
+      "tema": "mype",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Activar el REMYPE con campañas masivas de inscripción digital y móvil priorizando emprendedores jóvenes y mujeres.",
+      "cita_textual": "Activación del REMYPE con campañas masivas de inscripción digital y móvil, priorizando a emprendedores jóvenes y mujeres",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.1 Emprendedores (MYPE), Propuestas",
+        "linea_inicio": 260,
+        "linea_fin": 260
+      }
+    },
+    {
+      "id": "k-mype-007",
+      "candidato": "keiko",
+      "tema": "mype",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Impulsar una Ley de Comercio Ambulatorio que reconozca esta actividad como forma legítima de trabajo, establezca derechos y rutas de formalización progresiva.",
+      "cita_textual": "Impulso de una Ley de Comercio Ambulatorio que reconozca esta actividad como una forma legítima de trabajo y autoempleo, establezca derechos y deberes claros, regule el uso del espacio público",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.1 Emprendedores (MYPE), Propuestas",
+        "linea_inicio": 260,
+        "linea_fin": 260
+      }
+    },
+    {
+      "id": "k-mype-008",
+      "candidato": "keiko",
+      "tema": "mype",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Implementar el Programa de Crédito (Fondo para el Crecimiento MYPE) para apoyar con préstamos a negocios afectados por crisis.",
+      "cita_textual": "Implementación del Programa de Crédito: apoyo a negocios afectados por crisis con préstamos (Fondo para el Crecimiento MYPE)",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.1 Emprendedores (MYPE), Propuestas",
+        "linea_inicio": 260,
+        "linea_fin": 260
+      }
+    },
+    {
+      "id": "k-mype-009",
+      "candidato": "keiko",
+      "tema": "mype",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Implementar un Sistema de Crédito para Mujeres Emprendedoras con asistencia técnica y programas de incubación.",
+      "cita_textual": "Implementación de un \"Sistema de Crédito para Mujeres Emprendedoras\", con asistencia técnica y programas de incubación",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.1 Emprendedores (MYPE), Propuestas",
+        "linea_inicio": 260,
+        "linea_fin": 260
+      }
+    },
+    {
+      "id": "k-mype-010",
+      "candidato": "keiko",
+      "tema": "mype",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Crear el programa 'Capital Semilla Joven' para otorgar capital semilla a egresados y titulados que deseen emprender, con o sin retorno, según proyecto viable.",
+      "cita_textual": "para otorgar un capital semilla destinado a egresados y titulados que deseen emprender un negocio, bajo la modalidad de fondos con o sin retorno, previa presentación y supervisión de un proyecto viable",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.1 Emprendedores (MYPE), Propuestas",
+        "linea_inicio": 260,
+        "linea_fin": 260
+      }
+    },
+    {
+      "id": "k-mype-011",
+      "candidato": "keiko",
+      "tema": "mype",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Exonerar del Impuesto a la Renta por tres años a jóvenes emprendedores inscritos en el RUC, sea unipersonal o sociedad entre jóvenes.",
+      "cita_textual": "Exoneración del Impuesto a la Renta por tres años a los jóvenes emprendedores inscritos en el RUC, ya sea como negocio unipersonal o sociedad entre jóvenes",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.1 Emprendedores (MYPE), Propuestas",
+        "linea_inicio": 262,
+        "linea_fin": 262
+      }
+    },
+    {
+      "id": "k-mype-012",
+      "candidato": "keiko",
+      "tema": "mype",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Establecer un presupuesto anual mínimo de S/ 1,000 millones para Compras MyPerú como política de Estado permanente.",
+      "cita_textual": "Promoción y fortalecimiento de Compras MyPerú como una política de Estado permanente, estableciendo un presupuesto anual mínimo de S/ 1,000 millones para garantizar compras sostenidas a la pequeña y microempresa",
+      "meta_cuantitativa": "Presupuesto mínimo anual de S/ 1,000 millones para Compras MyPerú",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.1 Emprendedores (MYPE), Propuestas",
+        "linea_inicio": 262,
+        "linea_fin": 262
+      }
+    },
+    {
+      "id": "k-mype-013",
+      "candidato": "keiko",
+      "tema": "mype",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Implementar un Programa Nacional de Factoring MYPE para convertir facturas y órdenes de compra en liquidez inmediata con garantía parcial del Estado.",
+      "cita_textual": "Implementación de un Programa Nacional de Factoring MYPE, que permita a las micro y pequeñas empresas convertir sus facturas, órdenes de compra y cuentas por cobrar en liquidez inmediata",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.1 Emprendedores (MYPE), Propuestas",
+        "linea_inicio": 262,
+        "linea_fin": 262
+      }
+    },
+    {
+      "id": "k-mype-014",
+      "candidato": "keiko",
+      "tema": "mype",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Modernizar y acelerar la ejecución de Parques Industriales Tecnológicos regionales, asegurando servicios logísticos, sanitarios y digitales.",
+      "cita_textual": "Modernización y aceleración de la ejecución de Parques Industriales Tecnológicos regionales, asegurando servicios logísticos, sanitarios y digitales",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.1 Emprendedores (MYPE), Propuestas",
+        "linea_inicio": 264,
+        "linea_fin": 264
+      }
+    },
+    {
+      "id": "k-mype-015",
+      "candidato": "keiko",
+      "tema": "mype",
+      "tipo": "meta",
+      "relevancia": "MEDIA",
+      "texto": "Implementar el programa MYPE Digital para que el 70% de micro y pequeñas empresas tenga acceso a plataformas de comercio electrónico y pagos digitales al 2030.",
+      "cita_textual": "Implementación del programa MYPE Digital para que el 70% de micro y pequeñas empresas tenga acceso a plataformas de comercio electrónico y pagos digitales al 2030",
+      "meta_cuantitativa": "70% de MYPE con acceso a comercio electrónico y pagos digitales al 2030",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.1 Emprendedores (MYPE), Propuestas",
+        "linea_inicio": 264,
+        "linea_fin": 264
+      }
+    },
+    {
+      "id": "k-mype-016",
+      "candidato": "keiko",
+      "tema": "mype",
+      "tipo": "propuesta",
+      "relevancia": "BAJA",
+      "texto": "Capacitar a 500,000 empresas al año mediante un Portal Nacional de Herramientas Gerenciales gratuito para MYPEs formales, en gestión, digitalización, IA, finanzas y marketing.",
+      "cita_textual": "Creación de un Portal Nacional de Herramientas Gerenciales gratuito para MYPEs formales, capacitando a 500,000 empresas al año en gestión, digitalización, inteligencia artificial, finanzas y marketing",
+      "meta_cuantitativa": "500,000 empresas capacitadas al año",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.1 Emprendedores (MYPE), Propuestas",
+        "linea_inicio": 264,
+        "linea_fin": 264
+      }
+    },
+    {
+      "id": "k-mype-017",
+      "candidato": "keiko",
+      "tema": "mype",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Lanzar la estrategia 'Licencia 0' para MYPEs con piloto en 5 regiones priorizadas.",
+      "cita_textual": "Lanzamiento de la estrategia de \"Licencia 0\" para MYPEs, con piloto en 5 regiones priorizadas",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.1 Emprendedores (MYPE), Primeros 100 días",
+        "linea_inicio": 266,
+        "linea_fin": 266
+      }
+    },
+    {
+      "id": "k-mype-018",
+      "candidato": "keiko",
+      "tema": "mype",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Reactivar Parques Industriales Tecnológicos paralizados con gestión público-privada.",
+      "cita_textual": "Reactivación de Parques Industriales Tecnológicos paralizados, con gestión público-privada",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.1 Emprendedores (MYPE), Primeros 100 días",
+        "linea_inicio": 266,
+        "linea_fin": 266
+      }
+    },
+    {
+      "id": "k-mype-019",
+      "candidato": "keiko",
+      "tema": "mype",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Lanzar el Programa de Crédito en coordinación con COFIDE y Banca de Desarrollo para otorgar préstamos a MYPEs afectadas por crisis.",
+      "cita_textual": "Lanzamiento del Programa de Crédito, en coordinación con COFIDE y Banca de Desarrollo, para otorgar préstamos a MYPEs afectadas por crisis",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.1 Emprendedores (MYPE), Primeros 100 días",
+        "linea_inicio": 266,
+        "linea_fin": 266
+      }
+    },
+    {
+      "id": "k-mype-020",
+      "candidato": "keiko",
+      "tema": "mype",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Lograr que el 60% de las MYPE operen en la formalidad al 2031, con trámites digitales y menores costos.",
+      "cita_textual": "Lograr que el 60% de las MYPE operen en la formalidad, con trámites digitales y menores costos de formalización.",
+      "meta_cuantitativa": "60% de MYPE en formalidad al 2031",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.1 Emprendedores (MYPE), Metas",
+        "linea_inicio": 270,
+        "linea_fin": 270
+      }
+    },
+    {
+      "id": "k-mype-021",
+      "candidato": "keiko",
+      "tema": "mype",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Asegurar que al menos el 40% de las MYPE formales accedan a crédito productivo al 2031.",
+      "cita_textual": "Asegurar que al menos el 40% de las MYPE formales accedan a crédito productivo, mediante programas de garantías, capital semilla y líneas especiales para mujeres y jóvenes.",
+      "meta_cuantitativa": "40% de MYPE formales con acceso a crédito al 2031",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.1 Emprendedores (MYPE), Metas",
+        "linea_inicio": 271,
+        "linea_fin": 271
+      }
+    },
+    {
+      "id": "k-mype-022",
+      "candidato": "keiko",
+      "tema": "mype",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Incrementar en 25% la productividad promedio de las MYPE al 2031 mediante adopción digital y clústeres productivos.",
+      "cita_textual": "Incrementar en 25% la productividad promedio de las MYPE mediante adopción digital, capacitación gerencial y clústeres productivos.",
+      "meta_cuantitativa": "+25% productividad MYPE al 2031",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.1 Emprendedores (MYPE), Metas",
+        "linea_inicio": 272,
+        "linea_fin": 272
+      }
+    },
+    {
+      "id": "k-mineria-001",
+      "candidato": "keiko",
+      "tema": "mineria",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Más del 70% de los proyectos mineros en cartera están en zonas altoandinas sin vías pavimentadas a corredores logísticos, lo que incrementa costos en hasta 40% sobre el promedio regional.",
+      "cita_textual": "más del 70% de los proyectos mineros en la cartera se encuentran",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.2 Minería, Diagnóstico",
+        "linea_inicio": 277,
+        "linea_fin": 287
+      }
+    },
+    {
+      "id": "k-mineria-002",
+      "candidato": "keiko",
+      "tema": "mineria",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "La minería ilegal representa hasta el 90% de las operaciones en Madre de Dios, generando mafias, deforestación y violencia (caso Pataz 2024 con 13 muertos).",
+      "cita_textual": "En regiones como Madre de Dios, que produce entre el 10% y 20% del oro del país, la minería ilegal alcanza hasta el 90% de las operaciones",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.2 Minería, Diagnóstico",
+        "linea_inicio": 297,
+        "linea_fin": 297
+      }
+    },
+    {
+      "id": "k-mineria-003",
+      "candidato": "keiko",
+      "tema": "mineria",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Perú demora 7-10 años en concretar un proyecto minero desde exploración hasta operación (vs. 4-5 años en Chile o Australia), con presión tributaria efectiva de ~47%.",
+      "cita_textual": "un proyecto minero en el Perú tarda entre 7 y 10 años en concretarse desde su exploración hasta operación comercial, en comparación con 4 a 5 años en países como Chile o Australia",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.2 Minería, Diagnóstico",
+        "linea_inicio": 301,
+        "linea_fin": 301
+      }
+    },
+    {
+      "id": "k-mineria-004",
+      "candidato": "keiko",
+      "tema": "mineria",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Impulsar APP y Obras por Impuestos para infraestructura en áreas vinculadas a proyectos mineros, conectando corredores altoandinos con puertos.",
+      "cita_textual": "Impulso de APP y Obras por Impuestos para infraestructura en áreas vinculadas a proyectos mineros",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.2 Minería, Propuestas",
+        "linea_inicio": 303,
+        "linea_fin": 303
+      }
+    },
+    {
+      "id": "k-mineria-005",
+      "candidato": "keiko",
+      "tema": "mineria",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Modernizar la Ley General de Minería para evitar especulación: plazos obligatorios de exploración, fast track para proyectos estratégicos, incentivos a reinversión y régimen diferenciado para MAPE.",
+      "cita_textual": "Modernización de la Ley General de Minería para evitar la especulación mediante plazos obligatorios de exploración y producción, establecer un fast track para proyectos estratégicos, crear incentivos tributarios a la reinversión y un régimen diferenciado para la minería artesanal y de pequeña escala",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.2 Minería, Propuestas",
+        "linea_inicio": 303,
+        "linea_fin": 303
+      }
+    },
+    {
+      "id": "k-mineria-006",
+      "candidato": "keiko",
+      "tema": "mineria",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Crear un Fondo Nacional de Innovación Minera para la minería artesanal y de pequeña escala, con incentivos tributarios para tecnologías de automatización y trazabilidad.",
+      "cita_textual": "Creación de un Fondo Nacional de Innovación Minera para la minería artesanal y de pequeña escala, con incentivos tributarios para tecnologías de automatización, trazabilidad y reducción de impactos ambientales",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.2 Minería, Propuestas",
+        "linea_inicio": 303,
+        "linea_fin": 303
+      }
+    },
+    {
+      "id": "k-mineria-007",
+      "candidato": "keiko",
+      "tema": "mineria",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Culminar el SIPMMA (Sistema Interoperable para la Pequeña Minería y Minería Artesanal) para trazabilidad de insumos y minerales a nivel nacional.",
+      "cita_textual": "Culminación de la implementación nacional del SIPMMA (Sistema Interoperable para la Pequeña Minería y Minería Artesanal) para trazabilidad de insumos y minerales",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.2 Minería, Propuestas",
+        "linea_inicio": 305,
+        "linea_fin": 305
+      }
+    },
+    {
+      "id": "k-mineria-008",
+      "candidato": "keiko",
+      "tema": "mineria",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Establecer comandos mixtos PNP-FF.AA.-Fiscalía-SUNAT en zonas críticas para enfrentar la minería ilegal y el crimen organizado.",
+      "cita_textual": "Establecimiento de comandos mixtos PNP - FF.AA. - Fiscalía - SUNAT en zonas críticas para enfrentar minería ilegal y crimen organizado",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.2 Minería, Propuestas",
+        "linea_inicio": 305,
+        "linea_fin": 305
+      }
+    },
+    {
+      "id": "k-mineria-009",
+      "candidato": "keiko",
+      "tema": "mineria",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Implementar el 'Canon para el Pueblo': hasta el 40% del canon directamente redistribuido a la población de la zona de extracción con control comunitario.",
+      "cita_textual": "Implementación del Canon para el Pueblo: hasta el 40% del canon directamente redistribuido a la población de la zona de extracción, con control comunitario",
+      "meta_cuantitativa": "40% del canon a población de zona de extracción",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.2 Minería, Propuestas",
+        "linea_inicio": 305,
+        "linea_fin": 305
+      }
+    },
+    {
+      "id": "k-mineria-010",
+      "candidato": "keiko",
+      "tema": "mineria",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Exigir la remediación de pasivos ambientales priorizando cuencas altoandinas y zonas críticas.",
+      "cita_textual": "Exigencia de la remediación de pasivos ambientales, priorizando cuencas altoandinas y zonas críticas",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.2 Minería, Propuestas",
+        "linea_inicio": 305,
+        "linea_fin": 305
+      }
+    },
+    {
+      "id": "k-mineria-011",
+      "candidato": "keiko",
+      "tema": "mineria",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Aprobar paquete de APP y Obras por Impuestos para obras viales, ferroviarias y eléctricas que conecten corredores mineros estratégicos.",
+      "cita_textual": "Aprobación de un paquete de APP y Obras por Impuestos para obras viales, ferroviarias y eléctricas que conecten corredores mineros estratégicos",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.2 Minería, Primeros 100 días",
+        "linea_inicio": 305,
+        "linea_fin": 305
+      }
+    },
+    {
+      "id": "k-mineria-012",
+      "candidato": "keiko",
+      "tema": "mineria",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Publicar el Plan Nacional de Remediación de Pasivos Ambientales priorizando cuencas altoandinas con riesgo social o ecológico.",
+      "cita_textual": "Publicación del Plan Nacional de Remediación de Pasivos Ambientales, priorizando cuencas altoandinas con riesgo social o ecológico",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.2 Minería, Primeros 100 días",
+        "linea_inicio": 305,
+        "linea_fin": 305
+      }
+    },
+    {
+      "id": "k-mineria-013",
+      "candidato": "keiko",
+      "tema": "mineria",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Crear comandos mixtos PNP-FF.AA.-Fiscalía-SUNAT para control de minería ilegal y crimen organizado en zonas críticas.",
+      "cita_textual": "Creación de comandos mixtos PNP–FF.AA.–Fiscalía–SUNAT para control de minería ilegal y crimen organizado en zonas críticas",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.2 Minería, Primeros 100 días",
+        "linea_inicio": 305,
+        "linea_fin": 305
+      }
+    },
+    {
+      "id": "k-mineria-014",
+      "candidato": "keiko",
+      "tema": "mineria",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Conectar al menos el 80% de los principales proyectos mineros a corredores logísticos pavimentados, ferroviarios o portuarios al 2031.",
+      "cita_textual": "Conectar al menos el 80% de los principales proyectos mineros a corredores logísticos pavimentados, ferroviarios o portuarios",
+      "meta_cuantitativa": "80% de proyectos mineros conectados a corredores al 2031",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.2 Minería, Metas",
+        "linea_inicio": 309,
+        "linea_fin": 309
+      }
+    },
+    {
+      "id": "k-mineria-015",
+      "candidato": "keiko",
+      "tema": "mineria",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Integrar al 100% de los operadores MAPE activos al SIPMMA al 2031, garantizando trazabilidad técnica, ambiental y comercial.",
+      "cita_textual": "Integrar al 100% de los operadores MAPE activos al SIPMMA, garantizando trazabilidad técnica, ambiental y comercial.",
+      "meta_cuantitativa": "100% MAPE en SIPMMA al 2031",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.2 Minería, Metas",
+        "linea_inicio": 313,
+        "linea_fin": 313
+      }
+    },
+    {
+      "id": "k-mineria-016",
+      "candidato": "keiko",
+      "tema": "mineria",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Reducir en 40% los accidentes fatales y erradicar al menos el 50% de la minería ilegal en zonas críticas al 2031.",
+      "cita_textual": "Reducir en 40% los accidentes fatales y erradicar al menos el 50% de la minería ilegal en zonas críticas",
+      "meta_cuantitativa": "-40% accidentes fatales / -50% minería ilegal en zonas críticas al 2031",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.2 Minería, Metas",
+        "linea_inicio": 314,
+        "linea_fin": 314
+      }
+    },
+    {
+      "id": "k-energia-001",
+      "candidato": "keiko",
+      "tema": "energia",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Persisten brechas territoriales en electrificación: 94,1% nacional, pero 82,6% rural vs 97,1% urbano; en Selva apenas 88,6% de cobertura.",
+      "cita_textual": "el Perú ha alcanzado una cobertura de electricidad del 94,1% de hogares a nivel nacional",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.3 Energía e Hidrocarburos, Diagnóstico",
+        "linea_inicio": 318,
+        "linea_fin": 318
+      }
+    },
+    {
+      "id": "k-energia-002",
+      "candidato": "keiko",
+      "tema": "energia",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Petroperú enfrenta una situación financiera crítica con deuda acumulada de ~US$ 8 532 millones frente a patrimonio de US$ 1 645 millones; la Refinería de Talara no alcanza rentabilidad esperada.",
+      "cita_textual": "la empresa acumula una deuda de aproximadamente US$ 8 532 millones, mientras que su patrimonio apenas alcanza los US$ 1 645 millones",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.3 Energía e Hidrocarburos, Diagnóstico",
+        "linea_inicio": 324,
+        "linea_fin": 324
+      }
+    },
+    {
+      "id": "k-energia-003",
+      "candidato": "keiko",
+      "tema": "energia",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Las energías renovables no convencionales (solar, eólica, geotérmica) representan solo el 6% de la matriz energética nacional, frente al promedio regional del 20%.",
+      "cita_textual": "estas apenas representan el 6 % de la matriz energética nacional, frente a promedios de 20 % en la región",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.3 Energía e Hidrocarburos, Diagnóstico",
+        "linea_inicio": 326,
+        "linea_fin": 326
+      }
+    },
+    {
+      "id": "k-energia-004",
+      "candidato": "keiko",
+      "tema": "energia",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Más del 75% del diésel consumido en 2023 fue importado, lo que expone la economía a la volatilidad internacional; informalidad y contrabando alcanzan el 15% del mercado.",
+      "cita_textual": "En 2023, más del 75 % del diésel consumido fue importado, lo que expone la economía nacional a la volatilidad internacional de los precios",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.3 Energía e Hidrocarburos, Diagnóstico",
+        "linea_inicio": 330,
+        "linea_fin": 330
+      }
+    },
+    {
+      "id": "k-energia-005",
+      "candidato": "keiko",
+      "tema": "energia",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Impulsar el desarrollo de energías renovables no convencionales (solar, eólica, geotérmica y biomasa) como parte fundamental de la matriz energética nacional.",
+      "cita_textual": "Impulso del desarrollo de energías renovables no convencionales (solar, eólica, geotérmica y biomasa) como parte fundamental de la matriz energética nacional",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.3 Energía e Hidrocarburos, Propuestas",
+        "linea_inicio": 338,
+        "linea_fin": 338
+      }
+    },
+    {
+      "id": "k-energia-006",
+      "candidato": "keiko",
+      "tema": "energia",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Impulsar una agenda de hidrógeno verde, posicionando al Perú como líder regional en la transición energética.",
+      "cita_textual": "Impulso de una agenda de acciones concretas para el desarrollo del hidrógeno verde, promoviendo inversiones sostenibles y posicionando al Perú como líder regional en la transición energética",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.3 Energía e Hidrocarburos, Propuestas",
+        "linea_inicio": 338,
+        "linea_fin": 338
+      }
+    },
+    {
+      "id": "k-energia-007",
+      "candidato": "keiko",
+      "tema": "energia",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Acelerar la ejecución de USD 3,000 millones pendientes en transmisión eléctrica, priorizando proyectos estratégicos en el sur y oriente.",
+      "cita_textual": "Aceleración de la ejecución de los USD 3,000 millones pendientes en transmisión eléctrica, priorizando proyectos estratégicos en el sur y oriente del país",
+      "meta_cuantitativa": "USD 3,000 millones en transmisión eléctrica",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.3 Energía e Hidrocarburos, Propuestas",
+        "linea_inicio": 340,
+        "linea_fin": 340
+      }
+    },
+    {
+      "id": "k-energia-008",
+      "candidato": "keiko",
+      "tema": "energia",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Crear un Fondo de Compensación Energética para comunidades en áreas de proyectos hidroeléctricos o de energías renovables.",
+      "cita_textual": "Creación de un Fondo de Compensación Energética para comunidades en áreas de proyectos hidroeléctricos o de energías renovables",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.3 Energía e Hidrocarburos, Propuestas",
+        "linea_inicio": 340,
+        "linea_fin": 340
+      }
+    },
+    {
+      "id": "k-energia-009",
+      "candidato": "keiko",
+      "tema": "energia",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Optimizar Petroperú: concentrar la empresa estatal exclusivamente en refinamiento y distribución, garantizando sostenibilidad financiera y transparencia en Talara.",
+      "cita_textual": "Optimización de la operación de Petroperú: la empresa estatal se concentrará exclusivamente en las actividades de refinamiento y distribución, garantizando sostenibilidad financiera, eficiencia operativa y transparencia en la Refinería de Talara",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.3 Energía e Hidrocarburos, Propuestas",
+        "linea_inicio": 340,
+        "linea_fin": 340
+      }
+    },
+    {
+      "id": "k-energia-010",
+      "candidato": "keiko",
+      "tema": "energia",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Disponer la división y administración técnica del Oleoducto Norperuano por un operador especializado bajo administración de activos, separándolo de Petroperú.",
+      "cita_textual": "Disposición de la división y administración técnica del Oleoducto Norperuano, separándolo de la estructura operativa de Petroperú",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.3 Energía e Hidrocarburos, Propuestas",
+        "linea_inicio": 340,
+        "linea_fin": 340
+      }
+    },
+    {
+      "id": "k-energia-011",
+      "candidato": "keiko",
+      "tema": "energia",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Crear el Polo Energético del Norte para convertir la macro región norte en eje estratégico de generación y distribución de energía, con infraestructura, líneas de transmisión y clusters industriales.",
+      "cita_textual": "Creación del Polo Energético del Norte, orientado a convertir a la macro región norte del país en un eje estratégico de generación, procesamiento y distribución de energía",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.3 Energía e Hidrocarburos, Propuestas",
+        "linea_inicio": 340,
+        "linea_fin": 340
+      }
+    },
+    {
+      "id": "k-energia-012",
+      "candidato": "keiko",
+      "tema": "energia",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Promover el Gasoducto Sur Andino integrándolo con electrificación, petroquímica y desarrollo industrial del sur.",
+      "cita_textual": "Promoción del Gasoducto Sur Andino, integrándolo con proyectos de electrificación, petroquímica y desarrollo industrial del sur",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.3 Energía e Hidrocarburos, Propuestas",
+        "linea_inicio": 340,
+        "linea_fin": 340
+      }
+    },
+    {
+      "id": "k-energia-013",
+      "candidato": "keiko",
+      "tema": "energia",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Fortalecer el control y fiscalización contra el contrabando de combustibles (que representa cerca del 15% del mercado), mediante trazabilidad digital y coordinación con SUNAT y PNP.",
+      "cita_textual": "Fortalecimiento del control y fiscalización contra el contrabando de combustibles, que representa cerca del 15% del mercado, mediante sistemas de trazabilidad digital y coordinación con la SUNAT y la Policía Nacional",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.3 Energía e Hidrocarburos, Propuestas",
+        "linea_inicio": 340,
+        "linea_fin": 340
+      }
+    },
+    {
+      "id": "k-energia-014",
+      "candidato": "keiko",
+      "tema": "energia",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Crear reservas estratégicas de combustibles y gas natural para garantizar la seguridad energética nacional ante crisis internacionales o desastres.",
+      "cita_textual": "Creación de reservas estratégicas de combustibles y gas natural para garantizar la seguridad energética nacional ante crisis internacionales, conflictos geopolíticos o desastres naturales",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.3 Energía e Hidrocarburos, Propuestas",
+        "linea_inicio": 342,
+        "linea_fin": 342
+      }
+    },
+    {
+      "id": "k-energia-015",
+      "candidato": "keiko",
+      "tema": "energia",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Aprobar y lanzar la Agenda Nacional del Hidrógeno Verde, elaborada con MINEM, MINAM y cooperación internacional.",
+      "cita_textual": "Aprobación y lanzamiento oficial de la Agenda Nacional del Hidrógeno Verde, elaborada con el MINEM, MINAM y la cooperación internacional",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.3 Energía e Hidrocarburos, Primeros 100 Días",
+        "linea_inicio": 342,
+        "linea_fin": 342
+      }
+    },
+    {
+      "id": "k-energia-016",
+      "candidato": "keiko",
+      "tema": "energia",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Lanzar convocatoria nacional para proyectos piloto de energía solar y eólica priorizando Arequipa, Moquegua, Ica, Piura y Cajamarca.",
+      "cita_textual": "Lanzamiento de la convocatoria nacional para proyectos piloto de energía solar y eólica, priorizando Arequipa, Moquegua, Ica, Piura y Cajamarca",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.3 Energía e Hidrocarburos, Primeros 100 Días",
+        "linea_inicio": 342,
+        "linea_fin": 342
+      }
+    },
+    {
+      "id": "k-energia-017",
+      "candidato": "keiko",
+      "tema": "energia",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Poner en marcha el Sistema Nacional de Trazabilidad de Combustibles, interoperable con SUNAT y Policía para reducir contrabando.",
+      "cita_textual": "Puesta en marcha del Sistema Nacional de Trazabilidad de Combustibles, interoperable con SUNAT y la Policía para reducir el contrabando",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.3 Energía e Hidrocarburos, Primeros 100 Días",
+        "linea_inicio": 342,
+        "linea_fin": 342
+      }
+    },
+    {
+      "id": "k-energia-018",
+      "candidato": "keiko",
+      "tema": "energia",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Aumentar al 20% la participación de energías renovables no convencionales (solar, eólica, geotérmica, biomasa, hidrógeno verde) en la matriz eléctrica nacional al 2031.",
+      "cita_textual": "Aumentar al 20% la participación",
+      "meta_cuantitativa": "20% renovables no convencionales en matriz eléctrica al 2031",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.3 Energía e Hidrocarburos, Metas",
+        "linea_inicio": 346,
+        "linea_fin": 351
+      }
+    },
+    {
+      "id": "k-energia-019",
+      "candidato": "keiko",
+      "tema": "energia",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Alcanzar el 100% de cobertura eléctrica nacional al 2031, priorizando zonas rurales y amazónicas.",
+      "cita_textual": "Alcanzar el 100% de cobertura",
+      "meta_cuantitativa": "100% cobertura eléctrica nacional al 2031",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.3 Energía e Hidrocarburos, Metas",
+        "linea_inicio": 352,
+        "linea_fin": 356
+      }
+    },
+    {
+      "id": "k-energia-020",
+      "candidato": "keiko",
+      "tema": "energia",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Reducir la dependencia de derivados importados del 75% al 50% al 2031, fortaleciendo producción local y reservas estratégicas.",
+      "cita_textual": "Reducir la dependencia de",
+      "meta_cuantitativa": "Importación de diésel: de 75% a 50% al 2031",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.3 Energía e Hidrocarburos, Metas",
+        "linea_inicio": 357,
+        "linea_fin": 360
+      }
+    },
+    {
+      "id": "k-agricultura-001",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "La superficie agrícola con riego cayó al 34,4% en 2024, su nivel más bajo en años, mostrando aguda escasez hídrica; solo 7% de pequeños y medianos productores usa riego tecnificado.",
+      "cita_textual": "en el año 2024 la superficie agrícola con riego se redujo al 34,4%, alcanzando así el nivel más bajo en los últimos años",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.4 Agricultura, Diagnóstico",
+        "linea_inicio": 376,
+        "linea_fin": 376
+      }
+    },
+    {
+      "id": "k-agricultura-002",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Solo el 25,2% de la red vial departamental está pavimentada y el 96,6% de las carreteras vecinales está sin asfalto, encareciendo el transporte agrícola.",
+      "cita_textual": "solo el 25,2 % de la red vial departamental está pavimentada; y en las carreteras vecinales, el panorama es más crítico, con un 96,6 % sin asfalto",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.4 Agricultura, Diagnóstico",
+        "linea_inicio": 378,
+        "linea_fin": 378
+      }
+    },
+    {
+      "id": "k-agricultura-003",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "La asistencia técnica a productores agropecuarios cayó de 6,7% en 2018 a 3,1% en 2024, mostrando creciente brecha en servicios de extensión.",
+      "cita_textual": "en 2018, el 6,7 % de los productores contaba con asistencia técnica, mientras que en 2024 la cifra se redujo a solo 3,1 %",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.4 Agricultura, Diagnóstico",
+        "linea_inicio": 378,
+        "linea_fin": 378
+      }
+    },
+    {
+      "id": "k-agricultura-004",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Perú perdió más de 150 mil hectáreas de bosques primarios en 2023, ubicándose en el quinto lugar mundial en deforestación.",
+      "cita_textual": "En el 2023, el país experimentó la pérdida de más de 150 mil hectáreas de bosques primarios",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.4 Agricultura, Diagnóstico",
+        "linea_inicio": 380,
+        "linea_fin": 380
+      }
+    },
+    {
+      "id": "k-agricultura-005",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Fortalecer el Programa Nacional de Siembra y Cosecha de Agua, priorizando qochas, reservorios y mini presas en comunidades altoandinas.",
+      "cita_textual": "Fortalecimiento del Programa Nacional de Siembra y Cosecha de Agua, priorizando qochas, reservorios y mini presas en comunidades altoandinas",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.4 Agricultura, Propuestas",
+        "linea_inicio": 384,
+        "linea_fin": 384
+      }
+    },
+    {
+      "id": "k-agricultura-006",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Impulsar grandes proyectos de represamiento: Chavimochic III, Majes Siguas II, Poechos II, Olmos, Chinecas, Alto Piura y Puyango-Tumbes.",
+      "cita_textual": "Impulso de la construcción de grandes proyectos de represamiento de agua a nivel nacional, tales como Chavimochic III, Majes Siguas II, Poechos II, Olmos, Chinecas, Alto Piura y Puyango–Tumbes",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.4 Agricultura, Propuestas",
+        "linea_inicio": 386,
+        "linea_fin": 386
+      }
+    },
+    {
+      "id": "k-agricultura-007",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Implementar el Programa Nacional de Riego Tecnificado para mejorar eficiencia hídrica.",
+      "cita_textual": "Implementación del Programa Nacional de Riego Tecnificado para mejorar la eficiencia hídrica y reducir pérdidas",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.4 Agricultura, Propuestas",
+        "linea_inicio": 386,
+        "linea_fin": 386
+      }
+    },
+    {
+      "id": "k-agricultura-008",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Reingeniería de la Autoridad Nacional del Agua (ANA) con mayor participación de usuarios y enfoque territorial.",
+      "cita_textual": "Reingeniería de la Autoridad Nacional del Agua (ANA) con mayor participación de usuarios y enfoque territorial",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.4 Agricultura, Propuestas",
+        "linea_inicio": 386,
+        "linea_fin": 386
+      }
+    },
+    {
+      "id": "k-agricultura-009",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Aumentar el capital de financiamiento agropecuario vía Banco Agrario y COFIDE con líneas verdes ligadas a prácticas sostenibles.",
+      "cita_textual": "Aumento del capital de financiamiento agropecuario a través del Banco Agrario y COFIDE, con líneas verdes ligadas a prácticas sostenibles",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.4 Agricultura, Propuestas",
+        "linea_inicio": 390,
+        "linea_fin": 390
+      }
+    },
+    {
+      "id": "k-agricultura-010",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Entregar 5,000 tractores financiados por el Estado y crear centros de mecanización compartida para pequeños productores.",
+      "cita_textual": "Entrega de 5,000 tractores financiados por el Estado y crear centros de mecanización compartida para pequeños productores",
+      "meta_cuantitativa": "5,000 tractores entregados",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.4 Agricultura, Propuestas",
+        "linea_inicio": 390,
+        "linea_fin": 390
+      }
+    },
+    {
+      "id": "k-agricultura-011",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Construir y rehabilitar caminos rurales en convenio con el Ejército para conectar zonas agrícolas a mercados regionales y puertos.",
+      "cita_textual": "Construcción y rehabilitación de caminos rurales y de penetración, en convenio con el Ejército, para conectar zonas agrícolas a mercados regionales y puertos",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.4 Agricultura, Propuestas",
+        "linea_inicio": 390,
+        "linea_fin": 390
+      }
+    },
+    {
+      "id": "k-agricultura-012",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Implementar el Plan Cadenas de Frío y Acopio Productivo para reducir pérdidas postcosecha del 30-40%.",
+      "cita_textual": "Implementación de un Plan Cadenas de Frío y Acopio Productivo, reduciendo pérdidas postcosecha del 30–40% y asegurando inocuidad",
+      "meta_cuantitativa": "Reducir pérdidas postcosecha del 30-40%",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.4 Agricultura, Propuestas",
+        "linea_inicio": 391,
+        "linea_fin": 391
+      }
+    },
+    {
+      "id": "k-agricultura-013",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Crear un Fondo de Valor Agregado Rural para transformar excedentes en alimentos de larga duración (conservas, harinas, deshidratados).",
+      "cita_textual": "Creación de un Fondo de Valor Agregado Rural para transformar excedentes en alimentos de larga duración (conservas, harinas, deshidratados)",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.4 Agricultura, Propuestas",
+        "linea_inicio": 391,
+        "linea_fin": 391
+      }
+    },
+    {
+      "id": "k-agricultura-014",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Reactivar PRONAMACHCS como programa base de asistencia rural integral.",
+      "cita_textual": "Reactivación del PRONAMACHCS como programa base de asistencia rural integral",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.4 Agricultura, Propuestas",
+        "linea_inicio": 395,
+        "linea_fin": 395
+      }
+    },
+    {
+      "id": "k-agricultura-015",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Establecer un Sistema Nacional de Bioeconomía Agraria con cadenas productivas en agroindustria, farmacéutica, textil y energía limpia.",
+      "cita_textual": "Establecimiento de un Sistema Nacional de Bioeconomía Agraria, que impulse cadenas productivas en agroindustria, farmacéutica, textil y energía limpia",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.4 Agricultura, Propuestas",
+        "linea_inicio": 395,
+        "linea_fin": 395
+      }
+    },
+    {
+      "id": "k-agricultura-016",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Ampliar la cobertura de seguros climáticos paramétricos frente a sequías, heladas e inundaciones.",
+      "cita_textual": "Ampliación de la cobertura de seguros climáticos paramétricos frente a sequías, heladas e inundaciones",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.4 Agricultura, Propuestas",
+        "linea_inicio": 395,
+        "linea_fin": 395
+      }
+    },
+    {
+      "id": "k-agricultura-017",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Ejecutar 100 microproyectos de qochas, reservorios y mini presas en comunidades altoandinas dentro del Programa Nacional de Siembra y Cosecha de Agua.",
+      "cita_textual": "Impulso del Programa Nacional de Siembra y Cosecha de Agua, con la meta de ejecutar 100 microproyectos de qochas, reservorios y mini presas en comunidades altoandinas",
+      "meta_cuantitativa": "100 microproyectos altoandinos en 100 días",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.4 Agricultura, Primeros 100 Días",
+        "linea_inicio": 399,
+        "linea_fin": 399
+      }
+    },
+    {
+      "id": "k-agricultura-018",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Lanzar el Plan Cadenas de Frío y Acopio Productivo priorizando 10 corredores agroexportadores y mercados regionales.",
+      "cita_textual": "Lanzamiento del \"Plan Cadenas de Frío y Acopio Productivo\", priorizando 10 corredores agroexportadores y mercados regionales",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.4 Agricultura, Primeros 100 Días",
+        "linea_inicio": 399,
+        "linea_fin": 399
+      }
+    },
+    {
+      "id": "k-agricultura-019",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Ampliar la cobertura de seguros climáticos paramétricos protegiendo cultivos de pequeños productores ante sequías, heladas e inundaciones.",
+      "cita_textual": "Ampliación de la cobertura de seguros climáticos paramétricos, protegiendo cultivos de pequeños productores ante sequías, heladas e inundaciones",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.4 Agricultura, Primeros 100 Días",
+        "linea_inicio": 399,
+        "linea_fin": 399
+      }
+    },
+    {
+      "id": "k-agricultura-020",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Incrementar la superficie agrícola con riego tecnificado del 34% al 60% al 2031, priorizando cuencas altoandinas y zonas vulnerables.",
+      "cita_textual": "Incrementar la superficie agrícola",
+      "meta_cuantitativa": "Riego tecnificado: de 34% a 60% al 2031",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.4 Agricultura, Metas",
+        "linea_inicio": 405,
+        "linea_fin": 409
+      }
+    },
+    {
+      "id": "k-agricultura-021",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Aumentar en 30% la productividad agrícola nacional al 2031 mediante asistencia técnica, financiamiento, mecanización e infraestructura.",
+      "cita_textual": "Aumentar en 30% la productividad",
+      "meta_cuantitativa": "+30% productividad agrícola al 2031",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.4 Agricultura, Metas",
+        "linea_inicio": 410,
+        "linea_fin": 414
+      }
+    },
+    {
+      "id": "k-agricultura-022",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Integrar al 50% de pequeños productores en cadenas de valor formales al 2031, promoviendo cooperativas y bioeconomía rural.",
+      "cita_textual": "Integrar al 50% de pequeños",
+      "meta_cuantitativa": "50% pequeños productores en cadenas formales al 2031",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.4 Agricultura, Metas",
+        "linea_inicio": 415,
+        "linea_fin": 419
+      }
+    },
+    {
+      "id": "k-pesca-001",
+      "candidato": "keiko",
+      "tema": "pesca",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Más del 60% de los desembarcaderos pesqueros artesanales (DPA) operan sin cadena de frío, servicios sanitarios ni acceso logístico eficiente; solo 8% cumple integralmente la norma sanitaria.",
+      "cita_textual": "Más del 60% de los desembarcaderos pesqueros artesanales (DPA) operan sin cadena de frío",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.5 Pesca y Acuicultura, Diagnóstico",
+        "linea_inicio": 436,
+        "linea_fin": 446
+      }
+    },
+    {
+      "id": "k-pesca-002",
+      "candidato": "keiko",
+      "tema": "pesca",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Solo el 21,5% de los recursos pesqueros peruanos se destina al consumo humano directo; el 78,5% restante va a harina y aceite de pescado, limitando valor agregado y seguridad alimentaria.",
+      "cita_textual": "Solo el 21,5 % de los recursos pesqueros nacionales se orientan al consumo humano directo, mientras que el 78,5 % restante se utiliza para la producción de harina y aceite de pescado",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.5 Pesca y Acuicultura, Diagnóstico",
+        "linea_inicio": 452,
+        "linea_fin": 452
+      }
+    },
+    {
+      "id": "k-pesca-003",
+      "candidato": "keiko",
+      "tema": "pesca",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Más del 70% de los trabajadores pesqueros operan de manera informal, sin seguros ni protección laboral; estudios reportan trabajo forzoso e infantil en la cadena pesquera.",
+      "cita_textual": "Se estima que más del 70 % de los trabajadores del sector operan de manera informal, sin acceso a seguros, programas sociales ni protección ante accidentes laborales",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.5 Pesca y Acuicultura, Diagnóstico",
+        "linea_inicio": 458,
+        "linea_fin": 458
+      }
+    },
+    {
+      "id": "k-pesca-004",
+      "candidato": "keiko",
+      "tema": "pesca",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Modernizar integralmente los Desembarcaderos Pesqueros Artesanales (DPA) incorporando cadenas de frío, servicios sanitarios y accesos logísticos eficientes.",
+      "cita_textual": "Modernización integralmente los Desembarcaderos Pesqueros Artesanales (DPA), incorporando cadenas de frío, servicios sanitarios, tratamiento de residuos y accesos logísticos eficientes",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.5 Pesca y Acuicultura, Propuestas",
+        "linea_inicio": 464,
+        "linea_fin": 464
+      }
+    },
+    {
+      "id": "k-pesca-005",
+      "candidato": "keiko",
+      "tema": "pesca",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Implementar Programa Nacional de Renovación y Modernización de la Flota Pesquera Artesanal con embarcaciones más seguras, eficientes y menos contaminantes.",
+      "cita_textual": "Implementación de un Programa Nacional de Renovación y Modernización de la Flota Pesquera Artesanal, priorizando embarcaciones más seguras, eficientes y menos contaminantes",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.5 Pesca y Acuicultura, Propuestas",
+        "linea_inicio": 464,
+        "linea_fin": 464
+      }
+    },
+    {
+      "id": "k-pesca-006",
+      "candidato": "keiko",
+      "tema": "pesca",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Crear el Fondo Nacional de Innovación Pesquera y Acuícola con incentivos tributarios y crédito para modernizar equipamiento, trazabilidad y procesamiento.",
+      "cita_textual": "Creación de un Fondo Nacional de Innovación Pesquera y Acuícola, con incentivos tributarios y líneas de crédito para modernizar equipamiento, trazabilidad y procesamiento",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.5 Pesca y Acuicultura, Propuestas",
+        "linea_inicio": 466,
+        "linea_fin": 466
+      }
+    },
+    {
+      "id": "k-pesca-007",
+      "candidato": "keiko",
+      "tema": "pesca",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Fomentar la transformación de anchoveta y otras especies hacia consumo humano directo mediante conservas, filetes, congelados y deshidratados con estándares internacionales.",
+      "cita_textual": "Fomento de la transformación de la anchoveta y otras especies hacia consumo humano directo, mediante el desarrollo de conservas, filetes, congelados y deshidratados con estándares internacionales",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.5 Pesca y Acuicultura, Propuestas",
+        "linea_inicio": 466,
+        "linea_fin": 466
+      }
+    },
+    {
+      "id": "k-pesca-008",
+      "candidato": "keiko",
+      "tema": "pesca",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Implementar el Programa Formalízate Pez para formalización de embarcaciones artesanales con acceso a titularidad, créditos, seguros y tecnología.",
+      "cita_textual": "Implementación del Programa Formalízate Pez: formalización de embarcaciones artesanales con acceso a titularidad, créditos, seguros, tecnología y capacitación continua",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.5 Pesca y Acuicultura, Propuestas",
+        "linea_inicio": 466,
+        "linea_fin": 466
+      }
+    },
+    {
+      "id": "k-pesca-009",
+      "candidato": "keiko",
+      "tema": "pesca",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Crear el fondo PESCA SOLIDARIA financiado por Estado, industria pesquera y cooperación internacional para apoyar a pescadores en crisis climáticas o sanitarias.",
+      "cita_textual": "Creación del fondo PESCA SOLIDARIA, financiado por el Estado, la industria pesquera y cooperación internacional, para apoyar a pescadores en épocas de crisis climáticas o sanitarias",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.5 Pesca y Acuicultura, Propuestas",
+        "linea_inicio": 468,
+        "linea_fin": 468
+      }
+    },
+    {
+      "id": "k-pesca-010",
+      "candidato": "keiko",
+      "tema": "pesca",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Diseñar un Seguro Pesquero Nacional contra pérdidas por fenómenos climáticos como El Niño, financiado parcialmente por el Estado y con reaseguro internacional.",
+      "cita_textual": "Diseño de un Seguro Pesquero Nacional contra pérdidas por fenómenos climáticos como El Niño, financiado parcialmente por el Estado y con reaseguro internacional",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.5 Pesca y Acuicultura, Propuestas",
+        "linea_inicio": 468,
+        "linea_fin": 468
+      }
+    },
+    {
+      "id": "k-pesca-011",
+      "candidato": "keiko",
+      "tema": "pesca",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Reactivar el Ministerio de Pesca, devolviéndole rango ministerial para liderar la política nacional pesquera y acuícola.",
+      "cita_textual": "Reactivación del Ministerio de Pesca, devolviéndole rango ministerial para liderar la política nacional pesquera y acuícola",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.5 Pesca y Acuicultura, Propuestas",
+        "linea_inicio": 468,
+        "linea_fin": 468
+      }
+    },
+    {
+      "id": "k-pesca-012",
+      "candidato": "keiko",
+      "tema": "pesca",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Implementar geolocalización, comunicación y botón de pánico obligatorios y gratuitos en la flota artesanal, integrados a un centro nacional de monitoreo.",
+      "cita_textual": "Implementación de sistemas obligatorios y gratuitos de geolocalización, comunicación y botón de pánico en la flota artesanal, integrados a un centro nacional de monitoreo para emergencias marítimas",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.5 Pesca y Acuicultura, Propuestas",
+        "linea_inicio": 468,
+        "linea_fin": 468
+      }
+    },
+    {
+      "id": "k-pesca-013",
+      "candidato": "keiko",
+      "tema": "pesca",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Iniciar el Seguro Pesquero Nacional con participación de gremios del sector.",
+      "cita_textual": "Inicio del Seguro Pesquero Nacional con participación de gremios del sector",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.5 Pesca y Acuicultura, Primeros 100 Días",
+        "linea_inicio": 472,
+        "linea_fin": 472
+      }
+    },
+    {
+      "id": "k-pesca-014",
+      "candidato": "keiko",
+      "tema": "pesca",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Crear el Fondo Nacional de Innovación Pesquera y Acuícola para cofinanciar equipamiento, trazabilidad y procesamiento en pequeñas plantas pesqueras.",
+      "cita_textual": "Creación del Fondo Nacional de Innovación Pesquera y Acuícola, para cofinanciar equipamiento, trazabilidad y procesamiento en pequeñas plantas pesqueras",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.5 Pesca y Acuicultura, Primeros 100 Días",
+        "linea_inicio": 472,
+        "linea_fin": 472
+      }
+    },
+    {
+      "id": "k-pesca-015",
+      "candidato": "keiko",
+      "tema": "pesca",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Formalizar 20,000 embarcaciones artesanales en coordinación con FONDEPES y SUNARP.",
+      "cita_textual": "Formalización de 20,000 embarcaciones artesanales en coordinación con FONDEPES y SUNARP",
+      "meta_cuantitativa": "20,000 embarcaciones formalizadas en 100 días",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.5 Pesca y Acuicultura, Primeros 100 Días",
+        "linea_inicio": 472,
+        "linea_fin": 472
+      }
+    },
+    {
+      "id": "k-pesca-016",
+      "candidato": "keiko",
+      "tema": "pesca",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Modernizar al menos el 100% de los DPA con cadena de frío, infraestructura sanitaria y trazabilidad digital al 2031.",
+      "cita_textual": "Modernizar al menos el 100% de los Desembarcaderos Pesqueros Artesanales (DPA) con cadena de frío, infraestructura sanitaria y trazabilidad digital.",
+      "meta_cuantitativa": "100% DPA modernizados al 2031",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.5 Pesca y Acuicultura, Metas",
+        "linea_inicio": 478,
+        "linea_fin": 478
+      }
+    },
+    {
+      "id": "k-pesca-017",
+      "candidato": "keiko",
+      "tema": "pesca",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Duplicar la producción acuícola nacional al 2031, garantizando formalización sanitaria y cadenas de frío comunitarias.",
+      "cita_textual": "Duplicar la producción acuícola nacional, garantizando formalización sanitaria y mejores cadenas de frío comunitarias.",
+      "meta_cuantitativa": "Duplicar producción acuícola al 2031",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.5 Pesca y Acuicultura, Metas",
+        "linea_inicio": 479,
+        "linea_fin": 479
+      }
+    },
+    {
+      "id": "k-pesca-018",
+      "candidato": "keiko",
+      "tema": "pesca",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Formalizar al 100% de embarcaciones artesanales y ampliar la protección social a pescadores vía Seguro Pesquero Nacional al 2031.",
+      "cita_textual": "Formalizar al 100% de embarcaciones artesanales y ampliar la protección social a pescadores a través del Seguro Pesquero Nacional.",
+      "meta_cuantitativa": "100% embarcaciones formalizadas al 2031",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.5 Pesca y Acuicultura, Metas",
+        "linea_inicio": 486,
+        "linea_fin": 486
+      }
+    },
+    {
+      "id": "k-transporte-001",
+      "candidato": "keiko",
+      "tema": "transporte",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Perú tiene 174.709 km de carreteras pero solo 19% está pavimentado; en la red secundaria/terciaria solo 5% está pavimentado, 64% es tierra y 31% granular.",
+      "cita_textual": "El Perú cuenta con 174.709 kilómetros de carreteras, pero solo el 19% se encuentra",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.6 Transportes y Comunicaciones, Diagnóstico",
+        "linea_inicio": 498,
+        "linea_fin": 503
+      }
+    },
+    {
+      "id": "k-transporte-002",
+      "candidato": "keiko",
+      "tema": "transporte",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "El Callao concentra más del 70% de la carga portuaria nacional, generando congestión logística y dependencia crítica.",
+      "cita_textual": "el Callao concentra más del 70% de",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.6 Transportes y Comunicaciones, Diagnóstico",
+        "linea_inicio": 511,
+        "linea_fin": 513
+      }
+    },
+    {
+      "id": "k-transporte-003",
+      "candidato": "keiko",
+      "tema": "transporte",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "La brecha digital persiste: solo 48,5% en zonas rurales tiene acceso a internet (2024) vs 88,5% en Lima Metropolitana; la Red Dorsal Nacional aprovecha apenas el 7,8% de su capacidad.",
+      "cita_textual": "En 2019, solo el",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.6 Transportes y Comunicaciones, Diagnóstico",
+        "linea_inicio": 517,
+        "linea_fin": 523
+      }
+    },
+    {
+      "id": "k-transporte-004",
+      "candidato": "keiko",
+      "tema": "transporte",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Los siniestros viales aumentaron más del 50% entre 2020 y 2023; en 2023 se reportaron 87 172 accidentes; el costo socioeconómico equivale al 4,6% del PIB.",
+      "cita_textual": "Entre los años 2020 y",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.6 Transportes y Comunicaciones, Diagnóstico",
+        "linea_inicio": 554,
+        "linea_fin": 565
+      }
+    },
+    {
+      "id": "k-transporte-005",
+      "candidato": "keiko",
+      "tema": "transporte",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Ejecutar grandes proyectos viales prioritarios: Nueva Carretera Central, Oyón-Ambo, Canta-La Viuda-Unish, Puerto Ocopa-Atalaya, Longitudinal de la Sierra Tramo 4, Autopista del Sol, Red Vial N° 4.",
+      "cita_textual": "Ejecución de los grandes proyectos viales prioritarios",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.6 Transportes y Comunicaciones, Propuestas",
+        "linea_inicio": 569,
+        "linea_fin": 571
+      }
+    },
+    {
+      "id": "k-transporte-006",
+      "candidato": "keiko",
+      "tema": "transporte",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Implementar un Programa Nacional para Rehabilitar y Mantener el 100% de los Caminos Rurales Críticos con enfoque territorial y contratos por desempeño.",
+      "cita_textual": "Implementación de un Programa Nacional para Rehabilitar y Mantener el 100% de los Caminos Rurales Críticos, con enfoque territorial y contratos por desempeño",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.6 Transportes y Comunicaciones, Propuestas",
+        "linea_inicio": 571,
+        "linea_fin": 571
+      }
+    },
+    {
+      "id": "k-transporte-007",
+      "candidato": "keiko",
+      "tema": "transporte",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Incrementar tres veces la inversión en caminos rurales mediante cofinanciamiento con gobiernos regionales y locales.",
+      "cita_textual": "Incremento en tres veces la inversión en caminos rurales mediante cofinanciamiento con gobiernos regionales y locales",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.6 Transportes y Comunicaciones, Propuestas",
+        "linea_inicio": 571,
+        "linea_fin": 571
+      }
+    },
+    {
+      "id": "k-transporte-008",
+      "candidato": "keiko",
+      "tema": "transporte",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Culminar la Línea 2 del Metro de Lima y Callao y ejecutar las Líneas 3, 4, 5 y 6 para expandir el transporte masivo metropolitano.",
+      "cita_textual": "Culminación de la Línea 2 del Metro de Lima y Callao",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.6 Transportes y Comunicaciones, Propuestas",
+        "linea_inicio": 571,
+        "linea_fin": 571
+      }
+    },
+    {
+      "id": "k-transporte-009",
+      "candidato": "keiko",
+      "tema": "transporte",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Ejecutar líneas de metro en Piura, Trujillo y Arequipa, articuladas con zonas industriales y turísticas.",
+      "cita_textual": "Ejecución de líneas de metro en Piura, Trujillo y Arequipa",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.6 Transportes y Comunicaciones, Propuestas",
+        "linea_inicio": 571,
+        "linea_fin": 571
+      }
+    },
+    {
+      "id": "k-transporte-010",
+      "candidato": "keiko",
+      "tema": "transporte",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Promover el Tren Bioceánico Perú-Brasil clave para la integración sudamericana, y corredores ferroviarios de carga que conecten Chancay, Callao, Pisco, Salaverry e Ilo.",
+      "cita_textual": "Promoción de la construcción del Tren Bioceánico Perú–Brasil, clave para la integración sudamericana",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.6 Transportes y Comunicaciones, Propuestas",
+        "linea_inicio": 571,
+        "linea_fin": 571
+      }
+    },
+    {
+      "id": "k-transporte-011",
+      "candidato": "keiko",
+      "tema": "transporte",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Consolidar el Megapuerto de Chancay como plataforma logística del Pacífico Sur.",
+      "cita_textual": "Consolidación del Megapuerto de Chancay como plataforma logística del Pacífico Sur",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.6 Transportes y Comunicaciones, Propuestas",
+        "linea_inicio": 571,
+        "linea_fin": 571
+      }
+    },
+    {
+      "id": "k-transporte-012",
+      "candidato": "keiko",
+      "tema": "transporte",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Modernizar los puertos de Salaverry, Ilo, Pisco y Yurimaguas con tecnología portuaria y zonas logísticas adyacentes.",
+      "cita_textual": "Modernización de los puertos de Salaverry, Ilo, Pisco y Yurimaguas, incorporando tecnología de gestión portuaria y zonas logísticas adyacentes",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.6 Transportes y Comunicaciones, Propuestas",
+        "linea_inicio": 571,
+        "linea_fin": 571
+      }
+    },
+    {
+      "id": "k-transporte-013",
+      "candidato": "keiko",
+      "tema": "transporte",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Poner en marcha el Aeropuerto Internacional de Chinchero–Cusco como eje turístico y exportador del sur andino.",
+      "cita_textual": "Puesta en marcha el Aeropuerto Internacional de Chinchero – Cusco, como eje turístico y exportador del sur andino",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.6 Transportes y Comunicaciones, Propuestas",
+        "linea_inicio": 573,
+        "linea_fin": 573
+      }
+    },
+    {
+      "id": "k-transporte-014",
+      "candidato": "keiko",
+      "tema": "transporte",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Modernizar los 17 aeropuertos concesionados a nivel nacional, priorizando seguridad aérea, navegación y capacidad operativa.",
+      "cita_textual": "Modernización de los 17 aeropuertos concesionados a nivel nacional, priorizando inversiones en seguridad aérea, tecnología de navegación y capacidad operativa",
+      "meta_cuantitativa": "17 aeropuertos concesionados modernizados",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.6 Transportes y Comunicaciones, Propuestas",
+        "linea_inicio": 573,
+        "linea_fin": 573
+      }
+    },
+    {
+      "id": "k-transporte-015",
+      "candidato": "keiko",
+      "tema": "transporte",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Construir nuevos aeropuertos regionales estratégicos en Oxapampa, Chimbote, Moquegua, Puno, Huancavelica y Huancayo.",
+      "cita_textual": "Inicio de la construcción de nuevos aeropuertos regionales estratégicos",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.6 Transportes y Comunicaciones, Propuestas",
+        "linea_inicio": 573,
+        "linea_fin": 573
+      }
+    },
+    {
+      "id": "k-transporte-016",
+      "candidato": "keiko",
+      "tema": "transporte",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Rediseñar la gestión de la Red Dorsal Nacional de Fibra Óptica mediante concesión supervisada garantizando uso efectivo.",
+      "cita_textual": "Rediseño de la gestión de la Red Dorsal Nacional de Fibra Óptica mediante concesión supervisada, garantizando uso efectivo",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.6 Transportes y Comunicaciones, Propuestas",
+        "linea_inicio": 577,
+        "linea_fin": 577
+      }
+    },
+    {
+      "id": "k-transporte-017",
+      "candidato": "keiko",
+      "tema": "transporte",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Implementar un Plan de Cobertura Universal de Internet Satelital y Móvil, especialmente para comunidades amazónicas y altoandinas.",
+      "cita_textual": "Implementación de un Plan de Cobertura Universal de Internet Satelital y Móvil, especialmente para comunidades amazónicas y altoandinas",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.6 Transportes y Comunicaciones, Propuestas",
+        "linea_inicio": 577,
+        "linea_fin": 577
+      }
+    },
+    {
+      "id": "k-transporte-018",
+      "candidato": "keiko",
+      "tema": "transporte",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Implementar el Programa Nacional de Seguridad Vial con la meta de reducir la siniestralidad en 30% al 2030.",
+      "cita_textual": "Implementación del Programa Nacional de Seguridad Vial con la meta de reducir la siniestralidad en 30% al 2030",
+      "meta_cuantitativa": "-30% siniestralidad vial al 2030",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.6 Transportes y Comunicaciones, Propuestas",
+        "linea_inicio": 579,
+        "linea_fin": 579
+      }
+    },
+    {
+      "id": "k-transporte-019",
+      "candidato": "keiko",
+      "tema": "transporte",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Crear el Fondo de Emergencia Vial Rural para financiar obras de drenaje, bacheo y mantenimiento preventivo.",
+      "cita_textual": "Creación del \"Fondo de Emergencia Vial Rural\", para financiar obras de drenaje, bacheo y mantenimiento preventivo",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.6 Transportes y Comunicaciones, Primeros 100 días",
+        "linea_inicio": 587,
+        "linea_fin": 587
+      }
+    },
+    {
+      "id": "k-transporte-020",
+      "candidato": "keiko",
+      "tema": "transporte",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Lanzar el Programa Nacional de Seguridad Vial con operativos simultáneos en puntos críticos del país.",
+      "cita_textual": "Lanzamiento del Programa Nacional de Seguridad Vial, con operativos simultáneos en puntos críticos del país",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.6 Transportes y Comunicaciones, Primeros 100 días",
+        "linea_inicio": 587,
+        "linea_fin": 587
+      }
+    },
+    {
+      "id": "k-transporte-021",
+      "candidato": "keiko",
+      "tema": "transporte",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Iniciar la ejecución de un corredor logístico piloto verde en la Costa Central (Callao-Chancay-Sierra Central).",
+      "cita_textual": "Inicio de la ejecución de un corredor logístico piloto verde en la Costa Central (Callao–Chancay–Sierra Central)",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.6 Transportes y Comunicaciones, Primeros 100 días",
+        "linea_inicio": 587,
+        "linea_fin": 587
+      }
+    },
+    {
+      "id": "k-transporte-022",
+      "candidato": "keiko",
+      "tema": "transporte",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Pavimentar el 100% de los caminos rurales críticos e integrar los corredores logísticos con puertos, aeropuertos y mercados regionales al 2031.",
+      "cita_textual": "Pavimentar el 100% de los caminos rurales críticos e integrar los corredores logísticos productivos con puertos, aeropuertos y mercados regionales.",
+      "meta_cuantitativa": "100% caminos rurales críticos pavimentados al 2031",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.6 Transportes y Comunicaciones, Metas",
+        "linea_inicio": 591,
+        "linea_fin": 591
+      }
+    },
+    {
+      "id": "k-transporte-023",
+      "candidato": "keiko",
+      "tema": "transporte",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Poner operativos 4 metros de Lima y 3 regionales (Arequipa, Trujillo y Piura), modernizar 70% de puertos estratégicos y 17 aeropuertos concesionados al 2031.",
+      "cita_textual": "Poner operativos 4 metros de Lima y 3 regionales (Arequipa, Trujillo y Piura), modernizar 70% de puertos estratégicos y modernizar 17 aeropuertos concesionados a nivel nacional.",
+      "meta_cuantitativa": "4 metros Lima + 3 regionales / 70% puertos / 17 aeropuertos al 2031",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.6 Transportes y Comunicaciones, Metas",
+        "linea_inicio": 592,
+        "linea_fin": 592
+      }
+    },
+    {
+      "id": "k-transporte-024",
+      "candidato": "keiko",
+      "tema": "transporte",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Alcanzar 90% de cobertura de internet en todos los distritos al 2031, con uso efectivo de la Red Dorsal.",
+      "cita_textual": "Alcanzar 90% de cobertura de internet en todos los distritos, con uso efectivo de la Red Dorsal y servicios públicos completamente integrados.",
+      "meta_cuantitativa": "90% cobertura internet por distrito al 2031",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.6 Transportes y Comunicaciones, Metas",
+        "linea_inicio": 593,
+        "linea_fin": 593
+      }
+    },
+    {
+      "id": "k-turismo-001",
+      "candidato": "keiko",
+      "tema": "turismo",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "El 65% de corredores turísticos priorizados por PENTUR tienen restricciones de conectividad vial, aérea o digital; faltan infraestructura básica en sitios arqueológicos y servicios.",
+      "cita_textual": "el 65% de los corredores turísticos priorizados por el Plan",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.7 Turismo, Diagnóstico",
+        "linea_inicio": 607,
+        "linea_fin": 609
+      }
+    },
+    {
+      "id": "k-turismo-002",
+      "candidato": "keiko",
+      "tema": "turismo",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Solo el 21% de operadores turísticos formales tiene presencia digital activa; no existe plataforma nacional de inteligencia turística en tiempo real.",
+      "cita_textual": "solo el 21% de operadores turísticos formales tiene presencia digital",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.7 Turismo, Diagnóstico",
+        "linea_inicio": 619,
+        "linea_fin": 620
+      }
+    },
+    {
+      "id": "k-turismo-003",
+      "candidato": "keiko",
+      "tema": "turismo",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Perú se ubica en el puesto 74 de 117 países en el Índice de Desarrollo del Viaje y el Turismo 2023; las protestas 2022-2023 causaron caída de más del 40% en reservas internacionales en Cusco y Puno.",
+      "cita_textual": "el Perú se ubica en el puesto 74 de 117 países en el Índice de Desarrollo",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.7 Turismo, Diagnóstico",
+        "linea_inicio": 637,
+        "linea_fin": 638
+      }
+    },
+    {
+      "id": "k-turismo-004",
+      "candidato": "keiko",
+      "tema": "turismo",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Ampliar y ordenar la zona de visita en Machu Picchu con nuevos circuitos, centro de visitantes moderno y caminos incas complementarios.",
+      "cita_textual": "Ampliación y ordenamiento de la zona de visita con nuevos circuitos, un moderno centro de visitantes y caminos incas complementarios",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.7 Turismo, Propuestas",
+        "linea_inicio": 653,
+        "linea_fin": 653
+      }
+    },
+    {
+      "id": "k-turismo-005",
+      "candidato": "keiko",
+      "tema": "turismo",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Implementar un circuito mecanizado que conecte Machu Picchu con la Amazonía, duplicando la capacidad de visitantes sin afectar áreas sensibles.",
+      "cita_textual": "Implementación de un circuito mecanizado que conecte a Machu Picchu con la Amazonía, duplicando la capacidad de visitantes",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.7 Turismo, Propuestas",
+        "linea_inicio": 653,
+        "linea_fin": 653
+      }
+    },
+    {
+      "id": "k-turismo-006",
+      "candidato": "keiko",
+      "tema": "turismo",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Poner en valor turístico sostenible Choquequirao con accesibilidad de bajo impacto y gestión ordenada de visitantes.",
+      "cita_textual": "Puesta en valor turístico sostenible de Choquequirao, mediante soluciones de accesibilidad de bajo impacto y gestión ordenada de visitantes",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.7 Turismo, Propuestas",
+        "linea_inicio": 653,
+        "linea_fin": 653
+      }
+    },
+    {
+      "id": "k-turismo-007",
+      "candidato": "keiko",
+      "tema": "turismo",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Implementar el Sistema Integral de Información para la Gestión del Turismo (SIIGTUR) y fortalecer los Observatorios Turísticos.",
+      "cita_textual": "Implementación del Sistema Integral de Información para la Gestión del Turismo (SIIGTUR) y fortalecer los Observatorios Turísticos Nacional y Regional",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.7 Turismo, Propuestas",
+        "linea_inicio": 657,
+        "linea_fin": 657
+      }
+    },
+    {
+      "id": "k-turismo-008",
+      "candidato": "keiko",
+      "tema": "turismo",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Desarrollar Zonas Especiales de Desarrollo Turístico priorizando Caral, Chachapoyas, Kuélap, la Red de Caminos del Inca y las playas del norte.",
+      "cita_textual": "Desarrollo de Zonas Especiales de Desarrollo Turístico, priorizando destinos como Caral, Chachapoyas, Kuélap, la Red de Caminos del Inca y las playas del norte",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.7 Turismo, Propuestas",
+        "linea_inicio": 657,
+        "linea_fin": 657
+      }
+    },
+    {
+      "id": "k-turismo-009",
+      "candidato": "keiko",
+      "tema": "turismo",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Convertir el Centro de Convenciones de Lima en hub regional para eventos internacionales con al menos 12 megaeventos anuales de más de 8 mil asistentes.",
+      "cita_textual": "Conversión del Centro de Convenciones de Lima en un hub regional para eventos internacionales, con al menos 12 megaeventos anuales de más de 8 mil asistentes",
+      "meta_cuantitativa": "12 megaeventos anuales >8,000 asistentes",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.7 Turismo, Propuestas",
+        "linea_inicio": 659,
+        "linea_fin": 659
+      }
+    },
+    {
+      "id": "k-turismo-010",
+      "candidato": "keiko",
+      "tema": "turismo",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Implementar Política de 'Cielos Abiertos' y 'Quinta Libertad del Aire' para atraer más aerolíneas internacionales y reducir costos de pasajes.",
+      "cita_textual": "Implementación de la Política de \"Cielos Abiertos\" y \"Quinta Libertad del Aire\" para atraer más aerolíneas internacionales y reducir costos de pasajes",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.7 Turismo, Propuestas",
+        "linea_inicio": 661,
+        "linea_fin": 661
+      }
+    },
+    {
+      "id": "k-turismo-011",
+      "candidato": "keiko",
+      "tema": "turismo",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Crear el Fondo Empresarial de Desarrollo Turístico (FEDETUR) en fideicomiso con COFIDE para financiar proyectos de MYPEs y pymes turísticas.",
+      "cita_textual": "Creación del Fondo Empresarial de Desarrollo Turístico (FEDETUR), en fideicomiso con COFIDE, para financiar proyectos de MYPEs y pymes turísticas",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.7 Turismo, Propuestas",
+        "linea_inicio": 661,
+        "linea_fin": 661
+      }
+    },
+    {
+      "id": "k-turismo-012",
+      "candidato": "keiko",
+      "tema": "turismo",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Capacitar y certificar 100,000 trabajadores turísticos en competencias digitales, inglés, atención al cliente, sostenibilidad y gestión de servicios.",
+      "cita_textual": "Capacitación y certificación de 100,000 trabajadores turísticos en competencias digitales, inglés, atención al cliente, sostenibilidad y gestión de servicios",
+      "meta_cuantitativa": "100,000 trabajadores turísticos capacitados",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.7 Turismo, Propuestas",
+        "linea_inicio": 661,
+        "linea_fin": 661
+      }
+    },
+    {
+      "id": "k-turismo-013",
+      "candidato": "keiko",
+      "tema": "turismo",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Implementar Plan Nacional de Orden Turístico integrando Policía de Turismo, Defensa Civil, municipalidades y operadores privados.",
+      "cita_textual": "Implementación de un Plan Nacional de Orden Turístico, integrando a la Policía de Turismo, Defensa Civil, municipalidades y operadores privados",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.7 Turismo, Propuestas",
+        "linea_inicio": 659,
+        "linea_fin": 659
+      }
+    },
+    {
+      "id": "k-turismo-014",
+      "candidato": "keiko",
+      "tema": "turismo",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Implementar el Fondo Empresarial de Desarrollo Turístico (FEDETUR) para financiar proyectos turísticos de MYPEs y PYMEs.",
+      "cita_textual": "Implementación del Fondo Empresarial de Desarrollo Turístico (FEDETUR) para financiar proyectos turísticos de MYPEs y PYMEs",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.7 Turismo, Primeros 100 Días",
+        "linea_inicio": 665,
+        "linea_fin": 665
+      }
+    },
+    {
+      "id": "k-turismo-015",
+      "candidato": "keiko",
+      "tema": "turismo",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Lanzar campaña internacional 'Vuelve al Perú' en EE.UU., Europa y Latinoamérica destacando Machu Picchu, playas del norte, Amazonía y gastronomía.",
+      "cita_textual": "Lanzamiento de la campaña internacional \"Vuelve al Perú\" en EE. UU., Europa y Latinoamérica, destacando Machu Picchu, playas del norte, Amazonía y gastronomía peruana",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.7 Turismo, Primeros 100 Días",
+        "linea_inicio": 665,
+        "linea_fin": 665
+      }
+    },
+    {
+      "id": "k-turismo-016",
+      "candidato": "keiko",
+      "tema": "turismo",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Implementar el Plan Nacional de Orden Turístico integrando PNP de Turismo, Defensa Civil y gobiernos locales en 20 destinos prioritarios.",
+      "cita_textual": "Implementación del Plan Nacional de Orden Turístico, integrando PNP de Turismo, Defensa Civil y gobiernos locales en 20 destinos prioritarios",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.7 Turismo, Primeros 100 Días",
+        "linea_inicio": 665,
+        "linea_fin": 665
+      }
+    },
+    {
+      "id": "k-turismo-017",
+      "candidato": "keiko",
+      "tema": "turismo",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Aumentar a 6 millones los turistas internacionales y descentralizar la oferta turística hacia nuevos destinos regionales priorizados al 2031.",
+      "cita_textual": "Aumentar a 6 millones los turistas internacionales y descentralizar la oferta turística hacia nuevos destinos regionales priorizados.",
+      "meta_cuantitativa": "6 millones de turistas internacionales al 2031",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.7 Turismo, Metas",
+        "linea_inicio": 674,
+        "linea_fin": 674
+      }
+    },
+    {
+      "id": "k-turismo-018",
+      "candidato": "keiko",
+      "tema": "turismo",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Modernizar al menos el 70% de los aeropuertos turísticos regionales y capacitar 50,000 trabajadores turísticos certificados al 2031.",
+      "cita_textual": "Modernizar al menos el 70% de los",
+      "meta_cuantitativa": "70% aeropuertos turísticos modernizados + 50,000 trabajadores certificados al 2031",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.7 Turismo, Metas",
+        "linea_inicio": 678,
+        "linea_fin": 683
+      }
+    },
+    {
+      "id": "k-turismo-019",
+      "candidato": "keiko",
+      "tema": "turismo",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Incrementar en 30% la capacidad de visita sostenible a Machu Picchu y Choquequirao al 2031.",
+      "cita_textual": "Incrementar en 30% la capacidad de visita sostenible a Machu Picchu y Choquequirao.",
+      "meta_cuantitativa": "+30% capacidad de visita Machu Picchu y Choquequirao al 2031",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.7 Turismo, Metas",
+        "linea_inicio": 684,
+        "linea_fin": 684
+      }
+    },
+    {
+      "id": "k-industria-001",
+      "candidato": "keiko",
+      "tema": "industria",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "De los más de 20 parques industriales anunciados en la última década, menos de 5 están en pleno funcionamiento; el Callao concentra más del 80% de la carga marítima.",
+      "cita_textual": "De",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.8 Industria y Comercio Exterior, Diagnóstico",
+        "linea_inicio": 706,
+        "linea_fin": 711
+      }
+    },
+    {
+      "id": "k-industria-002",
+      "candidato": "keiko",
+      "tema": "industria",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "La industria manufacturera invierte menos del 0.2% del PBI en I+D, muy por debajo del promedio regional (0.8%) y de la OCDE (2.5%).",
+      "cita_textual": "La industria manufacturera invierte menos del 0.2% del PBI en I+D, muy por debajo del",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.8 Industria y Comercio Exterior, Diagnóstico",
+        "linea_inicio": 717,
+        "linea_fin": 720
+      }
+    },
+    {
+      "id": "k-industria-003",
+      "candidato": "keiko",
+      "tema": "industria",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "El comercio exterior peruano depende en más del 75% de productos primarios; las MYPES exportadoras representan menos del 5% del total a pesar de los 22 TLCs.",
+      "cita_textual": "El comercio exterior peruano depende en más de un 75% de productos primarios",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.8 Industria y Comercio Exterior, Diagnóstico",
+        "linea_inicio": 728,
+        "linea_fin": 744
+      }
+    },
+    {
+      "id": "k-industria-004",
+      "candidato": "keiko",
+      "tema": "industria",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Desarrollar un Plan Nacional de Parques Industriales Modernos priorizando 10 polos productivos en regiones estratégicas.",
+      "cita_textual": "Desarrollo de un Plan Nacional de Parques Industriales Modernos, priorizando 10 polos productivos en regiones estratégicas",
+      "meta_cuantitativa": "10 polos productivos regionales",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.8 Industria y Comercio Exterior, Propuestas",
+        "linea_inicio": 748,
+        "linea_fin": 748
+      }
+    },
+    {
+      "id": "k-industria-005",
+      "candidato": "keiko",
+      "tema": "industria",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Implementar Zonas Económicas Especiales (ZEE) con beneficios tributarios temporales orientadas a manufactura de alto valor agregado.",
+      "cita_textual": "Implementación de Zonas Económicas Especiales (ZEE) con beneficios tributarios temporales, orientadas a manufactura de alto valor agregado",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.8 Industria y Comercio Exterior, Propuestas",
+        "linea_inicio": 748,
+        "linea_fin": 748
+      }
+    },
+    {
+      "id": "k-industria-006",
+      "candidato": "keiko",
+      "tema": "industria",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Fomentar la industria 4.0: automatización, digitalización y procesos sostenibles con asistencia del sistema CITE y universidades.",
+      "cita_textual": "Fomento de la industria 4.0: automatización, digitalización y procesos sostenibles, con asistencia del sistema CITE y universidades",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.8 Industria y Comercio Exterior, Propuestas",
+        "linea_inicio": 748,
+        "linea_fin": 748
+      }
+    },
+    {
+      "id": "k-industria-007",
+      "candidato": "keiko",
+      "tema": "industria",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Crear el Fondo Nacional de Innovación Exportadora con prioridad para agroindustria, biotecnología, confecciones técnicas y metalmecánica.",
+      "cita_textual": "Creación del Fondo Nacional de Innovación Exportadora, con prioridad para agroindustria, biotecnología, confecciones técnicas y metalmecánica",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.8 Industria y Comercio Exterior, Propuestas",
+        "linea_inicio": 748,
+        "linea_fin": 748
+      }
+    },
+    {
+      "id": "k-industria-008",
+      "candidato": "keiko",
+      "tema": "industria",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Implementar Ventanilla Única Industrial (VUI) digital interoperable con IA para licencias, autorizaciones sanitarias, ambientales y de seguridad.",
+      "cita_textual": "Implementación de una Ventanilla Única Industrial (VUI) digital e interoperable con inteligencia artificial para licencias, autorizaciones sanitarias, ambientales y de seguridad",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.8 Industria y Comercio Exterior, Propuestas",
+        "linea_inicio": 748,
+        "linea_fin": 748
+      }
+    },
+    {
+      "id": "k-industria-009",
+      "candidato": "keiko",
+      "tema": "industria",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Implementar la Ventanilla Única de Comercio Exterior 2.0 (VUCE 2.0) con IA interoperable con SUNAT, Aduanas, MTC y PROMPERÚ para reducir tiempos de exportación.",
+      "cita_textual": "Implementación de la Ventanilla Única de Comercio Exterior 2.0 (VUCE 2.0) con Inteligencia Artificial e interoperable con SUNAT, Aduanas, MTC y PROMPERÚ",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.8 Industria y Comercio Exterior, Propuestas",
+        "linea_inicio": 750,
+        "linea_fin": 750
+      }
+    },
+    {
+      "id": "k-industria-010",
+      "candidato": "keiko",
+      "tema": "industria",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Ampliar la cobertura de las Oficinas Comerciales en el Exterior (OCEX) para promover exportaciones y atraer inversiones.",
+      "cita_textual": "Ampliación de la cobertura de las Oficinas Comerciales en el Exterior (OCEX) para promover exportaciones y atracción de inversiones",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.8 Industria y Comercio Exterior, Propuestas",
+        "linea_inicio": 750,
+        "linea_fin": 750
+      }
+    },
+    {
+      "id": "k-industria-011",
+      "candidato": "keiko",
+      "tema": "industria",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Integrar a las MYPEs rurales y urbanas en cadenas exportadoras mediante financiamiento blando y asistencia técnica.",
+      "cita_textual": "Integración de las MYPEs rurales y urbanas en cadenas exportadoras, mediante financiamiento blando y asistencia técnica",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.8 Industria y Comercio Exterior, Propuestas",
+        "linea_inicio": 754,
+        "linea_fin": 754
+      }
+    },
+    {
+      "id": "k-industria-012",
+      "candidato": "keiko",
+      "tema": "industria",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Aprobar el Plan Nacional de Parques Industriales Modernos priorizando 10 polos regionales.",
+      "cita_textual": "Aprobación del Plan Nacional de Parques Industriales Modernos, priorizando 10 polos regionales",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.8 Industria y Comercio Exterior, Primeros 100 días",
+        "linea_inicio": 754,
+        "linea_fin": 754
+      }
+    },
+    {
+      "id": "k-industria-013",
+      "candidato": "keiko",
+      "tema": "industria",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Lanzar el Fondo Nacional de Innovación Exportadora (FONIEX) con su primera convocatoria para agroindustria, biotecnología, confecciones técnicas y metalmecánica.",
+      "cita_textual": "Lanzamiento del Fondo Nacional de Innovación Exportadora (FONIEX), iniciando su primera convocatoria para proyectos piloto en agroindustria, biotecnología, confecciones técnicas y metalmecánica",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.8 Industria y Comercio Exterior, Primeros 100 días",
+        "linea_inicio": 754,
+        "linea_fin": 754
+      }
+    },
+    {
+      "id": "k-industria-014",
+      "candidato": "keiko",
+      "tema": "industria",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Publicar el Catálogo Único de Productos Industriales Peruanos vinculado a compras estatales y de grandes empresas privadas.",
+      "cita_textual": "Publicación del \"Catálogo Único de Productos Industriales Peruanos\", vinculado a compras estatales y de grandes empresas privadas",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.8 Industria y Comercio Exterior, Primeros 100 días",
+        "linea_inicio": 754,
+        "linea_fin": 754
+      }
+    },
+    {
+      "id": "k-industria-015",
+      "candidato": "keiko",
+      "tema": "industria",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Implementar al menos 6 parques industriales modernos y 3 Zonas Económicas Especiales (ZEE) con estándares de industria 4.0 al 2031.",
+      "cita_textual": "Implementar al menos 6 parques industriales modernos y 3 Zonas Económicas Especiales (ZEE) con estándares de industria 4.0.",
+      "meta_cuantitativa": "6 parques industriales + 3 ZEE al 2031",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.8 Industria y Comercio Exterior, Metas",
+        "linea_inicio": 758,
+        "linea_fin": 758
+      }
+    },
+    {
+      "id": "k-industria-016",
+      "candidato": "keiko",
+      "tema": "industria",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Reducir en 50% los tiempos de exportación mediante plataformas logísticas, digitalización aduanera y VUCE 2.0 interoperable al 2031.",
+      "cita_textual": "Reducir en 50% los tiempos de exportación mediante plataformas logísticas, digitalización aduanera y VUCE 2.0 interoperable.",
+      "meta_cuantitativa": "-50% tiempos de exportación al 2031",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.8 Industria y Comercio Exterior, Metas",
+        "linea_inicio": 766,
+        "linea_fin": 766
+      }
+    },
+    {
+      "id": "k-industria-017",
+      "candidato": "keiko",
+      "tema": "industria",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Incrementar al 10% la participación de MYPE exportadoras al 2031, impulsando marcas colectivas y certificaciones sostenibles.",
+      "cita_textual": "Incrementar al 10% la",
+      "meta_cuantitativa": "10% MYPE exportadoras al 2031",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.8 Industria y Comercio Exterior, Metas",
+        "linea_inicio": 771,
+        "linea_fin": 775
+      }
+    },
+    {
+      "id": "k-ambiente-001",
+      "candidato": "keiko",
+      "tema": "ambiente",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Perú genera ~8,7 millones de toneladas de residuos al año (56% orgánico, 22% inorgánico); solo el 12% de municipalidades realiza valorización de residuos orgánicos e inorgánicos.",
+      "cita_textual": "el país produce aproximadamente 8 706 237.28 toneladas de residuos al año",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.9 Desarrollo Sostenible o Ambiente, Diagnóstico",
+        "linea_inicio": 787,
+        "linea_fin": 801
+      }
+    },
+    {
+      "id": "k-ambiente-002",
+      "candidato": "keiko",
+      "tema": "ambiente",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "3,3 millones de peruanos no tienen red pública de agua potable y 6,4 millones carecen de alcantarillado; solo el 25% de locales públicos rurales está conectado a red de agua.",
+      "cita_textual": "todavía quedan un 3.3 millones de peruanos que no cuentan con una red pública de agua potable y 6.4 millones que no tienen conexiones de alcantarillado",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.9 Desarrollo Sostenible o Ambiente, Diagnóstico",
+        "linea_inicio": 803,
+        "linea_fin": 803
+      }
+    },
+    {
+      "id": "k-ambiente-003",
+      "candidato": "keiko",
+      "tema": "ambiente",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "La deforestación amazónica supera las 200 mil hectáreas anuales en varios años entre 2001 y 2023; OEFA tiene limitaciones para fiscalizar actividades extractivas.",
+      "cita_textual": "entre 2001 y 2023 la reducción de cobertura boscosa se mantiene en niveles altos y, en varios años, ha superado incluso las 200 mil hectáreas",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.9 Desarrollo Sostenible o Ambiente, Diagnóstico",
+        "linea_inicio": 805,
+        "linea_fin": 805
+      }
+    },
+    {
+      "id": "k-ambiente-004",
+      "candidato": "keiko",
+      "tema": "ambiente",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Establecer un Plan Nacional de Gestión de Residuos con economía circular, priorizando rellenos sanitarios regionales y eliminando botaderos a cielo abierto.",
+      "cita_textual": "Establecimiento de un Plan Nacional de Gestión de Residuos con economía circular, priorizando rellenos sanitarios regionales y eliminando botaderos a cielo abierto",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.9 Desarrollo Sostenible o Ambiente, Propuestas",
+        "linea_inicio": 821,
+        "linea_fin": 821
+      }
+    },
+    {
+      "id": "k-ambiente-005",
+      "candidato": "keiko",
+      "tema": "ambiente",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Crear plantas de tratamiento y valorización energética de residuos sólidos urbanos mediante APP, priorizando ciudades con más de 200,000 habitantes.",
+      "cita_textual": "Creación de plantas de tratamiento y valorización energética de residuos sólidos urbanos mediante APP, priorizando ciudades con más de 200,000 habitantes",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.9 Desarrollo Sostenible o Ambiente, Propuestas",
+        "linea_inicio": 821,
+        "linea_fin": 821
+      }
+    },
+    {
+      "id": "k-ambiente-006",
+      "candidato": "keiko",
+      "tema": "ambiente",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Crear un Régimen de Incentivos Tributarios para Empresas Verdes que permita deducir hasta el 50% de la inversión en procesos de reciclaje, eficiencia energética y certificaciones ambientales.",
+      "cita_textual": "Creación de un Régimen de Incentivos Tributarios para Empresas Verdes, que permita deducir hasta el 50% de la inversión en procesos de reciclaje, eficiencia energética y certificaciones ambientales",
+      "meta_cuantitativa": "50% deducción de inversión verde",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.9 Desarrollo Sostenible o Ambiente, Propuestas",
+        "linea_inicio": 821,
+        "linea_fin": 821
+      }
+    },
+    {
+      "id": "k-ambiente-007",
+      "candidato": "keiko",
+      "tema": "ambiente",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Implementar un Programa Nacional de Cero Deforestación Ilegal con drones y monitoreo satelital en la Amazonía.",
+      "cita_textual": "Implementación de un Programa Nacional de Cero Deforestación Ilegal, con drones y monitoreo satelital en la Amazonía",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.9 Desarrollo Sostenible o Ambiente, Propuestas",
+        "linea_inicio": 821,
+        "linea_fin": 821
+      }
+    },
+    {
+      "id": "k-ambiente-008",
+      "candidato": "keiko",
+      "tema": "ambiente",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Establecer un Fondo Verde Amazónico financiado con cooperación internacional y aportes privados para proyectos productivos alternativos sostenibles.",
+      "cita_textual": "Establecimiento de un Fondo Verde Amazónico financiado con cooperación internacional y aportes privados, destinado a proyectos productivos alternativos sostenibles",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.9 Desarrollo Sostenible o Ambiente, Propuestas",
+        "linea_inicio": 821,
+        "linea_fin": 821
+      }
+    },
+    {
+      "id": "k-ambiente-009",
+      "candidato": "keiko",
+      "tema": "ambiente",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Endurecer sanciones contra tala ilegal y tráfico de especies con penas efectivas y decomiso inmediato de bienes e insumos.",
+      "cita_textual": "Endurecimiento de sanciones contra tala ilegal y tráfico de especies, con penas efectivas y decomiso inmediato de bienes e insumos",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.9 Desarrollo Sostenible o Ambiente, Propuestas",
+        "linea_inicio": 821,
+        "linea_fin": 821
+      }
+    },
+    {
+      "id": "k-ambiente-010",
+      "candidato": "keiko",
+      "tema": "ambiente",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Modernizar el Sistema Nacional de Monitoreo Ambiental con estaciones en tiempo real en todas las regiones integradas a plataforma digital abierta.",
+      "cita_textual": "Modernización del Sistema Nacional de Monitoreo Ambiental con estaciones en tiempo real para medir calidad de aire, agua y emisiones en todas las regiones, integradas a una plataforma digital abierta",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.9 Desarrollo Sostenible o Ambiente, Propuestas",
+        "linea_inicio": 823,
+        "linea_fin": 823
+      }
+    },
+    {
+      "id": "k-ambiente-011",
+      "candidato": "keiko",
+      "tema": "ambiente",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Crear un Registro Nacional de Pasivos Ambientales actualizado y público con metas de remediación por sectores.",
+      "cita_textual": "Creación de un Registro Nacional de Pasivos Ambientales actualizado y público, con metas de remediación por sectores",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.9 Desarrollo Sostenible o Ambiente, Propuestas",
+        "linea_inicio": 823,
+        "linea_fin": 823
+      }
+    },
+    {
+      "id": "k-ambiente-012",
+      "candidato": "keiko",
+      "tema": "ambiente",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Impulsar la participación del Perú en mercados internacionales de bonos verdes y de carbono.",
+      "cita_textual": "Impulso de la participación del Perú en mercados internacionales de bonos verdes y de carbono, generando nuevas fuentes de financiamiento",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.9 Desarrollo Sostenible o Ambiente, Propuestas",
+        "linea_inicio": 823,
+        "linea_fin": 823
+      }
+    },
+    {
+      "id": "k-ambiente-013",
+      "candidato": "keiko",
+      "tema": "ambiente",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Implementar el Fondo Verde Amazónico con recursos iniciales de cooperación internacional y aportes privados para proyectos sostenibles alternativos.",
+      "cita_textual": "Implementación del Fondo Verde Amazónico, con recursos iniciales de cooperación internacional y aportes privados para financiar proyectos sostenibles alternativos",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.9 Desarrollo Sostenible o Ambiente, Primeros 100 días",
+        "linea_inicio": 823,
+        "linea_fin": 823
+      }
+    },
+    {
+      "id": "k-ambiente-014",
+      "candidato": "keiko",
+      "tema": "ambiente",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Crear el Registro Nacional de Pasivos Ambientales con información pública y georreferenciada para priorizar remediaciones.",
+      "cita_textual": "Creación del Registro Nacional de Pasivos Ambientales, con información pública y georreferenciada para priorizar remediaciones",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.9 Desarrollo Sostenible o Ambiente, Primeros 100 días",
+        "linea_inicio": 823,
+        "linea_fin": 823
+      }
+    },
+    {
+      "id": "k-ambiente-015",
+      "candidato": "keiko",
+      "tema": "ambiente",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Ejecutar operativos conjuntos MINAM-PNP-SUNAT en puntos críticos de tráfico de madera y fauna (Ucayali, Madre de Dios y Loreto).",
+      "cita_textual": "Ejecución de operativos conjuntos MINAM–PNP–SUNAT en puntos críticos de tráfico de madera y fauna (Ucayali, Madre de Dios y Loreto)",
+      "meta_cuantitativa": null,
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.9 Desarrollo Sostenible o Ambiente, Primeros 100 días",
+        "linea_inicio": 823,
+        "linea_fin": 823
+      }
+    },
+    {
+      "id": "k-ambiente-016",
+      "candidato": "keiko",
+      "tema": "ambiente",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Alcanzar tasa nacional de valorización del 40% y eliminar botaderos a cielo abierto en capitales provinciales al 2031.",
+      "cita_textual": "Alcanzar una tasa nacional de valorización del 40% y eliminar los botaderos a cielo abierto en las capitales provinciales del país.",
+      "meta_cuantitativa": "40% valorización + cero botaderos en capitales al 2031",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.9 Desarrollo Sostenible o Ambiente, Metas",
+        "linea_inicio": 827,
+        "linea_fin": 827
+      }
+    },
+    {
+      "id": "k-ambiente-017",
+      "candidato": "keiko",
+      "tema": "ambiente",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Reducir en 50% la deforestación ilegal en la Amazonía al 2031, priorizando titulación comunal, vigilancia forestal y proyectos productivos sostenibles.",
+      "cita_textual": "Reducir en 50% la deforestación ilegal en la Amazonía, priorizando titulación comunal, vigilancia forestal y proyectos productivos sostenibles.",
+      "meta_cuantitativa": "-50% deforestación ilegal amazónica al 2031",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.9 Desarrollo Sostenible o Ambiente, Metas",
+        "linea_inicio": 831,
+        "linea_fin": 831
+      }
+    },
+    {
+      "id": "k-ambiente-018",
+      "candidato": "keiko",
+      "tema": "ambiente",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Implementar plataformas de monitoreo ambiental en tiempo real en el 70% de las regiones al 2031.",
+      "cita_textual": "Implementar plataformas de monitoreo ambiental en tiempo real en el 70% de las regiones, impulsando gestión climática y finanzas verdes.",
+      "meta_cuantitativa": "70% regiones con monitoreo ambiental al 2031",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 2 — Económico, §2.9 Desarrollo Sostenible o Ambiente, Metas",
+        "linea_inicio": 836,
+        "linea_fin": 836
+      }
     }
   ]
 }
