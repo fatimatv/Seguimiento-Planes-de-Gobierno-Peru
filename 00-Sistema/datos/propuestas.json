@@ -1,0 +1,46 @@
+{
+  "candidatos": {
+    "keiko": {
+      "nombre": "Keiko Fujimori",
+      "partido": "Fuerza Popular",
+      "color": "#C0392B"
+    },
+    "roberto": {
+      "nombre": "Roberto Sánchez Palomino",
+      "partido": "Juntos por el Perú",
+      "color": "#2471A3"
+    }
+  },
+  "temas": [
+    { "id": "seguridad", "nombre": "Seguridad Ciudadana", "icono": "🔒" },
+    { "id": "corrupcion", "nombre": "Anticorrupción", "icono": "🛡️" },
+    { "id": "economia", "nombre": "Economía / Macroeconomía", "icono": "💰" },
+    { "id": "trabajo", "nombre": "Trabajo y Empleo", "icono": "💼" },
+    { "id": "mype", "nombre": "MYPE y Emprendimiento", "icono": "🏪" },
+    { "id": "mineria", "nombre": "Minería", "icono": "⛏️" },
+    { "id": "agricultura", "nombre": "Agricultura", "icono": "🌾" },
+    { "id": "pesca", "nombre": "Pesca", "icono": "🐟" },
+    { "id": "energia", "nombre": "Energía", "icono": "⚡" },
+    { "id": "transporte", "nombre": "Transporte e Infraestructura", "icono": "🚧" },
+    { "id": "turismo", "nombre": "Turismo", "icono": "🏞️" },
+    { "id": "industria", "nombre": "Industria", "icono": "🏭" },
+    { "id": "ambiente", "nombre": "Ambiente / Desarrollo Sostenible", "icono": "🌳" },
+    { "id": "educacion", "nombre": "Educación", "icono": "📚" },
+    { "id": "salud", "nombre": "Salud", "icono": "🏥" },
+    { "id": "vivienda", "nombre": "Vivienda", "icono": "🏠" },
+    { "id": "agua", "nombre": "Agua y Saneamiento", "icono": "💧" },
+    { "id": "pensiones", "nombre": "Pensiones / Programas Sociales", "icono": "👵" },
+    { "id": "deporte", "nombre": "Deporte", "icono": "⚽" },
+    { "id": "justicia", "nombre": "Sistema de Justicia", "icono": "⚖️" },
+    { "id": "orden_juridico", "nombre": "Orden Jurídico / Seguridad Jurídica", "icono": "📜" },
+    { "id": "exterior", "nombre": "Relaciones Exteriores", "icono": "🌎" },
+    { "id": "constitucion", "nombre": "Reforma Constitucional / Institucional", "icono": "🏛️" },
+    { "id": "indigenas", "nombre": "Pueblos Indígenas y DDHH", "icono": "🪶" },
+    { "id": "genero", "nombre": "Género e Inclusión", "icono": "🤝" },
+    { "id": "cti", "nombre": "Ciencia, Tecnología e Innovación", "icono": "🔬" },
+    { "id": "juventud", "nombre": "Juventud", "icono": "🧑‍🎓" },
+    { "id": "cultura", "nombre": "Cultura", "icono": "🎭" },
+    { "id": "peruanos_exterior", "nombre": "Peruanos en el Extranjero", "icono": "✈️" }
+  ],
+  "propuestas": []
+}
