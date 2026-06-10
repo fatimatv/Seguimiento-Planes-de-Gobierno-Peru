@@ -1,0 +1,27 @@
+{
+  "debates": [
+    {
+      "id": "debate-1",
+      "fecha": "PENDIENTE-CONFIRMAR",
+      "organizador": "PENDIENTE-CONFIRMAR",
+      "formato": "cara-a-cara",
+      "archivo_fuente": "02-Debates/raw/Debate 1.txt"
+    },
+    {
+      "id": "debate-2",
+      "fecha": "PENDIENTE-CONFIRMAR",
+      "organizador": "PENDIENTE-CONFIRMAR",
+      "formato": "equipos-tecnicos",
+      "archivo_fuente": "02-Debates/raw/Debate 2.txt",
+      "bloques": [
+        "reforma-estado",
+        "juventud-deporte",
+        "agricultura-ambiente",
+        "infraestructura",
+        "economia-empleo",
+        "salud"
+      ]
+    }
+  ],
+  "declaraciones": []
+}

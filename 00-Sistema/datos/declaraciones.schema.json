@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Declaraciones — Brain Político Perú",
+  "type": "object",
+  "required": ["debates", "declaraciones"],
+  "additionalProperties": false,
+  "properties": {
+    "debates": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/debate" }
+    },
+    "declaraciones": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/declaracion" }
+    }
+  },
+  "$defs": {
+    "debate": {
+      "type": "object",
+      "required": ["id", "fecha", "organizador", "formato", "archivo_fuente"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^debate-[0-9]+$" },
+        "fecha": { "type": "string" },
+        "organizador": { "type": "string" },
+        "formato": { "enum": ["cara-a-cara", "equipos-tecnicos"] },
+        "archivo_fuente": { "type": "string" },
+        "bloques": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "declaracion": {
+      "type": "object",
+      "required": ["id", "debate_id", "candidato", "tema", "tipo", "texto", "cita_textual", "fuente"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^debate-[0-9]+-[kr]-[0-9]{3}$" },
+        "debate_id": { "type": "string", "pattern": "^debate-[0-9]+$" },
+        "candidato": { "enum": ["keiko", "roberto"] },
+        "vocero": { "type": ["string", "null"] },
+        "tema": { "type": "string" },
+        "tipo": { "enum": ["propuesta", "diagnostico", "ataque", "defensa", "cifra", "compromiso", "evasion", "principio"] },
+        "texto": { "type": "string", "minLength": 10 },
+        "cita_textual": { "type": "string", "minLength": 5 },
+        "contexto": { "type": ["string", "null"] },
+        "fuente": {
+          "type": "object",
+          "required": ["archivo", "linea_inicio", "linea_fin"],
+          "properties": {
+            "archivo": { "type": "string" },
+            "linea_inicio": { "type": "integer", "minimum": 1 },
+            "linea_fin": { "type": "integer", "minimum": 1 }
+          }
+        },
+        "timestamp": { "type": ["string", "null"] }
+      }
+    }
+  }
+}
