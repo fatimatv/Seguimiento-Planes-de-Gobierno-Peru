@@ -19,3 +19,8 @@ node_modules/
 
 # Build / despliegue (futuro)
 .vercel/
+
+# Variables de entorno y secretos
+.env
+.env.local
+.env.*.local
