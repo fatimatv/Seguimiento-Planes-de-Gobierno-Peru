@@ -7070,6 +7070,230 @@
         "seccion": "Pilar 3 — Social, §3.10 Peruanos en el Extranjero, Metas"
       },
       "meta_cuantitativa": "60% comunidades PEX cubiertas al 2031"
+    },
+    {
+      "id": "k-seguridad-036",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "principio",
+      "relevancia": "ALTA",
+      "texto": "Principio fundacional del plan: el orden es la condición previa para la inversión, el empleo y el bienestar. Sin orden no hay inversión, sin inversión no hay empleo, y sin empleo no hay bienestar.",
+      "cita_textual": "Porque sin orden no hay inversión, sin inversión no hay empleo, y sin empleo no hay bienestar.",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Mensaje de Keiko",
+        "linea_inicio": 21,
+        "linea_fin": 21
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-seguridad-037",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "principio",
+      "relevancia": "ALTA",
+      "texto": "Compromiso de gobierno: dar a los peruanos orden para vivir, trabajar, emprender e invertir, con un Estado que funcione, proteja a los vulnerables y facilite oportunidades, fundado en el respeto a la ley.",
+      "cita_textual": "darles a los peruanos orden para vivir, trabajar, emprender e invertir. Un Estado que funcione, que llegue a tiempo, que proteja a los más vulnerables y que facilite oportunidades para todos. Ese orden nace del respeto a la ley",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Mensaje de Keiko",
+        "linea_inicio": 23,
+        "linea_fin": 23
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-economia-016",
+      "candidato": "keiko",
+      "tema": "economia",
+      "tipo": "principio",
+      "relevancia": "ALTA",
+      "texto": "Principio ideológico: economía social de mercado como condición para el desarrollo integral y armónico, acompañada de una acción rectora y rectificadora del Estado para atenuar necesidades y desigualdades. Lema fundamental: 'Gobernar con el Pueblo y para el Pueblo'.",
+      "cita_textual": "Fuerza Popular propugna una economía social de mercado como condición para un desarrollo integral y armónico, acompañada de la acción rectora y rectificadora del Estado para atenuar las profundas necesidades y desigualdades existentes en nuestro país",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Ideario de Fuerza Popular — Principios",
+        "linea_inicio": 105,
+        "linea_fin": 105
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-economia-017",
+      "candidato": "keiko",
+      "tema": "economia",
+      "tipo": "principio",
+      "relevancia": "ALTA",
+      "texto": "Convicción en un Estado austero, constructivo, promotor, eficiente, eficaz e innovador, con visión pragmática y gobierno edificador basado en obras concretas y reformas profundas.",
+      "cita_textual": "Fuerza Popular reafirma su convicción en un Estado austero, constructivo, promotor, eficiente, eficaz e innovador, con una visión pragmática que se plasme en un gobierno edificador y creador sustentado en obras concretas, reformas profundas y reales",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Ideario de Fuerza Popular — Principios",
+        "linea_inicio": 105,
+        "linea_fin": 105
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-seguridad-038",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "principio",
+      "relevancia": "ALTA",
+      "texto": "La vocación por la paz, la seguridad, el orden y el desarrollo nacional son los pilares del bienestar de la persona humana, esencia, origen y fin de todas las acciones políticas del Estado.",
+      "cita_textual": "Fuerza Popular es un partido político en el que la vocación por la paz, la seguridad, el orden y el desarrollo nacional constituyen los pilares del bienestar de la persona humana, esencia, origen y fin de todas las acciones políticas que el Estado realice.",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Ideario de Fuerza Popular — Principios",
+        "linea_inicio": 105,
+        "linea_fin": 105
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-educacion-022",
+      "candidato": "keiko",
+      "tema": "educacion",
+      "tipo": "principio",
+      "relevancia": "ALTA",
+      "texto": "Decálogo #2: los padres son los responsables de la educación de sus hijos por obligación y derecho; el Estado participa de manera subsidiaria respetando la libertad de definir los alcances. La ciencia y tecnología son impulsadores del desarrollo.",
+      "cita_textual": "Los padres, por obligación y derecho, se encargan de la educación de sus hijos. El Estado participa de manera subsidiaria respetando la libertad de definir los alcances elegidos por ellos.",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Ideario de Fuerza Popular — Decálogo, punto 2",
+        "linea_inicio": 107,
+        "linea_fin": 107
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-orden_juridico-009",
+      "candidato": "keiko",
+      "tema": "orden_juridico",
+      "tipo": "principio",
+      "relevancia": "ALTA",
+      "texto": "Decálogo #3: igualdad ante la ley y rechazo de todo tipo de discriminación, incluyendo manifestaciones de origen, religión, política, orientación sexual, discapacidad o contra cualquier minoría.",
+      "cita_textual": "Igualdad ante la ley y rechazo de todo tipo de discriminación. Esto incluye sus manifestaciones más lesivas como las de origen, religión, política, orientación sexual, discapacidad o contra cualquier minoría.",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Ideario de Fuerza Popular — Decálogo, punto 3",
+        "linea_inicio": 107,
+        "linea_fin": 107
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-orden_juridico-010",
+      "candidato": "keiko",
+      "tema": "orden_juridico",
+      "tipo": "principio",
+      "relevancia": "ALTA",
+      "texto": "Decálogo #7: defensa de la seguridad jurídica para todos, sustentada en la igualdad, la propiedad, el debido proceso y la independencia de poderes.",
+      "cita_textual": "Defendemos la seguridad jurídica para todos. La igualdad, la propiedad, el debido proceso y la independencia de poderes son el sustento de ello.",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Ideario de Fuerza Popular — Decálogo, punto 7",
+        "linea_inicio": 109,
+        "linea_fin": 109
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-economia-018",
+      "candidato": "keiko",
+      "tema": "economia",
+      "tipo": "principio",
+      "relevancia": "ALTA",
+      "texto": "Decálogo #8: capitalismo popular fundamentado en la economía social de mercado. Libre mercado sí, pero impulsando la economía solidaria y protegiendo a quienes están en situación desventajosa: trabajadores, MYPEs, agro, comuneros y consumidores.",
+      "cita_textual": "Capitalismo popular fundamentada en la economía social de mercado. Libre mercado sí, pero impulsando la economía solidaria y protegiendo a quienes están en una situación desventajosa: trabajadores, Mypes, el agro, comuneros y los consumidores.",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Ideario de Fuerza Popular — Decálogo, punto 8",
+        "linea_inicio": 109,
+        "linea_fin": 109
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-educacion-023",
+      "candidato": "keiko",
+      "tema": "educacion",
+      "tipo": "principio",
+      "relevancia": "ALTA",
+      "texto": "Decálogo #9: justa redistribución de las riquezas, en la que la educación es el gran movilizador social y los programas sociales permiten equiparar derechos.",
+      "cita_textual": "Creemos en la justa redistribución de las riquezas. Somos conscientes que, para ello, la educación es el gran movilizador social y que los programas sociales permiten equiparar los derechos de los peruanos.",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Ideario de Fuerza Popular — Decálogo, punto 9",
+        "linea_inicio": 109,
+        "linea_fin": 109
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-ambiente-019",
+      "candidato": "keiko",
+      "tema": "ambiente",
+      "tipo": "principio",
+      "relevancia": "ALTA",
+      "texto": "Decálogo #10: el Perú es un país megadiverso cuyo futuro es sostenible. Coexistencia de la inversión y el cuidado del ambiente, así como respeto a las comunidades nativas e indígenas.",
+      "cita_textual": "El Perú es un país megadiverso, cuyo futuro es sostenible.",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Ideario de Fuerza Popular — Decálogo, punto 10",
+        "linea_inicio": 109,
+        "linea_fin": 111
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-orden_juridico-011",
+      "candidato": "keiko",
+      "tema": "orden_juridico",
+      "tipo": "principio",
+      "relevancia": "ALTA",
+      "texto": "Visión del país al 2031: un Perú con Orden y sin corrupción, con instituciones sólidas, reglas claras, autoridades que rinden cuentas, y un Estado al servicio de la población, eficiente y orientado a resultados.",
+      "cita_textual": "Al 2031, el Perú será un Perú con Orden y sin corrupción, con instituciones sólidas, reglas claras y autoridades que rinden cuentas, y un Estado al servicio de la población, eficiente y orientado a resultados.",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Visión del País al 2031",
+        "linea_inicio": 117,
+        "linea_fin": 117
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-economia-019",
+      "candidato": "keiko",
+      "tema": "economia",
+      "tipo": "principio",
+      "relevancia": "ALTA",
+      "texto": "Visión 2031: un país que crece con estabilidad, impulsa la inversión privada y el emprendimiento, genera empleo digno y formal, y se consolida como destino confiable para vivir, trabajar, emprender e invertir.",
+      "cita_textual": "Un país que crece con estabilidad, impulsa la inversión privada y el emprendimiento, y genera empleo digno y formal. Un Perú integrado, donde todas las personas acceden a servicios públicos de calidad",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Visión del País al 2031",
+        "linea_inicio": 117,
+        "linea_fin": 117
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-corrupcion-016",
+      "candidato": "keiko",
+      "tema": "corrupcion",
+      "tipo": "principio",
+      "relevancia": "ALTA",
+      "texto": "Principio transversal de la visión 2031: construir un país libre de corrupción, con instituciones democráticas fortalecidas e igualdad de oportunidades en todo el territorio nacional.",
+      "cita_textual": "en un país libre de corrupción y con igualdad de oportunidades en todo el territorio nacional",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Visión del País al 2031",
+        "linea_inicio": 115,
+        "linea_fin": 115
+      },
+      "meta_cuantitativa": null
     }
   ]
 }
