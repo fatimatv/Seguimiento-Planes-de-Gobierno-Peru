@@ -23,5 +23,1519 @@
       ]
     }
   ],
-  "declaraciones": []
+  "declaraciones": [
+    {
+      "id": "debate-1-r-001",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "pensiones",
+      "tipo": "diagnostico",
+      "texto": "Cifras de pobreza, desnutrición infantil y violencia sexual contra niñas como diagnóstico de apertura.",
+      "cita_textual": "9 millones de peruanos vivan con pobreza extrema y exclusión, 1 millón de niños con desnutrición y anemia",
+      "contexto": "Apertura — palabras iniciales",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 11,
+        "linea_fin": 14
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-002",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "constitucion",
+      "tipo": "ataque",
+      "texto": "Caracteriza al Congreso liderado por Keiko Fujimori como 'dictadura congresal' a la que hay que poner fin.",
+      "cita_textual": "Hay que acabar con la dictadura congresal que dirige Keiko Fujimori",
+      "contexto": "Apertura — palabras iniciales",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 18,
+        "linea_fin": 20
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-001",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "economia",
+      "tipo": "principio",
+      "texto": "Visión-país: el Perú es un país emprendedor con bases económicas sólidas y solo necesita ordenarse.",
+      "cita_textual": "Somos el país más emprendedor del mundo. Tenemos las tierras más ricas y variadas, unas bases económicas sólidas",
+      "contexto": "Apertura — palabras iniciales",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 35,
+        "linea_fin": 38
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-002",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "seguridad",
+      "tipo": "compromiso",
+      "texto": "Compromiso a 5 años: dejar un país con más empleo y más seguridad si la eligen.",
+      "cita_textual": "Si los peruanos nos dan una oportunidad, en 5 años dejaremos un país con más empleo y con más seguridad",
+      "contexto": "Apertura — palabras iniciales",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 45,
+        "linea_fin": 47
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-003",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "seguridad",
+      "tipo": "diagnostico",
+      "texto": "Diagnóstico del país: extorsiones, alza del precio del pan, bodegas que no abren por miedo, dificultad para conseguir cita médica y falta de agua.",
+      "cita_textual": "Extorsiones, aumenta el precio del pan. El dinero cada vez alcanza menos. Hay más rejas en los barrios. Las bodegas no abren por miedo. Conseguir un turno médico es casi imposible",
+      "contexto": "Bloque 1 — ¿Por qué debería ser elegido presidente?",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 73,
+        "linea_fin": 78
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-004",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "economia",
+      "tipo": "principio",
+      "texto": "Dicotomía estratégica: orden vs caos como las dos opciones del país, asociando el caos a la fórmula Castillo-Sánchez-Santauro.",
+      "cita_textual": "Orden o caos. Estas son las dos opciones que tiene hoy nuestro país. Orden pollo más barato. Balones de gas a precio accesible",
+      "contexto": "Bloque 1 — ¿Por qué debería ser elegido presidente?",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 85,
+        "linea_fin": 88
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-003",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "educacion",
+      "tipo": "principio",
+      "texto": "Biografía como argumento: hijo de la educación pública y orgulloso egresado de la UNMSM como base de identificación con el pueblo peruano.",
+      "cita_textual": "Soy hijo de la educación pública. Estudié mi primaria en el 21009 y la secundaria en el Andrés de los Reyes",
+      "contexto": "Bloque 1 — ¿Por qué debería ser elegido presidente?",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 106,
+        "linea_fin": 109
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-004",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "justicia",
+      "tipo": "ataque",
+      "texto": "Imputa al fujimorismo (Fuerza Popular) el secuestro de la democracia y la corrosión del sistema de justicia durante más de 10 años.",
+      "cita_textual": "salvar nuestra democracia de las garras de quienes han secuestrado hace más de 10 años, subvertido el sistema de justicia, han corroído el país y ellos son Fuerza Popular",
+      "contexto": "Bloque 1 — ¿Por qué debería ser elegido presidente?",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 131,
+        "linea_fin": 137
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-005",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "seguridad",
+      "tipo": "diagnostico",
+      "texto": "Diagnóstico del 'mundo al revés': militares y policías perseguidos, vecinos enrejados, delincuentes libres; te matan por un celular y hay granadas en los colegios.",
+      "cita_textual": "Los militares y policías son perseguidos, los vecinos viven enrejados y los delincuentes libres",
+      "contexto": "Bloque 2 — Seguridad ciudadana",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 229,
+        "linea_fin": 232
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-006",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "texto": "Plan de pacificación nacional desde el primer día con policías y militares 24/7 en los buses de las áreas metropolitanas.",
+      "cita_textual": "Implementaremos el plan de pacificación nacional. Hoy los transportistas y los pasajeros sufren una doble extorsión",
+      "contexto": "Bloque 2 — Seguridad ciudadana",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 237,
+        "linea_fin": 245
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-007",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "texto": "Trabajo con entidades financieras y plataformas de pago para identificar, rastrear y bloquear el dinero de las extorsiones.",
+      "cita_textual": "Trabajaremos con las entidades financieras y las plataformas de pago para identificar, rastrear, bloquear el dinero de las extorsiones",
+      "contexto": "Bloque 2 — Seguridad ciudadana",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 247,
+        "linea_fin": 250
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-008",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "texto": "Expulsión inmediata de migrantes ilegales que cometan delitos y rastrillajes en zonas peligrosas.",
+      "cita_textual": "Expulsaremos inmediatamente a todos los migrantes ilegales que cometan delitos. Activaremos los rastrillajes en las zonas peligrosas",
+      "contexto": "Bloque 2 — Seguridad ciudadana",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 251,
+        "linea_fin": 254
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-009",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "texto": "Fuerzas armadas asumirán el control de las fronteras; ejemplo de la frontera con Ecuador con solo dos patrullas.",
+      "cita_textual": "Las fuerzas armadas asumirán el control de nuestras fronteras. Hoy, por ejemplo, en la frontera con Ecuador solo hay dos patrullas",
+      "contexto": "Bloque 2 — Seguridad ciudadana",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 259,
+        "linea_fin": 261
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-010",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "justicia",
+      "tipo": "cifra",
+      "texto": "Cifra de impunidad: de cada 10,000 denuncias solo cinco llegan a sentencia; en unidades de flagrancia el 91% llega a sentencia.",
+      "cita_textual": "Hoy de cada 10,000 denuncias solo cinco llegan a ser sentencia. En las unidades de flagrancia el 91% llegó a ser sentencia",
+      "contexto": "Bloque 2 — Seguridad ciudadana",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 268,
+        "linea_fin": 272
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-011",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "justicia",
+      "tipo": "propuesta",
+      "texto": "Unidades de flagrancia como piedra angular del sistema de justicia renovado, con casos de extorsión sentenciados en 4 días vs >1000 días en justicia ordinaria.",
+      "cita_textual": "las unidades de flagrancia se convertirán en una piedra angular de un sistema de justicia renovado",
+      "contexto": "Bloque 2 — Seguridad ciudadana",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 277,
+        "linea_fin": 280
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-012",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "texto": "Reforzar el sistema de inteligencia: la inteligencia derrotó al terrorismo y se volverá a usar contra la criminalidad.",
+      "cita_textual": "reforzaremos el sistema de inteligencia. La inteligencia derrotó al terrorismo y ahora la volveremos a usar para derrotar la criminalidad",
+      "contexto": "Bloque 2 — Seguridad ciudadana",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 280,
+        "linea_fin": 284
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-005",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "seguridad",
+      "tipo": "cifra",
+      "texto": "Siete peruanos mueren cada día por criminalidad; más de 100 choferes transportistas asesinados.",
+      "cita_textual": "siete peruanos mueren cada día producto de la criminalidad. Más de 100 chóeres transportistas han sido asesinados",
+      "contexto": "Bloque 2 — Seguridad ciudadana",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 295,
+        "linea_fin": 298
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-006",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "seguridad",
+      "tipo": "ataque",
+      "texto": "Imputa al Congreso (fujimorismo) la creación de 'leyes pro-crímenes' para limpiarse de juicios y sentencias, profundizando la inseguridad. Llama a Keiko 'la señora del caos con K'.",
+      "cita_textual": "una fuerza parlamentaria del Congreso para limpiarse de sus fechorías, juicios y sentencias ha subvertido el sistema de justicia y ha creado las leyes procrímenes",
+      "contexto": "Bloque 2 — Seguridad ciudadana",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 303,
+        "linea_fin": 310
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-007",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "texto": "Limpiar la PNP de malos elementos, profesionalizar con inteligencia, crear policía de investigaciones y pagar deuda social del 2% e incrementar sueldos.",
+      "cita_textual": "Hay que limpiar nuestra policía nacional de los malos elementos, recuperarlos profesionalizándolos, poniendo inteligencia para el servicio",
+      "contexto": "Bloque 2 — Seguridad ciudadana",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 313,
+        "linea_fin": 321
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-008",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "corrupcion",
+      "tipo": "propuesta",
+      "texto": "Reto público a Keiko: ¿está dispuesta a derogar las 'leyes pro-crímenes'? Necesidad de recuperar el sistema de justicia con consecuencia y acción.",
+      "cita_textual": "¿está dispuesta la señora Fujimori a derogar las leyes procrímenes? ¿Qué le dice al Perú? Necesitamos recuperar de verdad el sistema de justicia",
+      "contexto": "Bloque 2 — Seguridad ciudadana",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 330,
+        "linea_fin": 335
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-009",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "corrupcion",
+      "tipo": "propuesta",
+      "texto": "'Muerte civil' para funcionarios corruptos como sanción ejemplar contra la corrupción.",
+      "cita_textual": "lucha contra la corrupción venga, por ejemplo, con muerte civil para los funcionarios corruptos. muerte civil",
+      "contexto": "Bloque 2 — Seguridad ciudadana",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 336,
+        "linea_fin": 340
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-010",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "texto": "Convocatoria a fuerzas patrióticas: ronderos, sociedad civil y comunidades campesinas como aliados en la lucha por la seguridad como política de Estado.",
+      "cita_textual": "convocamos a las fuerzas patrióticas, a los ronderos, a la sociedad civil, comunidades campesinas, porque la seguridad ciudadana, la lucha para defender la vida es una política de estado",
+      "contexto": "Bloque 2 — Seguridad ciudadana",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 352,
+        "linea_fin": 358
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-013",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "texto": "Compromiso de 100 días: pedir facultades, implementar comisarías, comprar patrulleros; uso del sistema de flagrancia para condenas rápidas.",
+      "cita_textual": "Pensamos pedir además facultades para los 100 primeros días de gobierno, implementar las comisarías, comprar patrulleros",
+      "contexto": "Bloque 2 — Pregunta ciudadana sobre extorsión",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 418,
+        "linea_fin": 422
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-014",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "constitucion",
+      "tipo": "defensa",
+      "texto": "Defensa contra acusación de Roberto: 'Caos se escribe con C, con la C de Castillo'; Fuerza Popular solo tiene 20 de 130 congresistas.",
+      "cita_textual": "quiero decirle que Caos se escribe con C, con la C de Castillo. Y ustedes ya gobernaron. Fuerza Popular solo tiene 20 congresistas de 130",
+      "contexto": "Bloque 2 — Pregunta ciudadana sobre extorsión",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 423,
+        "linea_fin": 427
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-011",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "texto": "Reformar la ley para que las FFAA puedan, excepcionalmente, apoyar a la PNP en territorios coptados por la criminalidad y la extorsión.",
+      "cita_textual": "es importante hacer algunas reformas a la ley para que las fuerzas armadas excepcionalmente puedan venir en auxilio, en apoyo de la Policía Nacional",
+      "contexto": "Bloque 2 — Pregunta ciudadana sobre extorsión",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 434,
+        "linea_fin": 442
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-015",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "seguridad",
+      "tipo": "ataque",
+      "texto": "Ataque a Roberto: en sus filas tiene a Antauro Humala, 'asesino de policías', y en el último mitin de primera vuelta dijo que la lucha contra el crimen estará en sus manos.",
+      "cita_textual": "tiene usted en sus filas Antaurumala, asesino de policías. Usted el 8 de abril en el último miting de primera vuelta dijo lo siguiente",
+      "contexto": "Bloque 2 — Pregunta ciudadana sobre extorsión",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 458,
+        "linea_fin": 466
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-012",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "justicia",
+      "tipo": "ataque",
+      "texto": "Imputa a Keiko el archivamiento de la investigación de los más de 50 asesinatos durante las protestas de 2022-2023 con Dina Boluarte.",
+      "cita_textual": "más de 50 asesinatos, señora Keiko, que usted ha blindado, que no le ha importado la vida de más de 50 compatriotas con su socia Dina Boluarte",
+      "contexto": "Bloque 2 — Pregunta ciudadana sobre extorsión",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 469,
+        "linea_fin": 473
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-016",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "seguridad",
+      "tipo": "defensa",
+      "texto": "Defensa: Fuerza Popular promovió la Ley 32062 que protege a ciudadanos en legítima defensa y la Ley 32291 que defiende el uso de fuerza por la policía.",
+      "cita_textual": "La primera que fue promovida por nosotros, que protege a los ciudadanos en caso de legítima defensa frente a los delincuentes, la 3206",
+      "contexto": "Bloque 2 — Pregunta ciudadana sobre extorsión",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 492,
+        "linea_fin": 503
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-017",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "texto": "Modelo histórico: derrota al terrorismo combinando FFAA, PNP, rondas campesinas, comités de autodefensa y población organizada; aplicarlo a la criminalidad.",
+      "cita_textual": "Para poder combatir el terrorismo se fortaleció las fuerzas armadas, la policía nacional, se trabajó con las rondas campesinas, los comités autodefensa",
+      "contexto": "Bloque 2 — Cierre seguridad",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 566,
+        "linea_fin": 570
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-018",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "seguridad",
+      "tipo": "ataque",
+      "texto": "A Sánchez lo acompaña 'un asesino de policías'; ella estará acompañada por Marco Miyashiro y el general Astudillo, 'héroes nacionales'.",
+      "cita_textual": "Me acompañan además a mí dos héroes nacionales, Marco Millashiro y el general Astudillo. En cambio, al señor Sánchez lo acompaña un asesino de policías",
+      "contexto": "Bloque 2 — Cierre seguridad",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 573,
+        "linea_fin": 578
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-013",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "constitucion",
+      "tipo": "diagnostico",
+      "texto": "El régimen semipresidencialista ha sido subvertido de facto con medidas antidemocráticas como quitarle el derecho al referéndum al pueblo peruano.",
+      "cita_textual": "El régimen político de nuestro país semipresidencialista ha sido subvertido y modificado de facto",
+      "contexto": "Bloque 3 — Fortalecimiento del Estado Democrático y DDHH",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 665,
+        "linea_fin": 672
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-014",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "constitucion",
+      "tipo": "propuesta",
+      "texto": "Recuperar el derecho al referéndum y convocar a fuerzas patrióticas para restablecer el equilibrio y separación de poderes.",
+      "cita_textual": "el pueblo necesita recuperar el derecho al referéndum y nosotros estamos invocando a todas las fuerzas patrióticas democráticas para recuperar ese derecho",
+      "contexto": "Bloque 3 — Fortalecimiento del Estado Democrático y DDHH",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 696,
+        "linea_fin": 704
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-015",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "constitucion",
+      "tipo": "propuesta",
+      "texto": "Estado descentralizado e intercultural: descentralizar recursos presupuestales hasta centros poblados menores; afirmar el rostro andino-amazónico de la nación.",
+      "cita_textual": "vamos a también a descentralizar recursos presupuestales, por ejemplo, a los centros poblados menores",
+      "contexto": "Bloque 3 — Fortalecimiento del Estado Democrático y DDHH",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 710,
+        "linea_fin": 717
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-016",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "exterior",
+      "tipo": "propuesta",
+      "texto": "Fortalecer institucionalidad interamericana, Acuerdo de Escazú, Acuerdo Chapultepec y presencia en el Sistema Interamericano de DDHH.",
+      "cita_textual": "fortalecer la institucionalidad interamericana, el acuerdo de Escasú, el acuerdo Chapultepec",
+      "contexto": "Bloque 3 — Fortalecimiento del Estado Democrático y DDHH",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 724,
+        "linea_fin": 730
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-019",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "agua",
+      "tipo": "diagnostico",
+      "texto": "Diagnóstico: 45% de las familias no tienen títulos de propiedad ni agua potable; colegios, postas médicas y hospitales colapsados.",
+      "cita_textual": "45% de las familias no tienen títulos de propiedad ni agua potable",
+      "contexto": "Bloque 3 — Fortalecimiento del Estado Democrático y DDHH",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 747,
+        "linea_fin": 751
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-020",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "agua",
+      "tipo": "propuesta",
+      "texto": "Plan de agua: finalizar esquemas de agua y ramal sur de Lima; plantas desalinizadoras en costa; reservorios y cochas en sierra; pozos y sistemas potabilizadores en Amazonía.",
+      "cita_textual": "nos ocuparemos de los servicios básicos, el agua. En Lima finalizaremos los esquemas de agua, la construcción del ramal sur",
+      "contexto": "Bloque 3 — Fortalecimiento del Estado Democrático y DDHH",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 753,
+        "linea_fin": 760
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-021",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "vivienda",
+      "tipo": "compromiso",
+      "texto": "Meta: entregar 1 millón de títulos de propiedad en los próximos 5 años a través de Cofopri potenciado.",
+      "cita_textual": "Potenciaremos Cofopri. Cada hogar tiene que tener su título de propiedad y aspiramos que en los próximos 5 años entregaremos 1 millón de títulos",
+      "contexto": "Bloque 3 — Fortalecimiento del Estado Democrático y DDHH",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 762,
+        "linea_fin": 765
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-022",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "transporte",
+      "tipo": "propuesta",
+      "texto": "Programa Nacional de Interconexión Vial: cuando hay pistas y carreteras los agricultores sacan productos, los niños van a la escuela y el turismo crece.",
+      "cita_textual": "lanzaremos el programa nacional de interconexión vial. Nuestras carreteras están destruidas, los puentes no se construyen",
+      "contexto": "Bloque 3 — Fortalecimiento del Estado Democrático y DDHH",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 775,
+        "linea_fin": 780
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-023",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "ambiente",
+      "tipo": "propuesta",
+      "texto": "Obras de prevención ante el Fenómeno del Niño: limpieza de ríos, compra de maquinaria pesada, sistemas de regulación hídrica y reforestación.",
+      "cita_textual": "Para las inundaciones, trabajaremos en la limpieza de los ríos y la compra de maquinarias pesadas. Implementaremos sistemas de regulación hídrica",
+      "contexto": "Bloque 3 — Fortalecimiento del Estado Democrático y DDHH",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 789,
+        "linea_fin": 793
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-017",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "indigenas",
+      "tipo": "principio",
+      "texto": "Lucha contra la discriminación como política de Estado; reconocer la diversidad y la interculturalidad; el Perú es un pueblo de todas las sangres.",
+      "cita_textual": "la lucha contra la discriminación tiene que ser una política de estado porque es una condición mínima de un estado con cohesión",
+      "contexto": "Bloque 3 — Pregunta ciudadana sobre discriminación, racismo y homofobia",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 833,
+        "linea_fin": 845
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-024",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "educacion",
+      "tipo": "propuesta",
+      "texto": "Prevenir discriminación mejorando la currícula escolar; combatir la ausencia del Estado en poblaciones alejadas, especialmente en la Amazonía.",
+      "cita_textual": "esto se tiene que prevenir primero a través de la educación. Eh, la currícula escolar tiene que ser mejorada",
+      "contexto": "Bloque 3 — Pregunta ciudadana sobre discriminación, racismo y homofobia",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 860,
+        "linea_fin": 864
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-018",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "justicia",
+      "tipo": "ataque",
+      "texto": "Imputa impunidad por los 56 asesinados en el sur en las protestas; el Congreso ha secundado esa impunidad bajo el liderazgo de Keiko.",
+      "cita_textual": "como hoy 56 asesinados en el sur, ¿de qué ¿De qué igualdad? ¿De qué cero discriminación se está hablando?",
+      "contexto": "Bloque 3 — Pregunta ciudadana sobre discriminación, racismo y homofobia",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 884,
+        "linea_fin": 893
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-025",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "transporte",
+      "tipo": "compromiso",
+      "texto": "Compromisos viales: Panamericana 4 vías de Trujillo a Tumbes y de Ica a Tacna; Carretera Libertadores asfaltada; cuatro carreteras de penetración hacia el centro.",
+      "cita_textual": "de Trujillo hacia Tumbes y de Ica hacia Tacna tengamos la Panamericana de cuatro vías. La carretera Libertadores tiene que ser asfaltada",
+      "contexto": "Bloque 3 — Pregunta ciudadana sobre discriminación, racismo y homofobia",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 904,
+        "linea_fin": 914
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-019",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "exterior",
+      "tipo": "compromiso",
+      "texto": "Firme compromiso con el Sistema Interamericano de DDHH y el Pacto de San José de Costa Rica; en Juntos por el Perú no se corre frente a los DDHH.",
+      "cita_textual": "El Perú necesita un firme compromiso ante el sistema interamericano de derechos humanos. En Juntos por el Perú no nos corremos de derechos humanos",
+      "contexto": "Bloque 3 — Pregunta ciudadana sobre discriminación, racismo y homofobia",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 924,
+        "linea_fin": 932
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-020",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "constitucion",
+      "tipo": "principio",
+      "texto": "El Perú necesita un Estado democrático, descentralizado y cercano a la gente, con políticas de Estado que hagan de la salud y la vivienda derechos fundamentales.",
+      "cita_textual": "convocamos a todas las fuerzas a ese consenso para tener un estado democrático, descentralizado, amigo, con políticas de estado donde la salud, la vivienda sean derechos fundamentales",
+      "contexto": "Bloque 3 — Cierre Estado y DDHH",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 994,
+        "linea_fin": 1002
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-026",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "constitucion",
+      "tipo": "compromiso",
+      "texto": "Convocatoria a inscribir personeros en Fuerza Popular y en el otro grupo político; los observadores internacionales serán claves para fortalecer la democracia.",
+      "cita_textual": "hacemos esta convocatoria para que todos los ciudadanos se inscriban como personeros, no solamente en Fuerza Popular, también en el otro grupo político",
+      "contexto": "Bloque 3 — Cierre Estado y DDHH",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1018,
+        "linea_fin": 1024
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-027",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "salud",
+      "tipo": "cifra",
+      "texto": "Vía crucis del paciente oncológico: 45 días para primera cita con especialista, 75 días para tomografía o biopsia, 37 días para resultados y casi 6 meses para iniciar tratamiento.",
+      "cita_textual": "45 días para una primera cita con un especialista. 75 días para una primera tomografía o biopsia. 37 días para tener los resultados",
+      "contexto": "Bloque 4 — Educación y Salud",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1058,
+        "linea_fin": 1063
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-028",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "salud",
+      "tipo": "cifra",
+      "texto": "46% de niños sufren anemia, perdiendo para siempre parte de su capacidad para aprender.",
+      "cita_textual": "46% de nuestros niños sufren de anemia, perdiendo para siempre parte de su capacidad para aprender",
+      "contexto": "Bloque 4 — Educación y Salud",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1063,
+        "linea_fin": 1066
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-029",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "salud",
+      "tipo": "propuesta",
+      "texto": "Implementar telemedicina en todo el país y fortalecer el fondo para enfermedades de alto costo con cobertura a tratamientos de cáncer.",
+      "cita_textual": "Vamos a implementar telemedicina en todo el país, no más tiempos de espera",
+      "contexto": "Bloque 4 — Educación y Salud",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1068,
+        "linea_fin": 1077
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-030",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "salud",
+      "tipo": "propuesta",
+      "texto": "Plan gratuito para los primeros 1,000 días para proteger a la primera infancia, a la madre y combatir la anemia.",
+      "cita_textual": "Crearemos el plan gratuito en los primeros 1000 días. para proteger a la primera infancia, a la madre y así combatir la anemia",
+      "contexto": "Bloque 4 — Educación y Salud",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1078,
+        "linea_fin": 1081
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-031",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "educacion",
+      "tipo": "compromiso",
+      "texto": "Meta: construir y repotenciar 5,000 colegios con todos los servicios básicos y acceso a internet; siete de cada 10 colegios no tienen los tres servicios básicos.",
+      "cita_textual": "Construiremos y repotenciaremos 5000 colegios con todos los servicios básicos y acceso a internet",
+      "contexto": "Bloque 4 — Educación y Salud",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1085,
+        "linea_fin": 1087
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-032",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "educacion",
+      "tipo": "compromiso",
+      "texto": "Entregar 5 millones de kits escolares con mochilas, útiles, buzos y calzados hechos por las MYPE peruanas.",
+      "cita_textual": "Entregaremos 5 millones de kits escolares con mochilas, útiles, buzos, calzados hechos por nuestras MIPES",
+      "contexto": "Bloque 4 — Educación y Salud",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1088,
+        "linea_fin": 1093
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-033",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "pensiones",
+      "tipo": "propuesta",
+      "texto": "Recuperar el Pronaa para garantizar alimentación escolar de calidad con compras directas a productores locales.",
+      "cita_textual": "Recuperaremos el prona para garantizar alimentación escolar de calidad con compras directas a los productores locales",
+      "contexto": "Bloque 4 — Educación y Salud",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1094,
+        "linea_fin": 1098
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-034",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "educacion",
+      "tipo": "compromiso",
+      "texto": "Cumplir con la ley aprobada para saldar la deuda social a los maestros; defender al gremio, incluida la Derrama.",
+      "cita_textual": "vamos a cumplir con la ley aprobada para saldar la deuda social. A su vez, vamos a defender a su gremio, incluida a la derrama",
+      "contexto": "Bloque 4 — Educación y Salud",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1101,
+        "linea_fin": 1106
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-035",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "educacion",
+      "tipo": "compromiso",
+      "texto": "Duplicar y ampliar las becas para estudios técnicos requeridos por el mercado.",
+      "cita_textual": "Para nuestros jóvenes duplicaremos becapliaremos las becas a estudios técnicos requeridos por el mercado",
+      "contexto": "Bloque 4 — Educación y Salud",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1107,
+        "linea_fin": 1109
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-021",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "educacion",
+      "tipo": "cifra",
+      "texto": "De cada 10 jóvenes que debieran ingresar a la universidad solo tres lo logran; 400,000 jóvenes egresan de secundaria sin acceso al derecho.",
+      "cita_textual": "De cada 10 jóvenes en el Perú que debieran ingresar a la universidad, solamente tres lo logran. 400,000 jóvenes egresan de la secundaria",
+      "contexto": "Bloque 4 — Educación y Salud",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1132,
+        "linea_fin": 1136
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-022",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "educacion",
+      "tipo": "principio",
+      "texto": "Convertir el derecho al ingreso a la universidad en un derecho libre y universal de manera estratificada.",
+      "cita_textual": "logrando y convirtiendo al derecho al ingreso a la universidad como un derecho libre universal",
+      "contexto": "Bloque 4 — Educación y Salud",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1149,
+        "linea_fin": 1153
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-023",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "educacion",
+      "tipo": "propuesta",
+      "texto": "Reconocer la deuda social de los maestros; piso mínimo de una UIT para maestros y homologación docente para maestros de educación superior.",
+      "cita_textual": "Tenemos que reconocer su deuda social que hasta ahora no se le paga. No puede ver un maestro que no gane mínimo una OIT en su piso de escala",
+      "contexto": "Bloque 4 — Educación y Salud",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1156,
+        "linea_fin": 1162
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-024",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "salud",
+      "tipo": "compromiso",
+      "texto": "Garantizar atención gratuita en primer nivel; construir 500 policlínicos para acceso; brigadas de salud al campo; un psicólogo por colegio.",
+      "cita_textual": "garantizar la atención gratuita en el primer nivel de atención. 500 policlínicos de Podemos hacer",
+      "contexto": "Bloque 4 — Educación y Salud",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1176,
+        "linea_fin": 1183
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-025",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "salud",
+      "tipo": "compromiso",
+      "texto": "Duplicar los Centros de Salud Mental Comunitarios y priorizar la salud mental como política de Estado.",
+      "cita_textual": "Debemos duplicar los centros de salud mental comunitarios. Yo soy psicólogo",
+      "contexto": "Bloque 4 — Educación y Salud",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1184,
+        "linea_fin": 1188
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-026",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "salud",
+      "tipo": "compromiso",
+      "texto": "Salud y educación como derechos fundamentales: inversión mínima 6% del PIB en educación; pasar de 6% al 9% en salud durante el periodo de gobierno.",
+      "cita_textual": "La educación no debe tener menos del 6% del PIB como aportación a la inversión. y en salud debemos ir escalados del 6 al 9 en nuestro periodo de gobierno",
+      "contexto": "Bloque 4 — Educación y Salud",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1193,
+        "linea_fin": 1198
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-027",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "economia",
+      "tipo": "cifra",
+      "texto": "Cifras tributarias: evasión de impuestos del 9% del PIB (>S/ 90,000 millones anuales); presión tributaria peruana del 14% vs 22% en Latam.",
+      "cita_textual": "9% del PIB. Es increíble. Más de 90,000 millones de soles por año en evasión y elusión",
+      "contexto": "Bloque 4 — Pregunta ciudadana sobre universidades públicas y SUNEDU",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1239,
+        "linea_fin": 1245
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-028",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "economia",
+      "tipo": "propuesta",
+      "texto": "Reforma tributaria profunda con visión solidaria para financiar programas sociales, salud y educación.",
+      "cita_textual": "necesitamos una profunda reforma tributaria con visión solidaria. Allí hay una oportunidad de cambio y lo vamos a hacer",
+      "contexto": "Bloque 4 — Pregunta ciudadana sobre universidades públicas y SUNEDU",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1246,
+        "linea_fin": 1251
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-036",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "educacion",
+      "tipo": "compromiso",
+      "texto": "20,000 becas adicionales a jóvenes a través del programa Beca 18, financiadas reordenando gastos como los de Petroperú.",
+      "cita_textual": "más de 20,000 becas a los jóvenes a través del programa Beca1",
+      "contexto": "Bloque 4 — Pregunta ciudadana sobre universidades públicas y SUNEDU",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1255,
+        "linea_fin": 1263
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-029",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "salud",
+      "tipo": "propuesta",
+      "texto": "Basta el DNI para el intercambio prestacional en los tres sistemas de salud.",
+      "cita_textual": "en salud debe de bastar el DNI para el intercambio prestacional en los tres sistemas de salud",
+      "contexto": "Bloque 4 — Pregunta ciudadana sobre universidades públicas y SUNEDU",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1281,
+        "linea_fin": 1284
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-030",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "deporte",
+      "tipo": "propuesta",
+      "texto": "Aprovechar la ley que grava con impuestos las apuestas deportivas a distancia: más de S/ 100 millones para priorizar salud mental.",
+      "cita_textual": "Con la ley que ahora graba con impuestos a las apuestas deportivas, se tiene más de 100 millones de soles para poder priorizar la atención en salud mental",
+      "contexto": "Bloque 4 — Pregunta ciudadana sobre universidades públicas y SUNEDU",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1411,
+        "linea_fin": 1415
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-031",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "salud",
+      "tipo": "compromiso",
+      "texto": "Rehabilitación integral de niños y niñas víctimas de violencia sexual como política de Estado y deuda social.",
+      "cita_textual": "La violencia sexual a niños, niñas, debe de ser asumido como una política de estado para rehabilitar integralmente",
+      "contexto": "Bloque 4 — Pregunta ciudadana sobre universidades públicas y SUNEDU",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1417,
+        "linea_fin": 1421
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-032",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "salud",
+      "tipo": "ataque",
+      "texto": "Cierra recordando que el Perú no debe volver a las esterilizaciones masivas, 'vergonzoso legado del gobierno de Fujimori'.",
+      "cita_textual": "Nunca más un gobierno debe de caminar por las esterilizaciones masivas, que es un triste vergonzoso legado del gobierno de Fujimori",
+      "contexto": "Bloque 4 — Pregunta ciudadana sobre universidades públicas y SUNEDU",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1422,
+        "linea_fin": 1426
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-037",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "pensiones",
+      "tipo": "compromiso",
+      "texto": "Bono de reconocimiento de S/ 500 mensuales a las mamitas de los clubes de madre, comedores populares y ollas comunes; recuperar el Pronaa para desayunos y almuerzos escolares de calidad.",
+      "cita_textual": "A ustedes les vamos a dar un bono de reconocimiento, 500 soles mensuales",
+      "contexto": "Bloque 4 — Pregunta ciudadana sobre universidades públicas y SUNEDU",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1395,
+        "linea_fin": 1400
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-033",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "trabajo",
+      "tipo": "cifra",
+      "texto": "Canasta básica familiar debiera ser S/ 1,814 pero la RMV está en S/ 1,130; injusticia que se mitigará subiendo S/ 15 la RMV.",
+      "cita_textual": "La canasta básica familiar por el precio de los combustibles, la inflación debiera estar hoy día, por lo menos para mitigar en 1814 soles. ¿Y cuánto está la remuneración mínima vital? 1130",
+      "contexto": "Bloque 5 — Economía, empleo y reducción de la pobreza",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1461,
+        "linea_fin": 1466
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-034",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "mype",
+      "tipo": "compromiso",
+      "texto": "Fondo de S/ 15,000 millones para crédito barato con garantías y asistencia técnica para emprendedores, especialmente para la mujer emprendedora y microempresarios.",
+      "cita_textual": "vamos a formar un fondo de 15,000 millones de soles para crédito accesible de verdad, crédito barato con garantías",
+      "contexto": "Bloque 5 — Economía, empleo y reducción de la pobreza",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1475,
+        "linea_fin": 1481
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-035",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "pensiones",
+      "tipo": "compromiso",
+      "texto": "Reforzar Programa Juntos también para ciudades; en el primer año al menos 1 millón de familias con pensión contra la pobreza priorizando a la mujer cabeza de hogar.",
+      "cita_textual": "En el primer año, no menos de 1 millón de familias van a ser reconocidas con una pensión para luchar contra la pobreza",
+      "contexto": "Bloque 5 — Economía, empleo y reducción de la pobreza",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1494,
+        "linea_fin": 1502
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-036",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "economia",
+      "tipo": "defensa",
+      "texto": "Defensa contra el 'relato del miedo': no son comunistas, no expropiarán ahorros, respetarán autonomía del BCR y mantendrán a Julio Velarde.",
+      "cita_textual": "Nosotros no somos ni comunistas. Nosotros creemos en el trabajo, en el derecho a crecer, a tener riqueza",
+      "contexto": "Bloque 5 — Economía, empleo y reducción de la pobreza",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1505,
+        "linea_fin": 1518
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-037",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "industria",
+      "tipo": "propuesta",
+      "texto": "Industrializar y tecnificar el país para generar valor agregado; integrar pequeña agricultura y clusters como Gamarra a cadenas de valor.",
+      "cita_textual": "Si no industrializamos el país, seguiremos vendiendo piedras. Qué gran minería que vende piedras",
+      "contexto": "Bloque 5 — Economía, empleo y reducción de la pobreza",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1523,
+        "linea_fin": 1530
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-038",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "economia",
+      "tipo": "principio",
+      "texto": "La pobreza no se reduce con discursos, se reduce con empleo; cuando hubo estabilidad, inversión y empleo, millones salieron de la pobreza.",
+      "cita_textual": "La pobreza no se reduce con discursos, se reduce con empleo. El Perú ya lo demostró",
+      "contexto": "Bloque 5 — Economía, empleo y reducción de la pobreza",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1538,
+        "linea_fin": 1542
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-039",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "economia",
+      "tipo": "propuesta",
+      "texto": "Cuatro pilares: seguridad jurídica con autonomía del BCR; eliminar trabas reformando SUNAT y SUNAFIL; reactivar Promype; destrabar grandes proyectos.",
+      "cita_textual": "Para volver a crecer necesitamos un estado que haga cuatro cosas fundamentales. Primero, dar seguridad jurídica",
+      "contexto": "Bloque 5 — Economía, empleo y reducción de la pobreza",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1549,
+        "linea_fin": 1558
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-040",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "transporte",
+      "tipo": "compromiso",
+      "texto": "Destrabar grandes proyectos paralizados: Carretera Central, Aeropuerto Chinchero, represas, líneas de Metro 3-6, Tren Lima-Barranca, Gasoducto Surandino, Majes 2.",
+      "cita_textual": "destrabaremos los grandes proyectos paralizados. Carretera central, Aeropuerto Chinchero, las represas de Pocho y Chavimoc 3, líneas de metros 3, 4, 5 y 6",
+      "contexto": "Bloque 5 — Economía, empleo y reducción de la pobreza",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1565,
+        "linea_fin": 1573
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-041",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "energia",
+      "tipo": "propuesta",
+      "texto": "Reactivar el fondo de estabilización de combustibles para garantizar un precio estable.",
+      "cita_textual": "reactivaremos el fondo de estabilización, garantizando un precio estable",
+      "contexto": "Bloque 5 — Economía, empleo y reducción de la pobreza",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1581,
+        "linea_fin": 1583
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-042",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "mype",
+      "tipo": "compromiso",
+      "texto": "Para la pequeña empresa: tributación cero los tres primeros años, licencia cero con una sola declaración jurada y créditos blandos garantizados por el Estado.",
+      "cita_textual": "para ellos decimos tributación cero, los tres primeros años, licencia cero, con una sola declaración jurada podrás abrir tu negocio",
+      "contexto": "Bloque 5 — Pregunta ciudadana sobre formalización MYPE",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1625,
+        "linea_fin": 1632
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-038",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "economia",
+      "tipo": "ataque",
+      "texto": "Imputa al modelo el ser el 'más salvaje neoliberalismo de América Latina', con monopolios y oligopolios; no es economía social de mercado.",
+      "cita_textual": "Aquí hay un régimen en los medicamentos oligopolios. monopolios, no hay economía social de mercado, es un régimen el más salvaje, neoliberalismo de América Latina",
+      "contexto": "Bloque 5 — Pregunta ciudadana sobre formalización MYPE",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1654,
+        "linea_fin": 1660
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-039",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "agricultura",
+      "tipo": "compromiso",
+      "texto": "Segunda Reforma Agraria para tecnificar a la pequeña agricultura; 2 millones de predios agrícolas abandonados.",
+      "cita_textual": "una segunda reforma agraria para tecnificar precisamente la pequeña agricultura. 2,000ones de predios agrícolas abandonados",
+      "contexto": "Bloque 5 — Pregunta ciudadana sobre formalización MYPE",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1691,
+        "linea_fin": 1695
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-043",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "economia",
+      "tipo": "compromiso",
+      "texto": "Equipo económico con Carranza (exministro de Economía), Neuhaus (infraestructura) y Rafael Belaunde (minería); meta: pasar del 3% al 6% de crecimiento al fin del mandato.",
+      "cita_textual": "Con ellos nosotros vamos a nuevamente impulsar las cifras de crecimiento que hoy están en cerca de 3% y los dejaremos al culminar nuestro mandato en cifras del 6%",
+      "contexto": "Bloque 5 — Pregunta ciudadana sobre formalización MYPE",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1712,
+        "linea_fin": 1716
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-040",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "transporte",
+      "tipo": "compromiso",
+      "texto": "Promover inversión: megapuerto de Chancay, tren bioceánico y carreteras para circular la Carretera Central como infraestructura para generar empleo.",
+      "cita_textual": "Nosotros promoveremos inversión, megapuerto de Chancay, el tren bioceánico, carreteras para circular la carretera central",
+      "contexto": "Bloque 5 — Pregunta ciudadana sobre formalización MYPE",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1738,
+        "linea_fin": 1741
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-044",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "agricultura",
+      "tipo": "compromiso",
+      "texto": "Apoyo al pequeño agricultor: Foncodes y Pronamachs para reservorios y canales; semillas mejoradas, riego tecnificado y tractores; Pronaa repotenciado para comprar sobreproducción.",
+      "cita_textual": "volverán los programas de Foncodes Pronamach para la construcción de reservorios, canales de irrigación",
+      "contexto": "Bloque 5 — Economía, empleo y reducción de la pobreza",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1804,
+        "linea_fin": 1815
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-045",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "turismo",
+      "tipo": "compromiso",
+      "texto": "Meta: que el Perú vuelva a tener 5 millones de turistas; impulsar el turismo nacional y promover el presupuesto de PromPerú.",
+      "cita_textual": "Nuestra meta es que el Perú vuelva a tener 5 millones de turistas",
+      "contexto": "Bloque 5 — Pregunta ciudadana sobre formalización MYPE",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1762,
+        "linea_fin": 1767
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-041",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "constitucion",
+      "tipo": "ataque",
+      "texto": "En 2011, 2016 y 2021 el Perú le cerró filas al fujimorismo y a su legado de horror; convocatoria a fuerzas patrióticas para recuperar el orden de verdad.",
+      "cita_textual": "El 2011, el 2016, el 2021, el Perú le cerró filas al fujimorismo y su legado de horror, como lo hará este 7 de junio",
+      "contexto": "Carta Blanca — palabras finales",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1851,
+        "linea_fin": 1857
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-r-042",
+      "debate_id": "debate-1",
+      "candidato": "roberto",
+      "vocero": null,
+      "tema": "constitucion",
+      "tipo": "principio",
+      "texto": "Llamado a un gran consenso nacional: ninguna fuerza obtuvo mayoría en primera vuelta y el mensaje del pueblo es capacidad de hacer consensos.",
+      "cita_textual": "Nosotros creemos en la necesidad de un gran consenso nacional. En la primera vuelta, ninguna fuerza política ha obtenido a la mayoría",
+      "contexto": "Carta Blanca — palabras finales",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1864,
+        "linea_fin": 1872
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-046",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "constitucion",
+      "tipo": "compromiso",
+      "texto": "Reconoce errores cometidos, dice haber aprendido y levantarse con más fuerza; pide ser presidenta para ejecutar las obras necesarias.",
+      "cita_textual": "Sé que a lo largo de mi vida política he cometido errores, de ellos aprendí, pero me levanté además con mucha más fuerza",
+      "contexto": "Carta Blanca — palabras finales",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1900,
+        "linea_fin": 1916
+      },
+      "timestamp": null
+    },
+    {
+      "id": "debate-1-k-047",
+      "debate_id": "debate-1",
+      "candidato": "keiko",
+      "vocero": null,
+      "tema": "constitucion",
+      "tipo": "principio",
+      "texto": "Aspira a gobernar 'con fuerza y con amor', dejar a los jóvenes un Perú en paz y con progreso, en un mensaje de reconciliación tras 30 años recorriendo el país.",
+      "cita_textual": "aspiro a gobernar con fuerza y con amor. Le pido al Señor que bendiga cada uno de sus hogares",
+      "contexto": "Carta Blanca — palabras finales",
+      "fuente": {
+        "archivo": "02-Debates/raw/Debate 1.txt",
+        "linea_inicio": 1924,
+        "linea_fin": 1929
+      },
+      "timestamp": null
+    }
+  ]
 }
