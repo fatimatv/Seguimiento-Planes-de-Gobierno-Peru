@@ -4286,6 +4286,2790 @@
         "linea_inicio": 836,
         "linea_fin": 836
       }
+    },
+    {
+      "id": "k-juventud-001",
+      "candidato": "keiko",
+      "tema": "juventud",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico: aproximadamente 860 mil niños y adolescentes (8,8% del total nacional) están en situación de trabajo infantil, con incidencia rural del 24,5% — seis veces más que el 4,3% urbano.",
+      "cita_textual": "aproximadamente 860 mil niños y adolescentes, equivalente al 8,8% del total nacional, se encuentran en esta situación",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 851,
+        "linea_fin": 851,
+        "seccion": "Pilar 3 — Social, §3.1 Niños, Adolescentes y Jóvenes, Diagnóstico"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-juventud-002",
+      "candidato": "keiko",
+      "tema": "juventud",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico: el embarazo adolescente afecta al 8,4% de las adolescentes de 15 a 19 años a nivel nacional, pero en la selva rural se eleva hasta el 28,6%, frente al 5,1% en costa urbana.",
+      "cita_textual": "El embarazo adolescente afecta al 8,4% de las adolescentes de 15 a 19 años a nivel nacional",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 851,
+        "linea_fin": 851,
+        "seccion": "Pilar 3 — Social, §3.1 Niños, Adolescentes y Jóvenes, Diagnóstico"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-juventud-003",
+      "candidato": "keiko",
+      "tema": "juventud",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Diagnóstico: el 70% de jóvenes ocupados trabaja sin acceso a la seguridad social y solo 3 de cada 10 egresados accede a empleo relacionado con su formación.",
+      "cita_textual": "el 70% de jóvenes ocupados trabaja sin acceso a la seguridad social",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 851,
+        "linea_fin": 853,
+        "seccion": "Pilar 3 — Social, §3.1 Niños, Adolescentes y Jóvenes, Diagnóstico"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-juventud-004",
+      "candidato": "keiko",
+      "tema": "juventud",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Diagnóstico: menos del 30% de jóvenes con diagnóstico de problemas de salud mental recibe atención oportuna.",
+      "cita_textual": "menos del 30% de jóvenes con diagnósticos recibe atención oportuna",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 853,
+        "linea_fin": 853,
+        "seccion": "Pilar 3 — Social, §3.1 Niños, Adolescentes y Jóvenes, Diagnóstico"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-juventud-005",
+      "candidato": "keiko",
+      "tema": "juventud",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Lanzamiento del programa Empleo Joven con Futuro para reducir el ingreso de jóvenes a economías ilegales.",
+      "cita_textual": "Lanzamiento de un programa de “Empleo Joven con Futuro” para reducir el ingreso de jóvenes a economías ilegales",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 862,
+        "linea_fin": 862,
+        "seccion": "Pilar 3 — Social, §3.1 Niños, Adolescentes y Jóvenes, Empleo Joven"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-juventud-006",
+      "candidato": "keiko",
+      "tema": "juventud",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Creación del programa Capital Semilla Joven para otorgar fondos a egresados que deseen emprender un negocio, con o sin retorno, según viabilidad del proyecto.",
+      "cita_textual": "Creación del programa “Capital Semilla Joven” para otorgar un capital semilla destinado a egresados y titulados que deseen emprender un negocio",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 863,
+        "linea_fin": 863,
+        "seccion": "Pilar 3 — Social, §3.1 Niños, Adolescentes y Jóvenes, Empleo Joven"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-juventud-007",
+      "candidato": "keiko",
+      "tema": "juventud",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Régimen especial de aseguramiento en salud para jóvenes 18-23 años contratados por MYPE: SIS gratuito en microempresas y Estado asume 50% del aporte a EsSalud en pequeñas empresas durante los primeros 5 años.",
+      "cita_textual": "Establecer un régimen especial de aseguramiento en salud para trabajadores jóvenes de 18 a 23 años contratados por MYPE",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 863,
+        "linea_fin": 863,
+        "seccion": "Pilar 3 — Social, §3.1 Niños, Adolescentes y Jóvenes, Empleo Joven"
+      },
+      "meta_cuantitativa": "50% del aporte a EsSalud asumido por el Estado"
+    },
+    {
+      "id": "k-juventud-008",
+      "candidato": "keiko",
+      "tema": "juventud",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Paquete de formalización de costo cero para emprendimientos juveniles: exoneración de tasas registrales y notariales, licencias municipales gratuitas y trámite integrado.",
+      "cita_textual": "Implementar un paquete de formalización de costo cero para emprendimientos juveniles",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 863,
+        "linea_fin": 863,
+        "seccion": "Pilar 3 — Social, §3.1 Niños, Adolescentes y Jóvenes, Empleo Joven"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-juventud-009",
+      "candidato": "keiko",
+      "tema": "juventud",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Creación de la Beca Retoma tus Estudios para jóvenes que, por la pandemia, dejaron o no pudieron iniciar estudios técnicos o universitarios.",
+      "cita_textual": "Creación de la “Beca Retoma tus Estudios”, dirigida a jóvenes que, por las pérdidas económicas ocasionadas por la pandemia",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 867,
+        "linea_fin": 867,
+        "seccion": "Pilar 3 — Social, §3.1 Niños, Adolescentes y Jóvenes, Educación, Talento y Oportunidades"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-juventud-010",
+      "candidato": "keiko",
+      "tema": "juventud",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Implementación de Alerta Estudiante, sistema nacional de alerta temprana para identificar jóvenes en riesgo de deserción y medir calidad de la educación superior.",
+      "cita_textual": "Implementaremos “Alerta Estudiante”, sistema nacional de alerta temprana y evaluación de la calidad de la educación superior",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 868,
+        "linea_fin": 868,
+        "seccion": "Pilar 3 — Social, §3.1 Niños, Adolescentes y Jóvenes, Educación, Talento y Oportunidades"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-juventud-011",
+      "candidato": "keiko",
+      "tema": "juventud",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Creación de Centros de Oportunidades y Orientación Local para Jóvenes (COOL) con acompañamiento emocional, orientación psicológica y desarrollo comunitario para adolescentes y jóvenes en riesgo.",
+      "cita_textual": "Creación de “Centros de Oportunidades y Orientación Local para Jóvenes (COOL)”",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 872,
+        "linea_fin": 872,
+        "seccion": "Pilar 3 — Social, §3.1 Niños, Adolescentes y Jóvenes, Bienestar Juventud"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-juventud-012",
+      "candidato": "keiko",
+      "tema": "juventud",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Reformulación de la SENAJU como Secretaría Perú Joven, órgano de decisión adscrito a Presidencia de la República, con voz en el Consejo de Ministros y titular preferentemente joven.",
+      "cita_textual": "Reformulación a la Secretaría Nacional de Juventudes (SENAJU) por la “Secretaría Perú Joven”",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 872,
+        "linea_fin": 872,
+        "seccion": "Pilar 3 — Social, §3.1 Niños, Adolescentes y Jóvenes, Bienestar Juventud"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-juventud-013",
+      "candidato": "keiko",
+      "tema": "juventud",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Programa Trabajo Joven 2030 con línea específica para jóvenes con discapacidad: metas anuales de colocación, capacitación adaptada e incentivos a MYPES para contratación formal.",
+      "cita_textual": "Implementación del programa “Trabajo Joven 2030”, creando una línea específica para jóvenes con discapacidad",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 872,
+        "linea_fin": 872,
+        "seccion": "Pilar 3 — Social, §3.1 Niños, Adolescentes y Jóvenes, Bienestar Juventud"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-juventud-014",
+      "candidato": "keiko",
+      "tema": "juventud",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Implementación de Línea Joven Contigo 24/7, plataforma telefónica y chat/WhatsApp exclusiva para jóvenes atendida por psicólogos con protocolos de crisis y derivación a CSMC.",
+      "cita_textual": "Implementación de una “Línea Joven Contigo 24/7”",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 873,
+        "linea_fin": 873,
+        "seccion": "Pilar 3 — Social, §3.1 Niños, Adolescentes y Jóvenes, Bienestar Juventud"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-juventud-015",
+      "candidato": "keiko",
+      "tema": "juventud",
+      "tipo": "propuesta",
+      "relevancia": "BAJA",
+      "texto": "Creación de la Beca Vocación que Sana en PRONABEC para carreras de salud mental, condonable a cambio de 1-2 años de servicio en Centros de Salud Mental Comunitarios.",
+      "cita_textual": "Creación de la “Beca Vocación que Sana”, crear una beca especial en PRONABEC para carreras y especialidades en salud mental",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 873,
+        "linea_fin": 873,
+        "seccion": "Pilar 3 — Social, §3.1 Niños, Adolescentes y Jóvenes, Bienestar Juventud"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-juventud-016",
+      "candidato": "keiko",
+      "tema": "juventud",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Primeros 100 días: lanzamiento de COOL en distritos prioritarios, Línea Joven Contigo 24/7 y publicación de la primera promoción Beca Retoma tus Estudios.",
+      "cita_textual": "Lanzamiento de “Centros de Oportunidades y Orientación Local para Jóvenes (COOL)” en distritos prioritarios",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 877,
+        "linea_fin": 877,
+        "seccion": "Pilar 3 — Social, §3.1 Niños, Adolescentes y Jóvenes, Primeros 100 Días"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-juventud-017",
+      "candidato": "keiko",
+      "tema": "juventud",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Meta al 2031: incrementar en 40% la inserción de jóvenes en empleos formales de calidad.",
+      "cita_textual": "Incrementar en 40% la inserción de jóvenes en empleos formales de calidad",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 881,
+        "linea_fin": 881,
+        "seccion": "Pilar 3 — Social, §3.1 Niños, Adolescentes y Jóvenes, Metas"
+      },
+      "meta_cuantitativa": "+40% inserción de jóvenes en empleo formal al 2031"
+    },
+    {
+      "id": "k-juventud-018",
+      "candidato": "keiko",
+      "tema": "juventud",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Meta al 2031: reducir en 20% la deserción en la educación superior técnica y universitaria.",
+      "cita_textual": "Reducir en 20% la deserción en la educación superior técnica y universitaria",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 882,
+        "linea_fin": 882,
+        "seccion": "Pilar 3 — Social, §3.1 Niños, Adolescentes y Jóvenes, Metas"
+      },
+      "meta_cuantitativa": "-20% deserción educación superior al 2031"
+    },
+    {
+      "id": "k-juventud-019",
+      "candidato": "keiko",
+      "tema": "juventud",
+      "tipo": "meta",
+      "relevancia": "MEDIA",
+      "texto": "Meta al 2031: incrementar en 20% el acceso de jóvenes a servicios de salud mental y apoyo emocional.",
+      "cita_textual": "Incrementar en 20% el acceso de jóvenes a servicios de salud mental y apoyo emocional",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 905,
+        "linea_fin": 905,
+        "seccion": "Pilar 3 — Social, §3.1 Niños, Adolescentes y Jóvenes, Metas"
+      },
+      "meta_cuantitativa": "+20% acceso jóvenes a salud mental al 2031"
+    },
+    {
+      "id": "k-educacion-001",
+      "candidato": "keiko",
+      "tema": "educacion",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico: la brecha de infraestructura educativa al cierre de 2024 ascendió a S/ 158 832 millones y el 16,2% de los colegios públicos presenta riesgo de colapso estructural.",
+      "cita_textual": "la amplia brecha existente en infraestructura educativa, que hasta finales de 2024 ascendía a S/ 158 832 millones",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 919,
+        "linea_fin": 919,
+        "seccion": "Pilar 3 — Social, §3.2 Educación, Diagnóstico"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-educacion-002",
+      "candidato": "keiko",
+      "tema": "educacion",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico: 7 de cada 10 locales públicos (70,8%) no cuentan con los servicios básicos de agua, desagüe y electricidad simultáneamente.",
+      "cita_textual": "7 de cada 10 locales públicos no cuentan con ninguno de los 3 servicios básicos",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 919,
+        "linea_fin": 919,
+        "seccion": "Pilar 3 — Social, §3.2 Educación, Diagnóstico"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-educacion-003",
+      "candidato": "keiko",
+      "tema": "educacion",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico: en PISA 2022 solo el 34% de estudiantes peruanos de 15 años alcanzó el nivel 2 en matemáticas, frente al 69% del promedio OCDE.",
+      "cita_textual": "en PISA 2022 solo el 34 % de los estudiantes peruanos de 15 años logró al menos el nivel 2 de competencia en matemáticas",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 925,
+        "linea_fin": 925,
+        "seccion": "Pilar 3 — Social, §3.2 Educación, Diagnóstico"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-educacion-004",
+      "candidato": "keiko",
+      "tema": "educacion",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Diagnóstico: 360 962 niños y adolescentes de entre 4 y 18 años no acceden a ningún servicio educativo, según el Censo Educativo 2023.",
+      "cita_textual": "360 962 niños y adolescentes de entre 4 y 18 años no acceden a ningún servicio educativo",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 921,
+        "linea_fin": 921,
+        "seccion": "Pilar 3 — Social, §3.2 Educación, Diagnóstico"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-educacion-005",
+      "candidato": "keiko",
+      "tema": "educacion",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Construcción de 3,000 colegios durante el periodo de gestión.",
+      "cita_textual": "Construcción de 3,000 colegios durante el periodo de gestión",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 925,
+        "linea_fin": 925,
+        "seccion": "Pilar 3 — Social, §3.2 Educación, Propuestas EBR"
+      },
+      "meta_cuantitativa": "3,000 colegios construidos en 5 años"
+    },
+    {
+      "id": "k-educacion-006",
+      "candidato": "keiko",
+      "tema": "educacion",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Ejecución del Programa Nacional Escuelas Seguras para intervenir en el próximo quinquenio colegios públicos con más del 50% de daños en infraestructura.",
+      "cita_textual": "Ejecución del Programa Nacional “Escuelas Seguras” para intervenir, en el próximo quinquenio, los colegios públicos que presenten daños en más del 50% de su infraestructura",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 927,
+        "linea_fin": 927,
+        "seccion": "Pilar 3 — Social, §3.2 Educación, Propuestas EBR"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-educacion-007",
+      "candidato": "keiko",
+      "tema": "educacion",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Adquisición de 6 millones de laptops o tablets con conexión a internet para niños en edad escolar.",
+      "cita_textual": "Adquisición de 6 millones de laptops o tablets con conexión a internet para niños en edad escolar",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 927,
+        "linea_fin": 927,
+        "seccion": "Pilar 3 — Social, §3.2 Educación, Propuestas EBR"
+      },
+      "meta_cuantitativa": "6 millones de laptops/tablets"
+    },
+    {
+      "id": "k-educacion-008",
+      "candidato": "keiko",
+      "tema": "educacion",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Implementación de proyectos de conectividad integral (fibra óptica, radioenlaces e internet satelital) para el 100% de escuelas rurales.",
+      "cita_textual": "Implementación de proyectos de conectividad integral (fibra óptica, radioenlaces e internet satelital) para el 100% de escuelas rurales",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 927,
+        "linea_fin": 927,
+        "seccion": "Pilar 3 — Social, §3.2 Educación, Propuestas EBR"
+      },
+      "meta_cuantitativa": "100% escuelas rurales con conectividad"
+    },
+    {
+      "id": "k-educacion-009",
+      "candidato": "keiko",
+      "tema": "educacion",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Construcción del PEIP Escuelas Bicentenario: renovación integral de infraestructura educativa en 9 regiones.",
+      "cita_textual": "Construcción del PEIP Escuelas Bicentenario: renovación integral de infraestructura educativa en 9 regiones",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 927,
+        "linea_fin": 927,
+        "seccion": "Pilar 3 — Social, §3.2 Educación, Propuestas EBR"
+      },
+      "meta_cuantitativa": "9 regiones"
+    },
+    {
+      "id": "k-educacion-010",
+      "candidato": "keiko",
+      "tema": "educacion",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Actualización de la Política Nacional Inglés, Puertas al Mundo, con la meta de que todos los estudiantes de secundaria pública logren la certificación básica A2 al 2031.",
+      "cita_textual": "Actualización de la Política Nacional “Inglés, Puertas al Mundo”, ampliando su alcance al 2031 con la meta de que todos los estudiantes de secundaria pública logren una certificación básica (A2)",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 927,
+        "linea_fin": 927,
+        "seccion": "Pilar 3 — Social, §3.2 Educación, Propuestas EBR"
+      },
+      "meta_cuantitativa": "Certificación A2 universal al 2031"
+    },
+    {
+      "id": "k-educacion-011",
+      "candidato": "keiko",
+      "tema": "educacion",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Implementación del programa Desayuno para Aprender y Crecer con menús ricos en proteínas de alta calidad y compras directas a productores locales certificados.",
+      "cita_textual": "Implementación del programa “Desayuno para Aprender y Crecer”, reformulando la alimentación escolar con menús ricos en proteínas",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 927,
+        "linea_fin": 927,
+        "seccion": "Pilar 3 — Social, §3.2 Educación, Propuestas EBR"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-educacion-012",
+      "candidato": "keiko",
+      "tema": "educacion",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Implementación del programa Familia y Colegio Protegen, sistema nacional de alerta temprana de violencia sexual, abandono escolar, bullying y embarazo adolescente con coordinación obligatoria entre escuela, fiscalía y comisarías.",
+      "cita_textual": "Implementación del programa “Familia y Colegio Protegen” para crear un sistema nacional de alerta temprana en los colegios",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 928,
+        "linea_fin": 928,
+        "seccion": "Pilar 3 — Social, §3.2 Educación, Propuestas EBR"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-educacion-013",
+      "candidato": "keiko",
+      "tema": "educacion",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Puesta en marcha de Rumbo Técnico Joven, módulos técnico-productivos desde 3º a 5º de secundaria con certificación técnica corta financiada por becas en CETPRO.",
+      "cita_textual": "Puesta en marcha “Rumbo Técnico Joven”, incorporando desde 3º a 5º de secundaria módulos técnico-productivos",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 928,
+        "linea_fin": 928,
+        "seccion": "Pilar 3 — Social, §3.2 Educación, Propuestas EBR"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-educacion-014",
+      "candidato": "keiko",
+      "tema": "educacion",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Implementación de créditos educativos con garantía estatal a largo plazo y tasas preferenciales para ampliar el acceso a la educación técnica y universitaria.",
+      "cita_textual": "Implementación de créditos educativos con garantía estatal, a largo plazo y con tasas preferenciales",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 934,
+        "linea_fin": 934,
+        "seccion": "Pilar 3 — Social, §3.2 Educación, Educación Superior Universitaria"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-educacion-015",
+      "candidato": "keiko",
+      "tema": "educacion",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Ampliación del Programa Nacional de Becas PRONABEC, incrementando significativamente las becas para estudios universitarios y técnicos, priorizando jóvenes de escasos recursos.",
+      "cita_textual": "Ampliación del Programa Nacional de Becas (PRONABEC), incrementando significativamente el número de becas",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 934,
+        "linea_fin": 934,
+        "seccion": "Pilar 3 — Social, §3.2 Educación, Educación Superior Universitaria"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-educacion-016",
+      "candidato": "keiko",
+      "tema": "educacion",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Implementación del Sistema Nacional de Información Educativa Integrada (SNIEI) que articule en tiempo real datos desde inicial hasta posgrado para alertas tempranas y decisiones basadas en evidencia.",
+      "cita_textual": "Implementación de un Sistema Nacional de Información Educativa Integrada (SNIEI)",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 934,
+        "linea_fin": 934,
+        "seccion": "Pilar 3 — Social, §3.2 Educación, Educación Superior Universitaria"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-educacion-017",
+      "candidato": "keiko",
+      "tema": "educacion",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Primeros 100 días: actualización de la currícula nacional para reforzar formación cívica, ética e identidad peruana.",
+      "cita_textual": "Reforzamiento de la formación cívica y ética en las escuelas, actualizando la currícula nacional",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 936,
+        "linea_fin": 936,
+        "seccion": "Pilar 3 — Social, §3.2 Educación, Primeros 100 Días"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-educacion-018",
+      "candidato": "keiko",
+      "tema": "educacion",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Primeros 100 días: lanzamiento del Programa Nacional de Formación Docente en alianza con universidades públicas y privadas.",
+      "cita_textual": "Lanzamiento del Programa Nacional de Formación Docente en alianza con universidades públicas y privadas",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 936,
+        "linea_fin": 936,
+        "seccion": "Pilar 3 — Social, §3.2 Educación, Primeros 100 Días"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-educacion-019",
+      "candidato": "keiko",
+      "tema": "educacion",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Meta al 2031: reducir en 50% la brecha de infraestructura educativa y garantizar servicios básicos y conectividad funcional en todos los colegios priorizados.",
+      "cita_textual": "Reducir en 50% la brecha de infraestructura educativa y garantizar servicios básicos y conectividad funcional",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 940,
+        "linea_fin": 940,
+        "seccion": "Pilar 3 — Social, §3.2 Educación, Metas"
+      },
+      "meta_cuantitativa": "-50% brecha de infraestructura educativa al 2031"
+    },
+    {
+      "id": "k-educacion-020",
+      "candidato": "keiko",
+      "tema": "educacion",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Meta al 2031: alcanzar una tasa de inserción laboral del 50% de egresados técnicos en menos de un año.",
+      "cita_textual": "Alcanzar una tasa de inserción laboral del 50% de egresados técnicos en menos de un año",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 941,
+        "linea_fin": 941,
+        "seccion": "Pilar 3 — Social, §3.2 Educación, Metas"
+      },
+      "meta_cuantitativa": "50% inserción laboral de egresados técnicos al 2031"
+    },
+    {
+      "id": "k-educacion-021",
+      "candidato": "keiko",
+      "tema": "educacion",
+      "tipo": "meta",
+      "relevancia": "MEDIA",
+      "texto": "Meta al 2031: duplicar el acceso a becas y créditos educativos con garantía estatal, fortaleciendo la calidad e investigación universitaria.",
+      "cita_textual": "Duplicar el acceso a becas y créditos educativos con garantía estatal",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 942,
+        "linea_fin": 942,
+        "seccion": "Pilar 3 — Social, §3.2 Educación, Metas"
+      },
+      "meta_cuantitativa": "Duplicar becas y créditos al 2031"
+    },
+    {
+      "id": "k-salud-001",
+      "candidato": "keiko",
+      "tema": "salud",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico: más del 60% de los más de 8,000 establecimientos del primer nivel operan en infraestructuras inadecuadas y carecen de servicios básicos como agua potable o suministro eléctrico continuo.",
+      "cita_textual": "más del 60% de estos operan en infraestructuras inadecuadas y carecen de servicios básicos",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 955,
+        "linea_fin": 956,
+        "seccion": "Pilar 3 — Social, §3.3 Salud, Diagnóstico"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-salud-002",
+      "candidato": "keiko",
+      "tema": "salud",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico: del total de 159 hospitales públicos, el 38% supera los 40 años de antigüedad y muchos proyectos enfrentan paralizaciones recurrentes.",
+      "cita_textual": "Del total de 159 hospitales públicos, el 38% supera",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 960,
+        "linea_fin": 961,
+        "seccion": "Pilar 3 — Social, §3.3 Salud, Diagnóstico"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-salud-003",
+      "candidato": "keiko",
+      "tema": "salud",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico: la anemia continúa afectando al 42% de los menores de tres años pese a las campañas implementadas.",
+      "cita_textual": "enfermedades como la anemia continúan afectando al 42% de los menores de tres años",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 980,
+        "linea_fin": 980,
+        "seccion": "Pilar 3 — Social, §3.3 Salud, Diagnóstico"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-salud-004",
+      "candidato": "keiko",
+      "tema": "salud",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Diagnóstico: existen solo 248 centros de salud mental comunitarios operativos a nivel nacional, brecha superior a los 1,000 establecimientos.",
+      "cita_textual": "existen solo 248 centros de salud mental comunitarios operativos a nivel nacional",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 978,
+        "linea_fin": 978,
+        "seccion": "Pilar 3 — Social, §3.3 Salud, Diagnóstico"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-salud-005",
+      "candidato": "keiko",
+      "tema": "salud",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Diagnóstico: más del 40% del presupuesto público en salud se destina a remuneraciones y gastos administrativos, con baja inversión en activos estratégicos.",
+      "cita_textual": "más del 40% del presupuesto se destina a remuneraciones y gastos administrativos",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 980,
+        "linea_fin": 980,
+        "seccion": "Pilar 3 — Social, §3.3 Salud, Diagnóstico"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-salud-006",
+      "candidato": "keiko",
+      "tema": "salud",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Creación de centros de salud materno-infantiles rurales como parte del avance hacia la salud universal y fortalecimiento de la atención preventiva con vacunación y chequeos obligatorios.",
+      "cita_textual": "Creación de centros de salud materno-infantiles rurales, como parte del avance hacia la salud universal",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 984,
+        "linea_fin": 984,
+        "seccion": "Pilar 3 — Social, §3.3 Salud, Prevención y Promoción"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-salud-007",
+      "candidato": "keiko",
+      "tema": "salud",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Lanzamiento del Programa Nacional de Prevención de la Anemia y la Desnutrición Infantil articulado con campañas Bebés que Nacen Fuertes.",
+      "cita_textual": "Lanzamiento de un Programa Nacional de Prevención de la Anemia y la Desnutrición Infantil",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 984,
+        "linea_fin": 984,
+        "seccion": "Pilar 3 — Social, §3.3 Salud, Prevención y Promoción"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-salud-008",
+      "candidato": "keiko",
+      "tema": "salud",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Reactivación y fortalecimiento del modelo CLAS (Comunidades Locales de Administración de Salud), con financiamiento sostenible y contratos de incentivos basados en resultados.",
+      "cita_textual": "Reactivación y fortalecimiento del modelo CLAS (Comunidades Locales de Administración de Salud)",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 984,
+        "linea_fin": 984,
+        "seccion": "Pilar 3 — Social, §3.3 Salud, Prevención y Promoción"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-salud-009",
+      "candidato": "keiko",
+      "tema": "salud",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Establecimiento de un plan de vacunación gratuito para adultos mayores de 60 años, y chequeos médicos obligatorios cada dos años para personas de 16 a 60 años.",
+      "cita_textual": "Establecimiento de un plan de vacunación gratuito para adultos mayores de 60 años, y chequeos médicos obligatorios cada dos años",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 984,
+        "linea_fin": 984,
+        "seccion": "Pilar 3 — Social, §3.3 Salud, Prevención y Promoción"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-salud-010",
+      "candidato": "keiko",
+      "tema": "salud",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Creación del Sistema Nacional de Cuidados como política de Estado para atender integralmente a adultos mayores, personas con discapacidad, niños y personas en situación de dependencia.",
+      "cita_textual": "Creación del Sistema Nacional de Cuidados como política de Estado",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 984,
+        "linea_fin": 984,
+        "seccion": "Pilar 3 — Social, §3.3 Salud, Prevención y Promoción"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-salud-011",
+      "candidato": "keiko",
+      "tema": "salud",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Implementación del Carnet Nacional del Adulto Mayor con descuentos obligatorios en medicamentos y consultas médicas en establecimientos públicos y privados.",
+      "cita_textual": "Implementación del Carnet Nacional del Adulto Mayor en el acceso a salud, otorgando descuentos obligatorios",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 984,
+        "linea_fin": 984,
+        "seccion": "Pilar 3 — Social, §3.3 Salud, Prevención y Promoción"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-salud-012",
+      "candidato": "keiko",
+      "tema": "salud",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Despliegue de un sistema de telemedicina nacional para ampliar la cobertura de consultas y diagnósticos en zonas rurales y de difícil acceso.",
+      "cita_textual": "Despliegue de un sistema de telemedicina nacional para ampliar la cobertura",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 988,
+        "linea_fin": 988,
+        "seccion": "Pilar 3 — Social, §3.3 Salud, Atención de Segunda Línea"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-salud-013",
+      "candidato": "keiko",
+      "tema": "salud",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Implementación del otorgamiento de citas prontas en ambientes cómodos y adecuados, como medida prioritaria, garantizando trato digno al paciente.",
+      "cita_textual": "Implementación del otorgamiento de citas prontas en ambientes cómodos y adecuados",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 988,
+        "linea_fin": 988,
+        "seccion": "Pilar 3 — Social, §3.3 Salud, Atención de Segunda Línea"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-salud-014",
+      "candidato": "keiko",
+      "tema": "salud",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Incremento de camas hospitalarias y construcción de nuevos establecimientos según densidad poblacional: hospitales tipo I, tipo II y un tipo III por macroregión para atención compleja.",
+      "cita_textual": "Incremento de camas hospitalarias y construcción de nuevos establecimientos según densidad poblacional",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 988,
+        "linea_fin": 988,
+        "seccion": "Pilar 3 — Social, §3.3 Salud, Atención Compleja"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-salud-015",
+      "candidato": "keiko",
+      "tema": "salud",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Modernización del Fondo Nacional para Enfermedades de Alto Costo (FINSAL) con capas de atención definidas y actualización del listado de enfermedades cubiertas (cánceres no cubiertos por SIS).",
+      "cita_textual": "Modernización y actualización del Fondo Nacional para Enfermedades de Alto Costo (FINSAL)",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 988,
+        "linea_fin": 988,
+        "seccion": "Pilar 3 — Social, §3.3 Salud, Atención Compleja"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-salud-016",
+      "candidato": "keiko",
+      "tema": "salud",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Implementación del Programa Nacional de Medicamentos con Descuento Preferencial para tratamientos de enfermedades crónicas en farmacias públicas y privadas.",
+      "cita_textual": "Implementación del Programa Nacional de Medicamentos con Descuento Preferencial",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 988,
+        "linea_fin": 988,
+        "seccion": "Pilar 3 — Social, §3.3 Salud, Atención Compleja"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-salud-017",
+      "candidato": "keiko",
+      "tema": "salud",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Separación de las funciones de financiamiento y prestación de servicios tanto en el sector público como en EsSalud para evitar conflictos de interés.",
+      "cita_textual": "Separación de las funciones de financiamiento y prestación de servicios tanto en el sector público como en EsSalud",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 990,
+        "linea_fin": 990,
+        "seccion": "Pilar 3 — Social, §3.3 Salud, Fortalecimiento Institucional"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-salud-018",
+      "candidato": "keiko",
+      "tema": "salud",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Implementación de la interoperabilidad total de historias clínicas electrónicas, homologadas con el DNI, para trazabilidad y atención continua en cualquier establecimiento del país.",
+      "cita_textual": "Implementación de la interoperabilidad total de historias clínicas electrónicas, homologadas con el número de DNI",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 990,
+        "linea_fin": 990,
+        "seccion": "Pilar 3 — Social, §3.3 Salud, Fortalecimiento Institucional"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-salud-019",
+      "candidato": "keiko",
+      "tema": "salud",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Autorización del ingreso de medicamentos registrados en países de alta vigilancia sanitaria para reducir tiempos de acceso y garantizar estándares internacionales.",
+      "cita_textual": "Autorización del ingreso de medicamentos registrados en países de alta vigilancia sanitaria",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 990,
+        "linea_fin": 990,
+        "seccion": "Pilar 3 — Social, §3.3 Salud, Fortalecimiento Institucional"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-salud-020",
+      "candidato": "keiko",
+      "tema": "salud",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Aseguramiento de la implementación de la Ley Nacional del Cáncer con presupuesto, metas anuales de cobertura y supervisión permanente, priorizando poblaciones vulnerables.",
+      "cita_textual": "Aseguramiento de la implementación de la Ley Nacional del Cáncer, con presupuesto, metas anuales de cobertura",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 990,
+        "linea_fin": 990,
+        "seccion": "Pilar 3 — Social, §3.3 Salud, Fortalecimiento Institucional"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-salud-021",
+      "candidato": "keiko",
+      "tema": "salud",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Primeros 100 días: lanzamiento del Sistema Nacional de Telemedicina para Zonas Rurales y Amazónicas.",
+      "cita_textual": "Lanzamiento del Sistema Nacional de Telemedicina para Zonas Rurales y Amazónicas",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 990,
+        "linea_fin": 990,
+        "seccion": "Pilar 3 — Social, §3.3 Salud, Primeros 100 Días"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-salud-022",
+      "candidato": "keiko",
+      "tema": "salud",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Primeros 100 días: implementación del sistema de Citas Prontas en hospitales nacionales y regionales priorizados, reduciendo tiempos de espera con mecanismos digitales.",
+      "cita_textual": "Implementación del sistema de Citas Prontas en hospitales nacionales y regionales priorizados",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 990,
+        "linea_fin": 990,
+        "seccion": "Pilar 3 — Social, §3.3 Salud, Primeros 100 Días"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-salud-023",
+      "candidato": "keiko",
+      "tema": "salud",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Meta al 2031: reducir la anemia infantil al 20% mediante cobertura universal de vacunación, chequeos preventivos y servicios materno-infantiles reforzados.",
+      "cita_textual": "Reducir la anemia infantil al 20% mediante cobertura universal de vacunación",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 996,
+        "linea_fin": 996,
+        "seccion": "Pilar 3 — Social, §3.3 Salud, Metas"
+      },
+      "meta_cuantitativa": "Anemia infantil al 20% al 2031"
+    },
+    {
+      "id": "k-salud-024",
+      "candidato": "keiko",
+      "tema": "salud",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Meta al 2031: garantizar telemedicina operativa en el 100% de centros del primer nivel y reducir en 30% los tiempos de espera hospitalaria.",
+      "cita_textual": "Garantizar telemedicina operativa en el 100% de centros del primer nivel y reducir en 30% los tiempos de espera",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 997,
+        "linea_fin": 997,
+        "seccion": "Pilar 3 — Social, §3.3 Salud, Metas"
+      },
+      "meta_cuantitativa": "100% telemedicina + -30% tiempos de espera al 2031"
+    },
+    {
+      "id": "k-salud-025",
+      "candidato": "keiko",
+      "tema": "salud",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Meta al 2031: integrar el 80% del sistema de salud (MINSA, EsSalud y Sanidades) a una historia clínica electrónica ligada al DNI.",
+      "cita_textual": "Integrar el 80% del sistema de salud (MINSA, EsSalud y Sanidades) a una historia clínica electrónica ligada al DNI",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1002,
+        "linea_fin": 1002,
+        "seccion": "Pilar 3 — Social, §3.3 Salud, Metas"
+      },
+      "meta_cuantitativa": "80% interoperabilidad historia clínica al 2031"
+    },
+    {
+      "id": "k-agricultura-023",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico: cerca del 47,6% de los alimentos disponibles se pierden o desperdician al año por fallas en transporte, conservación y distribución.",
+      "cita_textual": "cerca del 47,6 % de los alimentos disponibles se pierden o desperdician al año",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1008,
+        "linea_fin": 1008,
+        "seccion": "Pilar 3 — Social, §3.4 Seguridad Alimentaria, Diagnóstico"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-agricultura-024",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Diagnóstico: en 2022 solo el 3,8% de los productores agropecuarios recibió asistencia técnica, lo que afecta productividad y eleva pérdidas postcosecha.",
+      "cita_textual": "En 2022, solo el 3.8 % de los productores agropecuarios recibió asistencia técnica",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1022,
+        "linea_fin": 1022,
+        "seccion": "Pilar 3 — Social, §3.4 Seguridad Alimentaria, Diagnóstico"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-agricultura-025",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico: en 2023 el 43,1% de niños menores de 36 meses presentaban anemia y el 11,5% sufría desnutrición crónica, mientras la pobreza monetaria afectó al 29% de la población.",
+      "cita_textual": "43,1 % de los niños menores de 36 meses presentaban anemia",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1030,
+        "linea_fin": 1030,
+        "seccion": "Pilar 3 — Social, §3.4 Seguridad Alimentaria, Diagnóstico"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-agricultura-026",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Incremento de la cobertura nacional de los programas alimentarios Cuna Más, Vaso de Leche, PCA y Comedores Populares, priorizando zonas rurales con mayor pobreza y desnutrición.",
+      "cita_textual": "Incremento de la cobertura nacional de los programas alimentarios (Cuna Más, Vaso de Leche, Programa de Complementación Alimentaria y Comedores Populares)",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1042,
+        "linea_fin": 1042,
+        "seccion": "Pilar 3 — Social, §3.4 Seguridad Alimentaria, Nutrición"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-agricultura-027",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Fortalecimiento del programa Haku Wiñay para mejorar la seguridad alimentaria rural, ampliando cobertura y promoviendo producción diversificada de alimentos nutritivos.",
+      "cita_textual": "Fortalecimiento del programa Haku Wiñay para mejorar la seguridad alimentaria rural",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1042,
+        "linea_fin": 1042,
+        "seccion": "Pilar 3 — Social, §3.4 Seguridad Alimentaria, Nutrición"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-agricultura-028",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Implementación de tarjetas alimentarias con apoyo directo y ajustable a variaciones de precios, priorizando hogares en pobreza y pobreza extrema.",
+      "cita_textual": "Implementación de tarjetas alimentarias con apoyo directo y ajustable a variaciones de precios",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1043,
+        "linea_fin": 1043,
+        "seccion": "Pilar 3 — Social, §3.4 Seguridad Alimentaria, Nutrición"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-agricultura-029",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Integración de programas sociales con compras directas a productores locales, evitando intermediarios, y creación de plataformas digitales de comercialización directa.",
+      "cita_textual": "Integración de programas sociales (Vaso de Leche, comedores populares) con compras directas a productores locales",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1047,
+        "linea_fin": 1047,
+        "seccion": "Pilar 3 — Social, §3.4 Seguridad Alimentaria, Producción Local"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-agricultura-030",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "propuesta",
+      "relevancia": "BAJA",
+      "texto": "Desarrollo de un Catastro Alimentario Nacional para identificar capacidades productivas y vulnerabilidades por región.",
+      "cita_textual": "Desarrollo de un Catastro Alimentario Nacional",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1047,
+        "linea_fin": 1047,
+        "seccion": "Pilar 3 — Social, §3.4 Seguridad Alimentaria, Producción Local"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-agricultura-031",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Formación de un Comité Permanente de Crisis Alimentaria articulado con MIDAGRI, INEI, MIDIS, INIA, PRODUCE y MEF, con capacidad de activar apoyo.",
+      "cita_textual": "Formación de un Comité Permanente de Crisis Alimentaria, articulado con MIDAGRI, INEI, MIDIS, INIA, PRODUCE y MEF",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1051,
+        "linea_fin": 1051,
+        "seccion": "Pilar 3 — Social, §3.4 Seguridad Alimentaria, Gobernanza"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-agricultura-032",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Implementación de un Sistema de Alertas Nutricionales y de Precios en coordinación con INEI y MIDAGRI, que ajuste el apoyo en tiempo real según la inflación de alimentos.",
+      "cita_textual": "Implementación de un Sistema de Alertas Nutricionales y de Precios",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1051,
+        "linea_fin": 1051,
+        "seccion": "Pilar 3 — Social, §3.4 Seguridad Alimentaria, Gobernanza"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-agricultura-033",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Primeros 100 días: ampliación de cobertura efectiva de los programas alimentarios incorporando 500,000 nuevos beneficiarios de zonas rurales con mayor pobreza y desnutrición.",
+      "cita_textual": "Ampliación de la cobertura efectiva de los programas alimentarios, incorporando 500,000 nuevos beneficiarios",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1055,
+        "linea_fin": 1055,
+        "seccion": "Pilar 3 — Social, §3.4 Seguridad Alimentaria, Primeros 100 Días"
+      },
+      "meta_cuantitativa": "500,000 nuevos beneficiarios"
+    },
+    {
+      "id": "k-agricultura-034",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Primeros 100 días: ejecución de compras directas a productores locales y asociaciones rurales en 10 regiones priorizadas, eliminando intermediarios.",
+      "cita_textual": "Ejecución de compras directas a productores locales y asociaciones rurales en 10 regiones priorizadas",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1055,
+        "linea_fin": 1055,
+        "seccion": "Pilar 3 — Social, §3.4 Seguridad Alimentaria, Primeros 100 Días"
+      },
+      "meta_cuantitativa": "10 regiones priorizadas"
+    },
+    {
+      "id": "k-agricultura-035",
+      "candidato": "keiko",
+      "tema": "agricultura",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Meta al 2031: lograr que el 50% de los alimentos de programas sociales provenga de productores locales, impulsando compras públicas locales.",
+      "cita_textual": "Lograr que el 50% de los alimentos de programas sociales provenga de productores locales",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1060,
+        "linea_fin": 1060,
+        "seccion": "Pilar 3 — Social, §3.4 Seguridad Alimentaria, Metas"
+      },
+      "meta_cuantitativa": "50% compras públicas locales al 2031"
+    },
+    {
+      "id": "k-vivienda-001",
+      "candidato": "keiko",
+      "tema": "vivienda",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico: la edificación informal comprende cerca del 70% de las viviendas construidas en el país, pero su aporte económico solo equivale al 25% del valor total del mercado.",
+      "cita_textual": "La edificación informal comprende cerca del 70% de las viviendas construidas en el país",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1082,
+        "linea_fin": 1082,
+        "seccion": "Pilar 3 — Social, §3.5 Vivienda, Diagnóstico"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-vivienda-002",
+      "candidato": "keiko",
+      "tema": "vivienda",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Diagnóstico: el tiempo mediano para obtener un permiso de construcción en el Perú es de aproximadamente 161,7 días, desincentivando la inversión privada.",
+      "cita_textual": "el tiempo mediano para obtener un permiso de construcción en el Perú es de aproximadamente 161,7 días",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1092,
+        "linea_fin": 1092,
+        "seccion": "Pilar 3 — Social, §3.5 Vivienda, Diagnóstico"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-vivienda-003",
+      "candidato": "keiko",
+      "tema": "vivienda",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Diagnóstico: solo 2 de cada 10 distritos cuenta con información catastral, limitando la planificación urbana.",
+      "cita_textual": "solo 2 de cada 10 distritos cuenta con información catastral",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1084,
+        "linea_fin": 1084,
+        "seccion": "Pilar 3 — Social, §3.5 Vivienda, Diagnóstico"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-vivienda-004",
+      "candidato": "keiko",
+      "tema": "vivienda",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Construcción de 1,25 millones de viviendas y departamentos nuevos a nivel nacional mediante inversión pública, privada y APP, priorizando zonas urbanas y periurbanas con servicios básicos.",
+      "cita_textual": "Construcción de 1.25 millones de viviendas y departamentos nuevos a nivel nacional",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1098,
+        "linea_fin": 1098,
+        "seccion": "Pilar 3 — Social, §3.5 Vivienda, Planificación Urbana"
+      },
+      "meta_cuantitativa": "1,25 millones de viviendas nuevas"
+    },
+    {
+      "id": "k-vivienda-005",
+      "candidato": "keiko",
+      "tema": "vivienda",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Implementación de un Sistema Nacional de Información Catastral y Urbana interoperable con COFOPRI, SUNARP y municipalidades, con un Catastro Urbano Unificado y un Visor Nacional de Vivienda.",
+      "cita_textual": "Implementación de un Sistema Nacional de Información Catastral y Urbana, interoperable con COFOPRI, SUNARP y municipalidades",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1098,
+        "linea_fin": 1098,
+        "seccion": "Pilar 3 — Social, §3.5 Vivienda, Planificación Urbana"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-vivienda-006",
+      "candidato": "keiko",
+      "tema": "vivienda",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Desarrollo de Ciudades Inteligentes en terrenos estatales con servicios completos (agua, desagüe, electricidad, transporte e internet), promoviendo densificación urbana y vivienda multifamiliar.",
+      "cita_textual": "Desarrollo de Ciudades Inteligentes en terrenos estatales, con servicios completos",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1098,
+        "linea_fin": 1098,
+        "seccion": "Pilar 3 — Social, §3.5 Vivienda, Planificación Urbana"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-vivienda-007",
+      "candidato": "keiko",
+      "tema": "vivienda",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Ampliación de los programas Techo Propio, MiVivienda y Vivienda Rural con apoyo diferenciado para sierra y selva.",
+      "cita_textual": "Ampliación de programas como Techo Propio, MiVivienda y Vivienda Rural",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1102,
+        "linea_fin": 1102,
+        "seccion": "Pilar 3 — Social, §3.5 Vivienda, Vivienda Digna"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-vivienda-008",
+      "candidato": "keiko",
+      "tema": "vivienda",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Modernización del Fondo Hipotecario Verde con tasas menores al 4% para familias de bajos ingresos, ligado a viviendas ecoeficientes.",
+      "cita_textual": "Modernización del Fondo Hipotecario Verde con tasas menores al 4% para familias de bajos ingresos",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1102,
+        "linea_fin": 1102,
+        "seccion": "Pilar 3 — Social, §3.5 Vivienda, Vivienda Digna"
+      },
+      "meta_cuantitativa": "Tasa <4% en Fondo Hipotecario Verde"
+    },
+    {
+      "id": "k-vivienda-009",
+      "candidato": "keiko",
+      "tema": "vivienda",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Implementación de casas térmicas y cobertizos contra el frío en comunidades altoandinas, usando tecnologías sostenibles y materiales locales.",
+      "cita_textual": "Implementación de casas térmicas y cobertizos contra el frío en comunidades altoandinas",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1102,
+        "linea_fin": 1102,
+        "seccion": "Pilar 3 — Social, §3.5 Vivienda, Vivienda Digna"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-vivienda-010",
+      "candidato": "keiko",
+      "tema": "vivienda",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Implementación del programa Mi Título, Mi Hogar Seguro para titulación masiva y digital de viviendas urbanas con ventanilla única de formalización y uso de inteligencia artificial.",
+      "cita_textual": "Implementación del programa “Mi Título, Mi Hogar Seguro”",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1108,
+        "linea_fin": 1108,
+        "seccion": "Pilar 3 — Social, §3.5 Vivienda, Formalización"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-vivienda-011",
+      "candidato": "keiko",
+      "tema": "vivienda",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Reestructuración y fortalecimiento de COFOPRI como institución ágil y moderna con procedimientos digitales para el otorgamiento masivo de títulos inscritos en SUNARP.",
+      "cita_textual": "Reestructuración y fortalecimiento de COFOPRI como una institución ágil y moderna",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1108,
+        "linea_fin": 1108,
+        "seccion": "Pilar 3 — Social, §3.5 Vivienda, Formalización"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-vivienda-012",
+      "candidato": "keiko",
+      "tema": "vivienda",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Creación de una Agencia Nacional de Gestión de Suelo encargada de habilitar terrenos estatales y comunales con servicios básicos antes de transferirlos a proyectos habitacionales.",
+      "cita_textual": "Creación de una Agencia Nacional de Gestión de Suelo",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1108,
+        "linea_fin": 1108,
+        "seccion": "Pilar 3 — Social, §3.5 Vivienda, Formalización"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-vivienda-013",
+      "candidato": "keiko",
+      "tema": "vivienda",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Establecimiento de un Sistema Nacional de Prevención y Combate del Tráfico de Terrenos articulado con SUNARP, gobiernos locales y policía especializada, con georreferenciación y alertas tempranas.",
+      "cita_textual": "Establecimiento de un Sistema Nacional de Prevención y Combate del Tráfico de Terrenos",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1108,
+        "linea_fin": 1108,
+        "seccion": "Pilar 3 — Social, §3.5 Vivienda, Formalización"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-vivienda-014",
+      "candidato": "keiko",
+      "tema": "vivienda",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Primeros 100 días: lanzamiento del programa Mi Título, Mi Hogar Seguro mediante Ventanilla Única de Formalización con inteligencia artificial.",
+      "cita_textual": "Lanzamiento del programa “Mi Título, Mi Hogar Seguro”, a través de la puesta en marcha de la Ventanilla Única de Formalización",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1109,
+        "linea_fin": 1109,
+        "seccion": "Pilar 3 — Social, §3.5 Vivienda, Primeros 100 Días"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-vivienda-015",
+      "candidato": "keiko",
+      "tema": "vivienda",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Primeros 100 días: reactivación del programa Techo Propio con un bono reforzado que aumentará hasta en 50% la ayuda estatal para familias de bajos ingresos.",
+      "cita_textual": "Reactivación del programa Techo Propio con un bono reforzado, que aumentará hasta en 50% la ayuda estatal",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1110,
+        "linea_fin": 1110,
+        "seccion": "Pilar 3 — Social, §3.5 Vivienda, Primeros 100 Días"
+      },
+      "meta_cuantitativa": "+50% bono Techo Propio"
+    },
+    {
+      "id": "k-vivienda-016",
+      "candidato": "keiko",
+      "tema": "vivienda",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Meta al 2031: reducir en 30% el déficit habitacional nacional, priorizando ciudades provinciales con planes urbanos integrales y catastro interoperable.",
+      "cita_textual": "Reducir en 30% el déficit habitacional nacional",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1116,
+        "linea_fin": 1116,
+        "seccion": "Pilar 3 — Social, §3.5 Vivienda, Metas"
+      },
+      "meta_cuantitativa": "-30% déficit habitacional al 2031"
+    },
+    {
+      "id": "k-vivienda-017",
+      "candidato": "keiko",
+      "tema": "vivienda",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Meta al 2031: garantizar vivienda adecuada para 1,25 millones de peruanos vulnerables mediante Techo Propio, MiVivienda y Vivienda Rural.",
+      "cita_textual": "Garantizar vivienda adecuada para 1.25 millones de peruanos vulnerables",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1117,
+        "linea_fin": 1117,
+        "seccion": "Pilar 3 — Social, §3.5 Vivienda, Metas"
+      },
+      "meta_cuantitativa": "1,25 millones de beneficiarios al 2031"
+    },
+    {
+      "id": "k-vivienda-018",
+      "candidato": "keiko",
+      "tema": "vivienda",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Meta al 2031: emitir 1 millón de títulos de propiedad digitales fortaleciendo COFOPRI e integrando catastros municipales con SUNARP.",
+      "cita_textual": "Emitir 1 millón de títulos de propiedad digitales",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1118,
+        "linea_fin": 1118,
+        "seccion": "Pilar 3 — Social, §3.5 Vivienda, Metas"
+      },
+      "meta_cuantitativa": "1 millón de títulos digitales al 2031"
+    },
+    {
+      "id": "k-agua-001",
+      "candidato": "keiko",
+      "tema": "agua",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico: la cobertura urbana de agua potable alcanza el 89% pero en el área rural apenas llega al 79%, con grandes desigualdades territoriales en alcantarillado entre Callao (95%) y Amazonía (<50%).",
+      "cita_textual": "La cobertura urbana de agua potable alcanza el 89%, pero en el área rural apenas llega al 79%",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1124,
+        "linea_fin": 1124,
+        "seccion": "Pilar 3 — Social, §3.6 Agua y Saneamiento, Diagnóstico"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-agua-002",
+      "candidato": "keiko",
+      "tema": "agua",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico: más del 40% de las plantas de tratamiento de agua potable presenta deficiencias técnicas y el 50% de las plantas de tratamiento de aguas residuales no funciona adecuadamente.",
+      "cita_textual": "más del 40% de las plantas de tratamiento de agua potable presenta deficiencias técnicas",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1126,
+        "linea_fin": 1126,
+        "seccion": "Pilar 3 — Social, §3.6 Agua y Saneamiento, Diagnóstico"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-agua-003",
+      "candidato": "keiko",
+      "tema": "agua",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Diagnóstico: solo el 25% de las aguas residuales recolectadas recibe tratamiento adecuado antes de ser vertidas en ríos o mares, agravando la contaminación ambiental.",
+      "cita_textual": "Solo el 25% de las aguas residuales recolectadas recibe tratamiento adecuado",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1132,
+        "linea_fin": 1132,
+        "seccion": "Pilar 3 — Social, §3.6 Agua y Saneamiento, Diagnóstico"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-agua-004",
+      "candidato": "keiko",
+      "tema": "agua",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Diagnóstico: el 45% de las EPS opera con pérdidas y las fugas y conexiones clandestinas generan pérdidas de agua superiores al 35% del volumen producido.",
+      "cita_textual": "el 45% opera con pérdidas, y las fugas y conexiones clandestinas generan pérdidas de agua superiores al 35%",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1150,
+        "linea_fin": 1150,
+        "seccion": "Pilar 3 — Social, §3.6 Agua y Saneamiento, Diagnóstico"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-agua-005",
+      "candidato": "keiko",
+      "tema": "agua",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Diagnóstico: el déficit estimado para alcanzar la cobertura universal de agua y saneamiento al 2030 supera los USD 15,000 millones.",
+      "cita_textual": "el déficit estimado para alcanzar la cobertura universal de agua y saneamiento al 2030 supera los USD 15,000 millones",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1152,
+        "linea_fin": 1152,
+        "seccion": "Pilar 3 — Social, §3.6 Agua y Saneamiento, Diagnóstico"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-agua-006",
+      "candidato": "keiko",
+      "tema": "agua",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Implementación de un Plan Nacional de Cierre de Brechas Hídricas para reducir la cobertura de agua potable continua y alcantarillado, con énfasis en áreas rurales y amazónicas.",
+      "cita_textual": "Implementación de un Plan Nacional de Cierre de Brechas Hídricas",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1160,
+        "linea_fin": 1160,
+        "seccion": "Pilar 3 — Social, §3.6 Agua y Saneamiento, Cobertura"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-agua-007",
+      "candidato": "keiko",
+      "tema": "agua",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Construcción, rehabilitación y ampliación de Plantas de Tratamiento de Agua Potable y Plantas de Tratamiento de Aguas Residuales en Tacna, Trujillo, Cusco, Arequipa, Huancayo, Cajamarca, Tarapoto y Chincha.",
+      "cita_textual": "Implementación de los PTAR Tacna, Trujillo, Cusco, Arequipa, Huancayo, Cajamarca, Tarapoto y Chincha",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1160,
+        "linea_fin": 1160,
+        "seccion": "Pilar 3 — Social, §3.6 Agua y Saneamiento, Cobertura"
+      },
+      "meta_cuantitativa": "8 PTAR regionales"
+    },
+    {
+      "id": "k-agua-008",
+      "candidato": "keiko",
+      "tema": "agua",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Implementación del Programa Nacional de Agua que Cuida la Vida: distribución con 500 cisternas y plantas móviles de potabilización para 2 millones de personas en situación crítica.",
+      "cita_textual": "Implementación del “Programa Nacional de Agua que Cuida la Vida”: distribución con 500 cisternas",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1160,
+        "linea_fin": 1160,
+        "seccion": "Pilar 3 — Social, §3.6 Agua y Saneamiento, Cobertura"
+      },
+      "meta_cuantitativa": "500 cisternas y 2 millones de personas atendidas"
+    },
+    {
+      "id": "k-agua-009",
+      "candidato": "keiko",
+      "tema": "agua",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Escalamiento de soluciones innovadoras como plantas modulares portátiles, captación de agua de lluvia y sistemas de desalinización, priorizando zonas altoandinas y costeras.",
+      "cita_textual": "Escalamiento de soluciones innovadoras como plantas modulares portátiles, captación de agua de lluvia y sistemas de desalinización",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1160,
+        "linea_fin": 1160,
+        "seccion": "Pilar 3 — Social, §3.6 Agua y Saneamiento, Cobertura"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-agua-010",
+      "candidato": "keiko",
+      "tema": "agua",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Reforma y mejora del modelo de gestión de EPS con planes de sostenibilidad financiera, profesionalización de cuadros técnicos y reducción de pérdidas operativas.",
+      "cita_textual": "Reforma y mejora del modelo de gestión de EPS: planes de sostenibilidad financiera",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1164,
+        "linea_fin": 1164,
+        "seccion": "Pilar 3 — Social, §3.6 Agua y Saneamiento, Gestión"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-agua-011",
+      "candidato": "keiko",
+      "tema": "agua",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Implementación de sistemas de monitoreo digital en tiempo real para EPS y SEDAPAL con sensores de calidad del agua, control de fugas y alertas tempranas.",
+      "cita_textual": "Implementación de sistemas de monitoreo digital en tiempo real para EPS y SEDAPAL",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1164,
+        "linea_fin": 1164,
+        "seccion": "Pilar 3 — Social, §3.6 Agua y Saneamiento, Gestión"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-agua-012",
+      "candidato": "keiko",
+      "tema": "agua",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Fomento de Asociaciones Público-Privadas (APP) y Obras por Impuestos (OxI) para financiar proyectos estratégicos de agua y saneamiento.",
+      "cita_textual": "Fomento de Asociaciones Público-Privadas (APP) y Obras por Impuestos (OxI) para financiar proyectos estratégicos de agua y saneamiento",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1164,
+        "linea_fin": 1164,
+        "seccion": "Pilar 3 — Social, §3.6 Agua y Saneamiento, Gestión"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-agua-013",
+      "candidato": "keiko",
+      "tema": "agua",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Incorporación de tecnologías de reúso de aguas residuales tratadas para riego agrícola y uso industrial.",
+      "cita_textual": "Incorporación de tecnologías de reúso de aguas residuales tratadas para riego agrícola y uso industrial",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1169,
+        "linea_fin": 1169,
+        "seccion": "Pilar 3 — Social, §3.6 Agua y Saneamiento, Innovación"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-agua-014",
+      "candidato": "keiko",
+      "tema": "agua",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Primeros 100 días: puesta en marcha del Programa Nacional de Agua que Cuida la Vida para garantizar acceso inmediato a agua potable segura en poblaciones rurales altoandinas y periurbanas críticas.",
+      "cita_textual": "Puesta en marcha el “Programa Nacional de Agua que Cuida la Vida”, dirigido a garantizar el acceso inmediato a agua potable",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1173,
+        "linea_fin": 1173,
+        "seccion": "Pilar 3 — Social, §3.6 Agua y Saneamiento, Primeros 100 Días"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-agua-015",
+      "candidato": "keiko",
+      "tema": "agua",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Primeros 100 días: reactivación de obras de agua y saneamiento con más del 50% de avance, priorizando proyectos en regiones con mayor déficit.",
+      "cita_textual": "Reactivación de obras de agua y saneamiento con más del 50% de avance",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1173,
+        "linea_fin": 1173,
+        "seccion": "Pilar 3 — Social, §3.6 Agua y Saneamiento, Primeros 100 Días"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-agua-016",
+      "candidato": "keiko",
+      "tema": "agua",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Meta al 2031: alcanzar 100% de cobertura nacional de agua potable y alcantarillado, priorizando zonas rurales y periurbanas.",
+      "cita_textual": "Alcanzar 100% de cobertura nacional de agua potable y alcantarillado",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1177,
+        "linea_fin": 1177,
+        "seccion": "Pilar 3 — Social, §3.6 Agua y Saneamiento, Metas"
+      },
+      "meta_cuantitativa": "100% cobertura nacional al 2031"
+    },
+    {
+      "id": "k-agua-017",
+      "candidato": "keiko",
+      "tema": "agua",
+      "tipo": "meta",
+      "relevancia": "MEDIA",
+      "texto": "Meta al 2031: lograr que el 60% de las EPS operen con sostenibilidad financiera y con monitoreo digital en tiempo real.",
+      "cita_textual": "Lograr que el 60% de las EPS operen con sostenibilidad financiera",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1178,
+        "linea_fin": 1178,
+        "seccion": "Pilar 3 — Social, §3.6 Agua y Saneamiento, Metas"
+      },
+      "meta_cuantitativa": "60% EPS sostenibles al 2031"
+    },
+    {
+      "id": "k-agua-018",
+      "candidato": "keiko",
+      "tema": "agua",
+      "tipo": "meta",
+      "relevancia": "MEDIA",
+      "texto": "Meta al 2031: reutilizar al menos el 55% de aguas residuales tratadas para riego agrícola e industrial.",
+      "cita_textual": "Reutilizar al menos el 55% de aguas residuales tratadas para riego agrícola e industrial",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1180,
+        "linea_fin": 1180,
+        "seccion": "Pilar 3 — Social, §3.6 Agua y Saneamiento, Metas"
+      },
+      "meta_cuantitativa": "55% reúso de aguas residuales al 2031"
+    },
+    {
+      "id": "k-pensiones-001",
+      "candidato": "keiko",
+      "tema": "pensiones",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico: solo el 35% de la población adulta mayor estaba afiliada a un sistema de pensión durante el cuarto trimestre de 2021, mientras el 65% restante carecía de protección previsional.",
+      "cita_textual": "solo el 35% de la población adulta mayor estaba afiliada a un sistema de pensión durante el cuarto trimestre de 2021",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1188,
+        "linea_fin": 1188,
+        "seccion": "Pilar 3 — Social, §3.7 Pensiones, Diagnóstico"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-pensiones-002",
+      "candidato": "keiko",
+      "tema": "pensiones",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Diagnóstico: la informalidad laboral del 71,2% impide aportes regulares y sostenibles durante la vida activa, agravado por un envejecimiento donde los adultos mayores ya representan el 14% de la población.",
+      "cita_textual": "alta informalidad laboral (71,2 %), que impide aportes regulares y sostenibles durante la vida activa",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1188,
+        "linea_fin": 1188,
+        "seccion": "Pilar 3 — Social, §3.7 Pensiones, Diagnóstico"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-pensiones-003",
+      "candidato": "keiko",
+      "tema": "pensiones",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Diagnóstico: Pensión 65 cuenta con más de 820,000 beneficiarios, pero esta cifra representa menos del 20% del total de adultos mayores del país.",
+      "cita_textual": "Pensión 65 cuenta con más de 820 000 beneficiarios, pero esta cifra representa menos del 20 % del total de adultos mayores",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1198,
+        "linea_fin": 1198,
+        "seccion": "Pilar 3 — Social, §3.7 Pensiones, Diagnóstico"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-pensiones-004",
+      "candidato": "keiko",
+      "tema": "pensiones",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Implementación de la preinscripción automática a Pensión 65 de la población potencial con 64 años, enlazada con RENIEC, SISFOH y EsSalud.",
+      "cita_textual": "Implementación de la preinscripción automática a Pensión 65 de la población potencial con 64 años",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1202,
+        "linea_fin": 1202,
+        "seccion": "Pilar 3 — Social, §3.7 Pensiones, Cobertura Universal"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-pensiones-005",
+      "candidato": "keiko",
+      "tema": "pensiones",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Despliegue de brigadas móviles de afiliación en zonas rurales, amazónicas y fronterizas para asegurar el registro efectivo de beneficiarios.",
+      "cita_textual": "Despliegue de brigadas móviles de afiliación en zonas rurales, amazónicas y fronterizas",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1202,
+        "linea_fin": 1202,
+        "seccion": "Pilar 3 — Social, §3.7 Pensiones, Cobertura Universal"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-pensiones-006",
+      "candidato": "keiko",
+      "tema": "pensiones",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Implementación de una pensión universal como piso mínimo de protección para todos los adultos mayores, especialmente para quienes desarrollaron su vida laboral en la informalidad.",
+      "cita_textual": "Implementación de una pensión universal como piso mínimo de protección para todos los adultos mayores",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1202,
+        "linea_fin": 1202,
+        "seccion": "Pilar 3 — Social, §3.7 Pensiones, Cobertura Universal"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-pensiones-007",
+      "candidato": "keiko",
+      "tema": "pensiones",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Pensión 65: aumento de S/ 350 a S/ 700 bimestrales, priorizando a los adultos mayores en pobreza extrema.",
+      "cita_textual": "Pensión 65: aumento de S/ 350 a S/ 700 bimestrales",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1206,
+        "linea_fin": 1206,
+        "seccion": "Pilar 3 — Social, §3.7 Pensiones, Incremento de Montos"
+      },
+      "meta_cuantitativa": "Pensión 65: S/ 350 → S/ 700 bimestrales (+100%)"
+    },
+    {
+      "id": "k-pensiones-008",
+      "candidato": "keiko",
+      "tema": "pensiones",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Programa Contigo: aumento de S/ 300 a S/ 600 mensuales, con posibilidad de complemento adicional por dependencia total.",
+      "cita_textual": "Programa Contigo: aumento de S/ 300 a S/ 600 mensuales",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1206,
+        "linea_fin": 1206,
+        "seccion": "Pilar 3 — Social, §3.7 Pensiones, Incremento de Montos"
+      },
+      "meta_cuantitativa": "Contigo: S/ 300 → S/ 600 mensuales (+100%)"
+    },
+    {
+      "id": "k-pensiones-009",
+      "candidato": "keiko",
+      "tema": "pensiones",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Programa Juntos: aumento de S/ 200 a S/ 400 bimestrales, fortaleciendo la seguridad económica de hogares con niños en pobreza extrema.",
+      "cita_textual": "Programa Juntos: aumento de S/ 200 a S/ 400 bimestrales",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1206,
+        "linea_fin": 1206,
+        "seccion": "Pilar 3 — Social, §3.7 Pensiones, Incremento de Montos"
+      },
+      "meta_cuantitativa": "Juntos: S/ 200 → S/ 400 bimestrales (+100%)"
+    },
+    {
+      "id": "k-pensiones-010",
+      "candidato": "keiko",
+      "tema": "pensiones",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "ONP: pensión mínima de S/ 600 a S/ 800 mensuales y pensión máxima de S/ 893 a S/ 1,100 mensuales, con regla de indexación anual (inflación + ⅓ del crecimiento del PBI per cápita).",
+      "cita_textual": "Pensión mínima: aumento de S/ 600 a S/ 800 mensuales",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1206,
+        "linea_fin": 1206,
+        "seccion": "Pilar 3 — Social, §3.7 Pensiones, Incremento de Montos"
+      },
+      "meta_cuantitativa": "ONP mínima: S/ 600 → S/ 800; máxima: S/ 893 → S/ 1,100"
+    },
+    {
+      "id": "k-pensiones-011",
+      "candidato": "keiko",
+      "tema": "pensiones",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Implementación de una ventanilla única digital y territorial para Pensión 65, Contigo y Juntos con interoperabilidad entre MIDIS, MEF y ONP.",
+      "cita_textual": "Implementación de una ventanilla única digital y territorial para Pensión 65, Contigo y Juntos",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1208,
+        "linea_fin": 1208,
+        "seccion": "Pilar 3 — Social, §3.7 Pensiones, Integración Digital"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-pensiones-012",
+      "candidato": "keiko",
+      "tema": "pensiones",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Reducción del tiempo de afiliación y pago a menos de 30 días, con trámite 100% en línea.",
+      "cita_textual": "Reducción del tiempo de afiliación y pago a menos de 30 días",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1208,
+        "linea_fin": 1208,
+        "seccion": "Pilar 3 — Social, §3.7 Pensiones, Integración Digital"
+      },
+      "meta_cuantitativa": "≤30 días para afiliación y pago"
+    },
+    {
+      "id": "k-pensiones-013",
+      "candidato": "keiko",
+      "tema": "pensiones",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Promoción de mecanismos simples, flexibles y digitales de ahorro previsional voluntario para trabajadores independientes con complementos estatales.",
+      "cita_textual": "Promoción de mecanismos simples, flexibles y digitales de ahorro previsional voluntario para trabajadores independientes",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1208,
+        "linea_fin": 1208,
+        "seccion": "Pilar 3 — Social, §3.7 Pensiones, Integración Digital"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-pensiones-014",
+      "candidato": "keiko",
+      "tema": "pensiones",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Primeros 100 días: puesta en marcha del Sistema de Preinscripción Automática a Pensión 65 y despliegue nacional de Brigadas Móviles de Afiliación en zonas rurales y amazónicas.",
+      "cita_textual": "Puesta en marcha del Sistema de Preinscripción Automática a Pensión 65",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1212,
+        "linea_fin": 1212,
+        "seccion": "Pilar 3 — Social, §3.7 Pensiones, Primeros 100 Días"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-pensiones-015",
+      "candidato": "keiko",
+      "tema": "pensiones",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Meta al 2031: afiliar al menos al 95% de la población objetivo a Pensión 65, Contigo y Juntos.",
+      "cita_textual": "Afiliar al menos al 95 % de la población objetivo a Pensión 65, Contigo y Juntos al 2031",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1218,
+        "linea_fin": 1218,
+        "seccion": "Pilar 3 — Social, §3.7 Pensiones, Metas"
+      },
+      "meta_cuantitativa": "95% afiliación al 2031"
+    },
+    {
+      "id": "k-pensiones-016",
+      "candidato": "keiko",
+      "tema": "pensiones",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Meta al 2031: incrementar en 100% los montos de las principales transferencias sociales y garantizar su actualización anual.",
+      "cita_textual": "Incrementar en 100 % los montos de las principales transferencias sociales",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1219,
+        "linea_fin": 1219,
+        "seccion": "Pilar 3 — Social, §3.7 Pensiones, Metas"
+      },
+      "meta_cuantitativa": "+100% transferencias sociales al 2031"
+    },
+    {
+      "id": "k-pensiones-017",
+      "candidato": "keiko",
+      "tema": "pensiones",
+      "tipo": "meta",
+      "relevancia": "MEDIA",
+      "texto": "Meta al 2031: alcanzar la digitalización total de trámites y pagos, logrando que el 100% de beneficiarios cobre de forma digital.",
+      "cita_textual": "lograr que el 100 % de beneficiarios cobre de forma digital al 2031",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1220,
+        "linea_fin": 1220,
+        "seccion": "Pilar 3 — Social, §3.7 Pensiones, Metas"
+      },
+      "meta_cuantitativa": "100% pagos digitales al 2031"
+    },
+    {
+      "id": "k-pensiones-018",
+      "candidato": "keiko",
+      "tema": "pensiones",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Diagnóstico: más del 25% de hogares urbanos no cuenta con suministro continuo de agua potable y en zonas rurales el acceso formal apenas alcanza al 60%, generando pobreza multidimensional.",
+      "cita_textual": "Más del 25% de hogares urbanos no cuenta con suministro continuo de agua potable",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1228,
+        "linea_fin": 1228,
+        "seccion": "Pilar 3 — Social, §3.8 Programas Sociales, Diagnóstico"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-pensiones-019",
+      "candidato": "keiko",
+      "tema": "pensiones",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Diagnóstico: el déficit cualitativo de vivienda supera los 2 millones de hogares y el país mantiene una de las tasas más altas de anemia infantil de la región (superior al 40%).",
+      "cita_textual": "El déficit cualitativo supera los 2 millones de hogares",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1230,
+        "linea_fin": 1230,
+        "seccion": "Pilar 3 — Social, §3.8 Programas Sociales, Diagnóstico"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-pensiones-020",
+      "candidato": "keiko",
+      "tema": "pensiones",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Programa Bebés que Nacen Fuertes: implementación del Paquete 1,000 días (gestante-niño 0-24 meses) con suplementación, fortificación de hierro y ácido fólico, control prenatal reforzado y visitas domiciliarias.",
+      "cita_textual": "Implementación del Paquete 1,000 días (gestante-niño 0-24 meses) con suplementación y fortificación",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1250,
+        "linea_fin": 1250,
+        "seccion": "Pilar 3 — Social, §3.8 Programas Sociales, Bebés que Nacen Fuertes"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-pensiones-021",
+      "candidato": "keiko",
+      "tema": "pensiones",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Realización de pruebas de hemoglobina trimestrales en zonas priorizadas y seguimiento mediante historia clínica electrónica (HCE).",
+      "cita_textual": "Realización de pruebas de hemoglobina trimestrales en zonas priorizadas",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1250,
+        "linea_fin": 1250,
+        "seccion": "Pilar 3 — Social, §3.8 Programas Sociales, Bebés que Nacen Fuertes"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-pensiones-022",
+      "candidato": "keiko",
+      "tema": "pensiones",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Programa Desayuno para Aprender y Crecer: reformulación del programa alimentario escolar con menú basado en proteínas de alta calidad (lácteos, huevos, pescado), frutas y verduras locales.",
+      "cita_textual": "Reformulación del programa alimentario escolar con un menú basado en proteínas de alta calidad",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1254,
+        "linea_fin": 1254,
+        "seccion": "Pilar 3 — Social, §3.8 Programas Sociales, Desayuno para Aprender"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-pensiones-023",
+      "candidato": "keiko",
+      "tema": "pensiones",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Implementación de un Sistema de Crédito para Mujeres Emprendedoras con asistencia técnica y programas de incubación.",
+      "cita_textual": "Implementación de un “Sistema de Crédito para Mujeres Emprendedoras”, con asistencia técnica y programas de incubación",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1266,
+        "linea_fin": 1266,
+        "seccion": "Pilar 3 — Social, §3.8 Programas Sociales, Sistema de Crédito Mujeres"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-pensiones-024",
+      "candidato": "keiko",
+      "tema": "pensiones",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Primeros 100 días: lanzamiento de Bebés que Nacen Fuertes con Paquete 1,000 días, inicio de Desayuno para Aprender y Crecer y puesta en marcha de Empleo Joven con Futuro.",
+      "cita_textual": "Lanzamiento del programa “Bebés que Nacen Fuertes”, implementando el Paquete 1,000 días",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1270,
+        "linea_fin": 1270,
+        "seccion": "Pilar 3 — Social, §3.8 Programas Sociales, Primeros 100 Días"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-pensiones-025",
+      "candidato": "keiko",
+      "tema": "pensiones",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Meta al 2031: otorgar 150,000 capitales semilla y créditos productivos a jóvenes y mujeres emprendedoras, impulsando empleabilidad y formalización.",
+      "cita_textual": "Otorgar 150,000 capitales semilla y créditos productivos a jóvenes y mujeres emprendedoras",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1283,
+        "linea_fin": 1283,
+        "seccion": "Pilar 3 — Social, §3.8 Programas Sociales, Metas"
+      },
+      "meta_cuantitativa": "150,000 capitales semilla y créditos al 2031"
+    },
+    {
+      "id": "k-deporte-001",
+      "candidato": "keiko",
+      "tema": "deporte",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico: solo el 26% de la población peruana adulta realiza actividad física regular, mientras que las enfermedades por sedentarismo cuestan más de 3,000 millones de dólares anuales frente a solo 67 millones destinados al deporte.",
+      "cita_textual": "solo el 26 % de la población peruana adulta realiza actividad física de manera regular",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1291,
+        "linea_fin": 1291,
+        "seccion": "Pilar 3 — Social, §3.9 Deporte, Diagnóstico"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-deporte-002",
+      "candidato": "keiko",
+      "tema": "deporte",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Diagnóstico: el Perú enfrenta graves brechas en infraestructura deportiva; el IPD proyecta al 2030 contar con 179 instalaciones óptimas mediante mantenimiento, mejora, recuperación y construcción.",
+      "cita_textual": "El Perú enfrenta graves brechas en infraestructura deportiva, con numerosos recintos en mal estado o fuera de uso",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1305,
+        "linea_fin": 1305,
+        "seccion": "Pilar 3 — Social, §3.9 Deporte, Diagnóstico"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-deporte-003",
+      "candidato": "keiko",
+      "tema": "deporte",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Implementación de un Plan de Estimulación Temprana (0-6 años) que incorpore psicomotricidad, nutrición y juegos motores en la educación inicial.",
+      "cita_textual": "Implementación de un Plan de Estimulación Temprana (0-6 años) que incorpore psicomotricidad, nutrición y juegos motores",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1311,
+        "linea_fin": 1311,
+        "seccion": "Pilar 3 — Social, §3.9 Deporte, Educación y Talento"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-deporte-004",
+      "candidato": "keiko",
+      "tema": "deporte",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Establecimiento de educación física obligatoria y fortalecida en primaria y secundaria, ampliando horas semanales y garantizando infraestructura deportiva adecuada.",
+      "cita_textual": "Establecimiento de educación física obligatoria y fortalecida en primaria y secundaria",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1311,
+        "linea_fin": 1311,
+        "seccion": "Pilar 3 — Social, §3.9 Deporte, Educación y Talento"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-deporte-005",
+      "candidato": "keiko",
+      "tema": "deporte",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Creación de un Sistema Nacional de Competencias Deportivas Escolares, Regionales y Nacionales articulado con los gobiernos locales y el IPD para promover detección de talentos.",
+      "cita_textual": "Creación de un Sistema Nacional de Competencias Deportivas Escolares, Regionales y Nacionales",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1311,
+        "linea_fin": 1311,
+        "seccion": "Pilar 3 — Social, §3.9 Deporte, Educación y Talento"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-deporte-006",
+      "candidato": "keiko",
+      "tema": "deporte",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Promoción de la masificación del deporte como política pública de integración social, priorizando barrios vulnerables, comunidades rurales y pueblos amazónicos.",
+      "cita_textual": "Promoción de la masificación del deporte como política pública de integración social",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1316,
+        "linea_fin": 1316,
+        "seccion": "Pilar 3 — Social, §3.9 Deporte, Integración y Salud Preventiva"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-deporte-007",
+      "candidato": "keiko",
+      "tema": "deporte",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Ejecución de programas nacionales de infraestructura deportiva comunitaria para recuperar y gestionar parques, canchas, polideportivos y estadios bajo un sistema nacional articulado.",
+      "cita_textual": "Ejecución de programas nacionales de infraestructura deportiva comunitaria",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1316,
+        "linea_fin": 1316,
+        "seccion": "Pilar 3 — Social, §3.9 Deporte, Integración y Salud Preventiva"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-deporte-008",
+      "candidato": "keiko",
+      "tema": "deporte",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Reconocimiento del deporte como motor económico nacional, promoviendo la industria deportiva (infraestructura, turismo deportivo, sponsor, ropa, clínicas, medios) con inversión privada y APP.",
+      "cita_textual": "Reconocimiento del deporte como motor económico nacional",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1320,
+        "linea_fin": 1320,
+        "seccion": "Pilar 3 — Social, §3.9 Deporte, Economía Deportiva"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-deporte-009",
+      "candidato": "keiko",
+      "tema": "deporte",
+      "tipo": "propuesta",
+      "relevancia": "BAJA",
+      "texto": "Creación de la Entidad Autónoma de Formación del Capital Humano (EA/FCH) como órgano articulador de las políticas deportivas nacionales integrando MINEDU, MINSA, MTPE, PRODUCE y Cultura.",
+      "cita_textual": "Creación de la Entidad Autónoma de Formación del Capital Humano (EA/FCH)",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1320,
+        "linea_fin": 1320,
+        "seccion": "Pilar 3 — Social, §3.9 Deporte, Economía Deportiva"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-deporte-010",
+      "candidato": "keiko",
+      "tema": "deporte",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Primeros 100 días: reacondicionamiento de 500 canchas y parques deportivos en coordinación con municipios y sector privado, con iluminación, orden y gestión vecinal.",
+      "cita_textual": "Reacondicionamiento de 500 canchas y parques deportivos en coordinación con municipios y el sector privado",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1324,
+        "linea_fin": 1324,
+        "seccion": "Pilar 3 — Social, §3.9 Deporte, Primeros 100 Días"
+      },
+      "meta_cuantitativa": "500 canchas y parques reacondicionados"
+    },
+    {
+      "id": "k-deporte-011",
+      "candidato": "keiko",
+      "tema": "deporte",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Primeros 100 días: lanzamiento de la campaña nacional Perú en Movimiento: Vive Saludable para promover alimentación balanceada y actividad física diaria.",
+      "cita_textual": "Lanzamiento de la campaña nacional “Perú en Movimiento: Vive Saludable”",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1324,
+        "linea_fin": 1324,
+        "seccion": "Pilar 3 — Social, §3.9 Deporte, Primeros 100 Días"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-deporte-012",
+      "candidato": "keiko",
+      "tema": "deporte",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Primeros 100 días: puesta en marcha del Sistema Nacional de Becas Deportivas fortaleciendo Beca Deporte Escolar junto a PRONABEC y el IPD.",
+      "cita_textual": "Puesta en marcha el Sistema Nacional de Becas Deportivas",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1324,
+        "linea_fin": 1324,
+        "seccion": "Pilar 3 — Social, §3.9 Deporte, Primeros 100 Días"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-deporte-013",
+      "candidato": "keiko",
+      "tema": "deporte",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Meta al 2031: lograr que el 70% de instituciones educativas cuenten con educación física reforzada e infraestructura deportiva funcional.",
+      "cita_textual": "Lograr que el 70% de instituciones educativas cuenten con educación física reforzada",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1328,
+        "linea_fin": 1328,
+        "seccion": "Pilar 3 — Social, §3.9 Deporte, Metas"
+      },
+      "meta_cuantitativa": "70% IIEE con educación física reforzada al 2031"
+    },
+    {
+      "id": "k-deporte-014",
+      "candidato": "keiko",
+      "tema": "deporte",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Meta al 2031: alcanzar que el 60% de la población realice actividad física regular mediante infraestructura comunitaria y programas barriales.",
+      "cita_textual": "Alcanzar que el 60% de la población realice actividad física regular",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1329,
+        "linea_fin": 1329,
+        "seccion": "Pilar 3 — Social, §3.9 Deporte, Metas"
+      },
+      "meta_cuantitativa": "60% población activa al 2031"
+    },
+    {
+      "id": "k-deporte-015",
+      "candidato": "keiko",
+      "tema": "deporte",
+      "tipo": "meta",
+      "relevancia": "MEDIA",
+      "texto": "Meta al 2031: generar 150,000 empleos directos e indirectos en la industria deportiva, impulsando inversión privada e instituciones modernas.",
+      "cita_textual": "Generar 150,000 empleos directos e indirectos en la industria deportiva",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1330,
+        "linea_fin": 1330,
+        "seccion": "Pilar 3 — Social, §3.9 Deporte, Metas"
+      },
+      "meta_cuantitativa": "150,000 empleos en industria deportiva al 2031"
+    },
+    {
+      "id": "k-peruanos_exterior-001",
+      "candidato": "keiko",
+      "tema": "peruanos_exterior",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico: desde 2022 al 2024 el número de peruanos viviendo en el exterior superó 3,5 millones (más del 10% de la población total), pero el Estado no ha desarrollado una respuesta institucional integral y moderna.",
+      "cita_textual": "el número de peruanos viviendo en el exterior ha superado 3.5 millones, equivalente a más del 10% de la población peruana total",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1334,
+        "linea_fin": 1334,
+        "seccion": "Pilar 3 — Social, §3.10 Peruanos en el Extranjero, Diagnóstico"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-peruanos_exterior-002",
+      "candidato": "keiko",
+      "tema": "peruanos_exterior",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Diagnóstico: la mayoría de peruanos en el extranjero se concentra en Estados Unidos (30,4%), España (16,1%), Argentina (12,9%), Chile (11,6%) e Italia (10,3%), generando presión sobre consulados.",
+      "cita_textual": "la mayoría de peruanos en el extranjero se encuentran mayoritariamente concentrados en Estados Unidos, representando el 30.4%",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1334,
+        "linea_fin": 1334,
+        "seccion": "Pilar 3 — Social, §3.10 Peruanos en el Extranjero, Diagnóstico"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-peruanos_exterior-003",
+      "candidato": "keiko",
+      "tema": "peruanos_exterior",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Modernización integral de los consulados peruanos con estándares mínimos obligatorios de atención, tiempos máximos de respuesta y evaluación pública anual, priorizando los de mayor concentración de peruanos.",
+      "cita_textual": "Modernización integral de los consulados peruanos, estableciendo estándares mínimos obligatorios de atención",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1340,
+        "linea_fin": 1340,
+        "seccion": "Pilar 3 — Social, §3.10 Peruanos en el Extranjero, Orden Institucional"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-peruanos_exterior-004",
+      "candidato": "keiko",
+      "tema": "peruanos_exterior",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Implementación de la Ventanilla Única Consular Digital interoperable con RENIEC, JNE, ONPE, SUNARP, MININTER, SUNEDU, SBS para trámites remotos, seguros y con trazabilidad.",
+      "cita_textual": "Implementación de la Ventanilla Única Consular Digital, interoperable con RENIEC, JNE, ONPE, SUNARP",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1340,
+        "linea_fin": 1340,
+        "seccion": "Pilar 3 — Social, §3.10 Peruanos en el Extranjero, Orden Institucional"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-peruanos_exterior-005",
+      "candidato": "keiko",
+      "tema": "peruanos_exterior",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Creación de la Junta de Participación Ciudadana de los Peruanos en el Exterior (PEX) en reemplazo de los actuales Consejos de Consulta, como espacio moderno y representativo.",
+      "cita_textual": "Creación de la Junta de Participación Ciudadana de los Peruanos en el Exterior (PEX)",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1340,
+        "linea_fin": 1340,
+        "seccion": "Pilar 3 — Social, §3.10 Peruanos en el Extranjero, Orden Institucional"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-peruanos_exterior-006",
+      "candidato": "keiko",
+      "tema": "peruanos_exterior",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Creación del Programa de Protección Integral al Peruano Migrante que consolide asistencia legal gratuita, orientación laboral y social y protección consular especializada.",
+      "cita_textual": "Creación del Programa de Protección Integral al Peruano Migrante",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1342,
+        "linea_fin": 1342,
+        "seccion": "Pilar 3 — Social, §3.10 Peruanos en el Extranjero, Protección Social"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-peruanos_exterior-007",
+      "candidato": "keiko",
+      "tema": "peruanos_exterior",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Suscripción y ampliación de convenios internacionales de seguridad social para que peruanos residentes en el exterior reciban pensiones y beneficios previsionales peruanos.",
+      "cita_textual": "Suscripción y ampliación de convenios internacionales de seguridad social",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1342,
+        "linea_fin": 1342,
+        "seccion": "Pilar 3 — Social, §3.10 Peruanos en el Extranjero, Protección Social"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-peruanos_exterior-008",
+      "candidato": "keiko",
+      "tema": "peruanos_exterior",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Promoción de la implementación progresiva del voto electrónico mediante experiencias piloto en consulados de mayor concentración de peruanos (EE. UU., España, Chile, Argentina, Italia).",
+      "cita_textual": "Promoción de la implementación progresiva del voto electrónico",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1342,
+        "linea_fin": 1342,
+        "seccion": "Pilar 3 — Social, §3.10 Peruanos en el Extranjero, Participación Política"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-peruanos_exterior-009",
+      "candidato": "keiko",
+      "tema": "peruanos_exterior",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Implementación del Programa Invierte desde el Exterior con asesoría especializada y trámites simplificados para canalizar inversión productiva, coinversión y joint ventures de los PEX hacia el Perú.",
+      "cita_textual": "Implementación del Programa “Invierte desde el Exterior”",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1346,
+        "linea_fin": 1346,
+        "seccion": "Pilar 3 — Social, §3.10 Peruanos en el Extranjero, Emprendimiento e Inversión"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-peruanos_exterior-010",
+      "candidato": "keiko",
+      "tema": "peruanos_exterior",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Creación del Fondo de Cofinanciamiento para Emprendimientos de Retorno y Coinversión PEX-Perú combinando recursos públicos, privados y cooperación internacional.",
+      "cita_textual": "Creación de un Fondo de Cofinanciamiento para Emprendimientos de Retorno y Coinversión PEX–Perú",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1346,
+        "linea_fin": 1346,
+        "seccion": "Pilar 3 — Social, §3.10 Peruanos en el Extranjero, Emprendimiento e Inversión"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-peruanos_exterior-011",
+      "candidato": "keiko",
+      "tema": "peruanos_exterior",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Creación de una Bolsa Nacional de Empleo para Peruanos Retornantes articulada con el MTPE y el sector privado, que visibilice perfiles con experiencia internacional.",
+      "cita_textual": "Creación de una Bolsa Nacional de Empleo para Peruanos Retornantes",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1346,
+        "linea_fin": 1346,
+        "seccion": "Pilar 3 — Social, §3.10 Peruanos en el Extranjero, Emprendimiento e Inversión"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-peruanos_exterior-012",
+      "candidato": "keiko",
+      "tema": "peruanos_exterior",
+      "tipo": "propuesta",
+      "relevancia": "BAJA",
+      "texto": "Actualización del Reglamento de equipaje inafecto al pago de tributos para adecuarlo a la realidad de los PEX, ampliando márgenes para artículos personales y regalos.",
+      "cita_textual": "Actualización del Reglamento de equipaje inafecto al pago de tributos para adecuarlo a la realidad de los Peruanos en el Exterior",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1346,
+        "linea_fin": 1346,
+        "seccion": "Pilar 3 — Social, §3.10 Peruanos en el Extranjero, Emprendimiento e Inversión"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-peruanos_exterior-013",
+      "candidato": "keiko",
+      "tema": "peruanos_exterior",
+      "tipo": "principio",
+      "relevancia": "ALTA",
+      "texto": "Principio de política exterior: soberana y pragmática, basada exclusivamente en el interés nacional y crecimiento económico del Perú, con relación estratégica equilibrada entre EE. UU. y China.",
+      "cita_textual": "Política exterior soberana y pragmática, basada exclusivamente en el interés nacional y el crecimiento económico del Perú",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1351,
+        "linea_fin": 1351,
+        "seccion": "Pilar 3 — Social, §3.10 Política Exterior, Principios"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-peruanos_exterior-014",
+      "candidato": "keiko",
+      "tema": "peruanos_exterior",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Promoción del Perú como hub logístico del Pacífico sudamericano, articulando puertos, corredores bioceánicos y zonas económicas estratégicas, con diversificación de mercados.",
+      "cita_textual": "Promoción del Perú como hub logístico del Pacífico sudamericano",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1351,
+        "linea_fin": 1351,
+        "seccion": "Pilar 3 — Social, §3.10 Política Exterior, Propuestas"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-peruanos_exterior-015",
+      "candidato": "keiko",
+      "tema": "peruanos_exterior",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Estrategia de atracción de cadenas globales de valor y relocalización industrial (nearshoring y friendshoring), con fortalecimiento de la integración regional vía Alianza del Pacífico.",
+      "cita_textual": "Estrategia de atracción de cadenas globales de valor y relocalización industrial (nearshoring y friendshoring)",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1352,
+        "linea_fin": 1352,
+        "seccion": "Pilar 3 — Social, §3.10 Política Exterior, Propuestas"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-peruanos_exterior-016",
+      "candidato": "keiko",
+      "tema": "peruanos_exterior",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Primeros 100 días: implementación de la Ventanilla Única Consular Digital para reducir colas, costos y tiempos en trámites de peruanos en el exterior.",
+      "cita_textual": "Implementación de la Ventanilla Única Consular Digital para los peruanos en el exterior",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1354,
+        "linea_fin": 1354,
+        "seccion": "Pilar 3 — Social, §3.10 Peruanos en el Extranjero, Primeros 100 Días"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-peruanos_exterior-017",
+      "candidato": "keiko",
+      "tema": "peruanos_exterior",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Primeros 100 días: lanzamiento del programa Invierte desde el Exterior orientado a facilitar la inversión productiva de los PEX y su asociación con emprendedores en el país.",
+      "cita_textual": "Lanzamiento del programa “Invierte desde el Exterior”, orientado a facilitar la inversión productiva de los PEX",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1356,
+        "linea_fin": 1356,
+        "seccion": "Pilar 3 — Social, §3.10 Peruanos en el Extranjero, Primeros 100 Días"
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-peruanos_exterior-018",
+      "candidato": "keiko",
+      "tema": "peruanos_exterior",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Meta al 2031: modernizar el 100% de los consulados en países con alta concentración de PEX implementando la Ventanilla Única Consular Digital y estándares de atención.",
+      "cita_textual": "Modernizar el 100% de los consulados en países con alta concentración de PEX",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1360,
+        "linea_fin": 1360,
+        "seccion": "Pilar 3 — Social, §3.10 Peruanos en el Extranjero, Metas"
+      },
+      "meta_cuantitativa": "100% consulados modernizados al 2031"
+    },
+    {
+      "id": "k-peruanos_exterior-019",
+      "candidato": "keiko",
+      "tema": "peruanos_exterior",
+      "tipo": "meta",
+      "relevancia": "MEDIA",
+      "texto": "Meta al 2031: duplicar la inversión productiva canalizada desde el exterior y facilitar la inserción laboral y empresarial de retornantes mediante programas de coinversión.",
+      "cita_textual": "Duplicar la inversión productiva canalizada desde el exterior",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1361,
+        "linea_fin": 1361,
+        "seccion": "Pilar 3 — Social, §3.10 Peruanos en el Extranjero, Metas"
+      },
+      "meta_cuantitativa": "Duplicar inversión PEX al 2031"
+    },
+    {
+      "id": "k-peruanos_exterior-020",
+      "candidato": "keiko",
+      "tema": "peruanos_exterior",
+      "tipo": "meta",
+      "relevancia": "MEDIA",
+      "texto": "Meta al 2031: consolidar una red internacional de educación y cultura peruana que cubra al menos al 60% de comunidades PEX con programas permanentes.",
+      "cita_textual": "Consolidar una red internacional de educación y cultura peruana que cubra al menos al 60% de comunidades PEX",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "linea_inicio": 1363,
+        "linea_fin": 1363,
+        "seccion": "Pilar 3 — Social, §3.10 Peruanos en el Extranjero, Metas"
+      },
+      "meta_cuantitativa": "60% comunidades PEX cubiertas al 2031"
     }
   ]
 }
