@@ -22,6 +22,11 @@ import re
 import sys
 from pathlib import Path
 
+# Asegurar UTF-8 en stdout/stderr para que los emojis funcionen en Windows cp1252
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
 VAULT = Path(__file__).resolve().parent.parent.parent
 DATOS = VAULT / "00-Sistema" / "datos" / "propuestas.json"
 
