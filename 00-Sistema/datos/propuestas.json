@@ -11926,6 +11926,1574 @@
         "linea_fin": 281
       },
       "meta_cuantitativa": null
+    },
+    {
+      "id": "r-salud-001",
+      "candidato": "roberto",
+      "tema": "salud",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico estructural: el sistema de salud peruano es fragmentado, segmentado, estratificado, desfinanciado, ineficiente, mercantilizado, corrupto y deshumanizado; la pandemia con más de 200,000 muertos develó la urgencia de su reforma.",
+      "cita_textual": "el sistema de salud actual es fragmentado, segmentado, estratificado, desfinanciado, ineficiente, dependiente, mercantilizado, corrupto y deshumanizado",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.1 Salud — Situación Actual",
+        "linea_inicio": 287,
+        "linea_fin": 287
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-salud-002",
+      "candidato": "roberto",
+      "tema": "salud",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico de desigualdad: el gasto per cápita en salud refleja crisis sanitaria — SIS S/ 81, EsSalud S/ 1,300 y privado S/ 5,000, con muertes evitables sobre todo en el primer nivel de atención.",
+      "cita_textual": "La crisis sanitaria no solo se refleja en la desigualdad del gasto per cápita en salud del SIS (S/81), EsSalud (S/1300) y el privado (5000)",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.1 Salud — Situación Actual",
+        "linea_inicio": 287,
+        "linea_fin": 287
+      },
+      "meta_cuantitativa": "Gasto per cápita: SIS S/ 81, EsSalud S/ 1,300, privado S/ 5,000"
+    },
+    {
+      "id": "r-salud-003",
+      "candidato": "roberto",
+      "tema": "salud",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico presupuestal: en 2022 el Perú destinó apenas 6.2% del PBI a salud, entre los más bajos de la región; presupuesto 2025 S/ 30,400 millones (12.1% del nacional) insuficiente para revertir desigualdades.",
+      "cita_textual": "En 2022, el país destinó apenas 6.2 % del Producto Bruto Interno (PBI) al sistema de salud, esa cifra lo sitúa entre los países con menor presupuesto asignado a la salud de la región",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.1 Salud — Situación Actual",
+        "linea_inicio": 287,
+        "linea_fin": 287
+      },
+      "meta_cuantitativa": "Salud: 6.2% PBI; presupuesto 2025 S/ 30,400M"
+    },
+    {
+      "id": "r-salud-004",
+      "candidato": "roberto",
+      "tema": "salud",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico de infraestructura: en 2022, 7 de cada 10 peruanos que necesitaron atención médica no la obtuvieron; más del 70% de establecimientos tiene más de 30 años de antigüedad; 98% carece de infraestructura adecuada.",
+      "cita_textual": "en el 2022, 7 de cada 10 peruanos que necesitaron atención médica no la obtuvieron",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.1 Salud — Situación Actual",
+        "linea_inicio": 287,
+        "linea_fin": 287
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-salud-005",
+      "candidato": "roberto",
+      "tema": "salud",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico de confianza ciudadana: solo 24% de peruanos se declara satisfecho con servicios médicos públicos; el sector Salud perdió S/ 1,751 millones por corrupción en 2022; >50 mil quejas SUSALUD en 9 meses de 2023.",
+      "cita_textual": "Hoy por hoy, solo 24% de peruanos se declara satisfecho con los servicios médicos públicos – una minoría – y apenas 30% confía en que recibirá el mejor tratamiento posible",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.1 Salud — Situación Actual",
+        "linea_inicio": 288,
+        "linea_fin": 288
+      },
+      "meta_cuantitativa": "Satisfacción salud pública: 24%; corrupción 2022: S/ 1,751M"
+    },
+    {
+      "id": "r-salud-006",
+      "candidato": "roberto",
+      "tema": "salud",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Salud pública universal con integración progresiva de subsistemas: las personas podrán tratarse en cualquier centro público, privado, policial o militar con costos estandarizados; integración en tres fases (0-18, 18-36, 36-60 meses).",
+      "cita_textual": "Salud pública universal para toda la población con acceso integrado a cualquiera de los centros de atención del Estado, de las Fuerzas Policiales y Militares, y del sector privado",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.1 Salud — Medidas Propuestas",
+        "linea_inicio": 292,
+        "linea_fin": 292
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-salud-007",
+      "candidato": "roberto",
+      "tema": "salud",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Priorizar el Nivel I de atención (atención primaria, preventiva, inmediata y cercana) para que las personas accedan sin grandes colas; descongestionar hospitales resolviendo más en la comunidad.",
+      "cita_textual": "La estrategia de salud priorizará el Nivel I de atención de salud, es decir. la atención primaria, preventiva, inmediata y cercana a la población",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.1 Salud — Medidas Propuestas",
+        "linea_inicio": 292,
+        "linea_fin": 292
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-salud-008",
+      "candidato": "roberto",
+      "tema": "salud",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Plan nacional de inversión hospitalaria: cada región contará con al menos un hospital moderno de alta resolución, equipado y con personal calificado; priorizar regiones con mayor brecha.",
+      "cita_textual": "Construiremos, modernizaremos e innovaremos la gestión de hospitales estratégicos en regiones priorizadas, a través de la elaboración de un plan nacional de inversión hospitalaria",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.1 Salud — Medidas Propuestas",
+        "linea_inicio": 292,
+        "linea_fin": 292
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-salud-009",
+      "candidato": "roberto",
+      "tema": "salud",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Meta financiera: lograr una inversión adicional en salud de S/ 180,000 millones para 2026-2031; incrementar el gasto en salud al 7% del PBI al finalizar el periodo; eliminar copagos y avanzar a gratuidad total.",
+      "cita_textual": "Se propone lograr una Inversión adicional en salud de S/ 180,000 millones para el periodo 2026-2031",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.1 Salud — Medidas Propuestas",
+        "linea_inicio": 292,
+        "linea_fin": 292
+      },
+      "meta_cuantitativa": "Inversión salud: +S/ 180,000M (2026-2031); gasto 7% PBI; gratuidad total"
+    },
+    {
+      "id": "r-salud-010",
+      "candidato": "roberto",
+      "tema": "salud",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Meta de prevención: 1,000 equipos territoriales de Salud en zonas con mayores riesgos sanitarios y vulnerables; 500 establecimientos de Salud Intercultural al 2031.",
+      "cita_textual": "Prevención y Promoción de la Salud (1000 equipos territoriales de Salud en zonas con mayores riesgos sanitarios y vulnerables)",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.1 Salud — Medidas Propuestas",
+        "linea_inicio": 292,
+        "linea_fin": 292
+      },
+      "meta_cuantitativa": "1,000 equipos territoriales; 500 establecimientos Salud Intercultural"
+    },
+    {
+      "id": "r-salud-011",
+      "candidato": "roberto",
+      "tema": "salud",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Meta de infraestructura: construir y/o remodelar 500 establecimientos de salud del primer nivel a nivel nacional, priorizando territorios con mayores brechas.",
+      "cita_textual": "Construir y/o remodelar quinientos (500) establecimientos de salud del primer nivel de atención a nivel nacional",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.1 Salud — Medidas Propuestas",
+        "linea_inicio": 293,
+        "linea_fin": 293
+      },
+      "meta_cuantitativa": "500 establecimientos del primer nivel"
+    },
+    {
+      "id": "r-salud-012",
+      "candidato": "roberto",
+      "tema": "salud",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Implementar 700 clínicas especializadas entre policlínicos urbanos y clínicas rurales; modelo de 'Hospital Modular' para regiones con brechas críticas (Sierra y Selva).",
+      "cita_textual": "Implementaremos 700 clínicas especializadas entre policlínicos urbanos y clínicas rurales en todo el país",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.1 Salud — Medidas Propuestas",
+        "linea_inicio": 293,
+        "linea_fin": 293
+      },
+      "meta_cuantitativa": "700 clínicas especializadas"
+    },
+    {
+      "id": "r-salud-013",
+      "candidato": "roberto",
+      "tema": "salud",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Contratar 5,000 equipos de salud familiar y comunitaria para que cada uno atienda a 3,000 personas como médicos de familia en vecindarios y comunidades.",
+      "cita_textual": "Contrataremos 5,000 equipos de salud familiar y comunitaria para que cada uno atienda a 3,000 personas como médicos de familia",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.1 Salud — Medidas Propuestas",
+        "linea_inicio": 293,
+        "linea_fin": 293
+      },
+      "meta_cuantitativa": "5,000 equipos de salud familiar (3,000 personas c/u)"
+    },
+    {
+      "id": "r-salud-014",
+      "candidato": "roberto",
+      "tema": "salud",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Reorientar el sistema hacia la atención preventiva con aumento sustancial de inversión en programas de vacunación, control de epidemias y nutrición.",
+      "cita_textual": "Reorientaremos el sistema hacia la atención preventiva. Aumentaremos sustancialmente la inversión en programas de vacunación",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.1 Salud — Medidas Propuestas",
+        "linea_inicio": 293,
+        "linea_fin": 293
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-salud-015",
+      "candidato": "roberto",
+      "tema": "salud",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Salud mental como pilar estructural: fortalecer Centros de Salud Mental Comunitarios, equipos móviles en colegios, psicólogos en todas las instituciones educativas y centros de salud, cobertura obligatoria en todos los seguros.",
+      "cita_textual": "Haremos de la salud mental un pilar estructural fortaleciendo los Centros de Salud Mental Comunitarios, desplegando equipos móviles que intervengan en colegios",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.1 Salud — Medidas Propuestas",
+        "linea_inicio": 293,
+        "linea_fin": 293
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-salud-016",
+      "candidato": "roberto",
+      "tema": "salud",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Fortalecer los servicios de salud sexual y reproductiva con atención diferenciada para adolescentes, jóvenes, mujeres y personas LGBTIQ+, respetando la autonomía y la diversidad cultural.",
+      "cita_textual": "Fortaleceremos los servicios de salud sexual y reproductiva, con atención diferenciada para adolescentes, jóvenes, mujeres y personas LGBTIQ+",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.1 Salud — Medidas Propuestas",
+        "linea_inicio": 293,
+        "linea_fin": 293
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-salud-017",
+      "candidato": "roberto",
+      "tema": "salud",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Aplicar enfoque meritocrático y ético en la gestión: seleccionar directivos por concurso público, eliminar influencia política en nombramientos, código de conducta obligatorio para todos los niveles.",
+      "cita_textual": "Aplicar un enfoque meritocrático y ético en la gestión del sistema de salud. Seleccionar a los directivos por concurso público y eliminar la influencia política en los nombramientos",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.1 Salud — Medidas Propuestas",
+        "linea_inicio": 293,
+        "linea_fin": 293
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-salud-018",
+      "candidato": "roberto",
+      "tema": "salud",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Digitalizar la atención con un sistema nacional de Historial Clínico Electrónico (HCE) interoperable que registre de forma segura, continua y confidencial la información médica de cada paciente.",
+      "cita_textual": "Digitalizar la atención a través de un sistema nacional de historial clínico electrónico. Diseñar e implementar una plataforma interoperable de historial clínico electrónico",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.1 Salud — Medidas Propuestas",
+        "linea_inicio": 293,
+        "linea_fin": 293
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-salud-019",
+      "candidato": "roberto",
+      "tema": "salud",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Reflotamiento del sistema de laboratorios y producción pública de medicamentos, insumos y dispositivos tecnológicos sanitarios; creación del Instituto de Medicina Tradicional para investigación de plantas medicinales.",
+      "cita_textual": "Reflotamiento del sistema de laboratorios y producción pública de medicamentos, insumos y dispositivos tecnológicos sanitarios",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.1 Salud — Medidas Propuestas",
+        "linea_inicio": 295,
+        "linea_fin": 295
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-salud-020",
+      "candidato": "roberto",
+      "tema": "salud",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Política nacional de medicamentos basada en Red Nacional de Farmacias y Boticas Populares que ofrezcan genéricos de calidad a precios accesibles, con topes razonables a las ganancias.",
+      "cita_textual": "Desarrollaremos una política nacional de medicamentos basada en una red Nacional de Farmacias y Boticas Populares que ofrezcan genéricos de calidad a precios accesibles",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.1 Salud — Medidas Propuestas",
+        "linea_inicio": 295,
+        "linea_fin": 295
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-salud-021",
+      "candidato": "roberto",
+      "tema": "salud",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Banco nacional de medicamentos y compras integradas: centralizar adquisición al por mayor a través de sistema único de compra para aprovechar economías de escala, reducir precios y asegurar abastecimiento continuo.",
+      "cita_textual": "Banco nacional de medicamentos y compras integradas. Centralizar la adquisición al por mayor de medicamentos básicos a través de un sistema único de compra",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.1 Salud — Medidas Propuestas",
+        "linea_inicio": 295,
+        "linea_fin": 295
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-educacion-001",
+      "candidato": "roberto",
+      "tema": "educacion",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico estructural: la educación pública ha perdido calidad, ha deteriorado su identificación con la cultura peruana y aporta muy poco en la producción tecnológica. Requiere ser relanzada como aliado de la transformación nacional.",
+      "cita_textual": "La educación pública ha perdido calidad, ha deteriorado su identificación con la cultura peruana, y aporta muy poco en la producción tecnológica",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.2 Educación — Situación Actual",
+        "linea_inicio": 297,
+        "linea_fin": 297
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-educacion-002",
+      "candidato": "roberto",
+      "tema": "educacion",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico de aprendizajes: según UMC-MINEDU 2024 solo 3 de cada 10 estudiantes de 4to grado alcanzan lo esperado en lectura y matemática; en 6to grado solo 26% alcanza nivel satisfactorio en lectura y 18% en matemática.",
+      "cita_textual": "Según la Evaluación Muestral 2024 (UMC – MINEDU), solo 3 de cada 10 estudiantes de 4° alcanzan lo esperado, tanto en lectura como en matemática",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.2 Educación — Situación Actual",
+        "linea_inicio": 298,
+        "linea_fin": 298
+      },
+      "meta_cuantitativa": "4° grado: 30% logra; 6° lectura 26%; 6° matemática 18%"
+    },
+    {
+      "id": "r-educacion-003",
+      "candidato": "roberto",
+      "tema": "educacion",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico de inversión: el Perú invierte menos del 4% del PBI en educación; inversión por estudiante S/ 6,600 primaria, S/ 5,015 secundaria, mientras COAR S/ 24,300.",
+      "cita_textual": "El Perú invierte menos del 4% del PBI en educación, siendo en su mayor parte gasto corriente",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.2 Educación — Situación Actual",
+        "linea_inicio": 300,
+        "linea_fin": 300
+      },
+      "meta_cuantitativa": "Educación <4% PBI; primaria S/6,600/estudiante; COAR S/24,300"
+    },
+    {
+      "id": "r-educacion-004",
+      "candidato": "roberto",
+      "tema": "educacion",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Diagnóstico de docentes e infraestructura: solo 3 de cada 10 docentes accede a capacitación pertinente cada año; 47% de locales escolares presenta deficiencias graves; 1 de cada 4 no cuenta con agua potable (Censo 2023).",
+      "cita_textual": "Solo 3 de cada 10 docentes acceden a capacitación pertinente cada año. El 47% de locales escolares presenta deficiencias graves de infraestructura",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.2 Educación — Situación Actual",
+        "linea_inicio": 298,
+        "linea_fin": 298
+      },
+      "meta_cuantitativa": "47% locales con deficiencias; 25% sin agua potable"
+    },
+    {
+      "id": "r-educacion-005",
+      "candidato": "roberto",
+      "tema": "educacion",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Diagnóstico de educación superior: solo 3 de 98 universidades licenciadas figuran en el top 1000 de rankings internacionales; en educación tecnológica solo 140 de 1,131 institutos lograron licenciarse (12%).",
+      "cita_textual": "solo 3 de 98 universidades licenciadas figuran en el top 1000 de rankings internacionales como QS o THE",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.2 Educación — Situación Actual",
+        "linea_inicio": 298,
+        "linea_fin": 298
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-educacion-006",
+      "candidato": "roberto",
+      "tema": "educacion",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Potenciar la educación tecnológica para que ningún egresado de secundaria se quede sin aprender un oficio; fortalecer institutos de innovación tecnológica y potenciar institutos técnicos de las FFAA en cada región.",
+      "cita_textual": "Potenciación de la educación tecnológica para que ningún egresado de secundaria se quede sin aprender un oficio",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.2 Educación — Medidas Propuestas",
+        "linea_inicio": 302,
+        "linea_fin": 302
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-educacion-007",
+      "candidato": "roberto",
+      "tema": "educacion",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Establecer estándares nacionales para condiciones mínimas de educabilidad en todo el territorio: acceso a agua, luz, conectividad, alimentación escolar, espacios seguros y apoyo emocional.",
+      "cita_textual": "Establecer estándares nacionales para condiciones mínimas de educabilidad en todo el territorio nacional: acceso a agua, luz, conectividad, alimentación escolar",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.2 Educación — Medidas Propuestas",
+        "linea_inicio": 302,
+        "linea_fin": 302
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-educacion-008",
+      "candidato": "roberto",
+      "tema": "educacion",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Consolidar la reforma universitaria garantizando la calidad, autonomía y fiscalización efectiva de la SUNEDU, promoviendo la movilidad académica entre regiones.",
+      "cita_textual": "Consolidar la reforma universitaria garantizando la calidad, autonomía y fiscalización efectiva de la SUNEDU",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.2 Educación — Medidas Propuestas",
+        "linea_inicio": 302,
+        "linea_fin": 302
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-educacion-009",
+      "candidato": "roberto",
+      "tema": "educacion",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Compromiso de primer año: implementar un sistema de supervisión que abarque todos los componentes del sistema educativo (estudiantes, docentes, currículos, recursos, infraestructura).",
+      "cita_textual": "En el primer año de gobierno, se implementará un sistema de supervisión que abarque todos los componentes del sistema",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.2 Educación — Medidas Propuestas",
+        "linea_inicio": 302,
+        "linea_fin": 302
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-educacion-010",
+      "candidato": "roberto",
+      "tema": "educacion",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Meta de deserción: disminuir la deserción escolar en áreas rurales y marginales al 5% en cinco años.",
+      "cita_textual": "Disminuir la deserción escolar en áreas rurales y marginales al 5% en cinco años",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.2 Educación — Medidas Propuestas",
+        "linea_inicio": 302,
+        "linea_fin": 302
+      },
+      "meta_cuantitativa": "Deserción escolar rural/marginal: ≤5% en 5 años"
+    },
+    {
+      "id": "r-educacion-011",
+      "candidato": "roberto",
+      "tema": "educacion",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Plan quinquenal focalizado en 4° de primaria y 2° de secundaria para lectura, matemática y habilidades socioemocionales, con refuerzo escolar, tutorías entre pares y evaluación formativa alineada a ENLA.",
+      "cita_textual": "Implementar un plan quinquenal focalizado en 4.º de primaria y 2.º de secundaria para lectura, matemática y habilidades socioemocionales",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.2 Educación — Medidas Propuestas",
+        "linea_inicio": 302,
+        "linea_fin": 302
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-educacion-012",
+      "candidato": "roberto",
+      "tema": "educacion",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Fortalecer la formación docente inicial con estándares de calidad, prácticas en aula desde los primeros ciclos y articulación entre institutos pedagógicos y universidades.",
+      "cita_textual": "Fortalecer la formación docente inicial con estándares de calidad, prácticas en aula desde los primeros ciclos",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.2 Educación — Medidas Propuestas",
+        "linea_inicio": 304,
+        "linea_fin": 304
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-educacion-013",
+      "candidato": "roberto",
+      "tema": "educacion",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Implementar un plan de residencias docentes en contextos rurales; programas de capacitación continua para el 100% de docentes de áreas rurales y marginales.",
+      "cita_textual": "Implementar un plan de residencias docentes en los contextos rurales",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.2 Educación — Medidas Propuestas",
+        "linea_inicio": 304,
+        "linea_fin": 304
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-educacion-014",
+      "candidato": "roberto",
+      "tema": "educacion",
+      "tipo": "meta",
+      "relevancia": "MEDIA",
+      "texto": "Meta de infraestructura: mejorar la infraestructura educativa en áreas urbanas en 55% y en áreas rurales en 40% en cinco años.",
+      "cita_textual": "Mejorar la infraestructura educativa en áreas urbanas en un 55% en cinco años y un 40% en áreas rurales",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.2 Educación — Medidas Propuestas",
+        "linea_inicio": 304,
+        "linea_fin": 304
+      },
+      "meta_cuantitativa": "Infraestructura: +55% urbana, +40% rural en 5 años"
+    },
+    {
+      "id": "r-educacion-015",
+      "candidato": "roberto",
+      "tema": "educacion",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Ajustar la Carrera Pública Magisterial para ofrecer mejores condiciones a docentes y directores en zonas rurales, EIB y amazónicas: bonificaciones permanentes, vivienda docente, puntaje adicional en concursos.",
+      "cita_textual": "Ajustar la Carrera Pública Magisterial para ofrecer mejores condiciones a docentes y directores en zonas rurales, EIB y amazónicas",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.2 Educación — Medidas Propuestas",
+        "linea_inicio": 304,
+        "linea_fin": 304
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-educacion-016",
+      "candidato": "roberto",
+      "tema": "educacion",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Ampliación del Programa Beca 18 y creación del Programa de Becas para investigaciones tecnológicas, Maestría y Doctorado a cargo de las universidades públicas conforme a prioridades de desarrollo nacional.",
+      "cita_textual": "Ampliación del Programa Beca 18 y creación del Programa de Becas para investigaciones tecnológicas, de Maestría y Doctorado",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.2 Educación — Medidas Propuestas",
+        "linea_inicio": 304,
+        "linea_fin": 304
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-educacion-017",
+      "candidato": "roberto",
+      "tema": "educacion",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Rediseñar y escalar la EBA hacia un sistema de educación para personas jóvenes y adultas con horarios flexibles, modelos semipresenciales y virtuales, rutas cortas certificables y campaña nacional de reenganche educativo.",
+      "cita_textual": "Rediseñar y escalar la EBA hacia un sistema de educación de educación para las personas jóvenes y adultas para convertirla en la principal puerta de acceso y/o retorno educativo",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.2 Educación — Medidas Propuestas",
+        "linea_inicio": 304,
+        "linea_fin": 304
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-educacion-018",
+      "candidato": "roberto",
+      "tema": "educacion",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Red de institutos tecnológicos y CETPRO públicos de excelencia especializados por cadenas productivas con énfasis en Amazonía y regiones rurales (bioeconomía, agroindustria, turismo sostenible, servicios digitales).",
+      "cita_textual": "Desarrollar una red de institutos tecnológicos y CETPRO públicos de excelencia, especializados por cadenas productivas y con énfasis en Amazonía y regiones rurales",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.2 Educación — Medidas Propuestas",
+        "linea_inicio": 304,
+        "linea_fin": 304
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-educacion-019",
+      "candidato": "roberto",
+      "tema": "educacion",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Institucionalizar modelos de formación dual y prácticas pre-profesionales obligatorias en empresas y organizaciones locales, con incentivos tributarios a empresas que ofrezcan cupos.",
+      "cita_textual": "Institucionalizar modelos de formación dual y prácticas pre-profesionales obligatorias en empresas y organizaciones locales",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.2 Educación — Medidas Propuestas",
+        "linea_inicio": 304,
+        "linea_fin": 304
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-educacion-020",
+      "candidato": "roberto",
+      "tema": "educacion",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Política curricular descentralizada: Marco Curricular Nacional (MCN) con diversificación que responda a cada región y localidad; los pueblos y naciones indígenas gestionarán autónomamente su proceso de diversificación.",
+      "cita_textual": "La política curricular del sistema consistirá en un Marco Curricular Nacional (MCN) y una política descentralizada de diversificación del MCN que responda a cada región y localidad",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.2 Educación — Medidas Propuestas",
+        "linea_inicio": 306,
+        "linea_fin": 306
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-educacion-021",
+      "candidato": "roberto",
+      "tema": "educacion",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Sistema educativo nacional se regirá por un enfoque general intercultural, con enfoque intercultural bilingüe (EIB) para pueblos y naciones indígenas; enfoque de género en todos los niveles y modalidades.",
+      "cita_textual": "El sistema educativo nacional se regirá por un enfoque general intercultural, para todos y un enfoque intercultural bilingüe para los pueblos y naciones indígenas",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.2 Educación — Medidas Propuestas",
+        "linea_inicio": 306,
+        "linea_fin": 306
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-genero-001",
+      "candidato": "roberto",
+      "tema": "genero",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico cuantitativo: en 2024 se reportaron 71,717 casos de violencia psicológica, 63,692 física y 32,388 sexual atendidos por los CEM; 170 feminicidios incluyendo 10 niñas y adolescentes.",
+      "cita_textual": "tan sólo en el 2024 se reportaron 71,717 casos de violencia psicológica, 63,692 casos de violencia física y 32,388 casos de violencia sexual atendidos por los Centros de Emergencia Mujer",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.3 Violencia de Género — Situación Actual",
+        "linea_inicio": 306,
+        "linea_fin": 306
+      },
+      "meta_cuantitativa": "2024: 71,717 violencia psicológica + 63,692 física + 32,388 sexual; 170 feminicidios"
+    },
+    {
+      "id": "r-genero-002",
+      "candidato": "roberto",
+      "tema": "genero",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico de desapariciones: en 2023 se registraron 10,817 mujeres desaparecidas; solo poco más de la mitad fueron ubicadas; 5,184 son niñas y mujeres; mayor incidencia en Lima (3,561), Cusco (681) y Junín (646).",
+      "cita_textual": "en el año 2023 se registraron 10,817 casos, de las cuáles apenas poco más de la mitad fueron ubicadas",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.3 Violencia de Género — Situación Actual",
+        "linea_inicio": 306,
+        "linea_fin": 306
+      },
+      "meta_cuantitativa": "2023: 10,817 mujeres desaparecidas; 5,184 niñas/mujeres"
+    },
+    {
+      "id": "r-genero-003",
+      "candidato": "roberto",
+      "tema": "genero",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico de explotación sexual: el Ministerio Público registró 29,400 casos entre 2018-2023, la mayoría víctimas menores; problemática expandida más allá de La Pampa y La Rinconada hacia Lima, Arequipa, La Libertad, Piura y Tumbes.",
+      "cita_textual": "el Ministerio Público y la Fiscalía de la Nación registró 29,400 casos entre 2018 y 2023, la mayoría de ellas víctimas menores de edad",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.3 Violencia de Género — Situación Actual",
+        "linea_inicio": 306,
+        "linea_fin": 306
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-genero-004",
+      "candidato": "roberto",
+      "tema": "genero",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Mejorar políticas regionales y locales vía acompañamiento y capacitación del MIMP; asignación presupuestal a Instancias de Concertación contra la Violencia para que sean espacios de acción, no de conversación.",
+      "cita_textual": "Mejoraremos las políticas, planes e intervenciones de las autoridades regionales y locales vía acompañamiento y capacitación del Ministerio de la Mujer y Población Vulnerables",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.3 Violencia de Género — Medidas Propuestas",
+        "linea_inicio": 308,
+        "linea_fin": 308
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-genero-005",
+      "candidato": "roberto",
+      "tema": "genero",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Atención rápida y oportuna en casos de desaparición, feminicidio, violencia contra mujeres y población vulnerable; tipificar como delito la omisión de acciones inmediatas de policías ante denuncias.",
+      "cita_textual": "Atención rápida y oportuna en casos de desaparición, de feminicidio, violencia contra las mujeres y población vulnerable como niñeces con discapacidad. Tipificar como delito la omisión de acciones inmediatas de policías ante denuncias",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.3 Violencia de Género — Medidas Propuestas",
+        "linea_inicio": 308,
+        "linea_fin": 308
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-genero-006",
+      "candidato": "roberto",
+      "tema": "genero",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Educación Sexual Integral pertinente en cada nivel del sistema educativo para garantizar entornos libres de violencia, en un marco de respeto, valorando el consentimiento y la autonomía corporal.",
+      "cita_textual": "Educación Sexual Integral pertinente en cada uno de los niveles del sistema educativo, para garantizar que infancias y adolescencias crezcan en entornos escolares y hogares libres de violencia",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.3 Violencia de Género — Medidas Propuestas",
+        "linea_inicio": 308,
+        "linea_fin": 308
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-genero-007",
+      "candidato": "roberto",
+      "tema": "genero",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Declarar en emergencia la seguridad de las mujeres trans, especialmente de aquellas que ejercen el trabajo sexual, frente al incremento de crímenes de odio y violencia estructural.",
+      "cita_textual": "Declararemos en emergencia la seguridad de las mujeres trans, especialmente de aquellas que ejercen el trabajo sexual",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.3 Violencia de Género — Medidas Propuestas",
+        "linea_inicio": 308,
+        "linea_fin": 308
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-genero-008",
+      "candidato": "roberto",
+      "tema": "genero",
+      "tipo": "principio",
+      "relevancia": "ALTA",
+      "texto": "Garantizar la igualdad ante la ley para todas y todos, en especial el derecho a la identidad, salud, educación y trabajo para la diversidad.",
+      "cita_textual": "Garantizaremos la igualdad ante la ley para todas y todos, en especial garantizar el derecho a la identidad, salud, educación y trabajo para la diversidad",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.3 Violencia de Género — Medidas Propuestas",
+        "linea_inicio": 308,
+        "linea_fin": 308
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-genero-009",
+      "candidato": "roberto",
+      "tema": "genero",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Asegurar acceso real, oportuno y seguro al aborto terapéutico cuando sea necesario para salvar la vida de la gestante o evitar un daño grave y permanente a su salud, con consentimiento informado.",
+      "cita_textual": "el Estado debe asegurar un acceso real, oportuno y seguro al aborto terapéutico cuando sea necesario para salvar la vida de la gestante",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.3 Violencia de Género — Medidas Propuestas",
+        "linea_inicio": 308,
+        "linea_fin": 308
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-genero-010",
+      "candidato": "roberto",
+      "tema": "genero",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Despenalizar la interrupción del embarazo en casos de violencia sexual y/o riesgo para la vida o salud de la madre, para que ninguna víctima sea obligada a continuar un embarazo forzado.",
+      "cita_textual": "proponemos despenalizar la interrupción del embarazo en casos de violencia sexual y/o riesgo para la vida o la salud de la madre",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.3 Violencia de Género — Medidas Propuestas",
+        "linea_inicio": 308,
+        "linea_fin": 308
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-genero-011",
+      "candidato": "roberto",
+      "tema": "genero",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Actualización y fortalecimiento de la política de aborto terapéutico para garantizar el cumplimiento de estándares internacionales de DDHH e implementación efectiva de la Guía Técnica en todo el país.",
+      "cita_textual": "Actualización y fortalecimiento de la política de aborto terapéutico que garantice el cumplimiento de los estándares internacionales de derechos humanos",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.3 Violencia de Género — Medidas Propuestas",
+        "linea_inicio": 308,
+        "linea_fin": 308
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-pensiones-001",
+      "candidato": "roberto",
+      "tema": "pensiones",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico de pobreza: en 2024 el 27.6% de peruanos (9.39 millones) vive en pobreza monetaria y 5.5% en pobreza extrema; 31.8% en vulnerabilidad monetaria; >60% son pobres o están en riesgo de serlo.",
+      "cita_textual": "En 2024, el 27,6 % de los peruanos —unos 9,39 millones de personas— vive en pobreza monetaria, y el 5,5 % en pobreza extrema",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.4 Inclusión Social — Situación Actual",
+        "linea_inicio": 310,
+        "linea_fin": 310
+      },
+      "meta_cuantitativa": "Pobreza 2024: 27.6% (9.39M); extrema 5.5%; vulnerable 31.8%"
+    },
+    {
+      "id": "r-pensiones-002",
+      "candidato": "roberto",
+      "tema": "pensiones",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico de urbanización de la pobreza: en 2021 el 68.7% de pobres vivía en ciudades, Lima concentra 24% de la pobreza total; el Programa Juntos sigue diseñado para entorno rural.",
+      "cita_textual": "Aunque históricamente se concentraba en las zonas rurales, hoy se ha urbanizado: en 2021, el 68,7 % de las personas pobres vivían en ciudades, y Lima por sí sola concentra el 24 %",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.4 Inclusión Social — Situación Actual",
+        "linea_inicio": 310,
+        "linea_fin": 310
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-pensiones-003",
+      "candidato": "roberto",
+      "tema": "pensiones",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Diagnóstico de inversión social: en 2022 el gasto en protección social no contributiva fue inferior al 0.8% del PIB, muy lejos del estándar 1.5-2.5%; gasto per cápita US$ 646/año vs promedio regional US$ 1,175.",
+      "cita_textual": "En 2022, el gasto en protección social no contributiva fue inferior al 0,8 % del PIB, por debajo del promedio de América del Sur",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.4 Inclusión Social — Situación Actual",
+        "linea_inicio": 310,
+        "linea_fin": 310
+      },
+      "meta_cuantitativa": "Gasto protección social 0.8% PIB (estándar 1.5-2.5%); US$ 646 vs US$ 1,175 regional"
+    },
+    {
+      "id": "r-pensiones-004",
+      "candidato": "roberto",
+      "tema": "pensiones",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Rediseñar el Ministerio de Inclusión Social hacia un Ministerio de Bienestar y Desarrollo Nacional.",
+      "cita_textual": "Rediseñar el Ministerio de Inclusión Social hacia un Ministerio de Bienestar y Desarrollo Nacional",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.4 Inclusión Social — Medidas Propuestas",
+        "linea_inicio": 312,
+        "linea_fin": 312
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-pensiones-005",
+      "candidato": "roberto",
+      "tema": "pensiones",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Transformar los programas sociales focalizados en un sistema de protección social articulado que acompañe a las familias en sus transiciones fuera de la pobreza y garantice ciudadanía social sin clientelismo.",
+      "cita_textual": "Transformar los programas sociales focalizados en un sistema de protección social articulado, que acompañe a las familias en sus transiciones fuera de la pobreza",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.4 Inclusión Social — Medidas Propuestas",
+        "linea_inicio": 312,
+        "linea_fin": 312
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-pensiones-006",
+      "candidato": "roberto",
+      "tema": "pensiones",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Rediseñar el Programa Juntos para adaptarlo a la nueva geografía urbana de la pobreza; duplicar la cobertura y el monto del programa Juntos.",
+      "cita_textual": "Rediseñar el Programa Juntos para adaptarlo a la nueva geografía de la pobreza, considerando que en 2021 el 68,7 % de las personas pobres vivían en zonas urbanas",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.4 Inclusión Social — Medidas Propuestas",
+        "linea_inicio": 312,
+        "linea_fin": 312
+      },
+      "meta_cuantitativa": "Programa Juntos: duplicar cobertura y monto"
+    },
+    {
+      "id": "r-pensiones-007",
+      "candidato": "roberto",
+      "tema": "pensiones",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Paquete integrado de protección social para primera infancia: incrementar cobertura para gestantes y niños menores de 5 años de 31.6% a 70%.",
+      "cita_textual": "Implementar un paquete integrado de protección social para la primera infancia, beneficiando a hogares con gestantes y niños menores de 5 años que hoy representan un 31,6 % de cobertura en incentivos y que deben llegar al 70 %",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.4 Inclusión Social — Medidas Propuestas",
+        "linea_inicio": 312,
+        "linea_fin": 312
+      },
+      "meta_cuantitativa": "Cobertura primera infancia: 31.6%→70%"
+    },
+    {
+      "id": "r-pensiones-008",
+      "candidato": "roberto",
+      "tema": "pensiones",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Programa nacional de alimentación escolar que garantice al menos una comida diaria en el 100% de las escuelas públicas de inicial, primaria y secundaria, con compras directas a agricultores locales.",
+      "cita_textual": "Crear un programa nacional de alimentación escolar que garantice al menos una comida diaria en el 100 % de las escuelas públicas",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.4 Inclusión Social — Medidas Propuestas",
+        "linea_inicio": 312,
+        "linea_fin": 312
+      },
+      "meta_cuantitativa": "100% escuelas públicas con alimentación escolar diaria"
+    },
+    {
+      "id": "r-pensiones-009",
+      "candidato": "roberto",
+      "tema": "pensiones",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Incrementar a 700 soles bimensuales el monto de las pensiones no contributivas (Pensión 65) para todas y todos.",
+      "cita_textual": "Incrementar a 700 soles bimensuales el monto de las pensiones no contributivas (Pensión 65) para todas y todos",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.4 Inclusión Social — Medidas Propuestas",
+        "linea_inicio": 312,
+        "linea_fin": 312
+      },
+      "meta_cuantitativa": "Pensión 65: S/ 700 bimensuales"
+    },
+    {
+      "id": "r-pensiones-010",
+      "candidato": "roberto",
+      "tema": "pensiones",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Implementar un modelo de ventanilla única de servicios sociales en gobiernos locales priorizando zonas con mayor pobreza extrema.",
+      "cita_textual": "Implementar un modelo de ventanilla única de servicios sociales en gobiernos locales, priorizando zonas con mayor pobreza extrema",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.4 Inclusión Social — Medidas Propuestas",
+        "linea_inicio": 312,
+        "linea_fin": 312
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-pensiones-011",
+      "candidato": "roberto",
+      "tema": "pensiones",
+      "tipo": "meta",
+      "relevancia": "MEDIA",
+      "texto": "Construir un registro social inclusivo, adaptativo y digital con inteligencia artificial para alcanzar una clasificación socioeconómica actualizada del 70% de la población pobre.",
+      "cita_textual": "Construir un registro social inclusivo, adaptativo y digital, con inteligencia artificial, para alcanzar una clasificación socioeconómica actualizada del 70 % de la población pobre",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.4 Inclusión Social — Medidas Propuestas",
+        "linea_inicio": 312,
+        "linea_fin": 312
+      },
+      "meta_cuantitativa": "Registro social digital: 70% población pobre clasificada"
+    },
+    {
+      "id": "r-pensiones-012",
+      "candidato": "roberto",
+      "tema": "pensiones",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Desarrollar estrategias territoriales de cierre de brechas sociales para que el 90% de hogares cuente con agua, saneamiento, electricidad e internet antes de 2031.",
+      "cita_textual": "Desarrollar estrategias territoriales de cierre de brechas sociales que permitan que el 90 % de hogares cuente con agua, saneamiento, electricidad e internet antes de 2031",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.4 Inclusión Social — Medidas Propuestas",
+        "linea_inicio": 312,
+        "linea_fin": 312
+      },
+      "meta_cuantitativa": "90% hogares con servicios básicos al 2031"
+    },
+    {
+      "id": "r-genero-012",
+      "candidato": "roberto",
+      "tema": "genero",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico de cuidado: en el 82% de los hogares peruanos la principal responsable del trabajo doméstico y de cuidado no remunerado es una mujer; afecta su trayectoria laboral, educativa y participación política.",
+      "cita_textual": "En el 82% de los hogares peruanos, la principal responsable del trabajo doméstico y de cuidado no remunerado es una mujer",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.5 Igualdad de Oportunidades — Situación Actual",
+        "linea_inicio": 314,
+        "linea_fin": 314
+      },
+      "meta_cuantitativa": "82% hogares: cuidado no remunerado a cargo de mujeres"
+    },
+    {
+      "id": "r-genero-013",
+      "candidato": "roberto",
+      "tema": "genero",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Diagnóstico de uso del tiempo: en días laborables las mujeres dedican 5 horas 7 minutos al trabajo no remunerado doméstico y de cuidados, más del doble que los hombres (ENUT 2024).",
+      "cita_textual": "La Encuesta Nacional de Uso del Tiempo 2024 muestra que, en días laborables, las mujeres dedican en promedio 5 horas y 7 minutos al trabajo no remunerado",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.5 Igualdad de Oportunidades — Situación Actual",
+        "linea_inicio": 314,
+        "linea_fin": 314
+      },
+      "meta_cuantitativa": "Mujeres: 5h 7min/día trabajo no remunerado (ENUT 2024)"
+    },
+    {
+      "id": "r-genero-014",
+      "candidato": "roberto",
+      "tema": "genero",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Asignar un bono único de 800 soles a madres que den a luz en el SIS y carezcan de licencia de maternidad remunerada.",
+      "cita_textual": "Asignación de un bono único de 800 soles a las madres que den a luz en el SIS y carezcan de licencia de maternidad remunerada",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.5 Igualdad de Oportunidades — Medidas Propuestas",
+        "linea_inicio": 314,
+        "linea_fin": 314
+      },
+      "meta_cuantitativa": "Bono S/ 800 madres SIS sin licencia maternidad"
+    },
+    {
+      "id": "r-genero-015",
+      "candidato": "roberto",
+      "tema": "genero",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Crear e implementar un Sistema Nacional de Cuidados con enfoque de género e intercultural que reduzca la sobrecarga de cuidados sobre las mujeres y garantice atención de calidad a niñas y niños, personas mayores, con discapacidad y en dependencia.",
+      "cita_textual": "Crear e implementar un Sistema Nacional de Cuidados con enfoque de género e intercultural que reduzca la sobrecarga de cuidados sobre las mujeres",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.5 Igualdad de Oportunidades — Medidas Propuestas",
+        "linea_inicio": 316,
+        "linea_fin": 316
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-genero-016",
+      "candidato": "roberto",
+      "tema": "genero",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Inversión en infraestructura y servicios de cuidado comunitario: retorno de Wawawasi en hogares de madres usuarias con acompañamiento estatal; cobertura de Educuna y Cunamás con derechos laborales y salario mínimo.",
+      "cita_textual": "Inversión en infraestructura y servicios de cuidado comunitario en zonas urbanas y rurales. Retorno de Wawawasi en hogares de madres usuarias",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.5 Igualdad de Oportunidades — Medidas Propuestas",
+        "linea_inicio": 316,
+        "linea_fin": 316
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-genero-017",
+      "candidato": "roberto",
+      "tema": "genero",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Incremento progresivo de licencias de paternidad para lograr licencias parentales equitativas y servicios de cuidado infantil en centros laborales.",
+      "cita_textual": "Incremento progresivo de licencias de paternidad para lograr licencias parentales equitativas y servicios de cuidado infantil en centros laborales",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.5 Igualdad de Oportunidades — Medidas Propuestas",
+        "linea_inicio": 316,
+        "linea_fin": 316
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-juventud-001",
+      "candidato": "roberto",
+      "tema": "juventud",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico estructural: la juventud peruana en 2026 se caracteriza por incertidumbre crítica marcada por la precariedad laboral y la falta de proyectos de vida concretos; el 82% de jóvenes trabaja en condiciones de informalidad.",
+      "cita_textual": "El 82% de los jóvenes trabaja en condiciones de informalidad, lo que limita su acceso a estabilidad económica, protección social y oportunidades de desarrollo",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.6 Juventud — Situación Actual",
+        "linea_inicio": 318,
+        "linea_fin": 318
+      },
+      "meta_cuantitativa": "Informalidad juvenil: 82%"
+    },
+    {
+      "id": "r-juventud-002",
+      "candidato": "roberto",
+      "tema": "juventud",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Diagnóstico de brecha digital: persiste una profunda brecha digital que mantiene aisladas a comunidades rurales y amazónicas, restringiendo su acceso a educación, información y oportunidades económicas.",
+      "cita_textual": "Persiste una profunda brecha digital que mantiene aisladas a comunidades rurales y amazónicas",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.6 Juventud — Situación Actual",
+        "linea_inicio": 318,
+        "linea_fin": 318
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-juventud-003",
+      "candidato": "roberto",
+      "tema": "juventud",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Crear el Programa de voluntariado juvenil del sector público (AYNI): tareas menores de cuidado ambiental, mantenimiento del ornato, educación cívica; 45 mil jóvenes en todas las regiones el primer año.",
+      "cita_textual": "Creación del Programa de voluntariado juvenil del sector público (AYNI), de tiempo parcial, para que los jóvenes puedan realizar tareas menores de cuidado ambiental",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.6 Juventud — Medidas Propuestas",
+        "linea_inicio": 320,
+        "linea_fin": 320
+      },
+      "meta_cuantitativa": "AYNI: 45,000 jóvenes en regiones (primer año)"
+    },
+    {
+      "id": "r-juventud-004",
+      "candidato": "roberto",
+      "tema": "juventud",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Programa 'Mi Primera Chamba': bono de 6,150 soles a cada joven egresado de secundaria para iniciar estudios/capacitación, emprendimiento o subsidio de hasta 6 meses mientras encuentra empleo.",
+      "cita_textual": "Programa especial de apoyo a los jóvenes “Mi Primera Chamba”, que asignará un bono de 6,150 soles a cada joven egresado de secundaria",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.6 Juventud — Medidas Propuestas",
+        "linea_inicio": 320,
+        "linea_fin": 320
+      },
+      "meta_cuantitativa": "Mi Primera Chamba: bono S/ 6,150 por egresado de secundaria"
+    },
+    {
+      "id": "r-juventud-005",
+      "candidato": "roberto",
+      "tema": "juventud",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Subsidio temporal de hasta 22% al costo de la formalidad para incentivar contratación formal de jóvenes en MYPEs; exención de Impuesto a la Renta por 24 meses para nuevos contratos a menores de 25 años.",
+      "cita_textual": "Establecer subsidio temporal de hasta 22% al costo de la formalidad para incentivar la contratación formal y estable de jóvenes en MYPEs",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.6 Juventud — Medidas Propuestas",
+        "linea_inicio": 322,
+        "linea_fin": 322
+      },
+      "meta_cuantitativa": "Subsidio 22% formalidad; exención IR 24 meses contratos <25 años"
+    },
+    {
+      "id": "r-juventud-006",
+      "candidato": "roberto",
+      "tema": "juventud",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Fortalecer Jóvenes Productivos con formaciones técnicas en logística portuaria y energías renovables para alcanzar tasa de inserción laboral del 85% en sectores estratégicos.",
+      "cita_textual": "Instaurar y fortalecer el programa Jóvenes Productivos con formaciones técnicas especializadas en logística portuaria y energías renovables para alcanzar una tasa de inserción laboral del 85%",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.6 Juventud — Medidas Propuestas",
+        "linea_inicio": 322,
+        "linea_fin": 322
+      },
+      "meta_cuantitativa": "Tasa inserción laboral: 85% en sectores estratégicos"
+    },
+    {
+      "id": "r-juventud-007",
+      "candidato": "roberto",
+      "tema": "juventud",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Fondo capital semilla Juventud Innovadora para apoyar 50,000 negocios tecnológicos regionales en sostenibilidad ambiental y productividad agrícola, con fondos a fondo perdido del Banco de la Nación.",
+      "cita_textual": "Activar el fondo capital semilla Juventud Innovadora para apoyar 50,000 negocios tecnológicos regionales",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.6 Juventud — Medidas Propuestas",
+        "linea_inicio": 322,
+        "linea_fin": 322
+      },
+      "meta_cuantitativa": "50,000 negocios tecnológicos juveniles regionales"
+    },
+    {
+      "id": "r-juventud-008",
+      "candidato": "roberto",
+      "tema": "juventud",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Construir una red nacional de 700 clínicas de control emocional con horarios extendidos y centros de salud mental comunitaria modernizados con teleconsulta asistida por IA.",
+      "cita_textual": "Construir una red nacional de 700 clínicas de control emocional con horarios extendidos",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.6 Juventud — Medidas Propuestas",
+        "linea_inicio": 322,
+        "linea_fin": 322
+      },
+      "meta_cuantitativa": "700 clínicas de control emocional juvenil"
+    },
+    {
+      "id": "r-juventud-009",
+      "candidato": "roberto",
+      "tema": "juventud",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Servicio Civil de Salud Mental: presencia obligatoria de un psicólogo especializado por cada 300 alumnos en todas las instituciones educativas públicas de secundaria a nivel nacional.",
+      "cita_textual": "Instituir el Servicio Civil de Salud Mental para garantizar la presencia obligatoria de un psicólogo especializado por cada 300 alumnos",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.6 Juventud — Medidas Propuestas",
+        "linea_inicio": 322,
+        "linea_fin": 322
+      },
+      "meta_cuantitativa": "1 psicólogo/300 alumnos en secundaria pública"
+    },
+    {
+      "id": "r-juventud-010",
+      "candidato": "roberto",
+      "tema": "juventud",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Desarrollar 50 Parques de Innovación, Deporte y Cultura equipados con laboratorios de robótica y estudios de grabación en distritos de alta peligrosidad como alternativa al reclutamiento por economías ilegales.",
+      "cita_textual": "Desarrollar 50 Parques de Innovación, Deporte y Cultura equipados con laboratorios de robótica y estudios de grabación en distritos de alta peligrosidad",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.6 Juventud — Medidas Propuestas",
+        "linea_inicio": 322,
+        "linea_fin": 322
+      },
+      "meta_cuantitativa": "50 Parques de Innovación, Deporte y Cultura"
+    },
+    {
+      "id": "r-juventud-011",
+      "candidato": "roberto",
+      "tema": "juventud",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Asegurar la entrega de 10,000 becas adicionales por año a través de PRONABEC priorizando carreras de ingeniería y ciencias aplicadas, con descentralización para jóvenes de comunidades campesinas y nativas.",
+      "cita_textual": "Asegurar la entrega de 10.000 becas adicionales por año a través de PRONABEC, dando prioridad a las carreras de ingeniería y ciencias aplicadas",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.6 Juventud — Medidas Propuestas",
+        "linea_inicio": 322,
+        "linea_fin": 322
+      },
+      "meta_cuantitativa": "+10,000 becas PRONABEC anuales"
+    },
+    {
+      "id": "r-juventud-012",
+      "candidato": "roberto",
+      "tema": "juventud",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Proyecto nacional Integratel para extender la Red Dorsal de Fibra Óptica a todo el territorio nacional y proveer acceso gratuito a internet de banda ancha en el 85% de hogares rurales.",
+      "cita_textual": "Ejecutar el proyecto nacional Integratel para extender la Red Dorsal de Fibra Óptica a todo el territorio nacional y proveer acceso gratuito a internet de banda ancha en el 85% de los hogares rurales",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.6 Juventud — Medidas Propuestas",
+        "linea_inicio": 322,
+        "linea_fin": 322
+      },
+      "meta_cuantitativa": "Integratel: internet gratuito en 85% hogares rurales"
+    },
+    {
+      "id": "r-juventud-013",
+      "candidato": "roberto",
+      "tema": "juventud",
+      "tipo": "meta",
+      "relevancia": "MEDIA",
+      "texto": "Crear 25 sedes digitales de universidades públicas en provincias remotas y modernizar 80 institutos tecnológicos con infraestructura avanzada en inteligencia artificial, robótica y programación.",
+      "cita_textual": "Crear 25 sedes digitales de universidades públicas en provincias remotas y modernizar 80 institutos tecnológicos",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.6 Juventud — Medidas Propuestas",
+        "linea_inicio": 322,
+        "linea_fin": 322
+      },
+      "meta_cuantitativa": "25 sedes digitales universidades + 80 institutos modernizados"
+    },
+    {
+      "id": "r-juventud-014",
+      "candidato": "roberto",
+      "tema": "juventud",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Garantizar servicios de salud amigables en el 100% de centros de primer nivel con entrega gratuita de anticonceptivos de larga duración para reducir el embarazo adolescente al 7%.",
+      "cita_textual": "Garantizar servicios de salud amigables en el 100 por ciento de centros de primer nivel con entrega gratuita de métodos anticonceptivos de larga duración para reducir el embarazo adolescente al 7 por ciento",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.6 Juventud — Medidas Propuestas",
+        "linea_inicio": 322,
+        "linea_fin": 322
+      },
+      "meta_cuantitativa": "Embarazo adolescente: ≤7%"
+    },
+    {
+      "id": "r-juventud-015",
+      "candidato": "roberto",
+      "tema": "juventud",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Aplicar con carácter obligatorio el currículo de Educación Sexual Integral (ESI) desde perspectiva científica en nivel secundario; testeos masivos de ITS en centros de educación superior.",
+      "cita_textual": "Aplicar con carácter obligatorio el currículo de Educación Sexual Integral (ESI) desde una perspectiva científica en el nivel secundario",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.6 Juventud — Medidas Propuestas",
+        "linea_inicio": 322,
+        "linea_fin": 322
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-deporte-001",
+      "candidato": "roberto",
+      "tema": "deporte",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico estructural: la realidad del deporte en 2026 evidencia profundas desigualdades y limitaciones institucionales; la ausencia de política nacional articulada, deterioro de infraestructura y centralismo en alto rendimiento generan un ecosistema excluyente.",
+      "cita_textual": "La realidad del deporte en el Perú al 2026 evidencia profundas desigualdades estructurales y limitaciones institucionales que afectan su desarrollo sostenible",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.7 Deporte — Situación Actual",
+        "linea_inicio": 324,
+        "linea_fin": 324
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-deporte-002",
+      "candidato": "roberto",
+      "tema": "deporte",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Diagnóstico de sedentarismo: más del 60% de la población no alcanza los niveles mínimos recomendados de actividad física, afectando productividad económica, sostenibilidad del sistema de salud y calidad de vida.",
+      "cita_textual": "más del 60% de la población no alcanza los niveles mínimos recomendados de actividad física",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.7 Deporte — Situación Actual",
+        "linea_inicio": 326,
+        "linea_fin": 326
+      },
+      "meta_cuantitativa": "Sedentarismo: >60% no alcanza actividad física mínima"
+    },
+    {
+      "id": "r-deporte-003",
+      "candidato": "roberto",
+      "tema": "deporte",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Recuperación y activación de canchas y espacios públicos con iluminación, mantenimiento, señalización y uso programado (ligas barriales, recreación, talleres artísticos), reduciendo 'infraestructura vacía'.",
+      "cita_textual": "Recuperación y activación de los/as canchas y espacios públicos con iluminación, mantenimiento, señalización y uso programado",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.7 Deporte — Medidas Propuestas",
+        "linea_inicio": 328,
+        "linea_fin": 328
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-deporte-004",
+      "candidato": "roberto",
+      "tema": "deporte",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Escuelas deportivas de base y ligas barriales con horarios protegidos, entrenadores comunitarios certificados, prioridad en adolescencia y juventudes; articulación con seguridad ciudadana para entornos seguros.",
+      "cita_textual": "Escuelas deportivas de base y ligas barriales con horarios protegidos, entrenadores comunitarios certificados",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.7 Deporte — Medidas Propuestas",
+        "linea_inicio": 328,
+        "linea_fin": 328
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-deporte-005",
+      "candidato": "roberto",
+      "tema": "deporte",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Fortalecer educación física y deporte escolar con enfoque de hábitos y convivencia: competencias locales, rutas de talento, articulación MINEDU-IPD-municipios para uso compartido de espacios.",
+      "cita_textual": "Fortalecer educación física y deporte escolar con enfoque de hábitos (regularidad) y convivencia",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.7 Deporte — Medidas Propuestas",
+        "linea_inicio": 328,
+        "linea_fin": 328
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-deporte-006",
+      "candidato": "roberto",
+      "tema": "deporte",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Crear el Sistema Nacional del Deporte, la Recreación y el Ocio Productivo articulando Estado, sector privado y comunidades.",
+      "cita_textual": "Crear el Sistema Nacional del Deporte, la Recreación y el Ocio Productivo, articulando Estado, sector privado y comunidades",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.7 Deporte — Medidas Propuestas",
+        "linea_inicio": 328,
+        "linea_fin": 328
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-deporte-007",
+      "candidato": "roberto",
+      "tema": "deporte",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Implementar el Programa 'Perú se Mueve' con acceso universal a actividades deportivas gratuitas en barrios y comunidades.",
+      "cita_textual": "Implementar el Programa Perú se Mueve, con acceso universal a actividades deportivas gratuitas en barrios y comunidades",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.7 Deporte — Medidas Propuestas",
+        "linea_inicio": 328,
+        "linea_fin": 328
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-deporte-008",
+      "candidato": "roberto",
+      "tema": "deporte",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Lanzar el Programa Nacional de Infraestructura Deportiva 'Perú en Movimiento' para construcción, recuperación y mantenimiento de espacios deportivos.",
+      "cita_textual": "Lanzar el Programa Nacional de Infraestructura Deportiva “Perú en Movimiento”, para construcción, recuperación y mantenimiento de espacios deportivos",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.7 Deporte — Medidas Propuestas",
+        "linea_inicio": 328,
+        "linea_fin": 328
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-deporte-009",
+      "candidato": "roberto",
+      "tema": "deporte",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Crear el Fondo Nacional del Deporte y aprobar la Ley de Mecenazgo Deportivo para incrementar la inversión pública y privada.",
+      "cita_textual": "Crear el Fondo Nacional del Deporte y aprobar la Ley de Mecenazgo Deportivo para incrementar la inversión pública y privada",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.7 Deporte — Medidas Propuestas",
+        "linea_inicio": 328,
+        "linea_fin": 328
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-deporte-010",
+      "candidato": "roberto",
+      "tema": "deporte",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Instituir la Academia Nacional de Entrenadores para profesionalizar el sistema deportivo.",
+      "cita_textual": "Instituir la Academia Nacional de Entrenadores para profesionalizar el sistema deportivo",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.7 Deporte — Medidas Propuestas",
+        "linea_inicio": 329,
+        "linea_fin": 329
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-deporte-011",
+      "candidato": "roberto",
+      "tema": "deporte",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Implementar el Programa Deporte Escolar Obligatorio garantizando educación física de calidad; crear el Plan Nacional de Alto Rendimiento Deportivo con centros descentralizados y detección temprana de talentos.",
+      "cita_textual": "Implementar el Programa Deporte Escolar Obligatorio, garantizando educación física de calidad",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.7 Deporte — Medidas Propuestas",
+        "linea_inicio": 329,
+        "linea_fin": 329
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "r-deporte-012",
+      "candidato": "roberto",
+      "tema": "deporte",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Implementar el Programa Deporte Inclusivo Perú garantizando acceso a poblaciones vulnerables; campañas nacionales de cultura física para reducir el sedentarismo.",
+      "cita_textual": "Implementar el Programa Deporte Inclusivo Perú, garantizando acceso a poblaciones vulnerables",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Roberto-Sanchez/Plan-de-Gobierno-Roberto_Sanchez.md",
+        "seccion": "Dimensión Social — 6.7 Deporte — Medidas Propuestas",
+        "linea_inicio": 329,
+        "linea_fin": 329
+      },
+      "meta_cuantitativa": null
     }
   ]
 }
