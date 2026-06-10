@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Propuestas — Brain Político Perú",
+  "type": "object",
+  "required": ["candidatos", "temas", "propuestas"],
+  "additionalProperties": false,
+  "properties": {
+    "candidatos": {
+      "type": "object",
+      "required": ["keiko", "roberto"],
+      "additionalProperties": false,
+      "properties": {
+        "keiko": { "$ref": "#/$defs/candidato" },
+        "roberto": { "$ref": "#/$defs/candidato" }
+      }
+    },
+    "temas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "nombre"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z_]+$" },
+          "nombre": { "type": "string" },
+          "icono": { "type": "string" }
+        }
+      }
+    },
+    "propuestas": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/propuesta" }
+    }
+  },
+  "$defs": {
+    "candidato": {
+      "type": "object",
+      "required": ["nombre", "partido", "color"],
+      "properties": {
+        "nombre": { "type": "string" },
+        "partido": { "type": "string" },
+        "color": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" }
+      }
+    },
+    "propuesta": {
+      "type": "object",
+      "required": ["id", "candidato", "tema", "tipo", "relevancia", "texto", "cita_textual", "fuente"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[kr]-[a-z_]+-[0-9]{3}$" },
+        "candidato": { "enum": ["keiko", "roberto"] },
+        "tema": { "type": "string" },
+        "tipo": { "enum": ["propuesta", "meta", "diagnostico", "principio", "100dias"] },
+        "relevancia": { "enum": ["ALTA", "MEDIA", "BAJA", "100DIAS"] },
+        "texto": { "type": "string", "minLength": 10 },
+        "cita_textual": { "type": "string", "minLength": 5 },
+        "fuente": {
+          "type": "object",
+          "required": ["archivo", "linea_inicio", "linea_fin"],
+          "properties": {
+            "archivo": { "type": "string" },
+            "seccion": { "type": "string" },
+            "linea_inicio": { "type": "integer", "minimum": 1 },
+            "linea_fin": { "type": "integer", "minimum": 1 }
+          }
+        },
+        "meta_cuantitativa": { "type": ["string", "null"] }
+      }
+    }
+  }
+}
