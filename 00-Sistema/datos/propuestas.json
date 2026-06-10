@@ -12,35 +12,1464 @@
     }
   },
   "temas": [
-    { "id": "seguridad", "nombre": "Seguridad Ciudadana", "icono": "🔒" },
-    { "id": "corrupcion", "nombre": "Anticorrupción", "icono": "🛡️" },
-    { "id": "economia", "nombre": "Economía / Macroeconomía", "icono": "💰" },
-    { "id": "trabajo", "nombre": "Trabajo y Empleo", "icono": "💼" },
-    { "id": "mype", "nombre": "MYPE y Emprendimiento", "icono": "🏪" },
-    { "id": "mineria", "nombre": "Minería", "icono": "⛏️" },
-    { "id": "agricultura", "nombre": "Agricultura", "icono": "🌾" },
-    { "id": "pesca", "nombre": "Pesca", "icono": "🐟" },
-    { "id": "energia", "nombre": "Energía", "icono": "⚡" },
-    { "id": "transporte", "nombre": "Transporte e Infraestructura", "icono": "🚧" },
-    { "id": "turismo", "nombre": "Turismo", "icono": "🏞️" },
-    { "id": "industria", "nombre": "Industria", "icono": "🏭" },
-    { "id": "ambiente", "nombre": "Ambiente / Desarrollo Sostenible", "icono": "🌳" },
-    { "id": "educacion", "nombre": "Educación", "icono": "📚" },
-    { "id": "salud", "nombre": "Salud", "icono": "🏥" },
-    { "id": "vivienda", "nombre": "Vivienda", "icono": "🏠" },
-    { "id": "agua", "nombre": "Agua y Saneamiento", "icono": "💧" },
-    { "id": "pensiones", "nombre": "Pensiones / Programas Sociales", "icono": "👵" },
-    { "id": "deporte", "nombre": "Deporte", "icono": "⚽" },
-    { "id": "justicia", "nombre": "Sistema de Justicia", "icono": "⚖️" },
-    { "id": "orden_juridico", "nombre": "Orden Jurídico / Seguridad Jurídica", "icono": "📜" },
-    { "id": "exterior", "nombre": "Relaciones Exteriores", "icono": "🌎" },
-    { "id": "constitucion", "nombre": "Reforma Constitucional / Institucional", "icono": "🏛️" },
-    { "id": "indigenas", "nombre": "Pueblos Indígenas y DDHH", "icono": "🪶" },
-    { "id": "genero", "nombre": "Género e Inclusión", "icono": "🤝" },
-    { "id": "cti", "nombre": "Ciencia, Tecnología e Innovación", "icono": "🔬" },
-    { "id": "juventud", "nombre": "Juventud", "icono": "🧑‍🎓" },
-    { "id": "cultura", "nombre": "Cultura", "icono": "🎭" },
-    { "id": "peruanos_exterior", "nombre": "Peruanos en el Extranjero", "icono": "✈️" }
+    {
+      "id": "seguridad",
+      "nombre": "Seguridad Ciudadana",
+      "icono": "🔒"
+    },
+    {
+      "id": "corrupcion",
+      "nombre": "Anticorrupción",
+      "icono": "🛡️"
+    },
+    {
+      "id": "economia",
+      "nombre": "Economía / Macroeconomía",
+      "icono": "💰"
+    },
+    {
+      "id": "trabajo",
+      "nombre": "Trabajo y Empleo",
+      "icono": "💼"
+    },
+    {
+      "id": "mype",
+      "nombre": "MYPE y Emprendimiento",
+      "icono": "🏪"
+    },
+    {
+      "id": "mineria",
+      "nombre": "Minería",
+      "icono": "⛏️"
+    },
+    {
+      "id": "agricultura",
+      "nombre": "Agricultura",
+      "icono": "🌾"
+    },
+    {
+      "id": "pesca",
+      "nombre": "Pesca",
+      "icono": "🐟"
+    },
+    {
+      "id": "energia",
+      "nombre": "Energía",
+      "icono": "⚡"
+    },
+    {
+      "id": "transporte",
+      "nombre": "Transporte e Infraestructura",
+      "icono": "🚧"
+    },
+    {
+      "id": "turismo",
+      "nombre": "Turismo",
+      "icono": "🏞️"
+    },
+    {
+      "id": "industria",
+      "nombre": "Industria",
+      "icono": "🏭"
+    },
+    {
+      "id": "ambiente",
+      "nombre": "Ambiente / Desarrollo Sostenible",
+      "icono": "🌳"
+    },
+    {
+      "id": "educacion",
+      "nombre": "Educación",
+      "icono": "📚"
+    },
+    {
+      "id": "salud",
+      "nombre": "Salud",
+      "icono": "🏥"
+    },
+    {
+      "id": "vivienda",
+      "nombre": "Vivienda",
+      "icono": "🏠"
+    },
+    {
+      "id": "agua",
+      "nombre": "Agua y Saneamiento",
+      "icono": "💧"
+    },
+    {
+      "id": "pensiones",
+      "nombre": "Pensiones / Programas Sociales",
+      "icono": "👵"
+    },
+    {
+      "id": "deporte",
+      "nombre": "Deporte",
+      "icono": "⚽"
+    },
+    {
+      "id": "justicia",
+      "nombre": "Sistema de Justicia",
+      "icono": "⚖️"
+    },
+    {
+      "id": "orden_juridico",
+      "nombre": "Orden Jurídico / Seguridad Jurídica",
+      "icono": "📜"
+    },
+    {
+      "id": "exterior",
+      "nombre": "Relaciones Exteriores",
+      "icono": "🌎"
+    },
+    {
+      "id": "constitucion",
+      "nombre": "Reforma Constitucional / Institucional",
+      "icono": "🏛️"
+    },
+    {
+      "id": "indigenas",
+      "nombre": "Pueblos Indígenas y DDHH",
+      "icono": "🪶"
+    },
+    {
+      "id": "genero",
+      "nombre": "Género e Inclusión",
+      "icono": "🤝"
+    },
+    {
+      "id": "cti",
+      "nombre": "Ciencia, Tecnología e Innovación",
+      "icono": "🔬"
+    },
+    {
+      "id": "juventud",
+      "nombre": "Juventud",
+      "icono": "🧑‍🎓"
+    },
+    {
+      "id": "cultura",
+      "nombre": "Cultura",
+      "icono": "🎭"
+    },
+    {
+      "id": "peruanos_exterior",
+      "nombre": "Peruanos en el Extranjero",
+      "icono": "✈️"
+    }
   ],
-  "propuestas": []
+  "propuestas": [
+    {
+      "id": "k-seguridad-001",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico: la inseguridad se ha consolidado como el principal problema del país, con 27,1% de la población urbana víctima de algún delito en 2023 y 84% de peruanos sintiéndose inseguros al transitar por su ciudad.",
+      "cita_textual": "La inseguridad ciudadana y la falta de orden se ha consolidado como el principal problema del país, afectando la calidad de vida, la estabilidad económica y la confianza en la inversión. En 2023, el 27,1% de la población urbana de 15 años o más fue víctima de algún hecho delictivo",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Diagnóstico",
+        "linea_inicio": 123,
+        "linea_fin": 123
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-seguridad-002",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Diagnóstico: la extorsión se ha convertido en una de las formas más agresivas del crimen organizado, con más de 1,7 millones de peruanos víctimas, afectando a emprendedores, comerciantes y pequeñas empresas.",
+      "cita_textual": "la extorsión se ha convertido en una de las formas más agresivas del crimen organizado, afectando especialmente a emprendedores, comerciantes y pequeñas empresas. Se estima que más de 1,7 millones de peruanos han sido víctimas de este delito",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Diagnóstico",
+        "linea_inicio": 123,
+        "linea_fin": 123
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-seguridad-003",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Diagnóstico: la PNP enfrenta un déficit estructural de infraestructura: 7 de cada 10 comisarías operan en condiciones precarias y el 44% carece de agua, desagüe o electricidad.",
+      "cita_textual": "7 de cada 10 comisarías en el país operan en condiciones de infraestructura precaria y el 44% carece de servicios básicos como agua, desagüe o electricidad",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Diagnóstico",
+        "linea_inicio": 123,
+        "linea_fin": 123
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-seguridad-004",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Diagnóstico: la impunidad supera el 90% en casos de robos, asaltos o extorsiones, alimentando la percepción de abandono estatal.",
+      "cita_textual": "La impunidad, que supera el 90% de casos de robos, asaltos o extorsiones, alimenta la percepción de abandono estatal",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Diagnóstico",
+        "linea_inicio": 133,
+        "linea_fin": 133
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-seguridad-005",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Lanzamiento del Programa Nacional de Prevención Temprana liderado desde Presidencia de la República, con programas deportivos, culturales y artísticos para niños y adolescentes en zonas de alta vulnerabilidad juvenil.",
+      "cita_textual": "Lanzamiento del “Programa Nacional de Prevención Temprana” liderado desde Presidencia de la República, a fin de brindar programas deportivos, culturales y artísticos para niños y adolescentes con factores de riesgos en zonas de alta vulnerabilidad juvenil",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Nuestras Propuestas — Prevención del delito",
+        "linea_inicio": 133,
+        "linea_fin": 133
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-seguridad-006",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Instalación del Consejo Presidencial de Prevención del Delito y Convivencia Ciudadana, presidido por la Presidencia de la República, que sesione en regiones priorizadas para escuchar directamente a madres, jóvenes y autoridades locales.",
+      "cita_textual": "Instalación del Consejo Presidencial de Prevención del Delito y Convivencia Ciudadana, presidido por Presidencia de la República, que sesione en regiones priorizadas para escuchar directamente a madres, jóvenes y autoridades locales",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Nuestras Propuestas — Prevención del delito",
+        "linea_inicio": 133,
+        "linea_fin": 133
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-seguridad-007",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Programa de Empleo Joven con Futuro para reducir el ingreso de jóvenes a economías ilegales (también impacta tema trabajo y juventud).",
+      "cita_textual": "Lanzamiento de un programa de “Empleo Joven con Futuro” para reducir el ingreso de jóvenes a economías ilegales",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Nuestras Propuestas — Prevención del delito",
+        "linea_inicio": 133,
+        "linea_fin": 133
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-seguridad-008",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Recuperación de espacios públicos mediante acciones integradas de iluminación, videovigilancia, patrullaje y actividades comunitarias.",
+      "cita_textual": "Recuperación de espacios públicos mediante acciones integradas de iluminación, videovigilancia, patrullaje y actividades comunitarias que fortalezcan el orden y la convivencia ciudadana",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Nuestras Propuestas — Prevención del delito",
+        "linea_inicio": 135,
+        "linea_fin": 135
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-seguridad-009",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Reorientación del régimen 24x24 y refuerzo del patrullaje en zonas críticas, priorizando presencia policial efectiva en provincias y fronteras, mediante análisis geoespacial del delito.",
+      "cita_textual": "Refuerzo del patrullaje en zonas críticas mediante la reorientación del 24x24, priorizando presencia policial efectiva en provincias y fronteras, mediante análisis geoespacial del delito",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Nuestras Propuestas — Prevención del delito",
+        "linea_inicio": 135,
+        "linea_fin": 135
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-seguridad-010",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Incremento del patrullaje motorizado y aéreo (drones) con tecnología GPS y cámaras de reconocimiento facial para mejorar la capacidad de respuesta en tiempo real.",
+      "cita_textual": "Incremento del patrullaje motorizado y aéreo (drones) con tecnología GPS y cámaras de reconocimiento facial para mejorar la capacidad de respuesta en tiempo real",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Nuestras Propuestas — Prevención del delito",
+        "linea_inicio": 135,
+        "linea_fin": 135
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-seguridad-011",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Implementación de la Plataforma Perú con Orden: sistema de información en tiempo real que integre denuncias, zonas de riesgo, mapas de calor delictivo y alertas comunitarias.",
+      "cita_textual": "Implementación de la Plataforma “Perú con Orden”, un sistema de información en tiempo real que integre denuncias, zonas de riesgo, mapas de calor delictivo y alertas comunitarias",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Nuestras Propuestas — Prevención del delito",
+        "linea_inicio": 135,
+        "linea_fin": 135
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-seguridad-012",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Modernización integral del equipamiento policial, incorporando tecnología de vigilancia predictiva, drones, cámaras corporales y sistemas de geolocalización.",
+      "cita_textual": "Modernización integral del equipamiento policial, incorporando tecnología de vigilancia predictiva, drones, cámaras corporales y sistemas de geolocalización",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Nuestras Propuestas — Prevención del delito",
+        "linea_inicio": 135,
+        "linea_fin": 135
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-seguridad-013",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Construcción y modernización de comisarías seguras y sostenibles, priorizando regiones con infraestructura precaria.",
+      "cita_textual": "Construcción y modernización de comisarías seguras y sostenibles, priorizando regiones con infraestructura precaria",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Nuestras Propuestas — Prevención del delito",
+        "linea_inicio": 135,
+        "linea_fin": 135
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-seguridad-014",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Profesionalización policial en dos líneas (Seguridad y Orden Interno e Investigación Criminal) con formación universitaria y convenios internacionales; fortalecimiento de escuelas policiales macro-regionales.",
+      "cita_textual": "Profesionalización en dos líneas: Seguridad y Orden Interno e Investigación Criminal, con formación universitaria y convenios internacionales. • Fortalecimiento de las escuelas policiales a macro-regionales de alta calidad",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Nuestras Propuestas — Prevención del delito",
+        "linea_inicio": 135,
+        "linea_fin": 135
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-seguridad-015",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Implementación de un Botón de Pánico que permitirá activar alertas inmediatas a la Policía y servicios de emergencia desde teléfonos celulares.",
+      "cita_textual": "Implementación de tecnología preventiva mediante un “Botón de Pánico” que permitirá activar alertas inmediatas a la Policía y servicios de emergencia desde sus teléfonos celulares",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Nuestras Propuestas — Prevención del delito",
+        "linea_inicio": 135,
+        "linea_fin": 135
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-seguridad-016",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Implementación rápida de Centros de Comando y Videovigilancia (C5i) interconectados a nivel nacional, con mapas del delito en tiempo real e inteligencia artificial para análisis predictivo.",
+      "cita_textual": "Implementación rápida de Centros de Comando y Videovigilancia (C5i) interconectados a nivel nacional, con mapas del delito en tiempo real e inteligencia artificial para el análisis predictivo y la coordinación de emergencias",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Nuestras Propuestas — Combate y control",
+        "linea_inicio": 135,
+        "linea_fin": 135
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-seguridad-017",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Plan de Emergencia para combatir la inseguridad ciudadana mediante delegación de facultades legislativas por 60 días, complementadas con Decretos de Urgencia en materia económica y financiera.",
+      "cita_textual": "Implementación de un Plan de Emergencia para combatir la inseguridad ciudadana a través de la delegación de facultades legislativas por 60 días, complementadas con Decretos de Urgencia en materia económica y financiera",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Nuestras Propuestas — Combate y control",
+        "linea_inicio": 135,
+        "linea_fin": 135
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-seguridad-018",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Establecimiento de un Comando Unificado Permanente contra la Inseguridad y el Crimen Organizado, integrado por Presidente, PCM, Ministros del Interior, Defensa y Justicia, jefe del INPE, FF.AA., PNP y organismos de inteligencia.",
+      "cita_textual": "Establecimiento de un Comando Unificado Permanente contra la Inseguridad y el Crimen Organizado, integrado por Presidente de la República, la Presidencia de Consejo de Ministros (PCM), Ministros del Interior, Defensa y Justicia, Jefe del INPE, FF.AA., PNP y organismos de inteligencia",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Nuestras Propuestas — Combate y control",
+        "linea_inicio": 135,
+        "linea_fin": 135
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-seguridad-019",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Control de cadenas de valor criminales con interdicción de insumos, rutas y puntos de comercio, para combatir minería ilegal, narcotráfico, trata de personas y extorsión.",
+      "cita_textual": "Control de cadenas de valor criminales con interdicción de insumos, rutas y puntos de comercio, a fin de combatir la minería ilegal, narcotráfico, trata de personas y extorsión",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Nuestras Propuestas — Combate y control",
+        "linea_inicio": 135,
+        "linea_fin": 135
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-seguridad-020",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Establecimiento de comandos mixtos PNP-FF.AA.-Fiscalía-SUNAT en zonas críticas para enfrentar la minería ilegal y el crimen organizado.",
+      "cita_textual": "Establecimiento de comandos mixtos integrados por la PNP, FF.AA., Fiscalía y SUNAT, en zonas críticas para enfrentar la minería ilegal y el crimen organizado",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Nuestras Propuestas — Combate y control",
+        "linea_inicio": 137,
+        "linea_fin": 137
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-seguridad-021",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Fortalecimiento del control y gestión de fronteras mediante integración de tecnología, cooperación interinstitucional y desarrollo socioeconómico en zonas fronterizas.",
+      "cita_textual": "Fortalecimiento del control y la gestión de las fronteras mediante la integración de tecnología, cooperación interinstitucional y desarrollo socioeconómico en zonas fronterizas",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Nuestras Propuestas — Combate y control",
+        "linea_inicio": 137,
+        "linea_fin": 137
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-seguridad-022",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Creación de Unidades de Inteligencia contra la Extorsión de las Micro y Pequeñas Empresas (MYPEs) (también impacta tema mype).",
+      "cita_textual": "Creación de Unidades de Inteligencia contra la Extorsión de las Micro y Pequeñas Empresas (MYPEs)",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Nuestras Propuestas — Combate y control",
+        "linea_inicio": 137,
+        "linea_fin": 137
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-seguridad-023",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Creación de nuevas Unidades de Flagrancia Express y fortalecimiento de las 28 existentes para articular Policía, Ministerio Público y Poder Judicial con procesos inmediatos y sentencias rápidas.",
+      "cita_textual": "Creación de nuevas Unidades de Flagrancia Express y fortalecimiento de las 28 unidades existentes, para garantizar una articulación efectiva entre la Policía, el Ministerio Público y el Poder Judicial, asegurando procesos inmediatos y sentencias rápidas contra el delito",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Nuestras Propuestas — Procesamiento",
+        "linea_inicio": 137,
+        "linea_fin": 137
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-seguridad-024",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Ampliación del sistema de flagrancia para delitos complejos (extorsión, sicariato y cobro de cupos).",
+      "cita_textual": "Ampliación del sistema de flagrancia para delitos complejos (extorsión, sicariato y cobro de cupos)",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Nuestras Propuestas — Procesamiento",
+        "linea_inicio": 137,
+        "linea_fin": 137
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-seguridad-025",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Construcción de cuatro mega penales de máxima seguridad, cuatro penales estándar modulares (1,000 internos) y un penal especializado para jóvenes infractores, bajo administración temporal y exclusiva de las Fuerzas Armadas.",
+      "cita_textual": "Construcción de cuatro (4) mega penales de máxima seguridad, cuatro (4) penales estándar modulares (1,000 internos) y un (1) penal especializado para jóvenes infractores, bajo administración temporal y exclusiva de las Fuerzas Armadas",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Nuestras Propuestas — Procesamiento",
+        "linea_inicio": 137,
+        "linea_fin": 137
+      },
+      "meta_cuantitativa": "4 mega penales + 4 penales modulares + 1 penal juvenil"
+    },
+    {
+      "id": "k-seguridad-026",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Implementación de cárceles productivas mediante Asociaciones Público-Privadas (APP), con programas de reinserción laboral para delitos menores.",
+      "cita_textual": "Implementación de Cárceles productivas mediante el mecanismo de Asociaciones Público-Privadas (APP), con programas de reinserción laboral para delitos menores",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Nuestras Propuestas — Procesamiento",
+        "linea_inicio": 137,
+        "linea_fin": 137
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-seguridad-027",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Sistema integral de bloqueo de señales móviles en todos los establecimientos penitenciarios del país, garantizando su funcionamiento permanente.",
+      "cita_textual": "Implementar un sistema integral de bloqueo de señales móviles en todos los establecimientos penitenciarios del país, garantizando su funcionamiento permanente a fin de prevenir el uso de celulares para la comisión de delitos desde las cárceles",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Nuestras Propuestas — Procesamiento",
+        "linea_inicio": 137,
+        "linea_fin": 137
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-seguridad-028",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Programa Nacional de Trabajo Comunitario Penitenciario Manos que Reparan: internos de baja y mediana peligrosidad realizan labores de mantenimiento de colegios, áreas verdes y espacios públicos.",
+      "cita_textual": "Implementación del Programa Nacional de Trabajo Comunitario Penitenciario “Manos que Reparan”, mediante el cual internos de baja y mediana peligrosidad realizan, bajo supervisión del INPE y en coordinación con gobiernos regionales y municipales, labores",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Nuestras Propuestas — Procesamiento",
+        "linea_inicio": 137,
+        "linea_fin": 137
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-seguridad-029",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Inicio de operaciones del C5i en Lima y Callao con expansión a ciudades críticas.",
+      "cita_textual": "Inicio de operaciones del C5i en Lima y Callao con expansión a ciudades críticas",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Primeros 100 Días",
+        "linea_inicio": 143,
+        "linea_fin": 143
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-seguridad-030",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Fortalecimiento de las Unidades de Flagrancia Express en Lima, Piura y Trujillo.",
+      "cita_textual": "Fortalecimiento de las Unidades de Flagrancia Express en Lima, Piura y Trujillo",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Primeros 100 Días",
+        "linea_inicio": 143,
+        "linea_fin": 143
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-seguridad-031",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Intervención militar y policial en Tumbes para control fronterizo y reducción de crimen organizado.",
+      "cita_textual": "Intervención militar y policial en Tumbes para control fronterizo y reducción de crimen organizado",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Primeros 100 Días",
+        "linea_inicio": 143,
+        "linea_fin": 143
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-seguridad-032",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Emisión de Decretos de Urgencia para financiar 1,000 patrulleros inteligentes, 10,000 cámaras interconectadas y modernización de 200 comisarías.",
+      "cita_textual": "Emisión de Decretos de Urgencia para financiar 1,000 patrulleros inteligentes, 10,000 cámaras interconectadas y modernización de 200 comisarías",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Primeros 100 Días",
+        "linea_inicio": 143,
+        "linea_fin": 143
+      },
+      "meta_cuantitativa": "1,000 patrulleros + 10,000 cámaras + 200 comisarías"
+    },
+    {
+      "id": "k-seguridad-033",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Reducir en 20% la tasa nacional de homicidios al 2031 mediante patrullaje integrado, prevención juvenil y recuperación de espacios públicos.",
+      "cita_textual": "Reducir en 20% la tasa nacional de",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Principales metas e indicadores",
+        "linea_inicio": 149,
+        "linea_fin": 152
+      },
+      "meta_cuantitativa": "Reducir 20% tasa nacional de homicidios al 2031"
+    },
+    {
+      "id": "k-seguridad-034",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Implementar un Centro Nacional de Comando y Videovigilancia (C5i) operativo e interconectado en las 24 regiones del país al 2031.",
+      "cita_textual": "Implementar un Centro Nacional de Comando y Videovigilancia (C5i) en",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Principales metas e indicadores",
+        "linea_inicio": 156,
+        "linea_fin": 159
+      },
+      "meta_cuantitativa": "C5i en las 24 regiones al 2031"
+    },
+    {
+      "id": "k-seguridad-035",
+      "candidato": "keiko",
+      "tema": "seguridad",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Reducir la impunidad del 90% al 50% mediante unidades de flagrancia e interoperabilidad entre Policía, Fiscalía y Poder Judicial (también impacta justicia).",
+      "cita_textual": "Reducir la impunidad del 90% al",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.1 Orden Ciudadano, Principales metas e indicadores",
+        "linea_inicio": 160,
+        "linea_fin": 163
+      },
+      "meta_cuantitativa": "Reducir impunidad del 90% al 50% al 2031"
+    },
+    {
+      "id": "k-corrupcion-001",
+      "candidato": "keiko",
+      "tema": "corrupcion",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico: durante 2023 la corrupción y la inconducta funcional habrían ocasionado un perjuicio económico estimado de S/ 24,268 millones al Estado peruano, lo que equivale aproximadamente al 12.7% del gasto público.",
+      "cita_textual": "durante el año 2023 la corrupción y la inconducta funcional habrían ocasionado un perjuicio económico estimado de S/ 24,268 millones al Estado peruano, lo que equivale aproximadamente al 12.7% del gasto público ejecutado en ese periodo",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.2 Lucha contra la Corrupción, Diagnóstico",
+        "linea_inicio": 174,
+        "linea_fin": 174
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-corrupcion-002",
+      "candidato": "keiko",
+      "tema": "corrupcion",
+      "tipo": "principio",
+      "relevancia": "MEDIA",
+      "texto": "Adopción del marco de Klitgaard: Corrupción = Monopolio + Discrecionalidad − Transparencia. El reto no es solo punitivo sino estructural: reducir monopolios burocráticos, eliminar discrecionalidad arbitraria y maximizar transparencia.",
+      "cita_textual": "Siguiendo la ecuación del profesor Robert Klitgaard (Corrupción = Monopolio + Discrecionalidad - Transparencia), el reto no es solo punitivo sino estructural",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.2 Lucha contra la Corrupción, Diagnóstico",
+        "linea_inicio": 174,
+        "linea_fin": 174
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-corrupcion-003",
+      "candidato": "keiko",
+      "tema": "corrupcion",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Ampliación del control concurrente real a todas las fases de ejecución presupuestal, protegiendo al funcionario honesto y previniendo la parálisis por temor a sanciones futuras.",
+      "cita_textual": "Ampliación del control concurrente real a todas las fases de ejecución presupuestal, protegiendo al funcionario honesto y previniendo la parálisis por temor a sanciones futuras",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.2 Lucha contra la Corrupción, Control, Prevención y Fortalecimiento Institucional",
+        "linea_inicio": 180,
+        "linea_fin": 180
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-corrupcion-004",
+      "candidato": "keiko",
+      "tema": "corrupcion",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Fortalecimiento de las capacidades técnicas y presupuestales de la Contraloría con uso de inteligencia artificial para identificar patrones anómalos en contrataciones públicas y alertas automáticas sobre sobrecostos o colusión.",
+      "cita_textual": "Fortalecimiento de las capacidades técnicas y presupuestales de la Contraloría, incluyendo el uso de inteligencia artificial (IA) para identificar patrones anómalos en contrataciones públicas y alertas automáticas sobre sobrecostos o riesgos de colusión",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.2 Lucha contra la Corrupción, Control, Prevención y Fortalecimiento Institucional",
+        "linea_inicio": 180,
+        "linea_fin": 180
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-corrupcion-005",
+      "candidato": "keiko",
+      "tema": "corrupcion",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Sistema único de declaraciones juradas de bienes, rentas e intereses administrado por la Contraloría, interoperable con SUNAT y UIF.",
+      "cita_textual": "Consolidación de un sistema único de declaraciones juradas de bienes, rentas e intereses administrado por la Contraloría, interoperable con la SUNAT y la UIF, permitiendo detección temprana de irregularidades",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.2 Lucha contra la Corrupción, Control, Prevención y Fortalecimiento Institucional",
+        "linea_inicio": 180,
+        "linea_fin": 180
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-corrupcion-006",
+      "candidato": "keiko",
+      "tema": "corrupcion",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Aseguramiento de la independencia de la Procuraduría Pública, garantizando su actuación sin interferencia política.",
+      "cita_textual": "Aseguramiento de la independencia de la Procuraduría Pública, garantizando su actuación sin interferencia política",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.2 Lucha contra la Corrupción, Control, Prevención y Fortalecimiento Institucional",
+        "linea_inicio": 180,
+        "linea_fin": 180
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-corrupcion-007",
+      "candidato": "keiko",
+      "tema": "corrupcion",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Prohibición de la contratación estatal con empresas sancionadas por corrupción, cerrando la puerta a reincidencias.",
+      "cita_textual": "Prohibición de la contratación estatal con empresas sancionadas por corrupción, cerrando definitivamente la puerta a reincidencias",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.2 Lucha contra la Corrupción, Control, Prevención y Fortalecimiento Institucional",
+        "linea_inicio": 180,
+        "linea_fin": 180
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-corrupcion-008",
+      "candidato": "keiko",
+      "tema": "corrupcion",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Aplicación de un Shock Anticorrupción Digital, integrando medidas preventivas, sancionadoras y de transparencia radical en una sola estrategia nacional.",
+      "cita_textual": "Aplicación de un Shock Anticorrupción Digital, integrando medidas preventivas, sancionadoras y de transparencia radical en una sola estrategia nacional",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.2 Lucha contra la Corrupción, Control, Prevención y Fortalecimiento Institucional",
+        "linea_inicio": 180,
+        "linea_fin": 180
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-corrupcion-009",
+      "candidato": "keiko",
+      "tema": "corrupcion",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Sistema de transparencia total de las compras públicas: 100% de licitaciones, contratos y adendas publicados en tiempo real, accesibles a ciudadanos y medios.",
+      "cita_textual": "Implementación de un sistema de transparencia total de las compras públicas, donde el 100% de licitaciones, contratos y adendas se publiquen en tiempo real, accesibles a ciudadanos y medios",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.2 Lucha contra la Corrupción, Transparencia y Vigilancia Ciudadana",
+        "linea_inicio": 182,
+        "linea_fin": 182
+      },
+      "meta_cuantitativa": "100% licitaciones publicadas en tiempo real"
+    },
+    {
+      "id": "k-corrupcion-010",
+      "candidato": "keiko",
+      "tema": "corrupcion",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Plataforma de auditoría ciudadana en tiempo real para monitorear obras públicas mediante apps móviles con geolocalización y registro fotográfico certificado.",
+      "cita_textual": "Creación de una plataforma de auditoría ciudadana amigable y en tiempo real, que permita a los ciudadanos monitorear obras públicas mediante aplicaciones móviles con geolocalización y registro fotográfico certificado",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.2 Lucha contra la Corrupción, Transparencia y Vigilancia Ciudadana",
+        "linea_inicio": 182,
+        "linea_fin": 182
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-corrupcion-011",
+      "candidato": "keiko",
+      "tema": "corrupcion",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Observatorio Ciudadano de Compras Públicas para que sociedad civil y medios supervisen adquisiciones en tiempo real.",
+      "cita_textual": "Creación del Observatorio Ciudadano de Compras Públicas, para que la sociedad civil y los medios supervisen adquisiciones en tiempo real",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.2 Lucha contra la Corrupción, Transparencia y Vigilancia Ciudadana",
+        "linea_inicio": 182,
+        "linea_fin": 182
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-corrupcion-012",
+      "candidato": "keiko",
+      "tema": "corrupcion",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Transición hacia una criptomoneda estatal para transacciones públicas, asegurando trazabilidad total de los pagos gubernamentales.",
+      "cita_textual": "Inicio de la transición hacia una criptomoneda estatal para transacciones públicas, asegurando trazabilidad total de los pagos gubernamentales",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.2 Lucha contra la Corrupción, Transparencia y Vigilancia Ciudadana",
+        "linea_inicio": 182,
+        "linea_fin": 182
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-corrupcion-013",
+      "candidato": "keiko",
+      "tema": "corrupcion",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Lanzamiento del Shock Anticorrupción Digital con piloto de IA en contrataciones públicas para detectar sobrecostos y riesgos de colusión, y compliance digital para altos funcionarios.",
+      "cita_textual": "Lanzamiento del Shock Anticorrupción Digital en el Estado, mediante la puesta en marcha de un piloto de inteligencia artificial en contrataciones públicas para detectar sobrecostos y riesgos de colusión",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.2 Lucha contra la Corrupción, Primeros 100 días",
+        "linea_inicio": 186,
+        "linea_fin": 186
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-corrupcion-014",
+      "candidato": "keiko",
+      "tema": "corrupcion",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Implementación del sistema de transparencia total de compras públicas, publicando el 100% de licitaciones, contratos y adendas en tiempo real.",
+      "cita_textual": "Implementación del sistema de transparencia total de compras públicas, publicando el 100% de licitaciones, contratos y adendas en tiempo real",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.2 Lucha contra la Corrupción, Primeros 100 días",
+        "linea_inicio": 187,
+        "linea_fin": 187
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-corrupcion-015",
+      "candidato": "keiko",
+      "tema": "corrupcion",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Reducir en 30% las pérdidas anuales por corrupción e inconducta funcional al 2031 mediante transparencia digital, control preventivo y supervisión automatizada.",
+      "cita_textual": "Reducir en 30% las pérdidas anuales por corrupción e inconducta funcional, mediante transparencia digital, control preventivo y supervisión automatizada",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.2 Lucha contra la Corrupción, Principales metas e indicadores",
+        "linea_inicio": 193,
+        "linea_fin": 193
+      },
+      "meta_cuantitativa": "Reducir 30% pérdidas por corrupción al 2031"
+    },
+    {
+      "id": "k-economia-001",
+      "candidato": "keiko",
+      "tema": "economia",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico: el déficit fiscal se ha mantenido con tendencia alejada de la regla fiscal, generando una visión negativa sobre el manejo del Estado e impidiendo invertir en servicios públicos esenciales.",
+      "cita_textual": "Desde hace varios años el déficit fiscal se ha mantenido con una tendencia alejada a la regla fiscal y ello trae como consecuencia una visión negativa hacia el manejo del Estado",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.3 Orden Económico, Diagnóstico",
+        "linea_inicio": 199,
+        "linea_fin": 199
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-economia-002",
+      "candidato": "keiko",
+      "tema": "economia",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Diagnóstico: la excesiva carga regulatoria genera costos adicionales que representan hasta 3 puntos del PBI anuales en retrasos e ineficiencias; los proyectos de inversión en sectores estratégicos superan los 18 meses de tramitación.",
+      "cita_textual": "la excesiva carga regulatoria ha generado costos adicionales que, según estimaciones del MEF y la CONFIEP, representan hasta 3 puntos del PBI anuales en retrasos e ineficiencias",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.3 Orden Económico, Diagnóstico",
+        "linea_inicio": 201,
+        "linea_fin": 201
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-economia-003",
+      "candidato": "keiko",
+      "tema": "economia",
+      "tipo": "principio",
+      "relevancia": "ALTA",
+      "texto": "Aseguramiento de la independencia del BCRP y respeto a los contratos como pilares de estabilidad económica.",
+      "cita_textual": "Aseguramiento de la independencia del BCRP y el respeto a los contratos",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.3 Orden Económico, Estabilidad económica",
+        "linea_inicio": 201,
+        "linea_fin": 201
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-economia-004",
+      "candidato": "keiko",
+      "tema": "economia",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Programa de consolidación fiscal orientado a alcanzar el equilibrio de las finanzas públicas y reducir el déficit hasta el 1% del PBI durante el período de gobierno.",
+      "cita_textual": "implementaremos un programa de consolidación fiscal, orientada a alcanzar el equilibrio de las finanzas públicas y reducir el déficit hasta alcanzar el 1% durante nuestro período de gobierno",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.3 Orden Económico, Diagnóstico (compromiso programático)",
+        "linea_inicio": 199,
+        "linea_fin": 199
+      },
+      "meta_cuantitativa": "Déficit fiscal al 1% del PBI"
+    },
+    {
+      "id": "k-economia-005",
+      "candidato": "keiko",
+      "tema": "economia",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Reforma de la administración tributaria orientada a ampliar la base contributiva y fortalecer la recaudación sin aumentar la presión sobre los sectores formales ya contribuyentes.",
+      "cita_textual": "impulsaremos una reforma de la administración tributaria orientada a ampliar la base contributiva y a fortalecer la recaudación -sin aumentar la presión sobre los sectores formales ya contribuyentes",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.3 Orden Económico, Diagnóstico (compromiso programático)",
+        "linea_inicio": 199,
+        "linea_fin": 199
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-economia-006",
+      "candidato": "keiko",
+      "tema": "economia",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Ventanilla Única Digital Nacional con IA y tercerización regulada, que permita realizar en línea al menos el 80% de los trámites empresariales, con interoperabilidad y supervisión algorítmica.",
+      "cita_textual": "Implementación de una Ventanilla Única Digital Nacional con IA y tercerización regulada, que permita realizar en línea al menos el 80% de los trámites empresariales",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.3 Orden Económico, Simplificación administrativa",
+        "linea_inicio": 203,
+        "linea_fin": 203
+      },
+      "meta_cuantitativa": "80% trámites empresariales en línea"
+    },
+    {
+      "id": "k-economia-007",
+      "candidato": "keiko",
+      "tema": "economia",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Estrategia nacional Cero Colas: atención 100% digital para trámites recurrentes, citas previas obligatorias y monitoreo en tiempo real para eliminar colas físicas en máximo dos años.",
+      "cita_textual": "Implementación de la estrategia nacional “Cero Colas”, que obligue a todas las entidades públicas a ofrecer atención 100% digital para trámites recurrentes y de alta demanda",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.3 Orden Económico, Simplificación administrativa",
+        "linea_inicio": 203,
+        "linea_fin": 203
+      },
+      "meta_cuantitativa": "Eliminar colas físicas en 2 años"
+    },
+    {
+      "id": "k-economia-008",
+      "candidato": "keiko",
+      "tema": "economia",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Shock desregulatorio para reducir en al menos 40% el tiempo promedio de tramitación de proyectos de inversión, eliminando más de 500 procedimientos administrativos redundantes.",
+      "cita_textual": "Fortalecimiento y profundización del proceso de shock desregulatorio para reducir en al menos 40 % el tiempo promedio de tramitación de proyectos de inversión",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.3 Orden Económico, Simplificación administrativa",
+        "linea_inicio": 203,
+        "linea_fin": 203
+      },
+      "meta_cuantitativa": "Reducir 40% tiempo de tramitación + eliminar 500 procedimientos"
+    },
+    {
+      "id": "k-economia-009",
+      "candidato": "keiko",
+      "tema": "economia",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Fortalecimiento del Consejo Nacional de Competitividad y Formalización con una Unidad Antiburocracia para identificar y eliminar trabas administrativas y promover sanciones frente a la ineficiencia pública.",
+      "cita_textual": "Fortalecimiento del Consejo Nacional de Competitividad y Formalización, incorporando en su estructura una Unidad Antiburocracia encargada de identificar y eliminar trabas administrativas",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.3 Orden Económico, Simplificación administrativa",
+        "linea_inicio": 203,
+        "linea_fin": 203
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-economia-010",
+      "candidato": "keiko",
+      "tema": "economia",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Reforzamiento del rol proactivo de INDECOPI en la identificación y eliminación de barreras burocráticas, con facultades para supervisiones preventivas, auditorías aleatorias y revisiones sectoriales de oficio.",
+      "cita_textual": "Reforzamiento del rol proactivo de INDECOPI en la identificación y eliminación de barreras burocráticas, otorgándole facultades para realizar supervisiones preventivas, auditorías aleatorias y revisiones sectoriales de oficio",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.3 Orden Económico, Simplificación administrativa",
+        "linea_inicio": 203,
+        "linea_fin": 203
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-economia-011",
+      "candidato": "keiko",
+      "tema": "economia",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Establecimiento de plazos máximos y vinculantes para autorizaciones sectoriales, evitando que inversiones estratégicas queden paralizadas indefinidamente.",
+      "cita_textual": "Establecimiento de plazos máximos y vinculantes para autorizaciones sectoriales, evitando que inversiones estratégicas queden paralizadas indefinidamente",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.3 Orden Económico, Simplificación administrativa",
+        "linea_inicio": 203,
+        "linea_fin": 203
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-economia-012",
+      "candidato": "keiko",
+      "tema": "economia",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Poner en marcha el piloto de la Ventanilla Única Digital Nacional con IA para trámites empresariales, interoperable con sectores estratégicos.",
+      "cita_textual": "Poner en marcha el piloto de la Ventanilla Única Digital Nacional con IA para trámites empresariales, interoperable con sectores estratégicos",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.3 Orden Económico, Primeros 100 Días",
+        "linea_inicio": 207,
+        "linea_fin": 207
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-economia-013",
+      "candidato": "keiko",
+      "tema": "economia",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Presentación del Marco Macroeconómico Multianual 2027-2030, estableciendo una nueva ruta de reducción de déficit fiscal hacia el 1% del PBI en 2031.",
+      "cita_textual": "Presentación del Marco Macroeconómico Multianual 2027-2030, estableciendo una nueva ruta de reducción de déficit fiscal hacia el 1% del PBI en 2031",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.3 Orden Económico, Primeros 100 Días",
+        "linea_inicio": 207,
+        "linea_fin": 207
+      },
+      "meta_cuantitativa": "Déficit fiscal al 1% PBI en 2031"
+    },
+    {
+      "id": "k-economia-014",
+      "candidato": "keiko",
+      "tema": "economia",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Reducir el déficit fiscal a 1% del PBI al 2031, manteniendo la disciplina macroeconómica, la independencia del BCRP y la previsibilidad regulatoria.",
+      "cita_textual": "Reducir el déficit fiscal a 1% del PBI, manteniendo la disciplina macroeconómica, la independencia del BCRP y la previsibilidad regulatoria",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.3 Orden Económico, Principales metas e indicadores",
+        "linea_inicio": 213,
+        "linea_fin": 213
+      },
+      "meta_cuantitativa": "Déficit fiscal 1% PBI al 2031"
+    },
+    {
+      "id": "k-economia-015",
+      "candidato": "keiko",
+      "tema": "economia",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Digitalizar al menos el 80% de los trámites empresariales y atraer entre 5,000 y 7,000 millones de dólares adicionales en inversiones privadas anuales, generando más de 500,000 empleos formales anuales y 3 millones en todo el período (también impacta trabajo).",
+      "cita_textual": "Digitalizar al menos el 80% de los trámites empresariales mediante la Ventanilla Única Digital Nacional con IA e interoperabilidad efectiva; así como atraer entre 5,000 y 7,000 millones de dólares adicionales en inversiones privadas anuales",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.3 Orden Económico, Principales metas e indicadores",
+        "linea_inicio": 214,
+        "linea_fin": 214
+      },
+      "meta_cuantitativa": "80% trámites digitalizados + USD 5-7 mil M inversión anual + 500k empleos/año + 3M en el período"
+    },
+    {
+      "id": "k-orden_juridico-001",
+      "candidato": "keiko",
+      "tema": "orden_juridico",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Diagnóstico: la gestión pública peruana enfrenta severas limitaciones con un sistema burocrático desarticulado, trámites innecesarios, falta de interoperabilidad y débil cultura de servicio al ciudadano.",
+      "cita_textual": "La gestión pública peruana enfrenta severas limitaciones que impiden responder con eficacia y oportunidad a las crecientes demandas ciudadanas",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.4 Orden Jurídico, Diagnóstico",
+        "linea_inicio": 218,
+        "linea_fin": 218
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-justicia-001",
+      "candidato": "keiko",
+      "tema": "justicia",
+      "tipo": "diagnostico",
+      "relevancia": "ALTA",
+      "texto": "Diagnóstico: el sistema de justicia peruano enfrenta una profunda crisis estructural con lentitud, sobrecarga procesal, fragmentación institucional y limitada confianza ciudadana; los procesos suelen demorar años.",
+      "cita_textual": "El sistema de justicia peruano enfrenta una profunda crisis estructural caracterizada por lentitud, sobrecarga procesal, fragmentación institucional y limitada confianza ciudadana",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.4 Orden Jurídico, Diagnóstico — Ineficiencia y desconfianza en el sistema de justicia",
+        "linea_inicio": 220,
+        "linea_fin": 220
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-justicia-002",
+      "candidato": "keiko",
+      "tema": "justicia",
+      "tipo": "diagnostico",
+      "relevancia": "MEDIA",
+      "texto": "Diagnóstico: la provisionalidad de los magistrados ha afectado la independencia y meritocracia judicial; existe limitada implementación del Expediente Judicial Electrónico (EJE).",
+      "cita_textual": "la provisionalidad de los magistrados, derivada de la insuficiente designación de jueces titulares, ha afectado la independencia y meritocracia judicial",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.4 Orden Jurídico, Diagnóstico — Ineficiencia y desconfianza en el sistema de justicia",
+        "linea_inicio": 220,
+        "linea_fin": 220
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-orden_juridico-002",
+      "candidato": "keiko",
+      "tema": "orden_juridico",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Modernización del sistema meritocrático liderado por SERVIR, destacando la importancia de los recursos humanos como motor de cumplimiento institucional.",
+      "cita_textual": "Modernización del sistema meritocrático liderado por SERVIR, destacando la importancia de los recursos humanos como motor de cumplimiento institucional",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.4 Orden Jurídico, Nuestras propuestas — Modernización de la gestión pública",
+        "linea_inicio": 220,
+        "linea_fin": 220
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-orden_juridico-003",
+      "candidato": "keiko",
+      "tema": "orden_juridico",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Creación de un Sistema de Formación para la Gestión Pública acreditado por universidades y supervisado por SERVIR, junto con aplicación del Código del Servicio Público para certificar competencias.",
+      "cita_textual": "Creación de un Sistema de Formación para la Gestión Pública, acreditado por universidades y supervisado por SERVIR, junto con la aplicación del Código del Servicio Público",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.4 Orden Jurídico, Nuestras propuestas — Modernización de la gestión pública",
+        "linea_inicio": 222,
+        "linea_fin": 222
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-orden_juridico-004",
+      "candidato": "keiko",
+      "tema": "orden_juridico",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Programa Asiste Regional articulado por PCM, Oficina de Ejecución de Contrataciones del Estado y Dirección General de Abastecimiento para brindar asistencia técnica directa a gobiernos regionales y locales en proyectos de inversión.",
+      "cita_textual": "Creación del Programa Asiste Regional, que articule a la Presidencia del Consejo de Ministros, la Oficina de Ejecución de Contrataciones del Estado y la Dirección General de Abastecimiento para brindar asistencia técnica directa a gobiernos regionales y locales",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.4 Orden Jurídico, Nuestras propuestas — Modernización de la gestión pública",
+        "linea_inicio": 222,
+        "linea_fin": 222
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-orden_juridico-005",
+      "candidato": "keiko",
+      "tema": "orden_juridico",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Programa Reactivación, bajo conducción del MEF, para identificar, evaluar y reactivar obras públicas paralizadas a nivel nacional, articulando acciones con Contraloría y gobiernos subnacionales.",
+      "cita_textual": "Implementación del Programa Reactivación, bajo la conducción del Ministerio de Economía y Finanzas, para identificar, evaluar y reactivar obras públicas paralizadas a nivel nacional",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.4 Orden Jurídico, Nuestras propuestas — Modernización de la gestión pública",
+        "linea_inicio": 222,
+        "linea_fin": 222
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-orden_juridico-006",
+      "candidato": "keiko",
+      "tema": "orden_juridico",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Creación de la Defensoría del Funcionario Público liderada por PCM para brindar defensa legal y administrativa a los funcionarios que adopten decisiones técnicas necesarias para viabilizar proyectos de inversión.",
+      "cita_textual": "Creación de la Defensoría del Funcionario Público, liderado por la Presidencia del Consejo de Ministros, para brindar defensa legal y administrativa a los funcionarios públicos",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.4 Orden Jurídico, Nuestras propuestas — Modernización de la gestión pública",
+        "linea_inicio": 222,
+        "linea_fin": 222
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-justicia-003",
+      "candidato": "keiko",
+      "tema": "justicia",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Reforma integral del sistema de justicia, acompañada por sus propios actores (Poder Judicial, Ministerio Público, JNJ, Tribunal Constitucional, PNP, INPE, MINJUSDH), para garantizar independencia, celeridad y predictibilidad.",
+      "cita_textual": "Reforma integral del sistema de justicia, acompañada por sus propios actores, tal como el Poder Judicial, Ministerio Público, Junta Nacional de Justicia, Tribunal Constitucional, Policía Nacional del Perú, INPE, Ministerio de Justicia y Derechos Humanos",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.4 Orden Jurídico, Nuestras propuestas — Reforma del Sistema de Justicia",
+        "linea_inicio": 222,
+        "linea_fin": 222
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-justicia-004",
+      "candidato": "keiko",
+      "tema": "justicia",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Interoperabilidad digital entre entidades del sistema de justicia e incorporación de inteligencia artificial para análisis predictivo de casos, asignación eficiente de expedientes y reducción de tiempos procesales.",
+      "cita_textual": "Implementación de la interoperabilidad digital entre las entidades del sistema de justicia e incorporar inteligencia artificial para el análisis predictivo de casos, la asignación eficiente de expedientes y la reducción de tiempos procesales",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.4 Orden Jurídico, Nuestras propuestas — Reforma del Sistema de Justicia",
+        "linea_inicio": 222,
+        "linea_fin": 222
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-justicia-005",
+      "candidato": "keiko",
+      "tema": "justicia",
+      "tipo": "propuesta",
+      "relevancia": "ALTA",
+      "texto": "Obligatoriedad del Expediente Judicial Electrónico (EJE) para la gestión documental y notificaciones judiciales.",
+      "cita_textual": "Instauración de la obligatoriedad del Expediente Judicial Electrónico (EJE) para la gestión documental y notificaciones judiciales",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.4 Orden Jurídico, Nuestras propuestas — Reforma del Sistema de Justicia",
+        "linea_inicio": 222,
+        "linea_fin": 222
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-justicia-006",
+      "candidato": "keiko",
+      "tema": "justicia",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Proceso judicial monitor para resolver con rapidez y simplicidad las deudas dinerarias y reclamaciones menores, permitiendo decisiones expeditivas sin necesidad de un juicio ordinario.",
+      "cita_textual": "Implementación del proceso judicial monitor para resolver con rapidez y simplicidad las deudas dinerarias y reclamaciones menores, permitiendo decisiones expeditivas sin necesidad de un juicio ordinario",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.4 Orden Jurídico, Nuestras propuestas — Reforma del Sistema de Justicia",
+        "linea_inicio": 224,
+        "linea_fin": 224
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-justicia-007",
+      "candidato": "keiko",
+      "tema": "justicia",
+      "tipo": "propuesta",
+      "relevancia": "MEDIA",
+      "texto": "Creación de la Carrera Nacional de Defensa de Oficio, con ingreso meritocrático, escuela de formación, topes de carga procesal, nivelación remunerativa e incentivos por servicio en zonas de alta demanda.",
+      "cita_textual": "Creación de la “Carrera Nacional de Defensa de Oficio”, con ingreso meritocrático a nivel nacional, etapas claras de ascenso, escuela de formación inicial y capacitación continua",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.4 Orden Jurídico, Nuestras propuestas — Reforma del Sistema de Justicia",
+        "linea_inicio": 224,
+        "linea_fin": 224
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-orden_juridico-007",
+      "candidato": "keiko",
+      "tema": "orden_juridico",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Inicio del Programa Asiste Regional, desplegando equipos de asistencia técnica del MEF y PCM en regiones para destrabar obras y fortalecer capacidades locales.",
+      "cita_textual": "Inicio del Programa “Asiste Regional”, desplegando equipos de asistencia técnica del MEF y PCM en regiones para destrabar obras y fortalecer capacidades locales",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.4 Orden Jurídico, Primeros 100 días",
+        "linea_inicio": 224,
+        "linea_fin": 224
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-justicia-008",
+      "candidato": "keiko",
+      "tema": "justicia",
+      "tipo": "100dias",
+      "relevancia": "100DIAS",
+      "texto": "Establecimiento de la obligatoriedad del Expediente Judicial Electrónico (EJE) en todos los distritos judiciales del país, con prioridad en Lima, La Libertad, Arequipa y Piura.",
+      "cita_textual": "Establecimiento de la obligatoriedad del Expediente Judicial Electrónico (EJE) en todos los distritos judiciales del país, con prioridad en Lima, La Libertad, Arequipa y Piura",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.4 Orden Jurídico, Primeros 100 días",
+        "linea_inicio": 224,
+        "linea_fin": 224
+      },
+      "meta_cuantitativa": null
+    },
+    {
+      "id": "k-orden_juridico-008",
+      "candidato": "keiko",
+      "tema": "orden_juridico",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Lograr que el 100% de entidades del Gobierno Nacional y al menos el 70% de gobiernos subnacionales operen con sistemas digitales interoperables y gestión por desempeño al 2031.",
+      "cita_textual": "Lograr que el 100% de entidades",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.4 Orden Jurídico, Principales metas e indicadores",
+        "linea_inicio": 229,
+        "linea_fin": 234
+      },
+      "meta_cuantitativa": "100% Gobierno Nacional y 70% subnacionales con sistemas digitales interoperables al 2031"
+    },
+    {
+      "id": "k-justicia-009",
+      "candidato": "keiko",
+      "tema": "justicia",
+      "tipo": "meta",
+      "relevancia": "ALTA",
+      "texto": "Alcanzar cobertura nacional del Expediente Judicial Electrónico (EJE) y reducir en 30% los tiempos procesales promedio al 2031.",
+      "cita_textual": "Alcanzar cobertura nacional del Expediente Judicial Electrónico (EJE) y reducir en 30% los tiempos procesales promedio",
+      "fuente": {
+        "archivo": "01-Planes-de-Gobierno/Keiko-Fujimori/Plan-de-Gobierno-Keiko.md",
+        "seccion": "Pilar 1 — Orden, §1.4 Orden Jurídico, Principales metas e indicadores",
+        "linea_inicio": 236,
+        "linea_fin": 236
+      },
+      "meta_cuantitativa": "Cobertura nacional EJE + reducir 30% tiempos procesales al 2031"
+    }
+  ]
 }
