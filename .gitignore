@@ -23,6 +23,7 @@ node_modules/
 # Testing local
 .playwright-mcp/
 *.png
+!assets/*.png
 
 # HTTP server logs
 http_server.log
