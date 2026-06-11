@@ -1,5 +1,618 @@
 {
-  "plan_vs_plan": [],
+  "plan_vs_plan": [
+    {
+      "id": "cmp-pp-seguridad-001",
+      "tema": "seguridad",
+      "dimension": "diagnostico",
+      "propuesta_keiko": "k-seguridad-001",
+      "propuesta_roberto": "r-seguridad-002",
+      "relacion": "COINCIDE",
+      "analisis": "Ambos diagnostican la inseguridad como problema crítico nacional. Keiko enfatiza victimización (27.1% urbana) y debilidad estatal; Roberto añade un pacto de impunidad entre criminalidad y política mafiosa fujimorista. Coinciden en la gravedad y la responsabilidad estatal, divergen en el reparto de culpas."
+    },
+    {
+      "id": "cmp-pp-seguridad-002",
+      "tema": "seguridad",
+      "dimension": "propuesta_principal",
+      "propuesta_keiko": "k-seguridad-016",
+      "propuesta_roberto": "r-seguridad-009",
+      "relacion": "DIVERGE",
+      "analisis": "Keiko ancla la solución en tecnología y comando (C5i, videovigilancia, plataformas en tiempo real). Roberto ancla en pacto político y comando unificado contra el crimen organizado con énfasis en la inteligencia y la articulación PNP-Fiscalía. Mismo objetivo, enfoques institucionales distintos."
+    },
+    {
+      "id": "cmp-pp-seguridad-003",
+      "tema": "seguridad",
+      "dimension": "meta",
+      "propuesta_keiko": null,
+      "propuesta_roberto": "r-seguridad-013",
+      "relacion": "SOLO_B",
+      "analisis": "Roberto fija meta cuantitativa clara (incremento de 20,000 efectivos PNP en 3 años y ratio 1 policía/220 habitantes según ONU). Keiko detalla múltiples medidas pero no compromete una meta numérica equivalente de pie de fuerza policial."
+    },
+    {
+      "id": "cmp-pp-seguridad-004",
+      "tema": "seguridad",
+      "dimension": "enfoque_institucional",
+      "propuesta_keiko": "k-seguridad-017",
+      "propuesta_roberto": "r-seguridad-006",
+      "relacion": "DIVERGE",
+      "analisis": "Keiko propone delegación de facultades legislativas por 60 días para acelerar medidas de emergencia. Roberto propone derogar leyes pro-crimen (31751, 31990, 32108 etc.) atribuidas al Congreso fujimorista. Ambos buscan reforma normativa pero por vías incompatibles."
+    },
+    {
+      "id": "cmp-pp-corrupcion-001",
+      "tema": "corrupcion",
+      "dimension": "diagnostico",
+      "propuesta_keiko": "k-corrupcion-001",
+      "propuesta_roberto": "r-corrupcion-001",
+      "relacion": "COINCIDE",
+      "analisis": "Ambos diagnostican la corrupción como mal estructural con costos masivos (Roberto cita S/ 24,268 millones perdidos en 2023, 'Segundo gran mal'). Convergen en que penetra todos los niveles del Estado, pero Roberto la liga al Congreso actual y Keiko la describe en términos más generales."
+    },
+    {
+      "id": "cmp-pp-corrupcion-002",
+      "tema": "corrupcion",
+      "dimension": "propuesta_principal",
+      "propuesta_keiko": "k-corrupcion-005",
+      "propuesta_roberto": "r-corrupcion-009",
+      "relacion": "DIVERGE",
+      "analisis": "Keiko prioriza fortalecer la Procuraduría General y blindarla; Roberto crea un Sistema Nacional de Integridad y Transparencia (SNIT) según recomendación OCDE. Ambos refuerzan institucionalidad pero con arquitecturas distintas."
+    },
+    {
+      "id": "cmp-pp-corrupcion-003",
+      "tema": "corrupcion",
+      "dimension": "enfoque_institucional",
+      "propuesta_keiko": "k-corrupcion-006",
+      "propuesta_roberto": "r-corrupcion-004",
+      "relacion": "DIVERGE",
+      "analisis": "Keiko refuerza Contraloría con OCI autónomos. Roberto deroga leyes pro-corrupción (31751, 32104, 31990, 32108, 32054) atribuidas al fujimorismo. Hay convergencia en fortalecer el control pero choque normativo sobre qué leyes son útiles o nocivas."
+    },
+    {
+      "id": "cmp-pp-economia-001",
+      "tema": "economia",
+      "dimension": "diagnostico",
+      "propuesta_keiko": "k-economia-001",
+      "propuesta_roberto": "r-economia-001",
+      "relacion": "DIVERGE",
+      "analisis": "Keiko diagnostica desaceleración, baja inversión y necesidad de retomar la senda de crecimiento. Roberto enmarca cuatro grandes males (desigualdad, corrupción, criminalidad, abuso de poder) con la desigualdad como primer mal estructural. Mismo país, marcos analíticos distintos."
+    },
+    {
+      "id": "cmp-pp-economia-002",
+      "tema": "economia",
+      "dimension": "propuesta_principal",
+      "propuesta_keiko": "k-economia-002",
+      "propuesta_roberto": "r-economia-010",
+      "relacion": "COINCIDE",
+      "analisis": "Ambos defienden economía de mercado abierta y autonomía del BCR. Keiko propone shock desregulatorio; Roberto declara expresamente respeto a TLCs y al rol del BCRP. Convergencia explícita en estabilidad macroeconómica."
+    },
+    {
+      "id": "cmp-pp-economia-003",
+      "tema": "economia",
+      "dimension": "meta",
+      "propuesta_keiko": "k-economia-003",
+      "propuesta_roberto": "r-economia-012",
+      "relacion": "COINCIDE",
+      "analisis": "Ambos fijan crecimiento del 6% del PBI como meta. Keiko habla de duplicar tasa actual; Roberto exige crecimiento real sostenido del 6%. Coinciden en la cifra; divergen en cómo conseguirla (Keiko inversión privada y desregulación, Roberto industrialización con inversión pública)."
+    },
+    {
+      "id": "cmp-pp-economia-004",
+      "tema": "economia",
+      "dimension": "enfoque_institucional",
+      "propuesta_keiko": "k-economia-007",
+      "propuesta_roberto": "r-economia-008",
+      "relacion": "CONTRADICE",
+      "analisis": "Keiko defiende exoneraciones tributarias sectoriales como herramienta para inversión. Roberto diagnostica que las exoneraciones (1,000+ proyectos de FP) drenaron presión tributaria del 17.5% (2022) al 14.6% (2025) y propone revertirlas con reforma tributaria solidaria. Posiciones opuestas."
+    },
+    {
+      "id": "cmp-pp-educacion-001",
+      "tema": "educacion",
+      "dimension": "diagnostico",
+      "propuesta_keiko": "k-educacion-001",
+      "propuesta_roberto": "r-educacion-002",
+      "relacion": "COINCIDE",
+      "analisis": "Ambos diagnostican fracaso del sistema en comprensión lectora y matemática. Roberto cita cifras UMC 2024 (30% logro en 4°, 18% en 6° matemática); Keiko enfoca brechas de infraestructura. Coinciden en la crisis pero la cuantifican diferente."
+    },
+    {
+      "id": "cmp-pp-educacion-002",
+      "tema": "educacion",
+      "dimension": "propuesta_principal",
+      "propuesta_keiko": "k-educacion-005",
+      "propuesta_roberto": "r-educacion-018",
+      "relacion": "DIVERGE",
+      "analisis": "Keiko apuesta por construcción/repotenciación de colegios (5,000 según debate) con servicios básicos. Roberto apuesta por red de institutos tecnológicos y CETPRO de excelencia descentralizados. Ambos buscan calidad pero priorizan distintos eslabones del sistema."
+    },
+    {
+      "id": "cmp-pp-educacion-003",
+      "tema": "educacion",
+      "dimension": "meta",
+      "propuesta_keiko": "k-educacion-007",
+      "propuesta_roberto": "r-educacion-014",
+      "relacion": "DIVERGE",
+      "analisis": "Keiko: duplicar Beca 18 y entregar 5 millones de kits escolares. Roberto: mejorar infraestructura urbana 55% y rural 40% en 5 años; deserción rural ≤5%. Metas en distintas dimensiones del sistema, ambas verificables."
+    },
+    {
+      "id": "cmp-pp-educacion-004",
+      "tema": "educacion",
+      "dimension": "enfoque_institucional",
+      "propuesta_keiko": "k-educacion-010",
+      "propuesta_roberto": "r-educacion-020",
+      "relacion": "DIVERGE",
+      "analisis": "Keiko defiende SUNEDU y la reforma universitaria sin alterar el modelo curricular nacional. Roberto plantea descentralizar la política curricular con un Marco Curricular Nacional y diversificación regional gestionada autónomamente por pueblos originarios. Enfoques estructurales distintos."
+    },
+    {
+      "id": "cmp-pp-salud-001",
+      "tema": "salud",
+      "dimension": "diagnostico",
+      "propuesta_keiko": "k-salud-001",
+      "propuesta_roberto": "r-salud-001",
+      "relacion": "COINCIDE",
+      "analisis": "Ambos diagnostican un sistema de salud colapsado, fragmentado y con largas esperas; Roberto añade que es estratificado, mercantilizado y deshumanizado, y cita 200,000 muertes COVID como prueba. Convergencia en gravedad."
+    },
+    {
+      "id": "cmp-pp-salud-002",
+      "tema": "salud",
+      "dimension": "propuesta_principal",
+      "propuesta_keiko": "k-salud-005",
+      "propuesta_roberto": "r-salud-006",
+      "relacion": "DIVERGE",
+      "analisis": "Keiko ancla en telemedicina y fortalecimiento del fondo de enfermedades de alto costo. Roberto ancla en salud pública universal con integración progresiva de subsistemas (público, privado, policial, militar) en tres fases. Mismo objetivo (acceso), arquitecturas distintas."
+    },
+    {
+      "id": "cmp-pp-salud-003",
+      "tema": "salud",
+      "dimension": "meta",
+      "propuesta_keiko": "k-salud-006",
+      "propuesta_roberto": "r-salud-009",
+      "relacion": "DIVERGE",
+      "analisis": "Keiko fija meta de cobertura SIS al 100% y construir 5,000 colegios (relacionado a anemia/nutrición escolar). Roberto compromete +S/ 180,000M de inversión adicional 2026-2031, escalar gasto al 7% PBI y gratuidad total eliminando copagos. Metas en planos distintos (cobertura vs financiamiento)."
+    },
+    {
+      "id": "cmp-pp-salud-004",
+      "tema": "salud",
+      "dimension": "enfoque_institucional",
+      "propuesta_keiko": "k-salud-008",
+      "propuesta_roberto": "r-salud-020",
+      "relacion": "DIVERGE",
+      "analisis": "Keiko propone gestión por resultados y APP en hospitales. Roberto crea red nacional de farmacias y boticas populares con genéricos y banco nacional de medicamentos con compras integradas centralizadas. Mismo objetivo (acceso a medicamentos), enfoques institucionales casi opuestos."
+    },
+    {
+      "id": "cmp-pp-agricultura-001",
+      "tema": "agricultura",
+      "dimension": "diagnostico",
+      "propuesta_keiko": "k-agricultura-001",
+      "propuesta_roberto": "r-agricultura-001",
+      "relacion": "DIVERGE",
+      "analisis": "Keiko diagnostica falta de tecnología, brechas de riego y abandono institucional. Roberto diagnostica injusticia estructural (modelo agroexportador con privilegios vs agricultura familiar abandonada). Mismo sector, marcos distintos: Keiko 'productivista', Roberto 'redistributivo'."
+    },
+    {
+      "id": "cmp-pp-agricultura-002",
+      "tema": "agricultura",
+      "dimension": "propuesta_principal",
+      "propuesta_keiko": "k-agricultura-002",
+      "propuesta_roberto": "r-agricultura-006",
+      "relacion": "DIVERGE",
+      "analisis": "Keiko relanza el agro con riego tecnificado, semillas mejoradas y crédito vía Agrobanco. Roberto duplica presupuesto MIDAGRI a S/ 14,000M en 5 años y reestructura 200 Agencias Agrarias Territoriales con cobertura del 100% en extensión. Ambos refuerzan el agro; magnitudes y prioridades diferentes."
+    },
+    {
+      "id": "cmp-pp-agricultura-003",
+      "tema": "agricultura",
+      "dimension": "meta",
+      "propuesta_keiko": "k-agricultura-005",
+      "propuesta_roberto": "r-agricultura-017",
+      "relacion": "DIVERGE",
+      "analisis": "Keiko: 5 megaproyectos de irrigación y +1 millón de ha bajo riego. Roberto: compras públicas de alimentos al 40% directamente de agricultura familiar y campesina, beneficiando 1M familias agricultoras y 3M urbanas. Metas en distintas dimensiones (oferta hídrica vs demanda institucional)."
+    },
+    {
+      "id": "cmp-pp-agricultura-004",
+      "tema": "agricultura",
+      "dimension": "enfoque_institucional",
+      "propuesta_keiko": "k-agricultura-007",
+      "propuesta_roberto": "r-agricultura-007",
+      "relacion": "CONTRADICE",
+      "analisis": "Keiko propone fortalecer derechos sobre el agua para la agroexportación y promover propiedad y mercados. Roberto elimina la concentración de derechos de agua y los redistribuye priorizando consumo humano y pequeña agricultura. Posiciones incompatibles sobre quién tiene derecho prioritario al agua."
+    },
+    {
+      "id": "cmp-pp-mineria-001",
+      "tema": "mineria",
+      "dimension": "diagnostico",
+      "propuesta_keiko": "k-mineria-001",
+      "propuesta_roberto": "r-mineria-001",
+      "relacion": "COINCIDE",
+      "analisis": "Ambos reconocen el peso de la minería en la economía (Roberto: 9% PBI, 66% exportaciones). Roberto añade que la recaudación es menor al 15% del valor exportado y critica el modelo extractivo puro. Keiko enfatiza minería responsable. Diagnósticos compatibles, énfasis distintos."
+    },
+    {
+      "id": "cmp-pp-mineria-002",
+      "tema": "mineria",
+      "dimension": "propuesta_principal",
+      "propuesta_keiko": "k-mineria-002",
+      "propuesta_roberto": "r-mineria-007",
+      "relacion": "DIVERGE",
+      "analisis": "Keiko destraba proyectos paralizados con ventanilla única y reglas claras. Roberto declara soberanía sobre recursos y convierte al Estado en promotor de la industrialización minera con transferencia tecnológica. Ambos quieren más minería pero en modelos casi opuestos."
+    },
+    {
+      "id": "cmp-pp-mineria-003",
+      "tema": "mineria",
+      "dimension": "enfoque_institucional",
+      "propuesta_keiko": "k-mineria-006",
+      "propuesta_roberto": "r-mineria-013",
+      "relacion": "CONTRADICE",
+      "analisis": "Keiko impulsa formalización con ventanilla única y promueve concesiones para destrabar inversión. Roberto declara moratoria de concesiones aluviales en Amazonía y prohíbe minería en cuerpos de agua. Posiciones opuestas sobre fronteras de extracción."
+    },
+    {
+      "id": "cmp-pp-mineria-004",
+      "tema": "mineria",
+      "dimension": "meta",
+      "propuesta_keiko": null,
+      "propuesta_roberto": "r-mineria-017",
+      "relacion": "SOLO_B",
+      "analisis": "Roberto constituye un Fondo Soberano con ingresos mineros para financiar salud, educación, pensiones y regeneración ambiental. Keiko no plantea un fondo soberano equivalente."
+    },
+    {
+      "id": "cmp-pp-energia-001",
+      "tema": "energia",
+      "dimension": "diagnostico",
+      "propuesta_keiko": "k-energia-001",
+      "propuesta_roberto": "r-energia-001",
+      "relacion": "COINCIDE",
+      "analisis": "Ambos diagnostican debilidad estructural en abastecimiento y precios. Roberto detalla el deterioro de PETROPERU (de 95% del mercado en los 80 a 20% hoy). Diagnósticos compatibles aunque Roberto liga la causa a privatizaciones."
+    },
+    {
+      "id": "cmp-pp-energia-002",
+      "tema": "energia",
+      "dimension": "propuesta_principal",
+      "propuesta_keiko": "k-energia-002",
+      "propuesta_roberto": "r-energia-005",
+      "relacion": "CONTRADICE",
+      "analisis": "Keiko privatiza/reestructura PETROPERU y abre el mercado de hidrocarburos. Roberto reflota y reestructura PETROPERU para recuperar 40-45% del mercado nacional bajo gobierno corporativo. Posiciones opuestas sobre el rol del Estado en hidrocarburos."
+    },
+    {
+      "id": "cmp-pp-energia-003",
+      "tema": "energia",
+      "dimension": "propuesta_principal",
+      "propuesta_keiko": "k-energia-006",
+      "propuesta_roberto": "r-energia-013",
+      "relacion": "COINCIDE",
+      "analisis": "Ambos comprometen recuperar el Gasoducto del Sur peruano. Keiko lo plantea como prioridad de infraestructura energética. Roberto detalla la ruta Camisea-Ilo-Mollendo. Convergencia explícita en el proyecto."
+    },
+    {
+      "id": "cmp-pp-energia-004",
+      "tema": "energia",
+      "dimension": "meta",
+      "propuesta_keiko": "k-energia-007",
+      "propuesta_roberto": "r-energia-014",
+      "relacion": "AMPLIA",
+      "analisis": "Keiko compromete masificación del gas con apoyo del FISE. Roberto detalla incremento del presupuesto de electrificación rural de S/ 489M a S/ 1,100M anuales (2026-2030) con +100 proyectos por año. Roberto va más lejos en magnitud y especificidad presupuestal."
+    },
+    {
+      "id": "cmp-pp-trabajo-001",
+      "tema": "trabajo",
+      "dimension": "propuesta_principal",
+      "propuesta_keiko": null,
+      "propuesta_roberto": "r-trabajo-009",
+      "relacion": "SOLO_B",
+      "analisis": "Roberto compromete 1 millón de empleos formales nuevos con derechos plenos vía reactivación e inversión privada. Keiko aborda empleo a través de propuestas en MYPE y economía, sin meta numérica equivalente bajo tema 'trabajo'."
+    },
+    {
+      "id": "cmp-pp-mype-001",
+      "tema": "mype",
+      "dimension": "diagnostico",
+      "propuesta_keiko": "k-mype-001",
+      "propuesta_roberto": "r-mype-001",
+      "relacion": "COINCIDE",
+      "analisis": "Ambos reconocen que las MIPYME son el motor de la economía con alta informalidad. Roberto cifra: 99% de empresas son MIPYME, generan 48% del empleo pero solo 16% PBI, 86% informalidad. Coincidencia en el diagnóstico estructural."
+    },
+    {
+      "id": "cmp-pp-mype-002",
+      "tema": "mype",
+      "dimension": "propuesta_principal",
+      "propuesta_keiko": "k-mype-005",
+      "propuesta_roberto": "r-mype-006",
+      "relacion": "DIVERGE",
+      "analisis": "Keiko: tributación cero los 3 primeros años y licencia cero con una sola declaración (régimen pro-mercado). Roberto: programa de nueva formalidad productiva con meta de bajar informalidad de 70.7% a 55% y régimen tributario único MIPYME escalonado. Mismo objetivo (formalización), arquitecturas distintas."
+    },
+    {
+      "id": "cmp-pp-industria-001",
+      "tema": "industria",
+      "dimension": "propuesta_principal",
+      "propuesta_keiko": "k-industria-001",
+      "propuesta_roberto": "r-industria-003",
+      "relacion": "DIVERGE",
+      "analisis": "Keiko impulsa la industria 4.0 con incentivos a la digitalización y exportación. Roberto lanza 'Made in Perú' con shock de industrialización y ferias internacionales por región. Ambos buscan industrialización; Keiko orientada al mercado externo, Roberto al desarrollo nacional descentralizado."
+    },
+    {
+      "id": "cmp-pp-industria-002",
+      "tema": "industria",
+      "dimension": "propuesta_principal",
+      "propuesta_keiko": "k-industria-006",
+      "propuesta_roberto": "r-industria-004",
+      "relacion": "CONTRADICE",
+      "analisis": "Keiko promueve la privatización o reestructuración de PETROPERU. Roberto rechaza privatizar PETROPERU y propone reformarlo con nueva Ley de Desarrollo Corporativo y enfoque de integración vertical. Posiciones incompatibles."
+    },
+    {
+      "id": "cmp-pp-transporte-001",
+      "tema": "transporte",
+      "dimension": "diagnostico",
+      "propuesta_keiko": "k-transporte-001",
+      "propuesta_roberto": "r-transporte-001",
+      "relacion": "COINCIDE",
+      "analisis": "Ambos diagnostican infraestructura vial deficiente y altos costos logísticos. Roberto cuantifica: costo logístico = 26% del PBI; 80% de caminos vecinales en mal estado. Coincidencia con cuantificación distinta."
+    },
+    {
+      "id": "cmp-pp-transporte-002",
+      "tema": "transporte",
+      "dimension": "propuesta_principal",
+      "propuesta_keiko": "k-transporte-002",
+      "propuesta_roberto": "r-transporte-005",
+      "relacion": "DIVERGE",
+      "analisis": "Keiko destraba megaproyectos paralizados (Carretera Central, Aeropuerto Chinchero, Líneas Metro 3-6). Roberto prioriza Línea 2 + Línea 3 articulada con trenes de cercanía norte-sur y red ferroviaria en tres fases. Ambos priorizan transporte masivo con criterios distintos."
+    },
+    {
+      "id": "cmp-pp-transporte-003",
+      "tema": "transporte",
+      "dimension": "enfoque_institucional",
+      "propuesta_keiko": "k-transporte-005",
+      "propuesta_roberto": "r-transporte-016",
+      "relacion": "DIVERGE",
+      "analisis": "Keiko opera con APP y modelos privados como motor. Roberto subsidiará el transporte urbano con S/ 800M-3,000M (2027-2030) bajo prácticas internacionales, dado que 2 millones de limeños no tienen transporte masivo. Subsidio explícito vs mercado APP."
+    },
+    {
+      "id": "cmp-pp-vivienda-001",
+      "tema": "vivienda",
+      "dimension": "diagnostico",
+      "propuesta_keiko": "k-vivienda-001",
+      "propuesta_roberto": "r-vivienda-001",
+      "relacion": "COINCIDE",
+      "analisis": "Ambos identifican alto déficit habitacional y crecimiento urbano informal. Roberto cuantifica: 93% del crecimiento urbano informal en 2 décadas, 15% de municipios con PDU. Coincidencia con cuantificación de Roberto más detallada."
+    },
+    {
+      "id": "cmp-pp-vivienda-002",
+      "tema": "vivienda",
+      "dimension": "propuesta_principal",
+      "propuesta_keiko": "k-vivienda-005",
+      "propuesta_roberto": "r-vivienda-005",
+      "relacion": "DIVERGE",
+      "analisis": "Keiko: 1 millón de títulos de propiedad en 5 años vía Cofopri. Roberto: Programa WASI UKHU con S/ 2,500M para 50k viviendas nuevas + 100k mejoradas con energía limpia y materiales locales. Ambos atienden el déficit; Keiko vía formalización, Roberto vía construcción rural directa."
+    },
+    {
+      "id": "cmp-pp-agua-001",
+      "tema": "agua",
+      "dimension": "diagnostico",
+      "propuesta_keiko": "k-agua-001",
+      "propuesta_roberto": "r-agua-001",
+      "relacion": "COINCIDE",
+      "analisis": "Ambos diagnostican brechas críticas en acceso y calidad del agua. Roberto cifra: 40.4% de hogares con cloro adecuado vs 39.9% sin cloro alguno. Convergencia con cuantificación distinta."
+    },
+    {
+      "id": "cmp-pp-agua-002",
+      "tema": "agua",
+      "dimension": "propuesta_principal",
+      "propuesta_keiko": "k-agua-007",
+      "propuesta_roberto": "r-agua-006",
+      "relacion": "CONTRADICE",
+      "analisis": "Keiko promueve APP en saneamiento y rol creciente del sector privado. Roberto explícitamente pone fin a la privatización del agua y apuntala control público y comunitario. Posiciones opuestas sobre el modelo de gestión."
+    },
+    {
+      "id": "cmp-pp-pensiones-001",
+      "tema": "pensiones",
+      "dimension": "diagnostico",
+      "propuesta_keiko": "k-pensiones-001",
+      "propuesta_roberto": "r-pensiones-001",
+      "relacion": "COINCIDE",
+      "analisis": "Ambos diagnostican pobreza creciente y desigualdad estructural. Roberto cifra: 27.6% pobreza monetaria, 5.5% extrema; Lima concentra 24% de la pobreza nacional. Convergencia con datos."
+    },
+    {
+      "id": "cmp-pp-pensiones-002",
+      "tema": "pensiones",
+      "dimension": "propuesta_principal",
+      "propuesta_keiko": "k-pensiones-005",
+      "propuesta_roberto": "r-pensiones-005",
+      "relacion": "COINCIDE",
+      "analisis": "Ambos prometen reordenar y fortalecer programas sociales. Roberto transforma programas focalizados en sistema articulado sin clientelismo. Keiko repotencia Foncodes, Juntos y Pensión 65. Convergencia en intención de fortalecer la red de protección."
+    },
+    {
+      "id": "cmp-pp-pensiones-003",
+      "tema": "pensiones",
+      "dimension": "meta",
+      "propuesta_keiko": "k-pensiones-006",
+      "propuesta_roberto": "r-pensiones-009",
+      "relacion": "DIVERGE",
+      "analisis": "Keiko: aumento de Pensión 65 y bono a mamitas de comedores (S/ 500 mensuales). Roberto: Pensión 65 a S/ 700 bimensuales para todos; duplicar cobertura y monto del Programa Juntos. Misma dirección redistributiva, magnitudes distintas."
+    },
+    {
+      "id": "cmp-pp-justicia-001",
+      "tema": "justicia",
+      "dimension": "diagnostico",
+      "propuesta_keiko": "k-justicia-001",
+      "propuesta_roberto": "r-justicia-001",
+      "relacion": "DIVERGE",
+      "analisis": "Keiko diagnostica lentitud del sistema y baja efectividad de sentencias. Roberto enfatiza debilitamiento del estándar Corte IDH y leyes de amnistía 32419/32107 atribuidas al fujimorismo. Diagnósticos en planos distintos."
+    },
+    {
+      "id": "cmp-pp-justicia-002",
+      "tema": "justicia",
+      "dimension": "propuesta_principal",
+      "propuesta_keiko": "k-justicia-003",
+      "propuesta_roberto": "r-justicia-012",
+      "relacion": "DIVERGE",
+      "analisis": "Keiko: unidades de flagrancia como piedra angular de un sistema renovado. Roberto: Comisión de Reforma Integral de la Justicia con magistrados, estudiosos y ciudadanía para rediseñar acceso a la justicia y considerar elección de jueces. Ambos reforman pero con alcances muy distintos."
+    },
+    {
+      "id": "cmp-pp-justicia-003",
+      "tema": "justicia",
+      "dimension": "enfoque_institucional",
+      "propuesta_keiko": "k-justicia-006",
+      "propuesta_roberto": "r-justicia-004",
+      "relacion": "CONTRADICE",
+      "analisis": "Keiko ha respaldado normas que reducen la influencia de organismos internacionales en decisiones nacionales. Roberto reafirma permanencia del Perú en el SIDH y cumplimiento estricto de decisiones de la Corte IDH. Posiciones incompatibles sobre soberanía vs. SIDH."
+    },
+    {
+      "id": "cmp-pp-juventud-001",
+      "tema": "juventud",
+      "dimension": "propuesta_principal",
+      "propuesta_keiko": "k-juventud-001",
+      "propuesta_roberto": "r-juventud-004",
+      "relacion": "DIVERGE",
+      "analisis": "Keiko: Centros de Oportunidad y Orientación Local (COL) en todas las regiones con cursos y atención psicológica 24/7. Roberto: Mi Primera Chamba con bono S/ 6,150 por egresado de secundaria para estudios, emprendimiento o subsidio salarial. Mismo objetivo, instrumentos distintos."
+    },
+    {
+      "id": "cmp-pp-juventud-002",
+      "tema": "juventud",
+      "dimension": "meta",
+      "propuesta_keiko": "k-juventud-004",
+      "propuesta_roberto": "r-juventud-011",
+      "relacion": "DIVERGE",
+      "analisis": "Keiko: programa Jóvenes Productivos repotenciado con alianzas empresariales. Roberto: +10,000 becas PRONABEC anuales priorizando ingenierías y ciencias aplicadas, descentralizadas a comunidades campesinas y nativas amazónicas. Metas en distintos eslabones."
+    },
+    {
+      "id": "cmp-pp-pesca-001",
+      "tema": "pesca",
+      "dimension": "diagnostico",
+      "propuesta_keiko": "k-pesca-001",
+      "propuesta_roberto": "r-pesca-002",
+      "relacion": "DIVERGE",
+      "analisis": "Keiko diagnostica baja productividad y necesidad de modernización. Roberto cifra la concentración (5 empresas controlan 80% de la anchoveta; exportan US$ 2,100M pero pagan al Estado <1.5% del valor) como problema central. Diagnósticos compatibles, énfasis distintos."
+    },
+    {
+      "id": "cmp-pp-pesca-002",
+      "tema": "pesca",
+      "dimension": "propuesta_principal",
+      "propuesta_keiko": "k-pesca-003",
+      "propuesta_roberto": "r-pesca-006",
+      "relacion": "CONTRADICE",
+      "analisis": "Keiko fortalece industria de harina de pescado y exportación. Roberto reorienta la anchoveta del uso industrial (harina) al consumo humano popular para combatir anemia y desnutrición. Posiciones casi opuestas sobre el destino del recurso."
+    },
+    {
+      "id": "cmp-pp-turismo-001",
+      "tema": "turismo",
+      "dimension": "propuesta_principal",
+      "propuesta_keiko": "k-turismo-001",
+      "propuesta_roberto": "r-turismo-005",
+      "relacion": "DIVERGE",
+      "analisis": "Keiko relanza PromPerú y atrae 5 millones de turistas. Roberto reordena la gobernanza turística regional articulando SERNANP, Cultura y MINCETUR con énfasis en gobiernos regionales. Ambos buscan crecimiento del turismo; Keiko desde la promoción, Roberto desde la institucionalidad descentralizada."
+    },
+    {
+      "id": "cmp-pp-ambiente-001",
+      "tema": "ambiente",
+      "dimension": "diagnostico",
+      "propuesta_keiko": "k-ambiente-001",
+      "propuesta_roberto": "r-ambiente-002",
+      "relacion": "COINCIDE",
+      "analisis": "Ambos reconocen vulnerabilidad climática severa y deforestación. Roberto cifra: 12 millones de afectados por desastres 2003-2022 con pérdidas US$6,000M+ y deforestación de 150,000 ha anuales. Coincidencia en gravedad y datos."
+    },
+    {
+      "id": "cmp-pp-ambiente-002",
+      "tema": "ambiente",
+      "dimension": "propuesta_principal",
+      "propuesta_keiko": "k-ambiente-005",
+      "propuesta_roberto": "r-ambiente-013",
+      "relacion": "CONTRADICE",
+      "analisis": "Keiko respalda flexibilización forestal para producción agroindustrial (afín a la Ley Forestal vigente). Roberto deroga la 'Ley Antiforestal' y establece moratoria a monocultivos industriales en la Amazonía. Posiciones opuestas sobre uso del bosque amazónico."
+    },
+    {
+      "id": "cmp-pp-ambiente-003",
+      "tema": "ambiente",
+      "dimension": "enfoque_institucional",
+      "propuesta_keiko": "k-ambiente-007",
+      "propuesta_roberto": "r-ambiente-006",
+      "relacion": "CONTRADICE",
+      "analisis": "Keiko mantiene el modelo de naturaleza como recurso productivo. Roberto reconoce constitucionalmente a la naturaleza (ríos, cuencas) como sujetos de derecho. Posiciones filosóficamente opuestas."
+    },
+    {
+      "id": "cmp-pp-ambiente-004",
+      "tema": "ambiente",
+      "dimension": "meta",
+      "propuesta_keiko": null,
+      "propuesta_roberto": "r-ambiente-019",
+      "relacion": "SOLO_B",
+      "analisis": "Roberto: Plan Nacional de Restauración Ambiental con meta de 500,000 ha restauradas, financiado por impuesto a utilidades extraordinarias del sector extractivo. Keiko no fija meta comparable de restauración."
+    },
+    {
+      "id": "cmp-pp-orden_juridico-001",
+      "tema": "orden_juridico",
+      "dimension": "propuesta_principal",
+      "propuesta_keiko": "k-orden_juridico-001",
+      "propuesta_roberto": "r-orden_juridico-011",
+      "relacion": "DIVERGE",
+      "analisis": "Keiko: predictibilidad jurídica para la inversión, con mecanismos de seguridad para contratos. Roberto: restablecer el CND derogando el DS 007-2007-PCM para retomar la descentralización planificada. Ambos buscan orden institucional pero en planos distintos (seguridad jurídica vs descentralización)."
+    },
+    {
+      "id": "cmp-pp-deporte-001",
+      "tema": "deporte",
+      "dimension": "propuesta_principal",
+      "propuesta_keiko": "k-deporte-001",
+      "propuesta_roberto": "r-deporte-006",
+      "relacion": "DIVERGE",
+      "analisis": "Keiko: el IPD pasa a la PCM para invertir en deporte recreativo, escolar y profesional, alejando jóvenes de la delincuencia. Roberto: Sistema Nacional del Deporte, la Recreación y el Ocio Productivo articulando Estado, sector privado y comunidades. Mismo objetivo, arquitecturas distintas."
+    },
+    {
+      "id": "cmp-pp-peruanos_exterior-001",
+      "tema": "peruanos_exterior",
+      "dimension": "propuesta_principal",
+      "propuesta_keiko": "k-peruanos_exterior-001",
+      "propuesta_roberto": "r-peruanos_exterior-003",
+      "relacion": "COINCIDE",
+      "analisis": "Ambos comprometen mejor atención consular y vínculo con la diáspora. Roberto crea Clínica de Desarrollo Territorial y Registro Territorial; Keiko fortalece servicios consulares y derechos políticos. Convergencia en intención."
+    },
+    {
+      "id": "cmp-pp-constitucion-001",
+      "tema": "constitucion",
+      "dimension": "propuesta_principal",
+      "propuesta_keiko": null,
+      "propuesta_roberto": "r-constitucion-005",
+      "relacion": "SOLO_B",
+      "analisis": "Roberto propone una nueva Constitución de consenso vía art. 206 o asamblea constituyente como propuesta-ancla. Keiko no plantea reforma constitucional sustantiva (defiende la Constitución de 1993 y la reforma reciente del Congreso)."
+    },
+    {
+      "id": "cmp-pp-cti-001",
+      "tema": "cti",
+      "dimension": "propuesta_principal",
+      "propuesta_keiko": null,
+      "propuesta_roberto": "r-cti-003",
+      "relacion": "SOLO_B",
+      "analisis": "Roberto crea el Ministerio de Ciencia y Tecnología vinculado a institutos técnicos regionales, ZEE de Ilo/Matarani/Chancay y reforma CONCYTEC. Keiko no propone una arquitectura institucional equivalente para CTI."
+    },
+    {
+      "id": "cmp-pp-cultura-001",
+      "tema": "cultura",
+      "dimension": "propuesta_principal",
+      "propuesta_keiko": null,
+      "propuesta_roberto": "r-cultura-007",
+      "relacion": "SOLO_B",
+      "analisis": "Roberto crea el Ministerio de Las Culturas que prioriza derechos de pueblos originarios (titulación, georreferenciación). Keiko no plantea un rediseño institucional comparable."
+    },
+    {
+      "id": "cmp-pp-exterior-001",
+      "tema": "exterior",
+      "dimension": "propuesta_principal",
+      "propuesta_keiko": null,
+      "propuesta_roberto": "r-exterior-029",
+      "relacion": "SOLO_B",
+      "analisis": "Roberto diseña una política exterior 'nacional, autónoma, humanista, democrática, descentralizada, medioambiental, normativa, institucional y pro paz'. Keiko no detalla un marco doctrinal equivalente para política exterior."
+    },
+    {
+      "id": "cmp-pp-genero-001",
+      "tema": "genero",
+      "dimension": "propuesta_principal",
+      "propuesta_keiko": null,
+      "propuesta_roberto": "r-genero-015",
+      "relacion": "SOLO_B",
+      "analisis": "Roberto crea un Sistema Nacional de Cuidados con enfoque de género e intercultural. Keiko no propone un sistema equivalente; aborda género desde MIMP/CEM pero sin Sistema Nacional."
+    },
+    {
+      "id": "cmp-pp-genero-002",
+      "tema": "genero",
+      "dimension": "propuesta_principal",
+      "propuesta_keiko": null,
+      "propuesta_roberto": "r-genero-010",
+      "relacion": "SOLO_B",
+      "analisis": "Roberto despenaliza la interrupción del embarazo en casos de violencia sexual y riesgo para la madre. Keiko no respalda esta despenalización. SOLO_B en sentido propositivo (Keiko adopta postura contraria fuera de su plan formal)."
+    },
+    {
+      "id": "cmp-pp-indigenas-001",
+      "tema": "indigenas",
+      "dimension": "propuesta_principal",
+      "propuesta_keiko": null,
+      "propuesta_roberto": "r-indigenas-003",
+      "relacion": "SOLO_B",
+      "analisis": "Roberto propone escaños reservados para pueblos originarios en el Congreso y cuotas en la dirección/gestión estatal. Keiko no propone escaños reservados ni mecanismos equivalentes."
+    }
+  ],
   "plan_vs_debate": [],
   "consistencia_por_candidato": []
 }
