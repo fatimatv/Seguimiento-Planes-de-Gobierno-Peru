@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brain Político Perú 2026 — Comparador de Planes de Gobierno</title>
+<!-- marked@12.0.2 pin; añadir integrity="sha384-..." cuando se calcule el SRI hash localmente
+     (curl -sL <url> | openssl dgst -sha384 -binary | openssl base64 -A). Hasta entonces,
+     usamos crossorigin="anonymous" para limitar exposición. La fuente del .md es nuestro
+     propio render_comparaciones.py, por lo que el escape de XSS está dado por el control
+     end-to-end del pipeline JSON → MD. -->
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js" crossorigin="anonymous"></script>
+<style>
+:root{
+  --keiko:#C0392B;--keiko-light:#FCEAE8;--keiko-mid:#E07669;
+  --roberto:#2471A3;--roberto-light:#E7EFF6;--roberto-mid:#5993BD;
+  --bg:#F7F8FA;--card:#FFF;--border:#E2E5EB;--text:#1A1D23;--muted:#6B7280;
+  --coincide:#16A34A;--amplia:#7C3AED;--diverge:#D97706;--contradice:#DC2626;--solo:#0284C7;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text);font-size:14px;line-height:1.5}
+.header{background:linear-gradient(135deg,#0F172A 0%,#1E293B 100%);color:#fff;padding:20px 32px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.header h1{font-size:18px;font-weight:700;letter-spacing:.3px}
+.header p{font-size:12px;opacity:.7;margin-top:3px}
+.cand-badges{display:flex;gap:10px}
+.badge{padding:6px 14px;border-radius:20px;font-size:12px;font-weight:600;letter-spacing:.3px}
+.badge-k{background:var(--keiko);color:#fff}
+.badge-r{background:var(--roberto);color:#fff}
+.tabs{display:flex;background:#fff;border-bottom:2px solid var(--border);padding:0 24px;overflow-x:auto;gap:0;position:sticky;top:0;z-index:100}
+.tab{padding:13px 20px;font-size:13px;font-weight:500;cursor:pointer;white-space:nowrap;border-bottom:3px solid transparent;margin-bottom:-2px;color:var(--muted);transition:all .15s;background:none;border-top:none;border-left:none;border-right:none;font-family:inherit}
+.tab:hover{color:var(--text)}
+.tab.active{color:#0F172A;border-bottom-color:#0F172A;font-weight:600}
+.panel{display:none;padding:24px;max-width:1400px;margin:0 auto}
+.panel.active{display:block}
+
+.summary-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-bottom:24px}
+.stat-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:20px}
+.stat-card .label{font-size:11px;text-transform:uppercase;font-weight:600;color:var(--muted);letter-spacing:.5px;margin-bottom:8px}
+.stat-card .value{font-size:28px;font-weight:700;color:var(--text)}
+.stat-card .desc{font-size:12px;color:var(--muted);margin-top:6px}
+.stat-card.k{border-top:3px solid var(--keiko)}
+.stat-card.r{border-top:3px solid var(--roberto)}
+
+.tag{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:600;letter-spacing:.2px}
+.tag-COINCIDE{background:#DCFCE7;color:var(--coincide)}
+.tag-AMPLIA,.tag-AMPLIA_DEBATE{background:#EDE9FE;color:var(--amplia)}
+.tag-DIVERGE{background:#FEF3C7;color:var(--diverge)}
+.tag-CONTRADICE,.tag-CONTRADICE_DEBATE{background:#FEE2E2;color:var(--contradice)}
+.tag-SOLO_A,.tag-SOLO_B{background:#E0F2FE;color:var(--solo)}
+.tag-CONSISTENTE{background:#DCFCE7;color:var(--coincide)}
+.tag-VAGUEA{background:#FEF3C7;color:var(--diverge)}
+.tag-OMITE{background:#F1F5F9;color:#64748B}
+.tag-NUEVO_DEBATE{background:#FFF7ED;color:#C2410C}
+.tag-propuesta{background:#F1F5F9;color:#475569}
+.tag-meta{background:#F0FDF4;color:#15803D}
+.tag-principio{background:#FAF5FF;color:#7C3AED}
+.tag-diagnostico{background:#FEF9C3;color:#854D0E}
+.tag-100dias{background:#FFF7ED;color:#C2410C}
+.tag-ALTA{background:#DBEAFE;color:#1D4ED8}
+.tag-MEDIA{background:#F1F5F9;color:#475569}
+.tag-BAJA{background:#F8FAFC;color:#94A3B8}
+.tag-100DIAS{background:#FFF7ED;color:#C2410C}
+
+.section-title{font-size:16px;font-weight:700;margin:24px 0 16px;padding-bottom:8px;border-bottom:2px solid var(--border)}
+
+.tema-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin-bottom:20px}
+.tema-btn{background:#fff;border:1.5px solid var(--border);border-radius:10px;padding:14px 12px;cursor:pointer;text-align:left;transition:all .15s;font-family:inherit}
+.tema-btn:hover{border-color:#0F172A;transform:translateY(-1px)}
+.tema-btn.active{border-color:#0F172A;background:#F1F5F9}
+.tema-btn .icon{font-size:22px;display:block;margin-bottom:6px}
+.tema-btn .name{font-size:12px;font-weight:600;color:var(--text)}
+.tema-btn .counts{font-size:10px;color:var(--muted);margin-top:4px}
+
+.split{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:20px}
+.cand-col{background:#fff;border:1px solid var(--border);border-radius:10px;overflow:hidden}
+.cand-col-head{padding:12px 16px;font-weight:600;color:#fff;font-size:13px;display:flex;justify-content:space-between;align-items:center}
+.cand-col-head.k{background:var(--keiko)}
+.cand-col-head.r{background:var(--roberto)}
+.cand-col-body{padding:14px;max-height:600px;overflow-y:auto}
+.prop-item{padding:10px 0;border-bottom:1px solid var(--border)}
+.prop-item:last-child{border:none}
+.prop-item .pid{font-size:11px;font-family:Menlo,monospace;color:var(--muted)}
+.prop-item .ptags{display:flex;gap:6px;margin:4px 0}
+.prop-item .ptext{font-size:13px;line-height:1.45}
+.prop-item .pquote{font-size:11px;color:var(--muted);font-style:italic;border-left:2px solid var(--border);padding-left:8px;margin-top:6px}
+
+.filter-bar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px;align-items:center}
+.filter-btn{padding:5px 14px;border:1.5px solid var(--border);border-radius:20px;font-size:12px;cursor:pointer;background:#fff;transition:all .15s;font-weight:500;font-family:inherit}
+.filter-btn:hover,.filter-btn.on{border-color:currentColor}
+.filter-btn.on{font-weight:700}
+.filter-btn[data-t="COINCIDE"].on{background:#DCFCE7;color:var(--coincide);border-color:var(--coincide)}
+.filter-btn[data-t="AMPLIA"].on{background:#EDE9FE;color:var(--amplia);border-color:var(--amplia)}
+.filter-btn[data-t="DIVERGE"].on{background:#FEF3C7;color:var(--diverge);border-color:var(--diverge)}
+.filter-btn[data-t="CONTRADICE"].on{background:#FEE2E2;color:var(--contradice);border-color:var(--contradice)}
+.filter-btn[data-t="SOLO"].on{background:#E0F2FE;color:var(--solo);border-color:var(--solo)}
+.filter-btn[data-t="ALL"].on{background:#0F172A;color:#fff;border-color:#0F172A}
+.search-box{padding:7px 14px;border:1.5px solid var(--border);border-radius:8px;font-size:13px;width:280px;outline:none;font-family:inherit}
+.search-box:focus{border-color:#0F172A}
+
+.comp-row{background:#fff;border:1px solid var(--border);border-radius:8px;padding:14px 16px;margin-bottom:10px;display:grid;grid-template-columns:1fr auto 1fr;gap:16px;align-items:start}
+.comp-row.full{grid-template-columns:1fr}
+.comp-center{display:flex;flex-direction:column;align-items:center;gap:6px;padding-top:4px;min-width:120px}
+.comp-side .h{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px}
+.comp-side.k .h{color:var(--keiko)}
+.comp-side.r .h{color:var(--roberto)}
+.comp-side .t{font-size:12px;line-height:1.45}
+.comp-side .id{font-size:10px;font-family:Menlo,monospace;color:var(--muted);margin-top:4px}
+.comp-analisis{grid-column:1 / -1;background:#F8FAFC;border-left:3px solid #0F172A;padding:8px 12px;font-size:12px;line-height:1.5;color:#334155;border-radius:0 4px 4px 0;margin-top:4px}
+.cmpid{font-size:10px;color:var(--muted);font-family:Menlo,monospace;margin-bottom:6px}
+
+.decl-row{background:#fff;border:1px solid var(--border);border-radius:8px;padding:14px 16px;margin-bottom:10px}
+.decl-row .head{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:8px}
+.decl-row .pid{font-size:11px;font-family:Menlo,monospace;color:var(--muted)}
+.decl-row .text{font-size:13px;line-height:1.45;margin-bottom:6px}
+.decl-row .quote{font-size:12px;color:var(--muted);font-style:italic;border-left:3px solid var(--border);padding:6px 10px;margin-top:6px}
+.decl-row .meta{font-size:11px;color:var(--muted);margin-top:6px}
+.decl-row.k{border-left:4px solid var(--keiko)}
+.decl-row.r{border-left:4px solid var(--roberto)}
+
+.cons-table{width:100%;border-collapse:collapse;background:#fff;font-size:12px;border:1px solid var(--border);border-radius:10px;overflow:hidden}
+.cons-table th,.cons-table td{padding:8px 10px;text-align:left;border-bottom:1px solid var(--border)}
+.cons-table th{background:#F1F5F9;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.3px;color:var(--muted)}
+.cons-table td.num{text-align:right;font-variant-numeric:tabular-nums}
+.cons-table tr.k td:first-child{border-left:3px solid var(--keiko)}
+.cons-table tr.r td:first-child{border-left:3px solid var(--roberto)}
+
+.reportes-nav{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
+.reporte-btn{padding:8px 14px;border:1.5px solid var(--border);border-radius:8px;font-size:13px;cursor:pointer;background:#fff;font-family:inherit;font-weight:500}
+.reporte-btn.on{background:#0F172A;color:#fff;border-color:#0F172A}
+.reporte-body{background:#fff;border:1px solid var(--border);border-radius:10px;padding:32px;font-size:14px;line-height:1.65}
+.reporte-body h1{font-size:24px;margin-bottom:12px}
+.reporte-body h2{font-size:18px;margin:24px 0 12px;padding-top:12px;border-top:1px solid var(--border)}
+.reporte-body h3{font-size:15px;margin:16px 0 8px}
+.reporte-body p{margin-bottom:10px}
+.reporte-body table{border-collapse:collapse;margin:16px 0;width:100%;font-size:13px}
+.reporte-body th,.reporte-body td{padding:6px 10px;border:1px solid var(--border);text-align:left}
+.reporte-body th{background:#F1F5F9;font-weight:600}
+.reporte-body code{background:#F1F5F9;padding:1px 4px;border-radius:3px;font-size:12px}
+.reporte-body strong{font-weight:700}
+.reporte-body blockquote{border-left:3px solid #0F172A;padding:6px 14px;background:#F8FAFC;color:#475569;margin:10px 0;border-radius:0 4px 4px 0}
+.reporte-body ul,.reporte-body ol{margin-left:24px;margin-bottom:10px}
+.reporte-body hr{margin:24px 0;border:none;border-top:1px solid var(--border)}
+
+.loading{padding:40px;text-align:center;color:var(--muted);font-size:13px}
+.error{padding:20px;background:#FEE2E2;color:var(--contradice);border-radius:8px;font-size:13px}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:11px;border-top:1px solid var(--border);margin-top:40px}
+.footer a{color:#0F172A;text-decoration:underline}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <h1>Brain Político Perú 2026 — Comparador de Planes de Gobierno</h1>
+    <p>Análisis comparativo de los planes de gobierno y los debates presidenciales de la segunda vuelta — Junio 2026</p>
+  </div>
+  <div class="cand-badges">
+    <span class="badge badge-k">Keiko Fujimori</span>
+    <span class="badge badge-r">Roberto Sánchez</span>
+  </div>
+</div>
+
+<div class="tabs" role="tablist">
+  <button class="tab active" data-panel="resumen">📊 Resumen</button>
+  <button class="tab" data-panel="temas">📚 Temas</button>
+  <button class="tab" data-panel="comparaciones">⚖️ Plan vs Plan</button>
+  <button class="tab" data-panel="declaraciones">🎙️ Debates</button>
+  <button class="tab" data-panel="consistencia">📈 Plan vs Debate</button>
+  <button class="tab" data-panel="reportes">📄 Reportes</button>
+</div>
+
+<!-- ============================== RESUMEN ============================== -->
+<section class="panel active" id="panel-resumen">
+  <div id="resumen-loading" class="loading">Cargando datos…</div>
+  <div id="resumen-content" style="display:none">
+    <div class="summary-grid">
+      <div class="stat-card">
+        <div class="label">Propuestas totales</div>
+        <div class="value" id="s-total-prop">—</div>
+        <div class="desc">Extraídas de los planes escritos de ambos candidatos</div>
+      </div>
+      <div class="stat-card k">
+        <div class="label">Plan de Keiko</div>
+        <div class="value" id="s-k-prop">—</div>
+        <div class="desc"><span id="s-k-temas">—</span> temas cubiertos</div>
+      </div>
+      <div class="stat-card r">
+        <div class="label">Plan de Roberto</div>
+        <div class="value" id="s-r-prop">—</div>
+        <div class="desc"><span id="s-r-temas">—</span> temas cubiertos</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Declaraciones en debates</div>
+        <div class="value" id="s-decl">—</div>
+        <div class="desc"><span id="s-debates">—</span> debates procesados</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Comparaciones plan-vs-plan</div>
+        <div class="value" id="s-cmp-pp">—</div>
+        <div class="desc"><span id="s-contradice">—</span> contradicciones detectadas</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Comparaciones plan-vs-debate</div>
+        <div class="value" id="s-cmp-pd">—</div>
+        <div class="desc"><span id="s-consistente">—</span> CONSISTENTE, <span id="s-amplia">—</span> AMPLÍA</div>
+      </div>
+    </div>
+
+    <div class="section-title">Distribución de relaciones plan vs plan</div>
+    <div id="rel-pp-chart"></div>
+
+    <div class="section-title">Distribución de relaciones plan vs debate</div>
+    <div id="rel-pd-chart"></div>
+  </div>
+</section>
+
+<!-- ============================== TEMAS ============================== -->
+<section class="panel" id="panel-temas">
+  <div class="section-title">Selecciona un tema</div>
+  <div class="tema-grid" id="tema-grid"></div>
+  <div id="tema-detail"></div>
+</section>
+
+<!-- ============================== COMPARACIONES ============================== -->
+<section class="panel" id="panel-comparaciones">
+  <div class="section-title">Comparaciones plan vs plan</div>
+  <div class="filter-bar">
+    <button class="filter-btn on" data-t="ALL">Todas</button>
+    <button class="filter-btn" data-t="COINCIDE">COINCIDE</button>
+    <button class="filter-btn" data-t="AMPLIA">AMPLÍA</button>
+    <button class="filter-btn" data-t="DIVERGE">DIVERGE</button>
+    <button class="filter-btn" data-t="CONTRADICE">CONTRADICE</button>
+    <button class="filter-btn" data-t="SOLO">SOLO B</button>
+    <input class="search-box" id="cmp-search" placeholder="Buscar en análisis o IDs…">
+  </div>
+  <div id="cmp-list"></div>
+</section>
+
+<!-- ============================== DECLARACIONES ============================== -->
+<section class="panel" id="panel-declaraciones">
+  <div class="section-title">Declaraciones en debates</div>
+  <div class="filter-bar">
+    <button class="filter-btn on" data-cand="ALL">Ambos</button>
+    <button class="filter-btn" data-cand="keiko">Keiko</button>
+    <button class="filter-btn" data-cand="roberto">Roberto</button>
+    <button class="filter-btn on" data-deb="ALL">Ambos debates</button>
+    <button class="filter-btn" data-deb="debate-1">Debate 1</button>
+    <button class="filter-btn" data-deb="debate-2">Debate 2</button>
+    <input class="search-box" id="decl-search" placeholder="Buscar en texto o tema…">
+  </div>
+  <div id="decl-list"></div>
+</section>
+
+<!-- ============================== CONSISTENCIA ============================== -->
+<section class="panel" id="panel-consistencia">
+  <div class="section-title">Índice de consistencia plan vs debate</div>
+  <p style="margin-bottom:16px;font-size:13px;color:var(--muted)">
+    Mide qué tan consistente fue cada candidato en debate respecto a su plan escrito. Fórmula:
+    <code>(CONSISTENTE + AMPLÍA_DEBATE) / (CONSISTENTE + AMPLÍA_DEBATE + VAGUEA + CONTRADICE_DEBATE)</code>.
+    No penaliza OMITE ni NUEVO_DEBATE.
+  </p>
+  <div id="cons-table-wrap"></div>
+</section>
+
+<!-- ============================== REPORTES ============================== -->
+<section class="panel" id="panel-reportes">
+  <div class="section-title">Reportes generados</div>
+  <div class="reportes-nav" id="reportes-nav"></div>
+  <div class="reporte-body" id="reporte-body">
+    <div class="loading">Selecciona un reporte arriba.</div>
+  </div>
+</section>
+
+<div class="footer">
+  Datos generados desde <code>00-Sistema/datos/{propuestas,declaraciones,comparaciones}.json</code> ·
+  Reportes en <code>03-Comparaciones/</code> ·
+  Render automático con <code>render_comparaciones.py</code> ·
+  <a href="https://github.com/fatimatv/Seguimiento-Planes-de-Gobierno-Peru" target="_blank" rel="noopener">Repositorio</a>
+</div>
+
+<script>
+const D = { propuestas: null, declaraciones: null, comparaciones: null };
+const TEMA_BY_ID = {};
+const PROP_BY_ID = {};
+const DECL_BY_ID = {};
+
+async function loadAll() {
+  try {
+    const [p, d, c] = await Promise.all([
+      fetch('00-Sistema/datos/propuestas.json').then(r => r.json()),
+      fetch('00-Sistema/datos/declaraciones.json').then(r => r.json()),
+      fetch('00-Sistema/datos/comparaciones.json').then(r => r.json()),
+    ]);
+    D.propuestas = p; D.declaraciones = d; D.comparaciones = c;
+    p.temas.forEach(t => TEMA_BY_ID[t.id] = t);
+    p.propuestas.forEach(pp => PROP_BY_ID[pp.id] = pp);
+    d.declaraciones.forEach(dd => DECL_BY_ID[dd.id] = dd);
+    initResumen();
+    initTemas();
+    initComparaciones();
+    initDeclaraciones();
+    initConsistencia();
+    initReportes();
+  } catch (e) {
+    console.error(e);
+    document.querySelectorAll('.panel').forEach(p => {
+      p.innerHTML = '<div class="error">Error cargando datos: ' + e.message + '</div>';
+    });
+  }
+}
+
+document.querySelectorAll('.tab').forEach(t => {
+  t.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(x => x.classList.remove('active'));
+    t.classList.add('active');
+    document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+    document.getElementById('panel-' + t.dataset.panel).classList.add('active');
+  });
+});
+
+// =============== RESUMEN ===============
+function initResumen() {
+  const ps = D.propuestas.propuestas;
+  const k = ps.filter(p => p.candidato === 'keiko');
+  const r = ps.filter(p => p.candidato === 'roberto');
+  const decl = D.declaraciones.declaraciones;
+  const debates = D.declaraciones.debates;
+  const cmpPP = D.comparaciones.plan_vs_plan;
+  const cmpPD = D.comparaciones.plan_vs_debate;
+
+  document.getElementById('s-total-prop').textContent = ps.length;
+  document.getElementById('s-k-prop').textContent = k.length;
+  document.getElementById('s-k-temas').textContent = new Set(k.map(p => p.tema)).size;
+  document.getElementById('s-r-prop').textContent = r.length;
+  document.getElementById('s-r-temas').textContent = new Set(r.map(p => p.tema)).size;
+  document.getElementById('s-decl').textContent = decl.length;
+  document.getElementById('s-debates').textContent = debates.length;
+  document.getElementById('s-cmp-pp').textContent = cmpPP.length;
+  document.getElementById('s-contradice').textContent = cmpPP.filter(c => c.relacion === 'CONTRADICE').length;
+  document.getElementById('s-cmp-pd').textContent = cmpPD.length;
+  document.getElementById('s-consistente').textContent = cmpPD.filter(c => c.relacion === 'CONSISTENTE').length;
+  document.getElementById('s-amplia').textContent = cmpPD.filter(c => c.relacion === 'AMPLIA_DEBATE').length;
+
+  document.getElementById('rel-pp-chart').innerHTML = relChart(cmpPP, 'plan_vs_plan');
+  document.getElementById('rel-pd-chart').innerHTML = relChart(cmpPD, 'plan_vs_debate');
+
+  document.getElementById('resumen-loading').style.display = 'none';
+  document.getElementById('resumen-content').style.display = 'block';
+}
+
+function relChart(items, kind) {
+  const counts = {};
+  items.forEach(c => counts[c.relacion] = (counts[c.relacion] || 0) + 1);
+  const total = items.length;
+  const order = kind === 'plan_vs_plan'
+    ? ['COINCIDE','AMPLIA','DIVERGE','CONTRADICE','SOLO_A','SOLO_B']
+    : ['CONSISTENTE','AMPLIA_DEBATE','VAGUEA','CONTRADICE_DEBATE','OMITE','NUEVO_DEBATE'];
+  const rows = order.filter(k => counts[k]).map(k => {
+    const pct = (counts[k] / total * 100).toFixed(1);
+    return `<div style="display:flex;align-items:center;gap:10px;margin-bottom:6px;font-size:12px">
+      <span class="tag tag-${k}" style="min-width:140px;text-align:center">${k.replace('_',' ')}</span>
+      <div style="flex:1;background:#F1F5F9;border-radius:4px;height:18px;position:relative;overflow:hidden">
+        <div style="background:#0F172A;opacity:.85;height:100%;width:${pct}%"></div>
+      </div>
+      <span style="min-width:80px;text-align:right;color:var(--muted)">${counts[k]} (${pct}%)</span>
+    </div>`;
+  }).join('');
+  return `<div style="background:#fff;border:1px solid var(--border);border-radius:10px;padding:18px">${rows}</div>`;
+}
+
+// =============== TEMAS ===============
+function initTemas() {
+  const grid = document.getElementById('tema-grid');
+  const temas = D.propuestas.temas;
+  const counts = {};
+  D.propuestas.propuestas.forEach(p => {
+    counts[p.tema] = counts[p.tema] || {k:0,r:0};
+    counts[p.tema][p.candidato==='keiko'?'k':'r']++;
+  });
+  grid.innerHTML = temas.map(t => {
+    const c = counts[t.id] || {k:0,r:0};
+    return `<button class="tema-btn" data-tema="${t.id}">
+      <span class="icon">${t.icono||'•'}</span>
+      <span class="name">${t.nombre}</span>
+      <span class="counts">K: ${c.k} · R: ${c.r}</span>
+    </button>`;
+  }).join('');
+  grid.querySelectorAll('.tema-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      grid.querySelectorAll('.tema-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      showTemaDetail(btn.dataset.tema);
+    });
+  });
+}
+
+function showTemaDetail(temaId) {
+  const tema = TEMA_BY_ID[temaId];
+  const ps = D.propuestas.propuestas.filter(p => p.tema === temaId);
+  const k = ps.filter(p => p.candidato === 'keiko');
+  const r = ps.filter(p => p.candidato === 'roberto');
+  const cmps = D.comparaciones.plan_vs_plan.filter(c => c.tema === temaId);
+
+  const renderProps = arr => arr.length === 0
+    ? '<div style="color:var(--muted);font-size:12px;padding:12px">Sin propuestas en este tema.</div>'
+    : arr.map(p => `
+      <div class="prop-item">
+        <div class="pid">${p.id}</div>
+        <div class="ptags">
+          <span class="tag tag-${p.tipo}">${p.tipo}</span>
+          <span class="tag tag-${p.relevancia}">${p.relevancia}</span>
+        </div>
+        <div class="ptext">${escapeHTML(p.texto)}</div>
+        ${p.meta_cuantitativa ? `<div class="pquote">Meta: ${escapeHTML(p.meta_cuantitativa)}</div>` : ''}
+      </div>`).join('');
+
+  const cmpsHTML = cmps.length === 0 ? '' : `
+    <div class="section-title">Relaciones detectadas</div>
+    ${cmps.map(c => compRowHTML(c)).join('')}`;
+
+  document.getElementById('tema-detail').innerHTML = `
+    <div class="section-title">${tema.icono||''} ${tema.nombre} <span style="font-size:13px;color:var(--muted);font-weight:400">— ${ps.length} propuestas</span></div>
+    <div class="split">
+      <div class="cand-col">
+        <div class="cand-col-head k">
+          <span>Keiko Fujimori</span>
+          <span>${k.length} propuestas</span>
+        </div>
+        <div class="cand-col-body">${renderProps(k)}</div>
+      </div>
+      <div class="cand-col">
+        <div class="cand-col-head r">
+          <span>Roberto Sánchez</span>
+          <span>${r.length} propuestas</span>
+        </div>
+        <div class="cand-col-body">${renderProps(r)}</div>
+      </div>
+    </div>
+    ${cmpsHTML}
+  `;
+}
+
+function compRowHTML(c) {
+  const k = c.propuesta_keiko ? PROP_BY_ID[c.propuesta_keiko] : null;
+  const r = c.propuesta_roberto ? PROP_BY_ID[c.propuesta_roberto] : null;
+  const tema = TEMA_BY_ID[c.tema];
+  return `
+    <div class="comp-row">
+      <div class="comp-side k">
+        <div class="h">${k ? 'Keiko' : ''}</div>
+        <div class="t">${k ? escapeHTML(k.texto) : '<em style="color:var(--muted)">— (sin propuesta)</em>'}</div>
+        ${k ? `<div class="id">${c.propuesta_keiko}</div>` : ''}
+      </div>
+      <div class="comp-center">
+        <div class="cmpid">${c.id}</div>
+        <span class="tag tag-${c.relacion}">${c.relacion}</span>
+        <div style="font-size:10px;color:var(--muted);text-transform:uppercase;margin-top:4px">${c.dimension.replace('_',' ')}</div>
+        <div style="font-size:10px;color:var(--muted);margin-top:2px">${tema?tema.icono+' '+tema.nombre:''}</div>
+      </div>
+      <div class="comp-side r">
+        <div class="h">${r ? 'Roberto' : ''}</div>
+        <div class="t">${r ? escapeHTML(r.texto) : '<em style="color:var(--muted)">— (sin propuesta)</em>'}</div>
+        ${r ? `<div class="id">${c.propuesta_roberto}</div>` : ''}
+      </div>
+      <div class="comp-analisis">${escapeHTML(c.analisis)}</div>
+    </div>`;
+}
+
+// =============== COMPARACIONES ===============
+let cmpFilter = 'ALL';
+function initComparaciones() {
+  document.querySelectorAll('#panel-comparaciones .filter-btn').forEach(b => {
+    b.addEventListener('click', () => {
+      document.querySelectorAll('#panel-comparaciones .filter-btn').forEach(x => x.classList.remove('on'));
+      b.classList.add('on');
+      cmpFilter = b.dataset.t;
+      renderComparaciones();
+    });
+  });
+  document.getElementById('cmp-search').addEventListener('input', renderComparaciones);
+  renderComparaciones();
+}
+
+function renderComparaciones() {
+  const q = document.getElementById('cmp-search').value.trim().toLowerCase();
+  let items = D.comparaciones.plan_vs_plan;
+  if (cmpFilter !== 'ALL') {
+    if (cmpFilter === 'SOLO') items = items.filter(c => c.relacion.startsWith('SOLO_'));
+    else items = items.filter(c => c.relacion === cmpFilter);
+  }
+  if (q) {
+    items = items.filter(c => c.analisis.toLowerCase().includes(q) || c.id.toLowerCase().includes(q) || c.tema.toLowerCase().includes(q));
+  }
+  document.getElementById('cmp-list').innerHTML = items.length === 0
+    ? '<div class="loading">No hay resultados.</div>'
+    : items.map(compRowHTML).join('');
+}
+
+// =============== DECLARACIONES ===============
+let declCand = 'ALL', declDeb = 'ALL';
+function initDeclaraciones() {
+  document.querySelectorAll('#panel-declaraciones .filter-btn[data-cand]').forEach(b => {
+    b.addEventListener('click', () => {
+      document.querySelectorAll('#panel-declaraciones .filter-btn[data-cand]').forEach(x => x.classList.remove('on'));
+      b.classList.add('on'); declCand = b.dataset.cand; renderDeclaraciones();
+    });
+  });
+  document.querySelectorAll('#panel-declaraciones .filter-btn[data-deb]').forEach(b => {
+    b.addEventListener('click', () => {
+      document.querySelectorAll('#panel-declaraciones .filter-btn[data-deb]').forEach(x => x.classList.remove('on'));
+      b.classList.add('on'); declDeb = b.dataset.deb; renderDeclaraciones();
+    });
+  });
+  document.getElementById('decl-search').addEventListener('input', renderDeclaraciones);
+  renderDeclaraciones();
+}
+
+function renderDeclaraciones() {
+  const q = document.getElementById('decl-search').value.trim().toLowerCase();
+  let items = D.declaraciones.declaraciones;
+  if (declCand !== 'ALL') items = items.filter(d => d.candidato === declCand);
+  if (declDeb !== 'ALL') items = items.filter(d => d.debate_id === declDeb);
+  if (q) items = items.filter(d => d.texto.toLowerCase().includes(q) || d.tema.toLowerCase().includes(q) || (d.cita_textual||'').toLowerCase().includes(q));
+
+  document.getElementById('decl-list').innerHTML = items.length === 0
+    ? '<div class="loading">No hay resultados.</div>'
+    : items.map(d => {
+      const tema = TEMA_BY_ID[d.tema];
+      const cls = d.candidato === 'keiko' ? 'k' : 'r';
+      return `<div class="decl-row ${cls}">
+        <div class="head">
+          <span class="pid">${d.id} · ${d.debate_id}</span>
+          <span>
+            <span class="tag tag-${d.tipo}">${d.tipo}</span>
+            <span class="tag" style="background:${cls==='k'?'var(--keiko-light)':'var(--roberto-light)'};color:${cls==='k'?'var(--keiko)':'var(--roberto)'}">${d.candidato}</span>
+            ${tema ? `<span style="font-size:11px;color:var(--muted);margin-left:6px">${tema.icono||''} ${tema.nombre}</span>` : ''}
+          </span>
+        </div>
+        <div class="text">${escapeHTML(d.texto)}</div>
+        <div class="quote">${escapeHTML(d.cita_textual)}</div>
+        <div class="meta">
+          ${d.vocero ? `Vocero: ${escapeHTML(d.vocero)} · ` : ''}
+          ${d.timestamp ? `<code>[${d.timestamp}]</code> · ` : ''}
+          ${d.fuente.archivo}:L${d.fuente.linea_inicio}-${d.fuente.linea_fin}
+        </div>
+      </div>`;
+    }).join('');
+}
+
+// =============== CONSISTENCIA ===============
+function initConsistencia() {
+  const agg = D.comparaciones.consistencia_por_candidato;
+  const sorted = [...agg].sort((a,b) => a.candidato.localeCompare(b.candidato) || a.tema.localeCompare(b.tema));
+  const rows = sorted.map(a => {
+    const tema = TEMA_BY_ID[a.tema];
+    const cls = a.candidato === 'keiko' ? 'k' : 'r';
+    const ic = a.indice_consistencia !== null ? a.indice_consistencia.toFixed(2) : '—';
+    return `<tr class="${cls}">
+      <td><strong>${a.candidato==='keiko'?'Keiko':'Roberto'}</strong></td>
+      <td>${tema?tema.icono+' '+tema.nombre:a.tema}</td>
+      <td class="num">${a.n_propuestas_plan}</td>
+      <td class="num">${a.n_declaraciones_debate}</td>
+      <td class="num">${a.consistentes}</td>
+      <td class="num">${a.amplia_debate}</td>
+      <td class="num">${a.vaguea}</td>
+      <td class="num">${a.contradice_debate}</td>
+      <td class="num">${a.omite}</td>
+      <td class="num">${a.nuevo_debate}</td>
+      <td class="num"><strong>${ic}</strong></td>
+    </tr>`;
+  }).join('');
+  document.getElementById('cons-table-wrap').innerHTML = `
+    <table class="cons-table">
+      <thead>
+        <tr>
+          <th>Candidato</th><th>Tema</th>
+          <th>n plan</th><th>n debate</th>
+          <th>Consist.</th><th>Amplía</th>
+          <th>Vaguea</th><th>Contradice</th>
+          <th>Omite</th><th>Nuevo</th>
+          <th>Índice</th>
+        </tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>`;
+}
+
+// =============== REPORTES ===============
+const REPORTES = [
+  { id: 'matriz-temas', label: '📋 Matriz de Temas' },
+  { id: 'coincidencias', label: '🤝 Coincidencias' },
+  { id: 'divergencias', label: '🔀 Divergencias' },
+  { id: 'contradicciones', label: '⚡ Contradicciones' },
+  { id: 'consistencia-discurso', label: '📊 Consistencia del Discurso' },
+];
+
+function initReportes() {
+  const nav = document.getElementById('reportes-nav');
+  nav.innerHTML = REPORTES.map(r => `<button class="reporte-btn" data-rep="${r.id}">${r.label}</button>`).join('');
+  nav.querySelectorAll('.reporte-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      nav.querySelectorAll('.reporte-btn').forEach(b => b.classList.remove('on'));
+      btn.classList.add('on');
+      loadReporte(btn.dataset.rep);
+    });
+  });
+  // auto-load primero
+  nav.querySelector('.reporte-btn').click();
+}
+
+async function loadReporte(id) {
+  const body = document.getElementById('reporte-body');
+  body.innerHTML = '<div class="loading">Cargando reporte…</div>';
+  try {
+    const md = await fetch(`03-Comparaciones/${id}.md`).then(r => {
+      if (!r.ok) throw new Error('No se pudo cargar ' + id + '.md');
+      return r.text();
+    });
+    body.innerHTML = marked.parse(md);
+  } catch (e) {
+    body.innerHTML = '<div class="error">Error: ' + e.message + '</div>';
+  }
+}
+
+// =============== UTIL ===============
+function escapeHTML(s) {
+  return (s||'').replace(/[&<>"']/g, ch => ({
+    '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+  })[ch]);
+}
+
+loadAll();
+</script>
+</body>
+</html>
