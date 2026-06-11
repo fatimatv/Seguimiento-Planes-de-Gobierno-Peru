@@ -1,5 +1,7 @@
 # Seguimiento de Planes de Gobierno — Perú 2026
 
+**🌐 Sitio en producción:** https://seguimiento-planes-de-gobierno-peru.vercel.app/
+
 Análisis comparativo de los planes de gobierno presidenciales para la segunda vuelta peruana del 7 de junio de 2026, entre **Keiko Fujimori** (Fuerza Popular) y **Roberto Sánchez Palomino** (Juntos por el Perú), cruzado con sus declaraciones en los debates presidenciales.
 
 > Sistema de análisis político de elaboración independiente por **IALAW · digitalawyers**. No tiene afiliación partidaria. Presenta evidencia textual de ambos candidatos clasificada con la misma metodología.
