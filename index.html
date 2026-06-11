@@ -3,7 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Brain Político Perú 2026 — Comparador de Planes de Gobierno</title>
+<title>IALAW — Comparador de Planes de Gobierno · Perú 2026</title>
+<link rel="icon" type="image/png" href="assets/logo-ialaw.png">
+<meta name="theme-color" content="#1F2EFF">
 <!-- marked@12.0.2 pin; añadir integrity="sha384-..." cuando se calcule el SRI hash localmente
      (curl -sL <url> | openssl dgst -sha384 -binary | openssl base64 -A). Hasta entonces,
      usamos crossorigin="anonymous" para limitar exposición. La fuente del .md es nuestro
@@ -12,34 +14,52 @@
 <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js" crossorigin="anonymous"></script>
 <style>
 :root{
+  /* IALAW brand palette */
+  --ialaw-primary:#1F2EFF;          /* azul eléctrico */
+  --ialaw-dark:#0A1466;             /* navy profundo */
+  --ialaw-darker:#060B33;            /* casi negro */
+  --ialaw-muted:#6B7393;             /* gris azulado */
+  --ialaw-border:#DCDEEA;            /* divisores */
+  --ialaw-bg:#FAFAFC;                /* fondo */
+  --ialaw-card-bg:#F1F2F7;           /* tarjetas suaves */
+  --ialaw-accent:#F5A623;            /* naranja del punto */
+  --ialaw-accent-dark:#8B5A05;       /* naranja oscuro */
+
+  /* Aliases proyecto */
   --keiko:#C0392B;--keiko-light:#FCEAE8;--keiko-mid:#E07669;
   --roberto:#2471A3;--roberto-light:#E7EFF6;--roberto-mid:#5993BD;
-  --bg:#F7F8FA;--card:#FFF;--border:#E2E5EB;--text:#1A1D23;--muted:#6B7280;
-  --coincide:#16A34A;--amplia:#7C3AED;--diverge:#D97706;--contradice:#DC2626;--solo:#0284C7;
+  --bg:var(--ialaw-bg);--card:#FFF;--border:var(--ialaw-border);
+  --text:var(--ialaw-darker);--muted:var(--ialaw-muted);
+  --coincide:#16A34A;--amplia:#7C3AED;--diverge:var(--ialaw-accent-dark);
+  --contradice:#DC2626;--solo:var(--ialaw-primary);
 }
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text);font-size:14px;line-height:1.5}
-.header{background:linear-gradient(135deg,#0F172A 0%,#1E293B 100%);color:#fff;padding:20px 32px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
-.header h1{font-size:18px;font-weight:700;letter-spacing:.3px}
-.header p{font-size:12px;opacity:.7;margin-top:3px}
+body{font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);font-size:14px;line-height:1.5}
+.header{background:linear-gradient(135deg,var(--ialaw-darker) 0%,var(--ialaw-dark) 100%);color:#fff;padding:18px 32px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px;border-bottom:3px solid var(--ialaw-primary)}
+.header-brand{display:flex;align-items:center;gap:18px}
+.header-brand img{height:52px;width:auto;display:block}
+.header-text h1{font-size:17px;font-weight:700;letter-spacing:.3px;color:#fff}
+.header-text p{font-size:12px;opacity:.75;margin-top:3px;color:var(--ialaw-border)}
+.header-text .brand-line{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--ialaw-accent);margin-bottom:4px;display:block}
 .cand-badges{display:flex;gap:10px}
-.badge{padding:6px 14px;border-radius:20px;font-size:12px;font-weight:600;letter-spacing:.3px}
+.badge{padding:6px 14px;border-radius:4px;font-size:11px;font-weight:700;letter-spacing:.5px;text-transform:uppercase}
 .badge-k{background:var(--keiko);color:#fff}
 .badge-r{background:var(--roberto);color:#fff}
-.tabs{display:flex;background:#fff;border-bottom:2px solid var(--border);padding:0 24px;overflow-x:auto;gap:0;position:sticky;top:0;z-index:100}
-.tab{padding:13px 20px;font-size:13px;font-weight:500;cursor:pointer;white-space:nowrap;border-bottom:3px solid transparent;margin-bottom:-2px;color:var(--muted);transition:all .15s;background:none;border-top:none;border-left:none;border-right:none;font-family:inherit}
-.tab:hover{color:var(--text)}
-.tab.active{color:#0F172A;border-bottom-color:#0F172A;font-weight:600}
+.tabs{display:flex;background:#fff;border-bottom:1px solid var(--border);padding:0 24px;overflow-x:auto;gap:0;position:sticky;top:0;z-index:100;box-shadow:0 2px 4px rgba(6,11,51,.04)}
+.tab{padding:14px 20px;font-size:13px;font-weight:500;cursor:pointer;white-space:nowrap;border-bottom:3px solid transparent;margin-bottom:-1px;color:var(--ialaw-muted);transition:all .15s;background:none;border-top:none;border-left:none;border-right:none;font-family:inherit;letter-spacing:.2px}
+.tab:hover{color:var(--ialaw-darker)}
+.tab.active{color:var(--ialaw-primary);border-bottom-color:var(--ialaw-primary);font-weight:700}
 .panel{display:none;padding:24px;max-width:1400px;margin:0 auto}
 .panel.active{display:block}
 
 .summary-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-bottom:24px}
-.stat-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:20px}
-.stat-card .label{font-size:11px;text-transform:uppercase;font-weight:600;color:var(--muted);letter-spacing:.5px;margin-bottom:8px}
-.stat-card .value{font-size:28px;font-weight:700;color:var(--text)}
-.stat-card .desc{font-size:12px;color:var(--muted);margin-top:6px}
-.stat-card.k{border-top:3px solid var(--keiko)}
-.stat-card.r{border-top:3px solid var(--roberto)}
+.stat-card{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:20px;position:relative;overflow:hidden;transition:box-shadow .15s}
+.stat-card:hover{box-shadow:0 4px 12px rgba(31,46,255,.08)}
+.stat-card .label{font-size:10px;text-transform:uppercase;font-weight:700;color:var(--ialaw-muted);letter-spacing:1px;margin-bottom:8px}
+.stat-card .value{font-size:30px;font-weight:700;color:var(--ialaw-primary);font-family:Arial,sans-serif}
+.stat-card .desc{font-size:12px;color:var(--ialaw-muted);margin-top:6px}
+.stat-card.k{border-left:4px solid var(--keiko)}
+.stat-card.r{border-left:4px solid var(--roberto)}
 
 .tag{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:600;letter-spacing:.2px}
 .tag-COINCIDE{background:#DCFCE7;color:var(--coincide)}
@@ -61,19 +81,19 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;backgrou
 .tag-BAJA{background:#F8FAFC;color:#94A3B8}
 .tag-100DIAS{background:#FFF7ED;color:#C2410C}
 
-.section-title{font-size:16px;font-weight:700;margin:24px 0 16px;padding-bottom:8px;border-bottom:2px solid var(--border)}
+.section-title{font-size:14px;font-weight:700;margin:24px 0 16px;padding-bottom:10px;border-bottom:2px solid var(--ialaw-primary);text-transform:uppercase;letter-spacing:1px;color:var(--ialaw-darker)}
 
 .tema-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin-bottom:20px}
-.tema-btn{background:#fff;border:1.5px solid var(--border);border-radius:10px;padding:14px 12px;cursor:pointer;text-align:left;transition:all .15s;font-family:inherit}
-.tema-btn:hover{border-color:#0F172A;transform:translateY(-1px)}
-.tema-btn.active{border-color:#0F172A;background:#F1F5F9}
+.tema-btn{background:#fff;border:1px solid var(--border);border-radius:6px;padding:14px 12px;cursor:pointer;text-align:left;transition:all .15s;font-family:inherit}
+.tema-btn:hover{border-color:var(--ialaw-primary);transform:translateY(-1px);box-shadow:0 4px 12px rgba(31,46,255,.08)}
+.tema-btn.active{border-color:var(--ialaw-primary);background:var(--ialaw-card-bg);box-shadow:inset 3px 0 0 var(--ialaw-primary)}
 .tema-btn .icon{font-size:22px;display:block;margin-bottom:6px}
-.tema-btn .name{font-size:12px;font-weight:600;color:var(--text)}
-.tema-btn .counts{font-size:10px;color:var(--muted);margin-top:4px}
+.tema-btn .name{font-size:12px;font-weight:700;color:var(--ialaw-darker)}
+.tema-btn .counts{font-size:10px;color:var(--ialaw-muted);margin-top:4px;font-family:Arial,sans-serif}
 
 .split{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:20px}
-.cand-col{background:#fff;border:1px solid var(--border);border-radius:10px;overflow:hidden}
-.cand-col-head{padding:12px 16px;font-weight:600;color:#fff;font-size:13px;display:flex;justify-content:space-between;align-items:center}
+.cand-col{background:#fff;border:1px solid var(--border);border-radius:6px;overflow:hidden}
+.cand-col-head{padding:12px 16px;font-weight:700;color:#fff;font-size:12px;display:flex;justify-content:space-between;align-items:center;text-transform:uppercase;letter-spacing:.5px}
 .cand-col-head.k{background:var(--keiko)}
 .cand-col-head.r{background:var(--roberto)}
 .cand-col-body{padding:14px;max-height:600px;overflow-y:auto}
@@ -93,11 +113,14 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;backgrou
 .filter-btn[data-t="DIVERGE"].on{background:#FEF3C7;color:var(--diverge);border-color:var(--diverge)}
 .filter-btn[data-t="CONTRADICE"].on{background:#FEE2E2;color:var(--contradice);border-color:var(--contradice)}
 .filter-btn[data-t="SOLO"].on{background:#E0F2FE;color:var(--solo);border-color:var(--solo)}
-.filter-btn[data-t="ALL"].on{background:#0F172A;color:#fff;border-color:#0F172A}
-.search-box{padding:7px 14px;border:1.5px solid var(--border);border-radius:8px;font-size:13px;width:280px;outline:none;font-family:inherit}
-.search-box:focus{border-color:#0F172A}
+.filter-btn[data-t="ALL"].on,.filter-btn[data-cand="ALL"].on,.filter-btn[data-deb="ALL"].on{background:var(--ialaw-primary);color:#fff;border-color:var(--ialaw-primary)}
+.filter-btn[data-cand="keiko"].on{background:var(--keiko-light);color:var(--keiko);border-color:var(--keiko)}
+.filter-btn[data-cand="roberto"].on{background:var(--roberto-light);color:var(--roberto);border-color:var(--roberto)}
+.search-box{padding:8px 14px;border:1px solid var(--border);border-radius:6px;font-size:13px;width:280px;outline:none;font-family:inherit;background:#fff}
+.search-box:focus{border-color:var(--ialaw-primary);box-shadow:0 0 0 3px rgba(31,46,255,.1)}
 
-.comp-row{background:#fff;border:1px solid var(--border);border-radius:8px;padding:14px 16px;margin-bottom:10px;display:grid;grid-template-columns:1fr auto 1fr;gap:16px;align-items:start}
+.comp-row{background:#fff;border:1px solid var(--border);border-radius:6px;padding:14px 16px;margin-bottom:10px;display:grid;grid-template-columns:1fr auto 1fr;gap:16px;align-items:start;transition:box-shadow .15s}
+.comp-row:hover{box-shadow:0 4px 12px rgba(6,11,51,.06)}
 .comp-row.full{grid-template-columns:1fr}
 .comp-center{display:flex;flex-direction:column;align-items:center;gap:6px;padding-top:4px;min-width:120px}
 .comp-side .h{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px}
@@ -105,7 +128,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;backgrou
 .comp-side.r .h{color:var(--roberto)}
 .comp-side .t{font-size:12px;line-height:1.45}
 .comp-side .id{font-size:10px;font-family:Menlo,monospace;color:var(--muted);margin-top:4px}
-.comp-analisis{grid-column:1 / -1;background:#F8FAFC;border-left:3px solid #0F172A;padding:8px 12px;font-size:12px;line-height:1.5;color:#334155;border-radius:0 4px 4px 0;margin-top:4px}
+.comp-analisis{grid-column:1 / -1;background:var(--ialaw-card-bg);border-left:3px solid var(--ialaw-primary);padding:8px 12px;font-size:12px;line-height:1.5;color:var(--ialaw-darker);border-radius:0 4px 4px 0;margin-top:4px}
 .cmpid{font-size:10px;color:var(--muted);font-family:Menlo,monospace;margin-bottom:6px}
 
 .decl-row{background:#fff;border:1px solid var(--border);border-radius:8px;padding:14px 16px;margin-bottom:10px}
@@ -117,42 +140,57 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;backgrou
 .decl-row.k{border-left:4px solid var(--keiko)}
 .decl-row.r{border-left:4px solid var(--roberto)}
 
-.cons-table{width:100%;border-collapse:collapse;background:#fff;font-size:12px;border:1px solid var(--border);border-radius:10px;overflow:hidden}
-.cons-table th,.cons-table td{padding:8px 10px;text-align:left;border-bottom:1px solid var(--border)}
-.cons-table th{background:#F1F5F9;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.3px;color:var(--muted)}
+.cons-table{width:100%;border-collapse:collapse;background:#fff;font-size:12px;border:1px solid var(--border);border-radius:6px;overflow:hidden}
+.cons-table th,.cons-table td{padding:10px;text-align:left;border-bottom:1px solid var(--border)}
+.cons-table th{background:var(--ialaw-darker);color:#fff;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.5px}
 .cons-table td.num{text-align:right;font-variant-numeric:tabular-nums}
 .cons-table tr.k td:first-child{border-left:3px solid var(--keiko)}
 .cons-table tr.r td:first-child{border-left:3px solid var(--roberto)}
+.cons-table tbody tr:hover{background:var(--ialaw-card-bg)}
 
 .reportes-nav{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
-.reporte-btn{padding:8px 14px;border:1.5px solid var(--border);border-radius:8px;font-size:13px;cursor:pointer;background:#fff;font-family:inherit;font-weight:500}
-.reporte-btn.on{background:#0F172A;color:#fff;border-color:#0F172A}
-.reporte-body{background:#fff;border:1px solid var(--border);border-radius:10px;padding:32px;font-size:14px;line-height:1.65}
-.reporte-body h1{font-size:24px;margin-bottom:12px}
-.reporte-body h2{font-size:18px;margin:24px 0 12px;padding-top:12px;border-top:1px solid var(--border)}
-.reporte-body h3{font-size:15px;margin:16px 0 8px}
+.reporte-btn{padding:9px 16px;border:1px solid var(--border);border-radius:6px;font-size:13px;cursor:pointer;background:#fff;font-family:inherit;font-weight:600;color:var(--ialaw-darker);transition:all .15s}
+.reporte-btn:hover{border-color:var(--ialaw-primary);color:var(--ialaw-primary)}
+.reporte-btn.on{background:var(--ialaw-primary);color:#fff;border-color:var(--ialaw-primary)}
+.reporte-body{background:#fff;border:1px solid var(--border);border-radius:6px;padding:32px;font-size:14px;line-height:1.65;color:var(--ialaw-darker)}
+.reporte-body h1{font-size:22px;margin-bottom:12px;color:var(--ialaw-primary);font-weight:700}
+.reporte-body h2{font-size:16px;margin:24px 0 12px;padding-top:12px;border-top:2px solid var(--ialaw-primary);color:var(--ialaw-darker);text-transform:uppercase;letter-spacing:.5px;font-weight:700}
+.reporte-body h3{font-size:14px;margin:16px 0 8px;color:var(--ialaw-dark);font-weight:700}
 .reporte-body p{margin-bottom:10px}
 .reporte-body table{border-collapse:collapse;margin:16px 0;width:100%;font-size:13px}
-.reporte-body th,.reporte-body td{padding:6px 10px;border:1px solid var(--border);text-align:left}
-.reporte-body th{background:#F1F5F9;font-weight:600}
-.reporte-body code{background:#F1F5F9;padding:1px 4px;border-radius:3px;font-size:12px}
-.reporte-body strong{font-weight:700}
-.reporte-body blockquote{border-left:3px solid #0F172A;padding:6px 14px;background:#F8FAFC;color:#475569;margin:10px 0;border-radius:0 4px 4px 0}
+.reporte-body th,.reporte-body td{padding:8px 10px;border:1px solid var(--border);text-align:left}
+.reporte-body th{background:var(--ialaw-darker);color:#fff;font-weight:700;font-size:11px;text-transform:uppercase;letter-spacing:.5px}
+.reporte-body code{background:var(--ialaw-card-bg);color:var(--ialaw-primary);padding:2px 6px;border-radius:3px;font-size:12px;font-family:"Courier New",monospace}
+.reporte-body strong{font-weight:700;color:var(--ialaw-darker)}
+.reporte-body blockquote{border-left:4px solid var(--ialaw-accent);padding:10px 16px;background:var(--ialaw-card-bg);color:var(--ialaw-darker);margin:12px 0;border-radius:0 6px 6px 0;font-style:italic}
 .reporte-body ul,.reporte-body ol{margin-left:24px;margin-bottom:10px}
 .reporte-body hr{margin:24px 0;border:none;border-top:1px solid var(--border)}
 
-.loading{padding:40px;text-align:center;color:var(--muted);font-size:13px}
-.error{padding:20px;background:#FEE2E2;color:var(--contradice);border-radius:8px;font-size:13px}
-.footer{text-align:center;padding:24px;color:var(--muted);font-size:11px;border-top:1px solid var(--border);margin-top:40px}
-.footer a{color:#0F172A;text-decoration:underline}
+.loading{padding:40px;text-align:center;color:var(--ialaw-muted);font-size:13px}
+.error{padding:20px;background:#FEE2E2;color:var(--contradice);border-radius:6px;font-size:13px;border-left:3px solid var(--contradice)}
+.footer{background:var(--ialaw-darker);color:var(--ialaw-border);padding:32px 24px;margin-top:50px;border-top:3px solid var(--ialaw-primary)}
+.footer-grid{display:grid;grid-template-columns:auto 1fr;gap:24px;max-width:1400px;margin:0 auto;align-items:center}
+.footer-brand{display:flex;align-items:center;gap:14px}
+.footer-brand img{height:48px;width:auto;display:block;opacity:.85}
+.footer-brand-text{font-size:11px;line-height:1.4}
+.footer-brand-text .name{font-weight:700;color:#fff;letter-spacing:1px;font-size:14px}
+.footer-brand-text .tagline{color:var(--ialaw-accent);font-size:9px;letter-spacing:2px;text-transform:uppercase;margin-top:2px;font-weight:700}
+.footer-info{font-size:11px;line-height:1.7;color:var(--ialaw-border);opacity:.85}
+.footer-info code{background:rgba(255,255,255,.08);padding:1px 6px;border-radius:3px;font-size:10px;color:#fff}
+.footer-info a{color:var(--ialaw-accent);text-decoration:none;font-weight:600}
+.footer-info a:hover{text-decoration:underline}
 </style>
 </head>
 <body>
 
 <div class="header">
-  <div>
-    <h1>Brain Político Perú 2026 — Comparador de Planes de Gobierno</h1>
-    <p>Análisis comparativo de los planes de gobierno y los debates presidenciales de la segunda vuelta — Junio 2026</p>
+  <div class="header-brand">
+    <img src="assets/logo-ialaw-white.png" alt="IALAW · Digitalawyers">
+    <div class="header-text">
+      <span class="brand-line">IALAW · digitalawyers</span>
+      <h1>Comparador de Planes de Gobierno · Perú 2026</h1>
+      <p>Análisis comparativo de los planes y los debates presidenciales de la segunda vuelta — Junio 2026</p>
+    </div>
   </div>
   <div class="cand-badges">
     <span class="badge badge-k">Keiko Fujimori</span>
@@ -272,10 +310,23 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;backgrou
 </section>
 
 <div class="footer">
-  Datos generados desde <code>00-Sistema/datos/{propuestas,declaraciones,comparaciones}.json</code> ·
-  Reportes en <code>03-Comparaciones/</code> ·
-  Render automático con <code>render_comparaciones.py</code> ·
-  <a href="https://github.com/fatimatv/Seguimiento-Planes-de-Gobierno-Peru" target="_blank" rel="noopener">Repositorio</a>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <img src="assets/logo-ialaw-white.png" alt="IALAW">
+      <div class="footer-brand-text">
+        <div class="name">IALAW</div>
+        <div class="tagline">digitalawyers</div>
+      </div>
+    </div>
+    <div class="footer-info">
+      Análisis y visualización: elaboración propia. Datos abiertos generados desde
+      <code>00-Sistema/datos/{propuestas,declaraciones,comparaciones}.json</code>,
+      reportes en <code>03-Comparaciones/</code>, render automático con
+      <code>render_comparaciones.py</code>.<br>
+      Sistema de análisis político independiente sin afiliación partidaria. Material disponible para uso académico y periodístico citando la fuente.
+      · <a href="https://github.com/fatimatv/Seguimiento-Planes-de-Gobierno-Peru" target="_blank" rel="noopener">Repositorio público</a>
+    </div>
+  </div>
 </div>
 
 <script>
@@ -359,10 +410,10 @@ function relChart(items, kind) {
     const pct = (counts[k] / total * 100).toFixed(1);
     return `<div style="display:flex;align-items:center;gap:10px;margin-bottom:6px;font-size:12px">
       <span class="tag tag-${k}" style="min-width:140px;text-align:center">${k.replace('_',' ')}</span>
-      <div style="flex:1;background:#F1F5F9;border-radius:4px;height:18px;position:relative;overflow:hidden">
-        <div style="background:#0F172A;opacity:.85;height:100%;width:${pct}%"></div>
+      <div style="flex:1;background:var(--ialaw-card-bg);border-radius:4px;height:18px;position:relative;overflow:hidden">
+        <div style="background:linear-gradient(90deg,var(--ialaw-primary),var(--ialaw-dark));height:100%;width:${pct}%"></div>
       </div>
-      <span style="min-width:80px;text-align:right;color:var(--muted)">${counts[k]} (${pct}%)</span>
+      <span style="min-width:80px;text-align:right;color:var(--ialaw-muted);font-weight:600">${counts[k]} (${pct}%)</span>
     </div>`;
   }).join('');
   return `<div style="background:#fff;border:1px solid var(--border);border-radius:10px;padding:18px">${rows}</div>`;
