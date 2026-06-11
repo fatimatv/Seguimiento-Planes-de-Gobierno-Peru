@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Comparaciones — Brain Político Perú",
+  "type": "object",
+  "required": ["plan_vs_plan", "plan_vs_debate", "consistencia_por_candidato"],
+  "additionalProperties": false,
+  "properties": {
+    "plan_vs_plan": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/cmp_pp" }
+    },
+    "plan_vs_debate": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/cmp_pd" }
+    },
+    "consistencia_por_candidato": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/cons_agg" }
+    }
+  },
+  "$defs": {
+    "cmp_pp": {
+      "type": "object",
+      "required": ["id", "tema", "dimension", "relacion", "analisis"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^cmp-pp-[a-z_]+-[0-9]{3}$" },
+        "tema": { "type": "string" },
+        "dimension": { "enum": ["diagnostico", "propuesta_principal", "meta", "enfoque_institucional", "principio"] },
+        "propuesta_keiko": { "type": ["string", "null"] },
+        "propuesta_roberto": { "type": ["string", "null"] },
+        "relacion": { "enum": ["COINCIDE", "AMPLIA", "DIVERGE", "CONTRADICE", "SOLO_A", "SOLO_B"] },
+        "analisis": { "type": "string", "minLength": 20 }
+      }
+    },
+    "cmp_pd": {
+      "type": "object",
+      "required": ["id", "candidato", "relacion", "analisis"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^cmp-pd-[kr]-[0-9]{3}$" },
+        "candidato": { "enum": ["keiko", "roberto"] },
+        "propuesta_id": { "type": ["string", "null"] },
+        "declaracion_id": { "type": ["string", "null"] },
+        "relacion": { "enum": ["CONSISTENTE", "AMPLIA_DEBATE", "VAGUEA", "CONTRADICE_DEBATE", "OMITE", "NUEVO_DEBATE"] },
+        "analisis": { "type": "string", "minLength": 20 }
+      }
+    },
+    "cons_agg": {
+      "type": "object",
+      "required": ["candidato", "tema", "n_propuestas_plan", "n_declaraciones_debate", "consistentes", "amplia_debate", "vaguea", "contradice_debate", "omite", "nuevo_debate"],
+      "additionalProperties": false,
+      "properties": {
+        "candidato": { "enum": ["keiko", "roberto"] },
+        "tema": { "type": "string" },
+        "n_propuestas_plan": { "type": "integer", "minimum": 0 },
+        "n_declaraciones_debate": { "type": "integer", "minimum": 0 },
+        "consistentes": { "type": "integer", "minimum": 0 },
+        "amplia_debate": { "type": "integer", "minimum": 0 },
+        "vaguea": { "type": "integer", "minimum": 0 },
+        "contradice_debate": { "type": "integer", "minimum": 0 },
+        "omite": { "type": "integer", "minimum": 0 },
+        "nuevo_debate": { "type": "integer", "minimum": 0 },
+        "indice_consistencia": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+        "notas": { "type": ["string", "null"] }
+      }
+    }
+  }
+}
