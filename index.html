@@ -6,12 +6,11 @@
 <title>IALAW — Comparador de Planes de Gobierno · Perú 2026</title>
 <link rel="icon" type="image/png" href="assets/logo-ialaw.png">
 <meta name="theme-color" content="#1F2EFF">
-<!-- marked@12.0.2 pin; añadir integrity="sha384-..." cuando se calcule el SRI hash localmente
-     (curl -sL <url> | openssl dgst -sha384 -binary | openssl base64 -A). Hasta entonces,
-     usamos crossorigin="anonymous" para limitar exposición. La fuente del .md es nuestro
-     propio render_comparaciones.py, por lo que el escape de XSS está dado por el control
-     end-to-end del pipeline JSON → MD. -->
+<!-- marked@12.0.2 + d3@7.9.0 pineados; añadir integrity="sha384-..." cuando se calcule el SRI hash
+     localmente. Mientras tanto, crossorigin="anonymous" limita exposición. Las fuentes
+     consumen JSON propios + .md generados por render_comparaciones.py — control end-to-end. -->
 <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js" crossorigin="anonymous"></script>
 <style>
 :root{
   /* IALAW brand palette */
@@ -166,6 +165,55 @@ body{font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--tex
 .reporte-body ul,.reporte-body ol{margin-left:24px;margin-bottom:10px}
 .reporte-body hr{margin:24px 0;border:none;border-top:1px solid var(--border)}
 
+/* ============ GRAFO ============ */
+.grafo-wrap{position:relative;background:#fff;border:1px solid var(--border);border-radius:6px;overflow:hidden}
+#grafo-svg{display:block;width:100%;height:680px;cursor:grab;background:linear-gradient(135deg,#FAFAFC 0%,#F1F2F7 100%)}
+#grafo-svg:active{cursor:grabbing}
+.grafo-controls{position:absolute;top:12px;right:12px;display:flex;gap:8px;z-index:10}
+.grafo-btn{padding:6px 12px;border-radius:4px;border:1px solid var(--border);background:#fff;font-size:12px;font-weight:600;cursor:pointer;font-family:inherit;color:var(--ialaw-darker)}
+.grafo-btn:hover{border-color:var(--ialaw-primary);color:var(--ialaw-primary)}
+.grafo-legend{margin-top:16px;display:flex;flex-wrap:wrap;gap:14px 22px;padding:14px 18px;background:#fff;border:1px solid var(--border);border-radius:6px;font-size:12px;color:var(--ialaw-darker)}
+.legend-item{display:flex;align-items:center;gap:8px}
+.legend-dot{width:14px;height:14px;border-radius:50%;border:2px solid transparent}
+.legend-line{width:22px;height:3px;border-radius:2px}
+.legend-line.dashed{background-image:linear-gradient(90deg,currentColor 60%,transparent 60%);background-size:6px 100%}
+#grafo-tooltip{position:fixed;display:none;background:var(--ialaw-darker);color:#fff;padding:8px 12px;border-radius:4px;font-size:12px;pointer-events:none;z-index:1000;max-width:280px;line-height:1.4;box-shadow:0 4px 12px rgba(0,0,0,.25)}
+#grafo-tooltip .tt-meta{color:var(--ialaw-accent);font-size:10px;text-transform:uppercase;letter-spacing:.5px;margin-bottom:3px;display:block}
+.grafo-analysis{margin-top:16px;background:#fff;border:1px solid var(--border);border-radius:6px;padding:18px}
+.grafo-analysis h3{font-size:13px;text-transform:uppercase;letter-spacing:1px;color:var(--ialaw-primary);margin-bottom:10px}
+.grafo-analysis ul{margin-left:18px;font-size:13px;line-height:1.6;color:var(--ialaw-darker)}
+.grafo-analysis li{margin-bottom:6px}
+.grafo-analysis strong{color:var(--ialaw-primary)}
+
+/* ============ ETAPA 2 ============ */
+.etapa2-hero{background:linear-gradient(135deg,var(--ialaw-darker) 0%,var(--ialaw-dark) 100%);color:#fff;border-radius:6px;padding:28px 32px;margin-bottom:20px;border-left:6px solid var(--ialaw-accent);position:relative;overflow:hidden}
+.etapa2-hero h2{font-size:18px;margin-bottom:8px;font-weight:700}
+.etapa2-hero p{font-size:13px;line-height:1.6;color:var(--ialaw-border);max-width:780px}
+.etapa2-hero .badge-stage{display:inline-block;padding:3px 10px;border-radius:4px;background:var(--ialaw-accent);color:var(--ialaw-darker);font-size:10px;letter-spacing:1px;font-weight:700;text-transform:uppercase;margin-bottom:10px}
+.plazos-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-bottom:22px}
+.plazo-card{background:#fff;border:1px solid var(--border);border-radius:6px;padding:16px;position:relative;transition:all .15s}
+.plazo-card:hover{border-color:var(--ialaw-primary);box-shadow:0 4px 12px rgba(31,46,255,.08)}
+.plazo-card .plazo-titulo{font-size:10px;text-transform:uppercase;letter-spacing:1px;font-weight:700;color:var(--ialaw-muted);margin-bottom:6px}
+.plazo-card .plazo-fecha{font-size:18px;font-weight:700;color:var(--ialaw-primary);margin-bottom:4px}
+.plazo-card .plazo-desc{font-size:12px;color:var(--ialaw-muted)}
+.plazo-card.urgente{border-left:3px solid var(--ialaw-accent)}
+.etapa2-section{background:#fff;border:1px solid var(--border);border-radius:6px;padding:20px;margin-bottom:16px}
+.etapa2-section h3{font-size:13px;text-transform:uppercase;letter-spacing:1px;color:var(--ialaw-primary);margin-bottom:12px;font-weight:700}
+.etapa2-section .filtro-bar{display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap;align-items:center}
+.etapa2-table{width:100%;border-collapse:collapse;font-size:12px}
+.etapa2-table th,.etapa2-table td{padding:9px 10px;text-align:left;border-bottom:1px solid var(--border);vertical-align:top}
+.etapa2-table th{background:var(--ialaw-darker);color:#fff;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px}
+.etapa2-table tr:hover td{background:var(--ialaw-card-bg)}
+.etapa2-table td.cand-k{color:var(--keiko);font-weight:700;border-left:3px solid var(--keiko)}
+.etapa2-table td.cand-r{color:var(--roberto);font-weight:700;border-left:3px solid var(--roberto)}
+.estado-badge{display:inline-block;padding:3px 9px;border-radius:3px;font-size:10px;font-weight:700;letter-spacing:.5px;text-transform:uppercase}
+.estado-PENDIENTE{background:#FEF3C7;color:#92400E}
+.estado-SIN_DATO{background:var(--ialaw-card-bg);color:var(--ialaw-muted)}
+.estado-CUMPLIDA{background:#DCFCE7;color:var(--coincide)}
+.estado-PARCIAL{background:#EDE9FE;color:var(--amplia)}
+.estado-INCUMPLIDA{background:#FEE2E2;color:var(--contradice)}
+.estado-BLOQUEADA{background:#E5E7EB;color:#374151}
+
 .loading{padding:40px;text-align:center;color:var(--ialaw-muted);font-size:13px}
 .error{padding:20px;background:#FEE2E2;color:var(--contradice);border-radius:6px;font-size:13px;border-left:3px solid var(--contradice)}
 .footer{background:var(--ialaw-darker);color:var(--ialaw-border);padding:32px 24px;margin-top:50px;border-top:3px solid var(--ialaw-primary)}
@@ -204,6 +252,8 @@ body{font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--tex
   <button class="tab" data-panel="comparaciones">⚖️ Plan vs Plan</button>
   <button class="tab" data-panel="declaraciones">🎙️ Debates</button>
   <button class="tab" data-panel="consistencia">📈 Plan vs Debate</button>
+  <button class="tab" data-panel="grafo">🕸️ Grafo</button>
+  <button class="tab" data-panel="etapa2">🔭 Etapa 2</button>
   <button class="tab" data-panel="reportes">📄 Reportes</button>
 </div>
 
@@ -300,6 +350,116 @@ body{font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--tex
   <div id="cons-table-wrap"></div>
 </section>
 
+<!-- ============================== GRAFO ============================== -->
+<section class="panel" id="panel-grafo">
+  <div class="section-title">Grafo de Conocimiento Político</div>
+  <p style="margin-bottom:14px;font-size:13px;color:var(--muted)">
+    Visualización de las relaciones entre candidatos, los 22 temas comunes y sus comparaciones plan-vs-plan. Arrastra los nodos, usa scroll para zoom y pasa el cursor por encima para detalles.
+  </p>
+  <div class="grafo-wrap">
+    <div class="grafo-controls">
+      <button class="grafo-btn" id="grafo-reset">↺ Reiniciar zoom</button>
+      <button class="grafo-btn" id="grafo-labels">🏷️ Etiquetas</button>
+    </div>
+    <svg id="grafo-svg"></svg>
+  </div>
+  <div class="grafo-legend">
+    <div class="legend-item"><div class="legend-dot" style="background:var(--keiko)"></div>Keiko Fujimori</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--roberto)"></div>Roberto Sánchez</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--ialaw-muted)"></div>Tema</div>
+    <div class="legend-item"><div class="legend-line" style="background:var(--coincide)"></div>COINCIDE</div>
+    <div class="legend-item"><div class="legend-line dashed" style="color:var(--diverge)"></div>DIVERGE</div>
+    <div class="legend-item"><div class="legend-line" style="background:var(--contradice)"></div>CONTRADICE</div>
+    <div class="legend-item"><div class="legend-line" style="background:var(--amplia)"></div>AMPLÍA</div>
+    <div class="legend-item"><div class="legend-line" style="background:var(--solo)"></div>SOLO_B</div>
+  </div>
+  <div class="grafo-analysis">
+    <h3>Cómo leer este grafo</h3>
+    <ul>
+      <li>Los nodos rojo (Keiko) y azul (Roberto) están en el centro; los <strong>nodos grises</strong> alrededor son los 29 temas de política pública.</li>
+      <li>Cada candidato tiene una línea fina hacia cada tema en el que tiene al menos una propuesta del plan.</li>
+      <li>Las <strong>líneas gruesas entre Keiko ↔ Roberto</strong> son las comparaciones detectadas: una por (tema, dimensión). El color codifica la relación.</li>
+      <li>El grosor relativo de cada relación refleja el peso analítico que tiene en el comparativo total.</li>
+      <li>Por construcción, los temas <em>constitucion, cti, cultura, exterior, genero, indigenas, trabajo</em> solo tienen propuesta de Roberto (<strong>SOLO_B</strong>); el grafo los muestra como temas conectados a un solo candidato.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================== ETAPA 2 ============================== -->
+<section class="panel" id="panel-etapa2">
+  <div class="etapa2-hero">
+    <span class="badge-stage">Etapa 2 · Activación 28 jul 2026</span>
+    <h2>Seguimiento de Implementación 2026-2031</h2>
+    <p>
+      Una vez que el candidato ganador asuma el gobierno el 28 de julio de 2026, este panel registrará el cumplimiento real de sus promesas. Las propuestas con <strong>tipo «100 días»</strong> y las <strong>metas cuantitativas ALTA</strong> son las que más fácilmente se pueden auditar y se listan abajo. Hasta que arranque la gestión todas aparecen como <em>PENDIENTE</em> o <em>SIN DATO</em>.
+    </p>
+  </div>
+
+  <div class="plazos-grid" id="plazos-grid"></div>
+
+  <div class="etapa2-section">
+    <h3>Compromisos para los primeros 100 días</h3>
+    <div class="filtro-bar">
+      <button class="filter-btn on" data-e2cand="ALL">Ambos candidatos</button>
+      <button class="filter-btn" data-e2cand="keiko">Keiko</button>
+      <button class="filter-btn" data-e2cand="roberto">Roberto</button>
+      <span style="font-size:11px;color:var(--muted);margin-left:8px" id="e2-100d-count"></span>
+    </div>
+    <table class="etapa2-table">
+      <thead>
+        <tr>
+          <th>Candidato</th>
+          <th>Compromiso</th>
+          <th>Tema</th>
+          <th>Estado</th>
+          <th>Evidencia</th>
+        </tr>
+      </thead>
+      <tbody id="tabla-100dias"></tbody>
+    </table>
+  </div>
+
+  <div class="etapa2-section">
+    <h3>Metas cuantitativas de período (propuestas-ancla)</h3>
+    <p style="font-size:12px;color:var(--muted);margin-bottom:12px">
+      Propuestas <code>tipo: meta</code> con relevancia <strong>ALTA</strong>: tienen una cifra o plazo explícito que permite auditar el cumplimiento al final del mandato.
+    </p>
+    <div class="filtro-bar">
+      <button class="filter-btn on" data-e2acand="ALL">Ambos candidatos</button>
+      <button class="filter-btn" data-e2acand="keiko">Keiko</button>
+      <button class="filter-btn" data-e2acand="roberto">Roberto</button>
+      <span style="font-size:11px;color:var(--muted);margin-left:8px" id="e2-meta-count"></span>
+    </div>
+    <table class="etapa2-table">
+      <thead>
+        <tr>
+          <th>Candidato</th>
+          <th>Propuesta</th>
+          <th>Meta cuantitativa</th>
+          <th>Tema</th>
+          <th>Estado</th>
+        </tr>
+      </thead>
+      <tbody id="tabla-metas-ancla"></tbody>
+    </table>
+  </div>
+
+  <div class="etapa2-section">
+    <h3>Metodología del seguimiento</h3>
+    <ul style="margin-left:18px;font-size:12px;line-height:1.6;color:var(--ialaw-darker)">
+      <li><strong>CUMPLIDA</strong> — medida implementada conforme a lo prometido, con norma o evidencia oficial citada.</li>
+      <li><strong>PARCIAL</strong> — implementación incompleta o modificada respecto del compromiso original.</li>
+      <li><strong>INCUMPLIDA</strong> — no implementada habiendo condiciones para hacerlo; plazo vencido.</li>
+      <li><strong>PENDIENTE</strong> — dentro del plazo comprometido, aún en curso.</li>
+      <li><strong>BLOQUEADA</strong> — no implementada por factores externos (Congreso, crisis, etc.).</li>
+      <li><strong>SIN DATO</strong> — el gobierno aún no ha iniciado o no hay evidencia pública aún.</li>
+    </ul>
+    <p style="margin-top:12px;font-size:11px;color:var(--muted)">
+      Las fuentes esperadas son: decretos supremos y leyes (El Peruano), informes del MEF y Contraloría, prensa verificada y reportes de think tanks (IEP, CIES, Grade, Proética).
+    </p>
+  </div>
+</section>
+
 <!-- ============================== REPORTES ============================== -->
 <section class="panel" id="panel-reportes">
   <div class="section-title">Reportes generados</div>
@@ -308,6 +468,8 @@ body{font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--tex
     <div class="loading">Selecciona un reporte arriba.</div>
   </div>
 </section>
+
+<div id="grafo-tooltip"></div>
 
 <div class="footer">
   <div class="footer-grid">
@@ -351,6 +513,8 @@ async function loadAll() {
     initComparaciones();
     initDeclaraciones();
     initConsistencia();
+    initGrafo();
+    initEtapa2();
     initReportes();
   } catch (e) {
     console.error(e);
@@ -366,6 +530,8 @@ document.querySelectorAll('.tab').forEach(t => {
     t.classList.add('active');
     document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
     document.getElementById('panel-' + t.dataset.panel).classList.add('active');
+    // Re-render dependientes de tamaño/visibilidad
+    if (t.dataset.panel === 'grafo' && grafoState) renderGrafo();
   });
 });
 
@@ -671,6 +837,289 @@ async function loadReporte(id) {
   } catch (e) {
     body.innerHTML = '<div class="error">Error: ' + e.message + '</div>';
   }
+}
+
+// =============== GRAFO (D3) ===============
+let grafoState = null;
+const REL_COLOR = {
+  COINCIDE: '#16A34A',
+  AMPLIA: '#7C3AED',
+  DIVERGE: '#D97706',
+  CONTRADICE: '#DC2626',
+  SOLO_A: '#0284C7',
+  SOLO_B: '#0284C7'
+};
+
+function initGrafo() {
+  if (typeof d3 === 'undefined') return;
+  const tema_ids = D.propuestas.temas.map(t => t.id);
+  // Nodos: candidatos + temas con propuestas
+  const propsByCandTema = {};
+  D.propuestas.propuestas.forEach(p => {
+    const k = p.candidato + ':' + p.tema;
+    propsByCandTema[k] = (propsByCandTema[k] || 0) + 1;
+  });
+  const temaUsage = {};
+  D.propuestas.propuestas.forEach(p => {
+    temaUsage[p.tema] = (temaUsage[p.tema] || 0) + 1;
+  });
+
+  const nodes = [
+    { id: 'keiko', type: 'cand', label: 'Keiko Fujimori', color: 'var(--keiko)', r: 28 },
+    { id: 'roberto', type: 'cand', label: 'Roberto Sánchez', color: 'var(--roberto)', r: 28 },
+  ];
+  D.propuestas.temas.forEach(t => {
+    const total = temaUsage[t.id] || 0;
+    if (total === 0) return;
+    const r = Math.max(12, Math.min(24, 10 + Math.sqrt(total)));
+    nodes.push({ id: 'tema-' + t.id, type: 'tema', label: (t.icono || '') + ' ' + t.nombre, raw: t.nombre, color: '#6B7393', r, total });
+  });
+
+  const links = [];
+  // Líneas finas candidato → tema (si tiene propuestas en ese tema)
+  D.propuestas.temas.forEach(t => {
+    ['keiko', 'roberto'].forEach(c => {
+      const n = propsByCandTema[c + ':' + t.id];
+      if (n) {
+        links.push({
+          source: c, target: 'tema-' + t.id, kind: 'propone',
+          color: c === 'keiko' ? '#C0392B' : '#2471A3',
+          width: 0.6 + Math.min(2.4, n / 12),
+          opacity: 0.35
+        });
+      }
+    });
+  });
+  // Comparaciones plan-vs-plan: arista entre keiko y roberto (curva diferenciada por tema)
+  D.comparaciones.plan_vs_plan.forEach(c => {
+    const rel = c.relacion;
+    const color = REL_COLOR[rel] || '#94A3B8';
+    if (rel === 'SOLO_A' || rel === 'SOLO_B') {
+      const otro = rel === 'SOLO_A' ? 'keiko' : 'roberto';
+      links.push({
+        source: otro, target: 'tema-' + c.tema, kind: 'solo',
+        color, width: 2, opacity: 0.7, dashed: true,
+        relacion: rel, dimension: c.dimension, analisis: c.analisis
+      });
+    } else {
+      links.push({
+        source: 'keiko', target: 'roberto', kind: 'cmp',
+        color, width: 1.6, opacity: 0.65,
+        dashed: rel === 'DIVERGE' || rel === 'CONTRADICE',
+        relacion: rel, dimension: c.dimension, tema: c.tema, analisis: c.analisis
+      });
+    }
+  });
+
+  grafoState = { nodes, links, showLabels: true, simulation: null, svg: null, zoom: null };
+  // Solo render si el panel está visible (sino el offsetWidth es 0)
+  if (document.getElementById('panel-grafo').classList.contains('active')) {
+    renderGrafo();
+  }
+
+  document.getElementById('grafo-reset').addEventListener('click', () => {
+    if (grafoState.svg && grafoState.zoom) {
+      grafoState.svg.transition().duration(500).call(grafoState.zoom.transform, d3.zoomIdentity);
+    }
+  });
+  document.getElementById('grafo-labels').addEventListener('click', () => {
+    grafoState.showLabels = !grafoState.showLabels;
+    renderGrafo();
+  });
+}
+
+function renderGrafo() {
+  if (!grafoState) return;
+  const container = document.getElementById('grafo-svg');
+  const W = container.parentElement.getBoundingClientRect().width || 1000;
+  const H = 680;
+  const svg = d3.select('#grafo-svg').attr('viewBox', `0 0 ${W} ${H}`);
+  svg.selectAll('*').remove();
+  const g = svg.append('g');
+  const zoom = d3.zoom().scaleExtent([0.3, 3]).on('zoom', e => g.attr('transform', e.transform));
+  svg.call(zoom);
+  grafoState.svg = svg; grafoState.zoom = zoom;
+
+  // Clonar nodos para no mutar el state
+  const nodes = grafoState.nodes.map(n => ({ ...n }));
+  const links = grafoState.links.map(l => ({ ...l }));
+
+  const sim = d3.forceSimulation(nodes)
+    .force('link', d3.forceLink(links).id(d => d.id).distance(d => d.kind === 'cmp' ? 220 : d.kind === 'propone' ? 110 : 100).strength(d => d.kind === 'cmp' ? 0.08 : 0.4))
+    .force('charge', d3.forceManyBody().strength(d => d.type === 'cand' ? -800 : -180))
+    .force('center', d3.forceCenter(W / 2, H / 2))
+    .force('collision', d3.forceCollide().radius(d => d.r + 8))
+    .force('x', d3.forceX(d => d.type === 'cand' ? (d.id === 'keiko' ? W * 0.3 : W * 0.7) : W / 2).strength(d => d.type === 'cand' ? 0.15 : 0.02));
+
+  grafoState.simulation = sim;
+
+  const link = g.append('g').selectAll('line').data(links).join('line')
+    .attr('stroke', d => d.color)
+    .attr('stroke-width', d => d.width || 1.5)
+    .attr('stroke-dasharray', d => d.dashed ? '6,4' : null)
+    .attr('opacity', d => d.opacity || 0.6)
+    .on('mouseover', (e, d) => showTooltip(e, d, 'link'))
+    .on('mousemove', moveTooltip)
+    .on('mouseout', hideTooltip);
+
+  const node = g.append('g').selectAll('g').data(nodes).join('g')
+    .call(d3.drag()
+      .on('start', (e, d) => { if (!e.active) sim.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+      .on('drag', (e, d) => { d.fx = e.x; d.fy = e.y; })
+      .on('end', (e, d) => { if (!e.active) sim.alphaTarget(0); d.fx = null; d.fy = null; }))
+    .on('mouseover', (e, d) => showTooltip(e, d, 'node'))
+    .on('mousemove', moveTooltip)
+    .on('mouseout', hideTooltip);
+
+  node.append('circle')
+    .attr('r', d => d.r)
+    .attr('fill', d => d.type === 'cand' ? (d.id === 'keiko' ? '#C0392B' : '#2471A3') : '#FFFFFF')
+    .attr('stroke', d => d.type === 'cand' ? '#0A1466' : '#6B7393')
+    .attr('stroke-width', d => d.type === 'cand' ? 3 : 2);
+
+  if (grafoState.showLabels) {
+    node.append('text')
+      .attr('dy', d => d.r + 12)
+      .attr('text-anchor', 'middle')
+      .attr('font-size', d => d.type === 'cand' ? 12 : 10)
+      .attr('font-weight', d => d.type === 'cand' ? 700 : 500)
+      .attr('fill', d => d.type === 'cand' ? '#060B33' : '#374151')
+      .attr('font-family', 'Arial,sans-serif')
+      .text(d => d.label);
+  }
+
+  sim.on('tick', () => {
+    link
+      .attr('x1', d => d.source.x).attr('y1', d => d.source.y)
+      .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+    node.attr('transform', d => `translate(${d.x},${d.y})`);
+  });
+}
+
+function showTooltip(e, d, kind) {
+  const tt = document.getElementById('grafo-tooltip');
+  let html = '';
+  if (kind === 'node') {
+    if (d.type === 'cand') {
+      const cand = d.id;
+      const n = D.propuestas.propuestas.filter(p => p.candidato === cand).length;
+      const nd = D.declaraciones.declaraciones.filter(x => x.candidato === cand).length;
+      html = `<span class="tt-meta">${d.id === 'keiko' ? 'Fuerza Popular' : 'Juntos por el Perú'}</span>
+        <strong>${d.label}</strong><br>${n} propuestas en plan · ${nd} declaraciones en debate`;
+    } else if (d.type === 'tema') {
+      html = `<span class="tt-meta">Tema</span><strong>${escapeHTML(d.raw)}</strong><br>${d.total} propuestas totales`;
+    }
+  } else if (kind === 'link') {
+    if (d.kind === 'cmp') {
+      const tema = TEMA_BY_ID[d.tema];
+      html = `<span class="tt-meta">${d.dimension.replace('_',' ')} · ${tema ? tema.nombre : d.tema}</span>
+        <strong>${d.relacion}</strong><br>${escapeHTML(d.analisis.substring(0, 200))}${d.analisis.length > 200 ? '…' : ''}`;
+    } else if (d.kind === 'solo') {
+      html = `<span class="tt-meta">${d.dimension.replace('_',' ')}</span>
+        <strong>${d.relacion}</strong> — propuesta exclusiva<br>${escapeHTML((d.analisis||'').substring(0, 200))}`;
+    } else if (d.kind === 'propone') {
+      html = `<span class="tt-meta">Relación plan</span>El candidato tiene propuestas en este tema`;
+    }
+  }
+  if (!html) return;
+  tt.innerHTML = html;
+  tt.style.display = 'block';
+  moveTooltip(e);
+}
+function moveTooltip(e) {
+  const tt = document.getElementById('grafo-tooltip');
+  const x = e.clientX + 14;
+  const y = e.clientY + 14;
+  tt.style.left = Math.min(x, window.innerWidth - 300) + 'px';
+  tt.style.top = Math.min(y, window.innerHeight - 100) + 'px';
+}
+function hideTooltip() { document.getElementById('grafo-tooltip').style.display = 'none'; }
+
+// =============== ETAPA 2 ===============
+const PLAZOS_GOBIERNO = [
+  { titulo: 'Inauguración', fecha: '28 Jul 2026', desc: 'Toma de mando presidencial' },
+  { titulo: 'Primeros 100 días', fecha: '5 Nov 2026', desc: 'Revisión de compromisos urgentes', urgente: true },
+  { titulo: '1.er año', fecha: '28 Jul 2027', desc: 'Balance anual' },
+  { titulo: 'Mitad de período', fecha: '28 Jul 2028', desc: 'Evaluación intermedia' },
+  { titulo: 'Fin de mandato', fecha: '28 Jul 2031', desc: 'Balance final de gestión' },
+];
+
+let e2State = { cand100: 'ALL', candMeta: 'ALL', items100: [], itemsMeta: [] };
+
+function initEtapa2() {
+  // Plazos
+  document.getElementById('plazos-grid').innerHTML = PLAZOS_GOBIERNO.map(p => `
+    <div class="plazo-card${p.urgente ? ' urgente' : ''}">
+      <div class="plazo-titulo">${p.titulo}</div>
+      <div class="plazo-fecha">${p.fecha}</div>
+      <div class="plazo-desc">${p.desc}</div>
+    </div>`).join('');
+
+  // Filtrar propuestas relevantes
+  e2State.items100 = D.propuestas.propuestas
+    .filter(p => p.tipo === '100dias' || p.relevancia === '100DIAS')
+    .sort((a, b) => a.candidato.localeCompare(b.candidato) || a.tema.localeCompare(b.tema));
+  e2State.itemsMeta = D.propuestas.propuestas
+    .filter(p => p.tipo === 'meta' && p.relevancia === 'ALTA' && p.meta_cuantitativa)
+    .sort((a, b) => a.candidato.localeCompare(b.candidato) || a.tema.localeCompare(b.tema));
+
+  document.querySelectorAll('[data-e2cand]').forEach(b => {
+    b.addEventListener('click', () => {
+      document.querySelectorAll('[data-e2cand]').forEach(x => x.classList.remove('on'));
+      b.classList.add('on');
+      e2State.cand100 = b.dataset.e2cand;
+      renderE2_100d();
+    });
+  });
+  document.querySelectorAll('[data-e2acand]').forEach(b => {
+    b.addEventListener('click', () => {
+      document.querySelectorAll('[data-e2acand]').forEach(x => x.classList.remove('on'));
+      b.classList.add('on');
+      e2State.candMeta = b.dataset.e2acand;
+      renderE2_meta();
+    });
+  });
+
+  renderE2_100d();
+  renderE2_meta();
+}
+
+function renderE2_100d() {
+  const all = e2State.items100;
+  const f = e2State.cand100 === 'ALL' ? all : all.filter(p => p.candidato === e2State.cand100);
+  document.getElementById('e2-100d-count').textContent = `${f.length} compromisos`;
+  const rows = f.map(p => {
+    const tema = TEMA_BY_ID[p.tema];
+    const cls = p.candidato === 'keiko' ? 'cand-k' : 'cand-r';
+    const nombre = p.candidato === 'keiko' ? 'Keiko' : 'Roberto';
+    return `<tr>
+      <td class="${cls}">${nombre}</td>
+      <td>${escapeHTML(p.texto)}<br><span style="font-size:10px;color:var(--muted);font-family:monospace">${p.id}</span></td>
+      <td>${tema ? (tema.icono || '') + ' ' + tema.nombre : p.tema}</td>
+      <td><span class="estado-badge estado-PENDIENTE">Pendiente</span></td>
+      <td style="color:var(--muted);font-size:11px">Gobierno no iniciado</td>
+    </tr>`;
+  }).join('');
+  document.getElementById('tabla-100dias').innerHTML = rows || `<tr><td colspan="5" style="text-align:center;color:var(--muted);padding:20px">Sin compromisos del filtro seleccionado</td></tr>`;
+}
+
+function renderE2_meta() {
+  const all = e2State.itemsMeta;
+  const f = e2State.candMeta === 'ALL' ? all : all.filter(p => p.candidato === e2State.candMeta);
+  document.getElementById('e2-meta-count').textContent = `${f.length} metas`;
+  const rows = f.map(p => {
+    const tema = TEMA_BY_ID[p.tema];
+    const cls = p.candidato === 'keiko' ? 'cand-k' : 'cand-r';
+    const nombre = p.candidato === 'keiko' ? 'Keiko' : 'Roberto';
+    return `<tr>
+      <td class="${cls}">${nombre}</td>
+      <td>${escapeHTML(p.texto)}<br><span style="font-size:10px;color:var(--muted);font-family:monospace">${p.id}</span></td>
+      <td><strong style="color:var(--ialaw-primary)">${escapeHTML(p.meta_cuantitativa)}</strong></td>
+      <td>${tema ? (tema.icono || '') + ' ' + tema.nombre : p.tema}</td>
+      <td><span class="estado-badge estado-SIN_DATO">Sin dato</span></td>
+    </tr>`;
+  }).join('');
+  document.getElementById('tabla-metas-ancla').innerHTML = rows || `<tr><td colspan="5" style="text-align:center;color:var(--muted);padding:20px">Sin metas del filtro seleccionado</td></tr>`;
 }
 
 // =============== UTIL ===============
