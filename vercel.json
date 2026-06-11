@@ -1,0 +1,28 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/00-Sistema/datos/(.*).json",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=300, must-revalidate" },
+        { "key": "Content-Type", "value": "application/json; charset=utf-8" }
+      ]
+    },
+    {
+      "source": "/03-Comparaciones/(.*).md",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=300, must-revalidate" },
+        { "key": "Content-Type", "value": "text/markdown; charset=utf-8" }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options", "value": "DENY" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+      ]
+    }
+  ]
+}

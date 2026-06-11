@@ -17,8 +17,15 @@ __pycache__/
 # Node (futuro: marked.js si lo bajamos local)
 node_modules/
 
-# Build / despliegue (futuro)
+# Build / despliegue
 .vercel/
+
+# Testing local
+.playwright-mcp/
+*.png
+
+# HTTP server logs
+http_server.log
 
 # Variables de entorno y secretos
 .env
